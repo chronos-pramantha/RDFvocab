@@ -8,7 +8,10 @@
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "owl": "http://www.w3.org/2002/07/owl#",
     "dbpedia": "http://dbpedia.org/ontology/",
-    "xml": "http://www.w3.org/2001/XMLSchema#"
+    "xml": "http://www.w3.org/2001/XMLSchema#",
+    "defines"  : {
+          "@reverse": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    }
   },
   "@id": "",
   "@type": "http://www.w3.org/2002/07/owl#Ontology",

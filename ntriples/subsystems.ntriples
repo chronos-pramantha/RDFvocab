@@ -1,612 +1,458 @@
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Detector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N3a41eed65fd14f989fab9bb4057c1d46 .
-<http://ontology.projectchronos.eu/subsystems/isStandard> <http://www.w3.org/2000/01/rdf-schema#comment> "There are many different standards that imply quantitative and qualitative differences" .
-_:Nd50cadfa814247e3b1bfa6ba7e7d6387 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/hasWireOutWith> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <http://ontology.projectchronos.eu/spacecraft/isComponentOf> "http://ontology.projectchronos.eu/spacecraft/Spacecraft" .
-_:N53f32881fc034ba98dd47884e5740f9c <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N53f32881fc034ba98dd47884e5740f9c .
-_:N10ace9b5e4e04fcda92707c51d3153dd <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsytems/function" .
-_:N7d66e61cc3f344bb92f0204f993d6756 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasSpecificImpulse" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal> <http://www.w3.org/2000/01/rdf-schema#comment> "Shields, shells or any device insulation from/reflecting radiation exploiting emission and absorption events" .
-_:N067b6d812f974e3b9ee2353f844a18dd <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://ontology.projectchronos.eu/subsystems/typeOfPropellant> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of fueling used by a spacecraft rocket engine" .
-<http://ontology.projectchronos.eu/subsystems/hasWireOutWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontology.projectchronos.eu/subsystems/hasWireInWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
-_:Nc761e51d02dd4ee7adf02415540e5374 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N9777f62746624b369e684ee7dd67642a .
-_:N9777f62746624b369e684ee7dd67642a <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasRAM" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> <http://www.w3.org/2000/01/rdf-schema#label> "Spacecraft_PrimaryPower." .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Detector> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
-_:N7211ee7b9ec14d71a6884fd2033cf6d4 <http://www.w3.org/2004/02/skos/core#prefLabel> "Three-axis stabilized" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nfabd89d85efe449eb8cb76acc24850a7 .
-_:N412ca912af6940d3a170ffa0dc4a9d9d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:N89a25d5e28784f4e91db786025c2edf5 <http://www.w3.org/2004/02/skos/core#prefLabel> "Enable Housekeeping and science data flow" .
-_:Nc069e96aec3f43ac94765faded6ec838 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> <http://www.w3.org/2000/01/rdf-schema#comment> "Complex devices-subsystems used for collecting energy." .
-_:N0fb8ef8f2a4a47e1a15ee7e133cda50e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nc761e51d02dd4ee7adf02415540e5374 .
-_:Nd4cf9eb92665458a850e5ce212068afb <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> <subsystems:objectives> "Power control and distribution" .
-_:N5eae6e05878d45f99f22c749f7340621 <http://www.w3.org/2004/02/skos/core#prefLabel> "External" .
-_:N188aaed145f74b6e82f83f0656f87d58 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsytems/function" .
-_:N10ace9b5e4e04fcda92707c51d3153dd <http://www.w3.org/2002/07/owl#hasValue> <http://umbel.org/umbel/rc/Receiving> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N8b812233c985437dbaf1210a82260d68 .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nc069e96aec3f43ac94765faded6ec838 .
-_:N7f9fdccf31ec452087dc1e7faffe73a9 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/spacecraft/isSubsystemOf" .
-_:N4248948780c042b08cb14ec546ebc259 <http://www.w3.org/2004/02/skos/core#prefLabel> "Monitor spacecraft health" .
-<http://ontology.projectchronos.eu/subsystems/isStandard> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> <subsystems:objectives> _:N3fc3f1e43641447c84c367b64b6cdd93 .
-_:N92f62c754088467f957301437e87ba79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/function> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
-_:N03bd91dc2ec7432482cf1dcbae7ed25e <http://www.w3.org/2004/02/skos/core#altLabel> "Time stamping of data" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <subsystems:requirements> _:Ncb0cb9fe6315450aa750182de4257266 .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Attitude and Orbit Determination Control" .
-_:N7f9fdccf31ec452087dc1e7faffe73a9 <http://www.w3.org/2002/07/owl#hasValue> "http://ontology.projectchronos.eu/spacecraft/Spacecraft" .
-<http://ontology.projectchronos.eu/subsystems/hasMonetaryValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
-_:N935fa47686c547afa36b5b75cc5b405b <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/subSystemType" .
-_:Na46ea3a5f39f4a53a5342b69506cbf2e <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal> <subsystems:objectives> _:N9db79e1e5e84429f92e22c063af7f218 .
-<http://ontology.projectchronos.eu/subsystems/function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
-_:N1df6231791fe4eda9ea9e98ffa0f5708 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal> <subsystems:requirements> _:N7e822fcfc5ca47eb8bf71e0bb7ccb3ec .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS_ActiveDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:N215c1653176d42d1a3f6af4fd15a8289 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsytems/function" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://ontology.projectchronos.eu/subsystems/streams> "power" .
-<http://ontology.projectchronos.eu/subsystems/typeOfPropellant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontology.projectchronos.eu/spacecraft/Spacecraft_Propulsion> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
-_:Nc90bed010a5447afa28149f8fecdf9d6 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal_PassiveDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N1a06b1d964424d88907bf39254fadf6d .
-_:N7283d6ed2ea541239e556507952a0b65 <http://www.w3.org/2004/02/skos/core#prefLabel> "Perform data compression" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N5da40a24eefe4041ab32f4fd05582e60 .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Detector> <http://www.w3.org/2004/02/skos/core#prefLabel> "Any scientific instrument carried by a space probe or an artificial satellite" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal> <subsystems:objectives> _:N55b0b691dd3e45d1afcacf69cce8dd15 .
-_:Nf338b58f49ae413d8b0119df7c626d80 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasWireOutWith" .
-_:N994abb82877c4392a610a050b81a4d79 <http://www.w3.org/2004/02/skos/core#prefLabel> "Spacecraft attitude" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N93466a0d479c462e9a675b9f94da01e0 .
-_:N067b6d812f974e3b9ee2353f844a18dd <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/standsMinTemperature" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> <http://ontology.projectchronos.eu/subsystems/streams> "power" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <http://ontology.projectchronos.eu/spacecraft/isComponentOf> "http://ontology.projectchronos.eu/spacecraft/Spacecraft" .
-<http://ontology.projectchronos.eu/subsystems/hasWireInWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <subsystems:attitude> _:Nfb1d9810609a426883728e8b1a5f46fb .
-_:N46f58df49f8d46fda074abebe15a841d <http://www.w3.org/2004/02/skos/core#prefLabel> "Internal" .
-_:N4b9f2f878d9646a48c5d9e328ad50d87 <http://www.w3.org/2002/07/owl#hasValue> "http://umbel.org/umbel/rc/ElectricalDevice" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <subsytems:torquers> _:Na567e2fc0b4e415ea72279847dc521f2 .
-<http://ontology.projectchronos.eu/subsystems/hasMaxAmpere> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://umbel.org/umbel/rc/Ampere> .
-_:N3a41eed65fd14f989fab9bb4057c1d46 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsytems/objective" .
-_:N4a0c1d41ad0a4c8cbac10b9feb0fdc3a <http://www.w3.org/2004/02/skos/core#prefLabel> "Conductive heat exchange" .
-_:Nc90bed010a5447afa28149f8fecdf9d6 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasMinTemperature" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> <http://ontology.projectchronos.eu/subsystems/streams> "data" .
-_:Nb21b4b18bc7e4383ba67435a9f1d781c <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion> .
-<http://ontology.projectchronos.eu/subsystems/streams> <http://www.w3.org/2000/01/rdf-schema#label> "streams" .
-_:N068ae7bebf724ab48b352133542c87c0 <http://www.w3.org/2002/07/owl#hasValue> <http://dbpedia.org/resource/Process_control> .
-<http://ontology.projectchronos.eu/subsystems/hasVolume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:N3fd4c8e9346144a2affb0676f53a1e6e <http://www.w3.org/2002/07/owl#hasValue> "http://umbel.org/umbel/rc/ElectronicDevice" .
-_:Nd4cf9eb92665458a850e5ce212068afb <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> .
-_:Nc069e96aec3f43ac94765faded6ec838 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Detector> <http://ontology.projectchronos.eu/spacecraft/isComponentOf> "http://ontology.projectchronos.eu/spacecraft/Payload_Spacecraft" .
-_:N336145ed2d5b40f1840ccea2a8432b23 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasDataStorage" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal> <subsystems:objectives> _:N4a0c1d41ad0a4c8cbac10b9feb0fdc3a .
-_:Nd00e6afdf4814bb6bdb86482b634f5fe <http://www.w3.org/2004/02/skos/core#prefLabel> "Interface to launch vehicle" .
-<http://ontology.projectchronos.eu/subsystems/hasMass> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://umbel.org/umbel/rc/Mass> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N3799350006e645fa9c04edfd4f0f302b .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Detector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://umbel.org/umbel/rc/Sensor_Device> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Detector> <http://www.w3.org/2000/01/rdf-schema#comment> "A space detector is a sensor supported by another device that let it collect data, that is deployed into a spacecraft and works outside Earth lower atmosphere" .
-_:N971b95e661154ce4b1d5c4b469abb6cb <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasWireOutWith" .
-_:N412ca912af6940d3a170ffa0dc4a9d9d <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> .
-<http://ontology.projectchronos.eu/subsystems/hasMonetaryValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://www.w3.org/2001/XMLSchema#float> .
-_:Na46ea3a5f39f4a53a5342b69506cbf2e <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> .
-_:N5eae6e05878d45f99f22c749f7340621 <http://www.w3.org/2004/02/skos/core#altLabel> "Magnetic torques (500-35000 km)" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> <http://www.w3.org/2000/01/rdf-schema#label> "Spacecraft_Communication" .
-<http://ontology.projectchronos.eu/subsystems/isStandard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal_PassiveDevice> <http://ontology.projectchronos.eu/spacecraft/isComponentOf> "http://ontology.projectchronos.eu/spacecraft/Spacecraft" .
-_:N6671a2635f8b4a35a352c862e356d898 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal> <subsystems:objectives> _:N65a6448ea9d04a6a861b35b16ff919d8 .
-_:N068ae7bebf724ab48b352133542c87c0 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsytems/function" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N9eb2d7fbc4504af4a1588811bfcc7d5d .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <subsytems:objectives> _:N7283d6ed2ea541239e556507952a0b65 .
-_:N92a8a6f2a94145cb86bd9a08e64add50 <http://www.w3.org/2004/02/skos/core#prefLabel> "Hybrid (dual-spin, partially de-spun)" .
-<http://ontology.projectchronos.eu/subsystems/streams> <http://www.w3.org/2000/01/rdf-schema#comment> "What kind of flow exists between subsystems (power flow or data flow)" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N412ca912af6940d3a170ffa0dc4a9d9d .
-_:N351c5fcf9626454f9bfe8e963087494c <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> <http://ontology.projectchronos.eu/spacecraft/isComponentOf> "http://ontology.projectchronos.eu/spacecraft/Spacecraft" .
-_:Nc90bed010a5447afa28149f8fecdf9d6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:Nb21b4b18bc7e4383ba67435a9f1d781c <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> .
-<http://ontology.projectchronos.eu/subsystems/function> <http://www.w3.org/2000/01/rdf-schema#comment> "The function and the objective what the device performs or make possible" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal_ActiveDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nd4cf9eb92665458a850e5ce212068afb .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <subsytems:objectives> _:N5f06a705b5e141afaaeb41cf97badcea .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> <http://ontology.projectchronos.eu/subsystems/streams> "power" .
-_:N1df6231791fe4eda9ea9e98ffa0f5708 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> .
-<http://ontology.projectchronos.eu/subsystems/isStandard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontology.projectchronos.eu/subsystems/streams> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:N8acf2b6b0d4f401fb3f0eee24d798e69 <http://www.w3.org/2004/02/skos/core#prefLabel> "Thermal design" .
-<http://ontology.projectchronos.eu/subsystems/unitOfMeasure> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/UnitOfMeasure> .
-<http://ontology.projectchronos.eu/subsystems/hasPower> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Power_(physics)> .
-_:N336145ed2d5b40f1840ccea2a8432b23 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-_:N5eae6e05878d45f99f22c749f7340621 <http://www.w3.org/2004/02/skos/core#altLabel> "Solar radiation torques (above 700 km)" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Detector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N92f62c754088467f957301437e87ba79 .
-_:Ndea8a78d8c6546448685b9e32281d73a <http://www.w3.org/2004/02/skos/core#prefLabel> "Thermal analysis" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N971b95e661154ce4b1d5c4b469abb6cb .
-_:N93466a0d479c462e9a675b9f94da01e0 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://ontology.projectchronos.eu/subsystems/hasMaxAmpere> <http://www.w3.org/2000/01/rdf-schema#label> "hasMaxAmpere" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
-<http://ontology.projectchronos.eu/subsystems/unitOfMeasure> <http://www.w3.org/2000/01/rdf-schema#label> "unitOfMeasure" .
-<http://ontology.projectchronos.eu/subsystems/unitOfMeasure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N188aaed145f74b6e82f83f0656f87d58 .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal_PassiveDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "They are passive because they mostly transform radiation into heating/cooling " .
-_:Na46ea3a5f39f4a53a5342b69506cbf2e <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> .
-_:N6671a2635f8b4a35a352c862e356d898 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/hasMass> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal_ActiveDevice> <http://www.w3.org/2000/01/rdf-schema#label> "Spacecraft_Thermal_ActiveDevice" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N7cf1501bfc2a4ace927edd2af4f4da23 .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <subsystems:requirements> _:N7abeeb89f436494388f09f501eb69c6e .
-_:N13f14fee20d84b5083a288d4982fcd3d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:Nd50cadfa814247e3b1bfa6ba7e7d6387 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasMinAmpere" .
-_:Naed14d0cd8ff41e0be93e28e8e78e393 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/spacecraft/isSubsystemOf" .
-_:Na567e2fc0b4e415ea72279847dc521f2 <http://www.w3.org/2004/02/skos/core#altLabel> "Gas jet thrusters" .
-<http://ontology.projectchronos.eu/subsystems> <http://www.w3.org/2000/01/rdf-schema#comment> "These ontology contains classes of different subsystems present in a spacecraft." .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS_PassiveDevice> <http://www.w3.org/2000/01/rdf-schema#label> "Spacecraft_AODCS_PassiveDevice" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <subsytems:objectives> _:N1d84db8a0b93479999d5937537cf20ca .
-_:N49b5149a68e94317925a2a18b50fcc46 <http://www.w3.org/2004/02/skos/core#prefLabel> "Primary energy source" .
-_:N0fb8ef8f2a4a47e1a15ee7e133cda50e <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasMaxTemperature" .
-_:Ncf09a9ebc95b4fabb14ac052e2aa2568 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/subSystemType" .
-<http://ontology.projectchronos.eu/subsystems/unitOfMeasure> <http://www.w3.org/2000/01/rdf-schema#comment> "Property to set the unit of measure used by a physical value" .
-<http://ontology.projectchronos.eu/subsystems/typeOfPropellant> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal> <http://www.w3.org/2000/01/rdf-schema#label> "Spacecraft_Thermal" .
-_:N5da40a24eefe4041ab32f4fd05582e60 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/typeOfPropellant" .
-_:N50dcac4e0cee4e7bad790a24d49b63ee <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> .
-<http://ontology.projectchronos.eu/subsystems/hasMass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
-_:N188aaed145f74b6e82f83f0656f87d58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <subsystems:attitude> _:Ndd66d3c35ef2403b8b0e6e80ad340b79 .
-_:N412ca912af6940d3a170ffa0dc4a9d9d <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> .
-_:Nd20170cbc2504dfe9203e4db399afa36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:N4c12508fea64406cbd5cdf918c989be4 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-_:Ndd66d3c35ef2403b8b0e6e80ad340b79 <http://www.w3.org/2004/02/skos/core#prefLabel> "Sun-pointing" .
-_:Ncd15c1f952e642938a47e7408ad75c54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:N073a2b57804c403db4f3b17bccdb0af3 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasMaxAmpere" .
-_:N40cc75d8ad23451ea1c310feb68bafa5 <http://www.w3.org/2004/02/skos/core#prefLabel> "Make autonomous decisions" .
-_:N5da40a24eefe4041ab32f4fd05582e60 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-_:N46f58df49f8d46fda074abebe15a841d <http://www.w3.org/2004/02/skos/core#altLabel> "General mass movement" .
-_:N50468b5afd1d44139835efe5a78d58c5 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-_:Nb21b4b18bc7e4383ba67435a9f1d781c <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2000/01/rdf-schema#comment> "The DH system shall: Enable HK and science data flow \u2013 Housekeeping data (Temperatures, Pressures, Voltages, Currents, Status,...) \u2013 Attitude data \u2013 Payload data (e.g., Science data) - Receive and distribute commands - Perform TM and TC protocols - Distribute timing signals - Synchronization of data \u2013 Time stamping of data - Provide data storage - Execute commands and schedules - Control subsystems and payloads - Monitor spacecraft health - Make autonomous decisions - Perform data compression." .
-_:Nc761e51d02dd4ee7adf02415540e5374 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasWireInWith" .
-<http://ontology.projectchronos.eu/subsystems/unitOfMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:N04d2b435f87440fdb546f503b6098810 <http://www.w3.org/2004/02/skos/core#prefLabel> "Thermal environment" .
-<http://ontology.projectchronos.eu/subsystems> <http://www.w3.org/2000/01/rdf-schema#label> "Subsystems that run tasks that are needed for the spacecraft to be working and fulfilling the objectives of the mission. Words separated by _ has to be read as separated concepts, camelCase in they are the same concepts (see umbel.org for this norm)" .
-_:N48f3b688197b4d2490c9637b48e4cd39 <http://www.w3.org/2004/02/skos/core#prefLabel> "Mounting location for equipment" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N10ace9b5e4e04fcda92707c51d3153dd .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nd20170cbc2504dfe9203e4db399afa36 .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Detector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N75f2ed48049746329656ccae37cc8af4 .
-_:N215c1653176d42d1a3f6af4fd15a8289 <http://www.w3.org/2002/07/owl#hasValue> "http://umbel.org/umbel/rc/ElectricalPowerGeneration" .
-_:N073a2b57804c403db4f3b17bccdb0af3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:Nd7a31649f0304a17bdda874ac2020ffd <http://www.w3.org/2004/02/skos/core#prefLabel> "Environmental protection" .
-_:N13f14fee20d84b5083a288d4982fcd3d <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/spacecraft/isSubsystemOf" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <http://ontology.projectchronos.eu/subsystems/streams> "power" .
-_:N4c12508fea64406cbd5cdf918c989be4 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/standsMinTemperature" .
-_:Nc6b9904434af48dba5b64e5fa19198ef <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N50dcac4e0cee4e7bad790a24d49b63ee .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N7d66e61cc3f344bb92f0204f993d6756 .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> <http://www.w3.org/2000/01/rdf-schema#comment> "Complex devices-subsystems used for transmitting/receiving radio waves." .
-<http://ontology.projectchronos.eu/subsystems/hasMonetaryValue> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://umbel.org/umbel/rc/MonetaryValue> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Detector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N9aca1268a87e4950a0809d413f0bc400 .
-<http://ontology.projectchronos.eu/subsystems/hasSpecificImpulse> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Specific_impulse> .
-<http://ontology.projectchronos.eu/subsystems/hasVolume> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://umbel.org/umbel/rc/Volume> .
-_:N03bd91dc2ec7432482cf1dcbae7ed25e <http://www.w3.org/2004/02/skos/core#prefLabel> "Distribute timing signals" .
-<http://ontology.projectchronos.eu/subsystems/hasPower> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
-<http://ontology.projectchronos.eu/subsystems/subSystemType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:Na46ea3a5f39f4a53a5342b69506cbf2e <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> .
-<http://ontology.projectchronos.eu/subsystems/hasVolume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://www.w3.org/2001/XMLSchema#float> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N215c1653176d42d1a3f6af4fd15a8289 .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <subsytems:objectives> _:Nf4ecb6e353974e93bcd98576af17693a .
-_:N5f06a705b5e141afaaeb41cf97badcea <http://www.w3.org/2004/02/skos/core#prefLabel> "Attitude data" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS_ActiveDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/spacecraft/Spacecraft_AODCS> .
-_:Nd007214dbfea4e38a12fcb6fbe54c970 <http://www.w3.org/2004/02/skos/core#prefLabel> "Accessibility" .
-_:N260d46fb908f49589c4e835ef8e29ea4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS_PassiveDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "DO use any additional power from the spacecraft generator" .
-_:N1a06b1d964424d88907bf39254fadf6d <http://www.w3.org/2002/07/owl#hasValue> "http://umbel.org/umbel/rc/PhysicalDevice" .
-_:N9777f62746624b369e684ee7dd67642a <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-_:Nd888714ee72f464aa489c63d8f838cfe <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/hasMonetaryValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <http://www.w3.org/2000/01/rdf-schema#label> "Spacecraft_AODCS" .
-_:N8b812233c985437dbaf1210a82260d68 <http://www.w3.org/2002/07/owl#hasValue> "http://ontology.projectchronos.eu/spacecraft/Spacecraft" .
-<http://ontology.projectchronos.eu/subsystems/hasPower> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://umbel.org/umbel/rc/Power> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <subsytems:objectives> _:N89a25d5e28784f4e91db786025c2edf5 .
-_:N2ab6226898074a5989cdd2a4a59df626 <http://www.w3.org/2002/07/owl#hasValue> <http://dbpedia.org/resource/Process_control> .
-<http://ontology.projectchronos.eu/subsystems/typeOfPropellant> <http://www.w3.org/2000/01/rdf-schema#label> "typeOfPropellant" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> <subsystems:objectives> "Loads (bus and payload)" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
-_:N5eae6e05878d45f99f22c749f7340621 <http://www.w3.org/2004/02/skos/core#altLabel> "Aerodynamic torques (below 500 km)" .
-_:N1d84db8a0b93479999d5937537cf20ca <http://www.w3.org/2004/02/skos/core#prefLabel> "Provide data storage" .
-_:N50dcac4e0cee4e7bad790a24d49b63ee <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> .
-_:N4b9f2f878d9646a48c5d9e328ad50d87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Ncf09a9ebc95b4fabb14ac052e2aa2568 .
-_:Nbf073ad0067e45dc936f388992b609b4 <http://www.w3.org/2004/02/skos/core#prefLabel> "Loads (bus and payload)" .
-_:N91284b40389a461ebd9720efe14b43ef <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://ontology.projectchronos.eu/subsystems/streams> "data" .
-_:N53f32881fc034ba98dd47884e5740f9c <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/standsMaxTemperature" .
-_:N2ab6226898074a5989cdd2a4a59df626 <http://www.w3.org/2002/07/owl#hasValue> <http://dbpedia.org/resource/Attitude_control> .
-_:N50468b5afd1d44139835efe5a78d58c5 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasMinClock" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <subsystems:requirements> _:N8f763c98fb5e42d0afa35b93d8d77ea9 .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Ne61ef3e028b44d94abc2b8408c299115 .
-<http://ontology.projectchronos.eu/subsystems/unitOfMeasure> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Units_of_measurement> .
-_:Nc567dfda41814d1fad96ace956b1de37 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-_:N10ace9b5e4e04fcda92707c51d3153dd <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/typeOfPropellant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <subsytems:objectives> _:N627922476a144a51869436b856cd734a .
-_:Ncd15c1f952e642938a47e7408ad75c54 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/subSystemType" .
-_:Nd20170cbc2504dfe9203e4db399afa36 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsytems/function" .
-_:Ne5bfef96f7b742aea58f565e14523619 <http://www.w3.org/2004/02/skos/core#prefLabel> "Reference sensors (absolute measurement)" .
-_:N1a06b1d964424d88907bf39254fadf6d <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/subSystemType" .
-_:N9eb2d7fbc4504af4a1588811bfcc7d5d <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://ontology.projectchronos.eu/subsystems/hasMass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://www.w3.org/2001/XMLSchema#float> .
-_:N0d6db0c56fcf48b1ab4bf786f8026713 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasMaxClock" .
-_:N627922476a144a51869436b856cd734a <http://www.w3.org/2004/02/skos/core#prefLabel> "Science data" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal_PassiveDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N3c7d468bfbab404baf36b89868c60f10 .
-<http://ontology.projectchronos.eu/subsystems/hasMaxAmpere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://www.w3.org/2001/XMLSchema#float> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> <http://www.w3.org/2000/01/rdf-schema#comment> "Complex devices-subsystems used for storing energy." .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <subsystems:attitude> _:N92a8a6f2a94145cb86bd9a08e64add50 .
-_:Nfb1d9810609a426883728e8b1a5f46fb <http://www.w3.org/2004/02/skos/core#prefLabel> "Cartwheel" .
-<http://ontology.projectchronos.eu/subsystems/hasPower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal> <subsystems:objectives> _:Ndea8a78d8c6546448685b9e32281d73a .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> <http://www.w3.org/2004/02/skos/core#prefLabel> "The set of subsystems needed to make a spacecraft to store energy from the primary power source." .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS_ActiveDevice> <http://www.w3.org/2004/02/skos/core#prefLabel> "AODCS device that DOES use power from the spacecraft power to work." .
-<http://ontology.projectchronos.eu/subsystems> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-_:N50dcac4e0cee4e7bad790a24d49b63ee <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion> .
-<http://ontology.projectchronos.eu/subsystems/unitOfMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:Ncd15c1f952e642938a47e7408ad75c54 <http://www.w3.org/2002/07/owl#hasValue> "http://umbel.org/umbel/rc/ElectronicDevice" .
-<http://ontology.projectchronos.eu/subsystems/subSystemType> <http://www.w3.org/2000/01/rdf-schema#comment> "Every subsystem contains an homogeneous group of devices." .
-<http://ontology.projectchronos.eu/subsystems/hasMonetaryValue> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://schema.org/PriceSpecification> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <subsytems:objectives> _:N40cc75d8ad23451ea1c310feb68bafa5 .
-<http://ontology.projectchronos.eu/subsystems/hasMinAmpere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS_PassiveDevice> <http://www.w3.org/2004/02/skos/core#prefLabel> "AODCS that DOES NOT use power from the spacecraft power to work." .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion> <http://ontology.projectchronos.eu/subsystems/streams> "power" .
-_:N72c60feaefd84ba58e0e870cbbf20d6e <http://www.w3.org/2004/02/skos/core#altLabel> "Momentum storage torquers" .
-_:Naed14d0cd8ff41e0be93e28e8e78e393 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N068ae7bebf724ab48b352133542c87c0 .
-<http://ontology.projectchronos.eu/subsystems/hasWireOutWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
-<http://ontology.projectchronos.eu/subsystems/function> <http://www.w3.org/2004/02/skos/core#altLabel> "is used for" .
-<http://ontology.projectchronos.eu/subsystems/hasMass> <http://www.w3.org/2000/01/rdf-schema#label> "hasMass" .
-_:Nd4cf9eb92665458a850e5ce212068afb <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasWireInWith" .
-_:Nd20170cbc2504dfe9203e4db399afa36 <http://www.w3.org/2002/07/owl#hasValue> "http://dbpedia.org/resource/Structural_system" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <subsytems:objectives> _:N4248948780c042b08cb14ec546ebc259 .
-<http://ontology.projectchronos.eu/subsystems/hasVolume> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
-_:N9aca1268a87e4950a0809d413f0bc400 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:N971b95e661154ce4b1d5c4b469abb6cb <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> .
-_:N351c5fcf9626454f9bfe8e963087494c <http://www.w3.org/2002/07/owl#hasValue> "http://umbel.org/umbel/rc/PoweredDevice" .
-<http://ontology.projectchronos.eu/subsystems/hasMonetaryValue> <http://www.w3.org/2000/01/rdf-schema#label> "hasMonetaryValue" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Na46ea3a5f39f4a53a5342b69506cbf2e .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> <http://ontology.projectchronos.eu/spacecraft/isComponentOf> "http://ontology.projectchronos.eu/spacecraft/Spacecraft" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <subsystems:requirements> _:N9c97e70c403e4a4c84aa236d26feb640 .
-<http://ontology.projectchronos.eu/subsystems/manufacturer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:N93466a0d479c462e9a675b9f94da01e0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:Nd888714ee72f464aa489c63d8f838cfe <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> .
-<http://ontology.projectchronos.eu/subsystems/hasMaxAmpere> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Ampere> .
-_:N7f9fdccf31ec452087dc1e7faffe73a9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:N8b812233c985437dbaf1210a82260d68 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/spacecraft/isSubsystemOf" .
-_:N0d6db0c56fcf48b1ab4bf786f8026713 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS_PassiveDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> <http://www.w3.org/2000/01/rdf-schema#label> "Spacecraft_BackupPower" .
-<http://ontology.projectchronos.eu/subsystems/isStandard> <http://www.w3.org/2004/02/skos/core#prefLabel> "A property that references the standard platform for which the subsystem has been designed." .
-_:Nfabd89d85efe449eb8cb76acc24850a7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:N9eb2d7fbc4504af4a1588811bfcc7d5d <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasVoltage" .
-<http://ontology.projectchronos.eu/subsystems/hasMaxAmpere> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
-<http://ontology.projectchronos.eu/subsystems/hasMinAmpere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> <http://ontology.projectchronos.eu/subsystems/streams> "power" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N4c12508fea64406cbd5cdf918c989be4 .
-_:Ne61ef3e028b44d94abc2b8408c299115 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsytems/function" .
-_:N3c7d468bfbab404baf36b89868c60f10 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-_:N6b59c20953814a9396e60b1cb9431b0e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:N55b0b691dd3e45d1afcacf69cce8dd15 <http://www.w3.org/2004/02/skos/core#prefLabel> "Spacecraft heat emission" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <http://www.w3.org/2004/02/skos/core#prefLabel> "Artifacts or rigid devices used to create a supporting structure for all the others devices." .
-_:Nb21b4b18bc7e4383ba67435a9f1d781c <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:N9c97e70c403e4a4c84aa236d26feb640 <http://www.w3.org/2004/02/skos/core#prefLabel> "Mass" .
-_:N91284b40389a461ebd9720efe14b43ef <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <subsytems:objectives> _:N6512c54eba314b97aa8f0be51bb720dd .
-_:Ncf09a9ebc95b4fabb14ac052e2aa2568 <http://www.w3.org/2002/07/owl#hasValue> "http://umbel.org/umbel/rc/PhysicalDevice" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
-<http://ontology.projectchronos.eu/subsystems/subSystemType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion> <http://www.w3.org/2000/01/rdf-schema#comment> "Complex devices-subsystems used for impelling (processes of applying a force which results in translational motion) a spacecraft, in the specific http://umbel.org/umbel/rc/ProjectilePropelling" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <subsystems:objectives> _:Nd00e6afdf4814bb6bdb86482b634f5fe .
-_:Nc6b9904434af48dba5b64e5fa19198ef <http://www.w3.org/2002/07/owl#hasValue> "http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N067b6d812f974e3b9ee2353f844a18dd .
-_:Nc069e96aec3f43ac94765faded6ec838 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> .
-<http://ontology.projectchronos.eu/subsystems/function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
-_:Ne5bfef96f7b742aea58f565e14523619 <http://www.w3.org/2004/02/skos/core#altLabel> "Magnetometers" .
-_:N24e5a67ff019457080f50088e33ba427 <http://www.w3.org/2004/02/skos/core#prefLabel> "Inertial sensors (changes only)" .
-_:N50468b5afd1d44139835efe5a78d58c5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:N971b95e661154ce4b1d5c4b469abb6cb <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:N336145ed2d5b40f1840ccea2a8432b23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/streams> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Detector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nd50cadfa814247e3b1bfa6ba7e7d6387 .
-_:N7abeeb89f436494388f09f501eb69c6e <http://www.w3.org/2004/02/skos/core#prefLabel> "Thermal" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <subsystems:requirements> _:Nd007214dbfea4e38a12fcb6fbe54c970 .
-_:N89a25d5e28784f4e91db786025c2edf5 <http://www.w3.org/2004/02/skos/core#altLabel> "Pressures" .
-<http://ontology.projectchronos.eu/subsystems/hasMaxAmpere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:Nc069e96aec3f43ac94765faded6ec838 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <subsystems:objectives> _:N17f5cc7606dc42dd90ba71a6c4fc917f .
-_:N188aaed145f74b6e82f83f0656f87d58 <http://www.w3.org/2002/07/owl#hasValue> "http://dbpedia.org/resource/Process_control" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal> <subsystems:objectives> _:N595a549b417146d9b9f83d6c71c7c181 .
-_:N17f5cc7606dc42dd90ba71a6c4fc917f <http://www.w3.org/2004/02/skos/core#prefLabel> "Propellant containers" .
-_:Ncb0cb9fe6315450aa750182de4257266 <http://www.w3.org/2004/02/skos/core#prefLabel> "Loads" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nd888714ee72f464aa489c63d8f838cfe .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:Ne5bfef96f7b742aea58f565e14523619 <http://www.w3.org/2004/02/skos/core#altLabel> "Radio frequency beacons" .
-<http://ontology.projectchronos.eu/subsystems/hasVolume> <http://www.w3.org/2000/01/rdf-schema#label> "hasVolume" .
-_:N85d1f34d3b8048d2bd68cb733281d6be <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <subsystems:measurements> _:N24e5a67ff019457080f50088e33ba427 .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS_PassiveDevice> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
-_:N260d46fb908f49589c4e835ef8e29ea4 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasEfficiency" .
-_:Naed14d0cd8ff41e0be93e28e8e78e393 <http://www.w3.org/2002/07/owl#hasValue> "http://ontology.projectchronos.eu/spacecraft/Spacecraft" .
-_:N7cf1501bfc2a4ace927edd2af4f4da23 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-_:N7d66e61cc3f344bb92f0204f993d6756 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal_ActiveDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:N75f2ed48049746329656ccae37cc8af4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nfbd5b16151614b11adddde9094967116 .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Detector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> <http://www.w3.org/2004/02/skos/core#prefLabel> "It handles communication from/to ground base or other spacecraft." .
-_:N068ae7bebf724ab48b352133542c87c0 <http://www.w3.org/2002/07/owl#hasValue> <http://dbpedia.org/resource/Electronic_data_processing> .
-_:N6671a2635f8b4a35a352c862e356d898 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> .
-_:Na46ea3a5f39f4a53a5342b69506cbf2e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/hasPower> <http://www.w3.org/2000/01/rdf-schema#label> "hasPower" .
-_:N9777f62746624b369e684ee7dd67642a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nf338b58f49ae413d8b0119df7c626d80 .
-_:N91284b40389a461ebd9720efe14b43ef <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasMinTemperature" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal> <http://www.w3.org/2004/02/skos/core#prefLabel> "Artifacts or devices used to maintain the temperature of spacecraft's subsystems and payloads into a given range, to permit nominal and survival mode for all the duration of the mission ." .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N7f9fdccf31ec452087dc1e7faffe73a9 .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <subsystems:requirements> _:Nb7c68442bbf84e21ade73fd729b26623 .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://ontology.projectchronos.eu/spacecraft/isComponentOf> "http://ontology.projectchronos.eu/spacecraft/Spacecraft" .
-<http://ontology.projectchronos.eu/subsystems/hasSpecificImpulse> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
-_:N10ace9b5e4e04fcda92707c51d3153dd <http://www.w3.org/2002/07/owl#hasValue> <http://dbpedia.org/resource/Transmitting> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal_PassiveDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:Nd768b84b19244d8b92317db56a0bfa7a <http://www.w3.org/2004/02/skos/core#prefLabel> "Receive and distribute commands" .
-_:N2ab6226898074a5989cdd2a4a59df626 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Naed14d0cd8ff41e0be93e28e8e78e393 .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Detector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/spacecraft/SubSystems_Spacecraft> .
-<http://ontology.projectchronos.eu/subsystems/hasWireOutWith> <http://www.w3.org/2000/01/rdf-schema#comment> "This device send output to another device" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N3fd4c8e9346144a2affb0676f53a1e6e .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <subsystems:objectives> _:Nd7a31649f0304a17bdda874ac2020ffd .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:Nc761e51d02dd4ee7adf02415540e5374 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nb34417db993a40e7ae5d2e1d3e05b7bf .
-_:Nb21b4b18bc7e4383ba67435a9f1d781c <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> .
-_:Nf338b58f49ae413d8b0119df7c626d80 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> .
-<http://ontology.projectchronos.eu/subsystems/function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "what the device is used for" .
-_:N46f58df49f8d46fda074abebe15a841d <http://www.w3.org/2004/02/skos/core#altLabel> "Astronaut movement" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS_PassiveDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N1df6231791fe4eda9ea9e98ffa0f5708 .
-_:N3c7d468bfbab404baf36b89868c60f10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:N75f2ed48049746329656ccae37cc8af4 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> .
+_:Nba8b5b07361b425fbb94ed4fd7543b95 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:N94d271a0661a4e158ea3f4b309776446 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Nb957367db22544d08e20ae8823fac90b <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasVoltage" .
 <http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal_PassiveDevice> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion> <http://www.w3.org/2000/01/rdf-schema#label> "Spacecraft_Propulsion." .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N0d6db0c56fcf48b1ab4bf786f8026713 .
-<http://ontology.projectchronos.eu/subsystems/hasPower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal> <subsystems:objectives> _:N04d2b435f87440fdb546f503b6098810 .
-_:N4b9f2f878d9646a48c5d9e328ad50d87 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/subSystemType" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> <subsystems:objectives> _:N49b5149a68e94317925a2a18b50fcc46 .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal_ActiveDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N351c5fcf9626454f9bfe8e963087494c .
-<http://ontology.projectchronos.eu/subsystems/hasSpecificImpulse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://www.w3.org/2001/XMLSchema#float> .
-_:N9aca1268a87e4950a0809d413f0bc400 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsytems/isComponentOf" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal_PassiveDevice> <http://www.w3.org/2004/02/skos/core#prefLabel> "Device of class Thermal that DOES NOT consume energy from the spacecraft power source." .
-_:N5eae6e05878d45f99f22c749f7340621 <http://www.w3.org/2004/02/skos/core#altLabel> "Gravity gradient torques (500-35000 km)" .
-_:Nb21b4b18bc7e4383ba67435a9f1d781c <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasWireOutWith" .
-_:N3799350006e645fa9c04edfd4f0f302b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:N935fa47686c547afa36b5b75cc5b405b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> <subsystems:objectives> _:Nbf073ad0067e45dc936f388992b609b4 .
-_:Nc567dfda41814d1fad96ace956b1de37 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasVoltage" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS_ActiveDevice> <http://www.w3.org/2000/01/rdf-schema#label> "Spacecraft_AODCS_ActiveDevice" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Detector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N073a2b57804c403db4f3b17bccdb0af3 .
-_:Nc567dfda41814d1fad96ace956b1de37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:Ncf09a9ebc95b4fabb14ac052e2aa2568 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS_ActiveDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N6671a2635f8b4a35a352c862e356d898 .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nc567dfda41814d1fad96ace956b1de37 .
-_:Ne5bfef96f7b742aea58f565e14523619 <http://www.w3.org/2004/02/skos/core#altLabel> "Sun sensors" .
-<http://ontology.projectchronos.eu/subsystems/hasWireInWith> <http://www.w3.org/2000/01/rdf-schema#label> "hasWireInWith" .
-<http://ontology.projectchronos.eu/subsystems/hasMass> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Mass> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> <http://ontology.projectchronos.eu/spacecraft/isComponentOf> "http://ontology.projectchronos.eu/spacecraft/Spacecraft" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <http://ontology.projectchronos.eu/subsystems/streams> "data" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal_PassiveDevice> <http://www.w3.org/2000/01/rdf-schema#label> "Spacecraft_Thermal_PassiveDevice" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal> <subsystems:objectives> _:N5e2b6556d4d0492693ad37852e1253fd .
-_:N2ab6226898074a5989cdd2a4a59df626 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsytems/function" .
-_:Nfabd89d85efe449eb8cb76acc24850a7 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> .
-_:N75f2ed48049746329656ccae37cc8af4 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> .
-_:Nf338b58f49ae413d8b0119df7c626d80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <subsystems:attitude> _:Nd1b83609461347a28b8b3851a1a101a1 .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <subsystems:requirements> _:N016f5133672c4cb994a2abbe60c9f6c6 .
-<http://ontology.projectchronos.eu/subsystems/hasMaxAmpere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N2ab6226898074a5989cdd2a4a59df626 .
-_:N8f763c98fb5e42d0afa35b93d8d77ea9 <http://www.w3.org/2004/02/skos/core#prefLabel> "Stiffness" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <subsystems:disturbances> _:N46f58df49f8d46fda074abebe15a841d .
-_:N6512c54eba314b97aa8f0be51bb720dd <http://www.w3.org/2004/02/skos/core#prefLabel> "Execute commands and schedules" .
-_:N260d46fb908f49589c4e835ef8e29ea4 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-_:N93466a0d479c462e9a675b9f94da01e0 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasDataStorageExternal" .
-_:N2ab6226898074a5989cdd2a4a59df626 <http://www.w3.org/2002/07/owl#hasValue> <http://dbpedia.org/resource/Flight_dynamics_(spacecraft)> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> <http://www.w3.org/2004/02/skos/core#prefLabel> "The set of subsystems needed to make a spacecraft to collect energy to operate" .
-_:N3c7d468bfbab404baf36b89868c60f10 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasMaxTemperature" .
-<http://ontology.projectchronos.eu/subsystems/hasWireOutWith> <http://www.w3.org/2000/01/rdf-schema#label> "hasWireOutWith" .
-_:N3a41eed65fd14f989fab9bb4057c1d46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:Ne61ef3e028b44d94abc2b8408c299115 <http://www.w3.org/2002/07/owl#hasValue> "http://dbpedia.org/resource/rc/Energy_storage" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <subsytems:objectives> _:Nd768b84b19244d8b92317db56a0bfa7a .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <http://www.w3.org/2000/01/rdf-schema#comment> "Complex devices-subsystems used to set the direction and the position of the spacecraft, it controls flight dynamics." .
-_:Ne5bfef96f7b742aea58f565e14523619 <http://www.w3.org/2004/02/skos/core#altLabel> "Earth sensors" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
-_:N13f14fee20d84b5083a288d4982fcd3d <http://www.w3.org/2002/07/owl#hasValue> "http://ontology.projectchronos.eu/spacecraft/Spacecraft" .
-_:N899ae1a704274875821197b6de401da2 <http://www.w3.org/2004/02/skos/core#prefLabel> "Perform TM and TC protocols" .
-_:Nfbd5b16151614b11adddde9094967116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:N72c60feaefd84ba58e0e870cbbf20d6e <http://www.w3.org/2004/02/skos/core#altLabel> "Reaction wheels (zero or low rpm)" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS_ActiveDevice> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
-_:N46f58df49f8d46fda074abebe15a841d <http://www.w3.org/2004/02/skos/core#altLabel> "Flexible appendages" .
-<http://ontology.projectchronos.eu/subsystems/function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:N92f62c754088467f957301437e87ba79 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <subsystems:attitude> _:N7211ee7b9ec14d71a6884fd2033cf6d4 .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal> <subsystems:requirements> _:N8acf2b6b0d4f401fb3f0eee24d798e69 .
-<http://ontology.projectchronos.eu/subsystems/hasMinAmpere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://www.w3.org/2001/XMLSchema#float> .
-<http://ontology.projectchronos.eu/subsystems/hasMonetaryValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Amount of money it can be bought for, or an esteem of value." .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion> <http://ontology.projectchronos.eu/subsystems/streams> "data" .
-_:Nd50cadfa814247e3b1bfa6ba7e7d6387 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-_:Nb7c68442bbf84e21ade73fd729b26623 <http://www.w3.org/2004/02/skos/core#prefLabel> "Electric and electromagnetic" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <subsytems:torquers> _:N72c60feaefd84ba58e0e870cbbf20d6e .
-_:N3799350006e645fa9c04edfd4f0f302b <http://www.w3.org/2002/07/owl#hasValue> "http://umbel.org/umbel/rc/RocketEngine" .
-_:Ne61ef3e028b44d94abc2b8408c299115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:Nc069e96aec3f43ac94765faded6ec838 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasWireOutWith" .
-_:N412ca912af6940d3a170ffa0dc4a9d9d <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasWireInWith" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N260d46fb908f49589c4e835ef8e29ea4 .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <subsytems:objectives> _:N899ae1a704274875821197b6de401da2 .
-<http://ontology.projectchronos.eu/subsystems/hasMonetaryValue> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Price> .
-_:N935fa47686c547afa36b5b75cc5b405b <http://www.w3.org/2002/07/owl#hasValue> "http://umbel.org/umbel/rc/Computer_hardware" .
-<http://ontology.projectchronos.eu/subsystems/hasSpecificImpulse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontology.projectchronos.eu/subsystems/hasMinAmpere> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
-_:N24e5a67ff019457080f50088e33ba427 <http://www.w3.org/2004/02/skos/core#altLabel> "Gyroscopes mechanical" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
-_:N351c5fcf9626454f9bfe8e963087494c <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/subSystemType" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N935fa47686c547afa36b5b75cc5b405b .
-_:N9eb2d7fbc4504af4a1588811bfcc7d5d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:N6b59c20953814a9396e60b1cb9431b0e <http://www.w3.org/2002/07/owl#hasValue> "http://umbel.org/umbel/rc/ProjectilePropelling" .
-_:Na567e2fc0b4e415ea72279847dc521f2 <http://www.w3.org/2004/02/skos/core#prefLabel> "External" .
-_:N7d66e61cc3f344bb92f0204f993d6756 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/hasWireOutWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <subsystems:measurements> _:Ne5bfef96f7b742aea58f565e14523619 .
-_:N5e2b6556d4d0492693ad37852e1253fd <http://www.w3.org/2004/02/skos/core#prefLabel> "Radiative heat exchange" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Command and Data Handling, it is the device that connects the other devices, it processes and deliver information." .
-_:N46f58df49f8d46fda074abebe15a841d <http://www.w3.org/2004/02/skos/core#altLabel> "Mechanisms" .
-<http://ontology.projectchronos.eu/subsystems/hasSpecificImpulse> <http://www.w3.org/2000/01/rdf-schema#label> "hasSpecificImpulse" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <subsytems:objectives> _:N03bd91dc2ec7432482cf1dcbae7ed25e .
-_:N7cf1501bfc2a4ace927edd2af4f4da23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:Nfbd5b16151614b11adddde9094967116 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/subSystemType" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:N75f2ed48049746329656ccae37cc8af4 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasWireOutWith" .
-_:Na567e2fc0b4e415ea72279847dc521f2 <http://www.w3.org/2004/02/skos/core#altLabel> "Magnetic torquers" .
-_:N85d1f34d3b8048d2bd68cb733281d6be <http://www.w3.org/2002/07/owl#hasValue> "http://ontology.projectchronos.eu/spacecraft/Spacecraft" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N50468b5afd1d44139835efe5a78d58c5 .
-_:N7cf1501bfc2a4ace927edd2af4f4da23 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/standsMaxTemperature" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS_PassiveDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/spacecraft/Spacecraft_AODCS> .
-_:Nc761e51d02dd4ee7adf02415540e5374 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/hasMass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal> <subsystems:requirements> _:Nebe6b1e9348d4681b9ceee543fd3046c .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> <subsystems:objectives> "Secondary energy source" .
-<http://ontology.projectchronos.eu/subsystems/hasMonetaryValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <subsystems:disturbances> _:N5eae6e05878d45f99f22c749f7340621 .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N0fb8ef8f2a4a47e1a15ee7e133cda50e .
-_:Nb34417db993a40e7ae5d2e1d3e05b7bf <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/isStandard> <http://www.w3.org/2000/01/rdf-schema#label> "isStandard" .
-_:N068ae7bebf724ab48b352133542c87c0 <http://www.w3.org/2002/07/owl#hasValue> <http://umbel.org/umbel/rc/InformationTransferEvent> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N91284b40389a461ebd9720efe14b43ef .
-_:N59859a79faa9439eb7c9adeaa6ceb110 <http://www.w3.org/2004/02/skos/core#prefLabel> "Thermal and electrical paths" .
-_:Nb21b4b18bc7e4383ba67435a9f1d781c <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> .
-<http://ontology.projectchronos.eu/subsystems/hasMinAmpere> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://umbel.org/umbel/rc/Ampere> .
-<http://ontology.projectchronos.eu/subsystems/hasVolume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
-_:Na567e2fc0b4e415ea72279847dc521f2 <http://www.w3.org/2004/02/skos/core#altLabel> "Gravity-gradient torque" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion> <http://ontology.projectchronos.eu/spacecraft/isComponentOf> "http://ontology.projectchronos.eu/spacecraft/Spacecraft" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal_ActiveDevice> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
-<http://ontology.projectchronos.eu/subsystems/unitOfMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> .
-<http://ontology.projectchronos.eu/subsystems/hasMass> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://schema.org/Mass> .
-_:Nd1b83609461347a28b8b3851a1a101a1 <http://www.w3.org/2004/02/skos/core#prefLabel> "Spinning" .
-_:N6671a2635f8b4a35a352c862e356d898 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> .
-<http://ontology.projectchronos.eu/subsystems/hasPower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://www.w3.org/2001/XMLSchema#float> .
-_:N1df6231791fe4eda9ea9e98ffa0f5708 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasWireInWith" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Detector> <http://www.w3.org/2000/01/rdf-schema#label> "Spacecraft_Detector" .
-<http://ontology.projectchronos.eu/subsystems/hasMinAmpere> <http://www.w3.org/2000/01/rdf-schema#label> "hasMinAmpere" .
-_:N6671a2635f8b4a35a352c862e356d898 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasWireInWith" .
-_:N85d1f34d3b8048d2bd68cb733281d6be <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/spacecraft/isSubsystemOf" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/subsystems/manufacturer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
-_:N5da40a24eefe4041ab32f4fd05582e60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/hasSpecificImpulse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
+<http://ontology.projectchronos.eu/subsystems/typeOfPropellant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontology.projectchronos.eu/spacecraft/Spacecraft_Propulsion> .
+_:Nd0bb77d78159435a89c44976a0c4e81e <http://www.w3.org/2002/07/owl#hasValue> <http://dbpedia.org/resource/Process_control> .
 <http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal_ActiveDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "Complex devices-subsystems used to protect sensors or electronic devices from over/under-heating, like refrigeration absorption." .
-_:N46f58df49f8d46fda074abebe15a841d <http://www.w3.org/2004/02/skos/core#altLabel> "Fuel movement" .
-_:N89a25d5e28784f4e91db786025c2edf5 <http://www.w3.org/2004/02/skos/core#altLabel> "Currents" .
-_:N72c60feaefd84ba58e0e870cbbf20d6e <http://www.w3.org/2004/02/skos/core#prefLabel> "Internal" .
-_:N89a25d5e28784f4e91db786025c2edf5 <http://www.w3.org/2004/02/skos/core#altLabel> "Status" .
-_:Nd4cf9eb92665458a850e5ce212068afb <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:Nebe6b1e9348d4681b9ceee543fd3046c <http://www.w3.org/2004/02/skos/core#prefLabel> "Requirements and constraints" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <subsystems:attitude> _:N994abb82877c4392a610a050b81a4d79 .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N6b59c20953814a9396e60b1cb9431b0e .
-_:N50dcac4e0cee4e7bad790a24d49b63ee <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasWireOutWith" .
-_:Nfabd89d85efe449eb8cb76acc24850a7 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasWireInWith" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N4b9f2f878d9646a48c5d9e328ad50d87 .
-_:N89a25d5e28784f4e91db786025c2edf5 <http://www.w3.org/2004/02/skos/core#altLabel> "Temperatures" .
-_:Nc761e51d02dd4ee7adf02415540e5374 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:N65a6448ea9d04a6a861b35b16ff919d8 <http://www.w3.org/2004/02/skos/core#prefLabel> "Planetary radiation" .
-_:Nd888714ee72f464aa489c63d8f838cfe <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasWireInWith" .
-<http://ontology.projectchronos.eu/subsystems/hasVolume> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Volume> .
-_:Nb34417db993a40e7ae5d2e1d3e05b7bf <http://www.w3.org/2002/07/owl#hasValue> "http://ontology.projectchronos.eu/spacecraft/Spacecraft" .
-_:N24e5a67ff019457080f50088e33ba427 <http://www.w3.org/2004/02/skos/core#altLabel> "Gyroscopes optical" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <http://www.w3.org/2000/01/rdf-schema#label> "Spacecraft_Structure" .
-_:N50dcac4e0cee4e7bad790a24d49b63ee <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <http://www.w3.org/2000/01/rdf-schema#comment> "It's the skeleton and framework of the spacecraft." .
-<http://ontology.projectchronos.eu/subsystems/unitOfMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
-_:N92f62c754088467f957301437e87ba79 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasVoltage" .
-_:N215c1653176d42d1a3f6af4fd15a8289 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal> <http://ontology.projectchronos.eu/subsystems/streams> "power" .
-<http://ontology.projectchronos.eu/subsystems/function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
-_:N0d6db0c56fcf48b1ab4bf786f8026713 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:N8b812233c985437dbaf1210a82260d68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N336145ed2d5b40f1840ccea2a8432b23 .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <subsystems:objectives> _:N59859a79faa9439eb7c9adeaa6ceb110 .
-_:Nd888714ee72f464aa489c63d8f838cfe <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
-<http://ontology.projectchronos.eu/subsystems/unitOfMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
-_:Ne5bfef96f7b742aea58f565e14523619 <http://www.w3.org/2004/02/skos/core#altLabel> "Star sensors" .
-<http://ontology.projectchronos.eu/subsystems/function> <http://www.w3.org/2000/01/rdf-schema#label> "function" .
-_:N6b59c20953814a9396e60b1cb9431b0e <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsytems/function" .
-<http://ontology.projectchronos.eu/subsystems/manufacturer> <http://www.w3.org/2000/01/rdf-schema#label> "manufacturer" .
-_:N3fd4c8e9346144a2affb0676f53a1e6e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:Na46ea3a5f39f4a53a5342b69506cbf2e <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasWireInWith" .
-_:N1a06b1d964424d88907bf39254fadf6d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <subsystems:objectives> _:N48f3b688197b4d2490c9637b48e4cd39 .
-_:Nc6b9904434af48dba5b64e5fa19198ef <http://ontology.projectchronos.eu/subsystems/streams> "power" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N85d1f34d3b8048d2bd68cb733281d6be .
-_:Nc6b9904434af48dba5b64e5fa19198ef <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasWireInWith" .
-_:N067b6d812f974e3b9ee2353f844a18dd <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nb21b4b18bc7e4383ba67435a9f1d781c .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS_ActiveDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "Do NOT use any additional power from the spacecraft generator" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N9bfa626ea6384d9bae17db4c1bdd6af1 .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
+_:Nba8b5b07361b425fbb94ed4fd7543b95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Nfc1b9d67692140d0be3d300498cfbaf7 <http://www.w3.org/2002/07/owl#hasValue> "http://umbel.org/umbel/rc/ElectricalPowerGeneration" .
+<http://ontology.projectchronos.eu/subsystems/hasWireOutWith> <http://www.w3.org/2000/01/rdf-schema#comment> "This device send output to another device" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N38bab8aa1240441e9d92ecbf3b54bf0d .
+_:N27641d728a1941c09622420491fecfbf <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasMaxAmpere" .
+<http://ontology.projectchronos.eu/subsystems/hasPower> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://umbel.org/umbel/rc/Power> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://ontology.projectchronos.eu/spacecraft/isComponentOf> "http://ontology.projectchronos.eu/spacecraft/Spacecraft" .
+_:Nba95edd419d34387a2354ce1dbd62e85 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal_PassiveDevice> <http://www.w3.org/2004/02/skos/core#prefLabel> "Device of of class Thermal that does NOT consume energy from the spacecraft power source." .
+<http://ontology.projectchronos.eu/subsystems/unitOfMeasure> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/resource/Units_of_measurement> .
+_:Nc0845478fb8b449690ef004b599c65f2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:N641dd32372d5412dbcef8c60ab3b4450 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Nf66b948b0eef4b07a509d00dae8738f3 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal_ActiveDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N9a1411685e9d40b2b5599311d22d660b .
+<http://ontology.projectchronos.eu/subsystems/hasMinAmpere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Detector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N47a52bd6abdb4024b19735598889ca2f .
+<http://ontology.projectchronos.eu/subsystems/manufacturer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Detector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/spacecraft/SubSystems_Spacecraft> .
 <http://ontology.projectchronos.eu/subsystems/subSystemType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal_ActiveDevice> <http://www.w3.org/2004/02/skos/core#prefLabel> "Device of class Thermal that DOES consume energy from the spacecraft power source." .
-_:N9db79e1e5e84429f92e22c063af7f218 <http://www.w3.org/2004/02/skos/core#prefLabel> "Thermal balance" .
-_:N3799350006e645fa9c04edfd4f0f302b <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/subSystemType" .
-_:Nf4ecb6e353974e93bcd98576af17693a <http://www.w3.org/2004/02/skos/core#prefLabel> "Control subsystems and payloads" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion> <http://www.w3.org/2004/02/skos/core#prefLabel> "The set of subsystems needed to make a spacecraft moving in space" .
-_:Ne5bfef96f7b742aea58f565e14523619 <http://www.w3.org/2004/02/skos/core#altLabel> "GPS" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N13f14fee20d84b5083a288d4982fcd3d .
-<http://ontology.projectchronos.eu/subsystems/hasMinAmpere> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Ampere> .
-_:N3a41eed65fd14f989fab9bb4057c1d46 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://ontology.projectchronos.eu/subsystems/hasWireInWith> <http://www.w3.org/2000/01/rdf-schema#comment> "This device receive input from another device" .
-_:N073a2b57804c403db4f3b17bccdb0af3 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-_:N016f5133672c4cb994a2abbe60c9f6c6 <http://www.w3.org/2004/02/skos/core#prefLabel> "Alignment" .
-_:Nc069e96aec3f43ac94765faded6ec838 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nc90bed010a5447afa28149f8fecdf9d6 .
-_:Nfbd5b16151614b11adddde9094967116 <http://www.w3.org/2002/07/owl#hasValue> "http://umbel.org/umbel/rc/ElectricalDevice" .
-<http://ontology.projectchronos.eu/subsystems/subSystemType> <http://www.w3.org/2004/02/skos/core#prefLabel> "A property that references the subsystem to the kind of the devices it holds." .
+_:Nec72295cc5b24be98b9e203dcd07c072 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> .
+_:N94d271a0661a4e158ea3f4b309776446 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:N5f79abf760a84e4c8f5d0c3d91872a07 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Nb52b80e9e505495bb673547d38147934 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nbf6cb11e407440218518a9ee299ca41b .
+_:N60130a06d0e94016b73fd57245c3d0ea <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal> <http://www.w3.org/2004/02/skos/core#prefLabel> "Artifacts or devices used to maintain the temperature of spacecraft's subsystems and payloads into a given range, to permit nominal and survival mode for all the duration of the mission ." .
+_:N13aa99feded44e4cb156cb943acc61f5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal_ActiveDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/spacecraft/Spacecraft_Thermal> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_Detector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nc6b9904434af48dba5b64e5fa19198ef .
-_:Nb34417db993a40e7ae5d2e1d3e05b7bf <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/spacecraft/isSubsystemOf" .
-_:N4c12508fea64406cbd5cdf918c989be4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2000/01/rdf-schema#label> "Spacecraft_CDH" .
-<http://ontology.projectchronos.eu/subsystems/hasWireInWith> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
-_:N72c60feaefd84ba58e0e870cbbf20d6e <http://www.w3.org/2004/02/skos/core#altLabel> "Momentum wheels (5000-10000 rpm)" .
-_:N9aca1268a87e4950a0809d413f0bc400 <http://www.w3.org/2002/07/owl#hasValue> "http://ontology.projectchronos.eu/spacecraft/Payload_Spacecraft" .
-_:N89a25d5e28784f4e91db786025c2edf5 <http://www.w3.org/2004/02/skos/core#altLabel> "Voltages" .
-_:N3fc3f1e43641447c84c367b64b6cdd93 <http://www.w3.org/2004/02/skos/core#prefLabel> "Power control and distribution" .
-_:N7e822fcfc5ca47eb8bf71e0bb7ccb3ec <http://www.w3.org/2004/02/skos/core#prefLabel> "Worst-case conditions" .
-_:N3fd4c8e9346144a2affb0676f53a1e6e <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/subSystemType" .
-<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Ncd15c1f952e642938a47e7408ad75c54 .
-<http://ontology.projectchronos.eu/subsystems/hasWireInWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
-_:N53f32881fc034ba98dd47884e5740f9c <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-_:N068ae7bebf724ab48b352133542c87c0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:N595a549b417146d9b9f83d6c71c7c181 <http://www.w3.org/2004/02/skos/core#prefLabel> "Solar radiation" .
-_:N03bd91dc2ec7432482cf1dcbae7ed25e <http://www.w3.org/2004/02/skos/core#altLabel> "Synchronization of data" .
-_:N0fb8ef8f2a4a47e1a15ee7e133cda50e <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:N6736256b856d4b7d8964d7cf807288e5 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/subSystemType" .
+<http://ontology.projectchronos.eu/subsystems/hasMonetaryValue> <http://www.w3.org/2000/01/rdf-schema#label> "hasMonetaryValue" .
+<http://ontology.projectchronos.eu/subsystems/hasSpecificImpulse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <http://www.w3.org/2004/02/skos/core#prefLabel> "Artifacts or rigid devices used to create a supporting structure for all the others devices." .
+<http://ontology.projectchronos.eu/subsystems/hasMonetaryValue> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://schema.org/PriceSpecification> .
+<http://ontology.projectchronos.eu/subsystems/hasMinAmpere> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Ampere> .
+_:Nec72295cc5b24be98b9e203dcd07c072 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Nbf6cb11e407440218518a9ee299ca41b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Nced2aad1fa3747529ef7c82f8e210471 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasMaxTemperature" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion> <http://www.w3.org/2000/01/rdf-schema#comment> "Complex devices-subsystems used for impelling (processes of applying a force which results in translational motion) a spacecraft, in the specific http://umbel.org/umbel/rc/ProjectilePropelling" .
+_:Ndbfc51ee64cf41f0a9c9a73df1532ee0 <http://www.w3.org/2002/07/owl#hasValue> "http://dbpedia.org/resource/rc/Energy_storage" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
+<http://ontology.projectchronos.eu/subsystems/hasMinAmpere> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
+_:Nbffc93ba702446bfa3d754b8518710ee <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/spacecraft/isSubsystemOf" .
+<http://ontology.projectchronos.eu/subsystems/hasVolume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://www.w3.org/2001/XMLSchema#float> .
+_:N1590f7ae13894fb98fca5624b259b8aa <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Nb8d58c6eb2c74fab90513a52fb685911 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nec72295cc5b24be98b9e203dcd07c072 .
+_:Nb957367db22544d08e20ae8823fac90b <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:Nec72295cc5b24be98b9e203dcd07c072 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasWireOutWith" .
+_:N2049cc7734e349bf9573741526c970be <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.projectchronos.eu/subsystems/typeOfPropellant> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
+_:N5f79abf760a84e4c8f5d0c3d91872a07 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasWireOutWith" .
+_:Na9eaee70cee84bfb8d024802221a07ca <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Na74e1fe765884127849e05ea0b21f184 <http://www.w3.org/2002/07/owl#hasValue> "http://ontology.projectchronos.eu/spacecraft/Spacecraft" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal> <http://www.w3.org/2000/01/rdf-schema#label> "Spacecraft_Thermal" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal_ActiveDevice> <http://www.w3.org/2000/01/rdf-schema#label> "Spacecraft_Thermal_ActiveDevice" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N2049cc7734e349bf9573741526c970be .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2000/01/rdf-schema#comment> "The DH system shall: Enable HK and science data flow \u2013 Housekeeping data (Temperatures, Pressures, Voltages, Currents, Status,...) \u2013 Attitude data \u2013 Payload data (e.g., Science data) - Receive and distribute commands - Perform TM and TC protocols - Distribute timing signals - Synchronization of data \u2013 Time stamping of data - Provide data storage - Execute commands and schedules - Control subsystems and payloads - Monitor spacecraft health - Make autonomous decisions - Perform data compression." .
+_:Nba95edd419d34387a2354ce1dbd62e85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:N848721565f1742b9802ccad80c634a76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Detector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nec230d5438e3418dad56306d044f0996 .
+_:N5f79abf760a84e4c8f5d0c3d91872a07 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> <http://ontology.projectchronos.eu/spacecraft/isComponentOf> "http://ontology.projectchronos.eu/spacecraft/Spacecraft" .
+<http://ontology.projectchronos.eu/subsystems/hasVolume> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Volume> .
+<http://ontology.projectchronos.eu/subsystems/hasPower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS_PassiveDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "DO use any additional power from the spacecraft generator" .
+<http://ontology.projectchronos.eu/subsystems/hasWireOutWith> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
+_:Na9eaee70cee84bfb8d024802221a07ca <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> <http://www.w3.org/2000/01/rdf-schema#comment> "Complex devices-subsystems used for storing energy." .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N75b04032258543f3a8c2f78a9c98848e .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> <http://www.w3.org/2000/01/rdf-schema#label> "Spacecraft_BackupPower" .
+<http://ontology.projectchronos.eu/subsystems/hasVolume> <http://www.w3.org/2000/01/rdf-schema#label> "hasVolume" .
+_:N9bfa626ea6384d9bae17db4c1bdd6af1 <http://www.w3.org/2002/07/owl#hasValue> "http://umbel.org/umbel/rc/PhysicalDevice" .
+_:Ndd84b9254d544ea3b354672b36267152 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion> .
+_:Nebe01c9e69c3476fbefe66ba58e02cfe <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasVoltage" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
+<http://ontology.projectchronos.eu/subsystems/hasSpecificImpulse> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
+_:N0d3c83f144474f068b9d2dc1568389fe <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasMinAmpere" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS_ActiveDevice> <http://www.w3.org/2000/01/rdf-schema#label> "Spacecraft_AODCS_Active" .
+_:N27641d728a1941c09622420491fecfbf <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N4cf50144511c4e8597384f2e38db2baa .
+_:N641dd32372d5412dbcef8c60ab3b4450 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/standsMaxTemperature" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> <http://www.w3.org/2000/01/rdf-schema#comment> "Complex devices-subsystems used for collecting energy." .
+_:N8bece025caa0416f8a5f7268d6f75e38 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasMinTemperature" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Detector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nb28a2ba8a5ce46619850398edd61f0d4 .
+<http://ontology.projectchronos.eu/subsystems/function> <http://www.w3.org/2000/01/rdf-schema#comment> "The function and the objective what the device performs or make possible" .
+_:N1e45b15f698245338550ac1a328136ce <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:N9bfa626ea6384d9bae17db4c1bdd6af1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Nb18a9ac701a54283b4d97fb1d6a6bb94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.projectchronos.eu/subsystems/hasMaxAmpere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N848721565f1742b9802ccad80c634a76 .
+_:N1e45b15f698245338550ac1a328136ce <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ontology.projectchronos.eu/subsystems/unitOfMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://ontology.projectchronos.eu/subsystems/hasMaxAmpere> <http://www.w3.org/2000/01/rdf-schema#label> "hasMaxAmpere" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <http://www.w3.org/2000/01/rdf-schema#label> "Spacecraft_Structure" .
+_:Nebe01c9e69c3476fbefe66ba58e02cfe <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:N1e45b15f698245338550ac1a328136ce <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasVoltage" .
+_:N9bfa626ea6384d9bae17db4c1bdd6af1 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/subSystemType" .
+<http://ontology.projectchronos.eu/subsystems/hasMass> <http://www.w3.org/2000/01/rdf-schema#label> "hasMass" .
+_:Nb18a9ac701a54283b4d97fb1d6a6bb94 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
+<http://ontology.projectchronos.eu/subsystems/unitOfMeasure> <http://www.w3.org/2000/01/rdf-schema#comment> "Property to set the unit of measure used by a physical value" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <http://www.w3.org/2000/01/rdf-schema#label> "Spacecraft_AODCS" .
+_:N1590f7ae13894fb98fca5624b259b8aa <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:Nbffc93ba702446bfa3d754b8518710ee <http://www.w3.org/2002/07/owl#hasValue> "http://ontology.projectchronos.eu/spacecraft/Spacecraft" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N60130a06d0e94016b73fd57245c3d0ea .
+_:Naaed8e1149aa4630a8f237cbeb86a63e <http://www.w3.org/2002/07/owl#hasValue> <http://umbel.org/umbel/rc/Receiving> .
+_:Nb52b80e9e505495bb673547d38147934 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Nbffc93ba702446bfa3d754b8518710ee <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:Nba95edd419d34387a2354ce1dbd62e85 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasMaxClock" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal_PassiveDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "They are passive because they mostly transform radiation into heating/cooling " .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nd0bb77d78159435a89c44976a0c4e81e .
+_:Nb957367db22544d08e20ae8823fac90b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.projectchronos.eu/subsystems/hasSpecificImpulse> <http://www.w3.org/2000/01/rdf-schema#label> "hasSpecificImpulse" .
+<http://ontology.projectchronos.eu/subsystems/unitOfMeasure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
+_:Nba8b5b07361b425fbb94ed4fd7543b95 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/standsMaxTemperature" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal_ActiveDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N6736256b856d4b7d8964d7cf807288e5 .
+_:N0d3c83f144474f068b9d2dc1568389fe <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Nc6e51ea4d1c74849b7a0dac051ee50cd <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:Ne55b3c68af954a7a8dcbef2efbe0c71a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nb8d58c6eb2c74fab90513a52fb685911 .
+_:Nfa175dfdb4bf4aefb6b669ad58e73c9e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.projectchronos.eu/subsystems/hasWireOutWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:Na9eaee70cee84bfb8d024802221a07ca <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasWireOutWith" .
+_:Ndd84b9254d544ea3b354672b36267152 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> .
+_:N38bab8aa1240441e9d92ecbf3b54bf0d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.projectchronos.eu/subsystems/hasVolume> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N5fa021af35704690b9f48aa9274bda6d .
+<http://ontology.projectchronos.eu/subsystems/isStandard> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N3fdfdaf8d18c43d7b0c194a8de8247a7 .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Detector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://umbel.org/umbel/rc/Sensor_Device> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Na3ff56839c1946ceaf251ce10c3a6fdf .
+_:Na3ff56839c1946ceaf251ce10c3a6fdf <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/spacecraft/isSubsystemOf" .
+_:Ndbfc51ee64cf41f0a9c9a73df1532ee0 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsytems/function" .
+_:N37fb3ece1a394ce3aa069e0bed9eeb21 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/standsMinTemperature" .
+<http://ontology.projectchronos.eu/subsystems/subSystemType> <http://www.w3.org/2004/02/skos/core#prefLabel> "A property that references the subsystem to the kind of the devices it holds." .
+<http://ontology.projectchronos.eu/subsystems/hasMinAmpere> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://umbel.org/umbel/rc/Ampere> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> <http://www.w3.org/2000/01/rdf-schema#label> "Spacecraft_PrimaryPower." .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal_ActiveDevice> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
+_:Ndd84b9254d544ea3b354672b36267152 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> .
+<http://ontology.projectchronos.eu/subsystems/typeOfPropellant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:N848721565f1742b9802ccad80c634a76 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/spacecraft/isSubsystemOf" .
+<http://ontology.projectchronos.eu/subsystems/hasMaxAmpere> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
+_:N9859f600774e43afbc1312636a6e0fe6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:N1590f7ae13894fb98fca5624b259b8aa <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/standsMinTemperature" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
+_:N13aa99feded44e4cb156cb943acc61f5 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> .
+_:N6736256b856d4b7d8964d7cf807288e5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.projectchronos.eu/subsystems/hasSpecificImpulse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://www.w3.org/2001/XMLSchema#float> .
+_:Naaed8e1149aa4630a8f237cbeb86a63e <http://www.w3.org/2002/07/owl#hasValue> <http://dbpedia.org/resource/Transmitting> .
+_:Nb8d58c6eb2c74fab90513a52fb685911 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:N3fdfdaf8d18c43d7b0c194a8de8247a7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.projectchronos.eu/subsystems/unitOfMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nb52b80e9e505495bb673547d38147934 .
+_:N3fdfdaf8d18c43d7b0c194a8de8247a7 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> .
+_:Na74e1fe765884127849e05ea0b21f184 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:N6e32788e1e134f2498ab51004dbfe307 <http://www.w3.org/2002/07/owl#hasValue> <http://dbpedia.org/resource/Process_control> .
+<http://ontology.projectchronos.eu/subsystems/hasVolume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS_PassiveDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N69cfc20c1b0148dc95039f03abcc3640 .
+<http://ontology.projectchronos.eu/subsystems/isStandard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <http://www.w3.org/2000/01/rdf-schema#comment> "It's the skeleton and framework of the spacecraft." .
+_:N37fb3ece1a394ce3aa069e0bed9eeb21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.projectchronos.eu/subsystems/subSystemType> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
+<http://ontology.projectchronos.eu/subsystems/function> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
+<http://ontology.projectchronos.eu/subsystems/hasMonetaryValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
+_:N13aa99feded44e4cb156cb943acc61f5 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> .
+_:Ndd84b9254d544ea3b354672b36267152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
+_:Nd0bb77d78159435a89c44976a0c4e81e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.projectchronos.eu/subsystems/isStandard> <http://www.w3.org/2000/01/rdf-schema#label> "isStandard" .
+_:N75b04032258543f3a8c2f78a9c98848e <http://www.w3.org/2002/07/owl#hasValue> "http://umbel.org/umbel/rc/ProjectilePropelling" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:Nec230d5438e3418dad56306d044f0996 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:N1b5e8c799dcc42eb8f0a40449530d017 <http://www.w3.org/2002/07/owl#hasValue> "http://umbel.org/umbel/rc/ElectronicDevice" .
+<http://ontology.projectchronos.eu/subsystems/hasMinAmpere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:N69cfc20c1b0148dc95039f03abcc3640 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasWireInWith" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS_PassiveDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/spacecraft/Spacecraft_AODCS> .
+_:N3fdfdaf8d18c43d7b0c194a8de8247a7 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasWireInWith" .
+<http://ontology.projectchronos.eu/subsystems/hasMaxAmpere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:N37fb3ece1a394ce3aa069e0bed9eeb21 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:N5f79abf760a84e4c8f5d0c3d91872a07 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2004/02/skos/core#prefLabel> "Command and Data Handling, it is the device that connects the other devices, it processes and deliver information." .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
+_:Nebe01c9e69c3476fbefe66ba58e02cfe <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ontology.projectchronos.eu/subsystems/hasMonetaryValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
+_:N5fa021af35704690b9f48aa9274bda6d <http://www.w3.org/2002/07/owl#hasValue> "http://umbel.org/umbel/rc/Computer_hardware" .
+<http://ontology.projectchronos.eu/subsystems/hasMonetaryValue> <http://www.w3.org/2000/01/rdf-schema#comment> "Amount of money it can be bought for, or an esteem of value." .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal_PassiveDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> <http://www.w3.org/2004/02/skos/core#prefLabel> "The set of subsystems needed to make a spacecraft to collect energy to operate" .
+_:N46f1443418984ae7b6f942d16ed471e0 <http://www.w3.org/2002/07/owl#hasValue> "http://umbel.org/umbel/rc/PhysicalDevice" .
+_:Nced2aad1fa3747529ef7c82f8e210471 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Detector> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Detector> <http://www.w3.org/2000/01/rdf-schema#label> "Spacecraft_Detector" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N1590f7ae13894fb98fca5624b259b8aa .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS_ActiveDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/spacecraft/Spacecraft_AODCS> .
+<http://ontology.projectchronos.eu/subsystems/hasMonetaryValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:N5f79abf760a84e4c8f5d0c3d91872a07 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Detector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N27641d728a1941c09622420491fecfbf .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Detector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Na9eaee70cee84bfb8d024802221a07ca .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <http://ontology.projectchronos.eu/spacecraft/isComponentOf> "http://ontology.projectchronos.eu/spacecraft/Spacecraft" .
+<http://ontology.projectchronos.eu/subsystems/unitOfMeasure> <http://www.w3.org/2000/01/rdf-schema#label> "unitOfMeasure" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.projectchronos.eu/subsystems/hasMaxAmpere> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://umbel.org/umbel/rc/Ampere> .
+_:N69cfc20c1b0148dc95039f03abcc3640 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal> <http://www.w3.org/2000/01/rdf-schema#comment> "Shields, shells or any device insulation from/reflecting radiation exploiting emission and absorption events" .
+_:N9a1411685e9d40b2b5599311d22d660b <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> .
+<http://ontology.projectchronos.eu/subsystems/unitOfMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:N9ff41d2a5dfc46acb5e134d72662c3d8 <http://www.w3.org/2002/07/owl#hasValue> "http://dbpedia.org/resource/Structural_system" .
+_:Nc0845478fb8b449690ef004b599c65f2 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/spacecraft/isSubsystemOf" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N026ae7f480fb425498ff48f904e32910 .
+<http://ontology.projectchronos.eu/subsystems/hasWireOutWith> <http://www.w3.org/2000/01/rdf-schema#label> "hasWireOutWith" .
+_:Nf66b948b0eef4b07a509d00dae8738f3 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/typeOfPropellant" .
+_:N9ff41d2a5dfc46acb5e134d72662c3d8 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsytems/function" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nc48a282a020742e5a3e9c167980a58dc .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N37fb3ece1a394ce3aa069e0bed9eeb21 .
+<http://ontology.projectchronos.eu/subsystems/hasMass> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://umbel.org/umbel/rc/Mass> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Detector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nb957367db22544d08e20ae8823fac90b .
+_:N75b04032258543f3a8c2f78a9c98848e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Nbeae4942c4324b93a24a2cf97d4a6bb8 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:N0d3c83f144474f068b9d2dc1568389fe <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ontology.projectchronos.eu/subsystems/hasWireOutWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS_ActiveDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "Do NOT use any additional power from the spacecraft generator" .
+<http://ontology.projectchronos.eu/subsystems/hasVolume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
+<http://ontology.projectchronos.eu/subsystems> <http://www.w3.org/2000/01/rdf-schema#label> "Subsystems that run tasks that are needed for the spacecraft to be working and fulfilling the objectives of the mission. Words separated by _ has to be read as separated concepts, camelCase in they are the same concepts (see umbel.org for this norm)" .
 <http://ontology.projectchronos.eu/subsystems/subSystemType> <http://www.w3.org/2000/01/rdf-schema#label> "subSystemType" .
+<http://ontology.projectchronos.eu/subsystems/hasMinAmpere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
+_:N2049cc7734e349bf9573741526c970be <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nc6e51ea4d1c74849b7a0dac051ee50cd .
+_:N9a1411685e9d40b2b5599311d22d660b <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N6e32788e1e134f2498ab51004dbfe307 .
+_:Na3ff56839c1946ceaf251ce10c3a6fdf <http://www.w3.org/2002/07/owl#hasValue> "http://ontology.projectchronos.eu/spacecraft/Spacecraft" .
+_:Nfa175dfdb4bf4aefb6b669ad58e73c9e <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> .
+_:N091ae19c129f4e44b804efe6b981e96d <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasWireInWith" .
+_:N69cfc20c1b0148dc95039f03abcc3640 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Ndbfc51ee64cf41f0a9c9a73df1532ee0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Nb18a9ac701a54283b4d97fb1d6a6bb94 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasMaxTemperature" .
+<http://ontology.projectchronos.eu/subsystems> <http://www.w3.org/2000/01/rdf-schema#comment> "These ontology contains classes of different subsystems present in a spacecraft." .
+<http://ontology.projectchronos.eu/subsystems> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://ontology.projectchronos.eu/subsystems/hasWireInWith> <http://www.w3.org/2000/01/rdf-schema#label> "hasWireInWith" .
+_:N4cf50144511c4e8597384f2e38db2baa <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.projectchronos.eu/subsystems/subSystemType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:N75b04032258543f3a8c2f78a9c98848e <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsytems/function" .
+<http://ontology.projectchronos.eu/subsystems/unitOfMeasure> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/UnitOfMeasure> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Detector> <http://ontology.projectchronos.eu/spacecraft/isComponentOf> "http://ontology.projectchronos.eu/spacecraft/Payload_Spacecraft" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS_ActiveDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N13aa99feded44e4cb156cb943acc61f5 .
+<http://ontology.projectchronos.eu/subsystems/hasWireOutWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.projectchronos.eu/subsystems/hasMonetaryValue> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Price> .
+_:N38bab8aa1240441e9d92ecbf3b54bf0d <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsytems/function" .
+_:Nec230d5438e3418dad56306d044f0996 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N091ae19c129f4e44b804efe6b981e96d .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal_ActiveDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:N4cf50144511c4e8597384f2e38db2baa <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/subSystemType" .
+<http://ontology.projectchronos.eu/subsystems/hasWireInWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
+_:N026ae7f480fb425498ff48f904e32910 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasSpecificImpulse" .
+_:N026ae7f480fb425498ff48f904e32910 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:N46f1443418984ae7b6f942d16ed471e0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N5f79abf760a84e4c8f5d0c3d91872a07 .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Naaed8e1149aa4630a8f237cbeb86a63e .
+_:N6736256b856d4b7d8964d7cf807288e5 <http://www.w3.org/2002/07/owl#hasValue> "http://umbel.org/umbel/rc/PoweredDevice" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N8bece025caa0416f8a5f7268d6f75e38 .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nfc1b9d67692140d0be3d300498cfbaf7 .
+_:N13aa99feded44e4cb156cb943acc61f5 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> .
+_:Nced2aad1fa3747529ef7c82f8e210471 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> <http://www.w3.org/2004/02/skos/core#prefLabel> "The set of subsystems needed to make a spacecraft to store energy from the primary power source." .
+_:Nec230d5438e3418dad56306d044f0996 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsytems/objective" .
+_:N6e32788e1e134f2498ab51004dbfe307 <http://www.w3.org/2002/07/owl#hasValue> <http://dbpedia.org/resource/Attitude_control> .
+_:Nbeae4942c4324b93a24a2cf97d4a6bb8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nba8b5b07361b425fbb94ed4fd7543b95 .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion> <http://ontology.projectchronos.eu/spacecraft/isComponentOf> "http://ontology.projectchronos.eu/spacecraft/Spacecraft" .
+<http://ontology.projectchronos.eu/subsystems/hasPower> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Power_(physics)> .
+_:Nd0bb77d78159435a89c44976a0c4e81e <http://www.w3.org/2002/07/owl#hasValue> <http://dbpedia.org/resource/Electronic_data_processing> .
+<http://ontology.projectchronos.eu/subsystems/hasMass> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Mass> .
+_:N60130a06d0e94016b73fd57245c3d0ea <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/subSystemType" .
+<http://ontology.projectchronos.eu/subsystems/hasMass> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://schema.org/Mass> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Ne55b3c68af954a7a8dcbef2efbe0c71a .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
+_:N60130a06d0e94016b73fd57245c3d0ea <http://www.w3.org/2002/07/owl#hasValue> "http://umbel.org/umbel/rc/ElectronicDevice" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N1e45b15f698245338550ac1a328136ce .
+_:Nb52b80e9e505495bb673547d38147934 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Ndd84b9254d544ea3b354672b36267152 .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nc0845478fb8b449690ef004b599c65f2 .
+_:N13aa99feded44e4cb156cb943acc61f5 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasWireInWith" .
+_:N4cf50144511c4e8597384f2e38db2baa <http://www.w3.org/2002/07/owl#hasValue> "http://umbel.org/umbel/rc/RocketEngine" .
+<http://ontology.projectchronos.eu/subsystems/hasMaxAmpere> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Detector> <http://www.w3.org/2004/02/skos/core#prefLabel> "Any scientific instrument carried by a space probe or an artificial satellite" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nebe01c9e69c3476fbefe66ba58e02cfe .
+_:Nd0bb77d78159435a89c44976a0c4e81e <http://www.w3.org/2002/07/owl#hasValue> <http://umbel.org/umbel/rc/InformationTransferEvent> .
+_:Nd0bb77d78159435a89c44976a0c4e81e <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsytems/function" .
+_:N091ae19c129f4e44b804efe6b981e96d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Nbeae4942c4324b93a24a2cf97d4a6bb8 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasMinTemperature" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal_PassiveDevice> <http://ontology.projectchronos.eu/spacecraft/isComponentOf> "http://ontology.projectchronos.eu/spacecraft/Spacecraft" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS_ActiveDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:N091ae19c129f4e44b804efe6b981e96d <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> .
+<http://ontology.projectchronos.eu/subsystems/hasMonetaryValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://www.w3.org/2001/XMLSchema#float> .
+_:N6e32788e1e134f2498ab51004dbfe307 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsytems/function" .
+_:N3fdfdaf8d18c43d7b0c194a8de8247a7 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> .
+_:N6e32788e1e134f2498ab51004dbfe307 <http://www.w3.org/2002/07/owl#hasValue> <http://dbpedia.org/resource/Flight_dynamics_(spacecraft)> .
+<http://ontology.projectchronos.eu/subsystems/function> <http://www.w3.org/2000/01/rdf-schema#label> "function" .
+_:N47a52bd6abdb4024b19735598889ca2f <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasWireInWith" .
+_:N94d271a0661a4e158ea3f4b309776446 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasDataStorageExternal" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N9859f600774e43afbc1312636a6e0fe6 .
+_:Nfc1b9d67692140d0be3d300498cfbaf7 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsytems/function" .
+<http://ontology.projectchronos.eu/subsystems/hasWireInWith> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
+_:N47a52bd6abdb4024b19735598889ca2f <http://www.w3.org/2002/07/owl#hasValue> "http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower" .
+<http://ontology.projectchronos.eu/subsystems/hasSpecificImpulse> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Specific_impulse> .
+_:N64d793903da74b688ab2921c70d561ba <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ontology.projectchronos.eu/subsystems/hasMass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS_PassiveDevice> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
+<http://ontology.projectchronos.eu/subsystems/hasMinAmpere> <http://www.w3.org/2000/01/rdf-schema#label> "hasMinAmpere" .
+<http://ontology.projectchronos.eu/subsystems/hasPower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
+_:N1b5e8c799dcc42eb8f0a40449530d017 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/subSystemType" .
+_:Nb52b80e9e505495bb673547d38147934 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> .
+_:Nb52b80e9e505495bb673547d38147934 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasWireInWith" .
+_:Nc48a282a020742e5a3e9c167980a58dc <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasWireInWith" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nfa175dfdb4bf4aefb6b669ad58e73c9e .
+<http://ontology.projectchronos.eu/subsystems/hasMass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://www.w3.org/2001/XMLSchema#float> .
+_:Nc6e51ea4d1c74849b7a0dac051ee50cd <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasEfficiency" .
+_:N3fdfdaf8d18c43d7b0c194a8de8247a7 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> .
+_:N64d793903da74b688ab2921c70d561ba <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasRAM" .
+_:N9859f600774e43afbc1312636a6e0fe6 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/spacecraft/isSubsystemOf" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS_PassiveDevice> <http://www.w3.org/2004/02/skos/core#prefLabel> "AODCS that do not use any power from the spacecraft power to work." .
+_:Nec72295cc5b24be98b9e203dcd07c072 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal> .
+_:Na9eaee70cee84bfb8d024802221a07ca <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> .
+<http://ontology.projectchronos.eu/subsystems/isStandard> <http://www.w3.org/2004/02/skos/core#prefLabel> "A property that references the standard platform for which the subsystem has been designed." .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Detector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N0d3c83f144474f068b9d2dc1568389fe .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <http://www.w3.org/2000/01/rdf-schema#comment> "Complex devices-subsystems used to set the direction and the position of the spacecraft, it controls flight dynamics." .
+_:Nb8d58c6eb2c74fab90513a52fb685911 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasDataStorage" .
+_:N9859f600774e43afbc1312636a6e0fe6 <http://www.w3.org/2002/07/owl#hasValue> "http://ontology.projectchronos.eu/spacecraft/Spacecraft" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:N026ae7f480fb425498ff48f904e32910 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.projectchronos.eu/subsystems/hasSpecificImpulse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:N5f79abf760a84e4c8f5d0c3d91872a07 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS_PassiveDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.projectchronos.eu/subsystems/hasWireInWith> <http://www.w3.org/2000/01/rdf-schema#comment> "This device receive input from another device" .
+_:N9a1411685e9d40b2b5599311d22d660b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.projectchronos.eu/subsystems/hasMaxAmpere> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://dbpedia.org/resource/Ampere> .
+_:N8bece025caa0416f8a5f7268d6f75e38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:N47a52bd6abdb4024b19735598889ca2f <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:N1b5e8c799dcc42eb8f0a40449530d017 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.projectchronos.eu/subsystems/function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal_PassiveDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nbffc93ba702446bfa3d754b8518710ee .
+_:Nec72295cc5b24be98b9e203dcd07c072 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> .
+_:N5fa021af35704690b9f48aa9274bda6d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Nc48a282a020742e5a3e9c167980a58dc <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> .
+_:Na3ff56839c1946ceaf251ce10c3a6fdf <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N1b5e8c799dcc42eb8f0a40449530d017 .
+_:N46f1443418984ae7b6f942d16ed471e0 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/subSystemType" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS_ActiveDevice> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
+<http://ontology.projectchronos.eu/subsystems/unitOfMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> .
+<http://ontology.projectchronos.eu/subsystems/function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Ndbfc51ee64cf41f0a9c9a73df1532ee0 .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nf66b948b0eef4b07a509d00dae8738f3 .
+_:N9ff41d2a5dfc46acb5e134d72662c3d8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:N8bece025caa0416f8a5f7268d6f75e38 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ontology.projectchronos.eu/subsystems/hasMass> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
+<http://ontology.projectchronos.eu/subsystems/function> <http://www.w3.org/2004/02/skos/core#altLabel> "is used for" .
+<http://ontology.projectchronos.eu/subsystems/hasWireInWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
+_:N2049cc7734e349bf9573741526c970be <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasWireOutWith" .
+<http://ontology.projectchronos.eu/subsystems/hasVolume> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://umbel.org/umbel/rc/Volume> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal_PassiveDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N46f1443418984ae7b6f942d16ed471e0 .
+_:Nec72295cc5b24be98b9e203dcd07c072 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N64d793903da74b688ab2921c70d561ba .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> <http://www.w3.org/2004/02/skos/core#prefLabel> "It handles communication from/to ground base or other spacecraft." .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2000/01/rdf-schema#label> "Spacecraft_CDH" .
+_:Nb28a2ba8a5ce46619850398edd61f0d4 <http://www.w3.org/2002/07/owl#hasValue> "http://ontology.projectchronos.eu/spacecraft/Payload_Spacecraft" .
+<http://ontology.projectchronos.eu/subsystems/hasPower> <http://www.w3.org/2000/01/rdf-schema#label> "hasPower" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N641dd32372d5412dbcef8c60ab3b4450 .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N94d271a0661a4e158ea3f4b309776446 .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Na74e1fe765884127849e05ea0b21f184 .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nba95edd419d34387a2354ce1dbd62e85 .
+_:Ne55b3c68af954a7a8dcbef2efbe0c71a <http://www.w3.org/2002/07/owl#hasValue> "http://umbel.org/umbel/rc/ElectricalDevice" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nf9514be6aabc4471bb7d34c0eeaea568 .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal_ActiveDevice> <http://www.w3.org/2004/02/skos/core#prefLabel> "Device that of class Thermal that consumes energy from the spacecraft power source." .
+<http://ontology.projectchronos.eu/subsystems/hasWireInWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> <http://www.w3.org/2000/01/rdf-schema#label> "Spacecraft_Communication" .
+_:Nb28a2ba8a5ce46619850398edd61f0d4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.projectchronos.eu/subsystems/isStandard> <http://www.w3.org/2000/01/rdf-schema#comment> "There are many different standards that imply quantitative and qualitative differences" .
+_:Nbf6cb11e407440218518a9ee299ca41b <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/subSystemType" .
+_:Nec72295cc5b24be98b9e203dcd07c072 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> .
+_:N9a1411685e9d40b2b5599311d22d660b <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasWireInWith" .
+_:Naaed8e1149aa4630a8f237cbeb86a63e <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsytems/function" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Detector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.projectchronos.eu/subsystems/hasMass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
+_:Nc0845478fb8b449690ef004b599c65f2 <http://www.w3.org/2002/07/owl#hasValue> "http://ontology.projectchronos.eu/spacecraft/Spacecraft" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal_PassiveDevice> <http://www.w3.org/2000/01/rdf-schema#label> "Spacecraft_Thermal_PassiveDevice" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS_PassiveDevice> <http://www.w3.org/2000/01/rdf-schema#label> "Spacecraft_AODCS_PassiveDevice" .
+_:N3fdfdaf8d18c43d7b0c194a8de8247a7 <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> .
+_:Nf9514be6aabc4471bb7d34c0eeaea568 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasMinClock" .
+_:Nf9514be6aabc4471bb7d34c0eeaea568 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:N64d793903da74b688ab2921c70d561ba <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:N27641d728a1941c09622420491fecfbf <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nb18a9ac701a54283b4d97fb1d6a6bb94 .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS_ActiveDevice> <http://www.w3.org/2004/02/skos/core#prefLabel> "AODCS that do not use any power from the spacecraft power to work." .
+<http://ontology.projectchronos.eu/subsystems/typeOfPropellant> <http://www.w3.org/2000/01/rdf-schema#label> "typeOfPropellant" .
+_:Ne55b3c68af954a7a8dcbef2efbe0c71a <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/subSystemType" .
+<http://ontology.projectchronos.eu/subsystems/hasMonetaryValue> <http://www.w3.org/2004/02/skos/core#exactMatch> <http://umbel.org/umbel/rc/MonetaryValue> .
+<http://ontology.projectchronos.eu/subsystems/hasPower> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
+_:N38bab8aa1240441e9d92ecbf3b54bf0d <http://www.w3.org/2002/07/owl#hasValue> "http://dbpedia.org/resource/Process_control" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> <http://ontology.projectchronos.eu/spacecraft/isComponentOf> "http://ontology.projectchronos.eu/spacecraft/Spacecraft" .
+_:Nf9514be6aabc4471bb7d34c0eeaea568 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_BackupPower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nbeae4942c4324b93a24a2cf97d4a6bb8 .
+<http://ontology.projectchronos.eu/subsystems/unitOfMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
+_:N848721565f1742b9802ccad80c634a76 <http://www.w3.org/2002/07/owl#hasValue> "http://ontology.projectchronos.eu/spacecraft/Spacecraft" .
+<http://ontology.projectchronos.eu/subsystems/isStandard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> .
+_:Nf66b948b0eef4b07a509d00dae8738f3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.projectchronos.eu/subsystems/manufacturer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.projectchronos.eu/subsystems/function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://ontology.projectchronos.eu/subsystems/hasPower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:Nfc1b9d67692140d0be3d300498cfbaf7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:N091ae19c129f4e44b804efe6b981e96d <http://www.w3.org/2002/07/owl#hasValue> <http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> .
+_:Nc48a282a020742e5a3e9c167980a58dc <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Nfa175dfdb4bf4aefb6b669ad58e73c9e <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasWireOutWith" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> <http://www.w3.org/2000/01/rdf-schema#comment> "Complex devices-subsystems used for transmitting/receiving radio waves." .
+<http://ontology.projectchronos.eu/subsystems/typeOfPropellant> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of fueling used by a spacecraft rocket engine" .
+_:N5fa021af35704690b9f48aa9274bda6d <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/subSystemType" .
+<http://ontology.projectchronos.eu/subsystems/function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+_:N6e32788e1e134f2498ab51004dbfe307 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_CDH> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nced2aad1fa3747529ef7c82f8e210471 .
+<http://ontology.projectchronos.eu/subsystems/subSystemType> <http://www.w3.org/2000/01/rdf-schema#comment> "Every subsystem contains an homogeneous group of devices." .
+_:Naaed8e1149aa4630a8f237cbeb86a63e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Thermal> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/subsystems> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion> <http://www.w3.org/2004/02/skos/core#prefLabel> "The set of subsystems needed to make a spacecraft moving in space" .
+_:Ndd84b9254d544ea3b354672b36267152 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasWireOutWith" .
+_:Na74e1fe765884127849e05ea0b21f184 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/spacecraft/isSubsystemOf" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N9ff41d2a5dfc46acb5e134d72662c3d8 .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS> <http://www.w3.org/2004/02/skos/core#prefLabel> "Attitude and Orbit Determination Control" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Detector> <http://www.w3.org/2000/01/rdf-schema#comment> "A space detector is a sensor supported by another device that let it collect data, that is deployed into a spacecraft and works outside Earth lower atmosphere" .
+_:Nc6e51ea4d1c74849b7a0dac051ee50cd <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Nbf6cb11e407440218518a9ee299ca41b <http://www.w3.org/2002/07/owl#hasValue> "http://umbel.org/umbel/rc/ElectricalDevice" .
+_:N641dd32372d5412dbcef8c60ab3b4450 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Structure> <http://ontology.projectchronos.eu/spacecraft/isComponentOf> "http://ontology.projectchronos.eu/spacecraft/Spacecraft" .
+<http://ontology.projectchronos.eu/subsystems/function> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "what the device is used for" .
+<http://ontology.projectchronos.eu/subsystems/manufacturer> <http://www.w3.org/2000/01/rdf-schema#label> "manufacturer" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication> <http://ontology.projectchronos.eu/spacecraft/isComponentOf> "http://ontology.projectchronos.eu/spacecraft/Spacecraft" .
+<http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion> <http://www.w3.org/2000/01/rdf-schema#label> "Spacecraft_Propulsion." .
+_:Nb28a2ba8a5ce46619850398edd61f0d4 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsytems/isComponentOf" .
 
