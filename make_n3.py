@@ -50,7 +50,7 @@ ntpath = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'ntriples')
 ld_json = ((readjson(os.path.join(path, filename)), filename[:-5]) for path, dirs, files in os.walk(jsonpath) for filename in files if filename.endswith(".json"))
 
 for c, f in ld_json:
-    print c
+    print f
     filename = f.lower()
     filename += '.ntriples'
     with open(os.path.join(ntpath, filename), 'wb+') as file:

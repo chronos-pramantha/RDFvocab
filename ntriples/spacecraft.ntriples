@@ -1,77 +1,77 @@
-<http://ontology.projectchronos.eu/spacecraft/Payload_Spacecraft> <http://www.w3.org/2000/01/rdf-schema#comment> "The set of devices that the spacecraft carries for scientific purposes, with their supporting (readout) devices." .
-_:N4744afad9c7f462a9da80ccbb21ddb59 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://ontology.projectchronos.eu/spacecraft/Spacecraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> "http://umbel.org/umbel/rc/SystemOfDevices" .
-_:N7207f1825a87450089b0cc0c42dc260c <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://ontology.projectchronos.eu/subsystems/embedSensor> <http://www.w3.org/2000/01/rdf-schema#comment> "It is a payload" .
-<http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> <http://www.w3.org/2000/01/rdf-schema#comment> "A Device is an artifact with a relatively rigid, set shape, designed for a specific use or to perform a specific function" .
-<http://ontology.projectchronos.eu/spacecraft/Payload_Spacecraft> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/spacecraft> .
 <http://ontology.projectchronos.eu/spacecraft/isDeployedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
-<http://ontology.projectchronos.eu/spacecraft/Spacecraft> <http://www.w3.org/2000/01/rdf-schema#comment> "In this set of ontologies a spacecraft is described as a system of devices, a vessel made by different subsystems." .
-<http://ontology.projectchronos.eu/subsystems/embedSensor> <http://www.w3.org/2004/02/skos/core#altLabel> "holds a sensor" .
-<http://ontology.projectchronos.eu/spacecraft/Spacecraft> <http://www.w3.org/2000/01/rdf-schema#label> "Spacecraft" .
-<http://ontology.projectchronos.eu/subsystems/embedSensor> <http://www.w3.org/2004/02/skos/core#prefLabel> "a subsystem that holds a sensor" .
-_:Nbf6fb9a92a104d57a9d3066e988db4e9 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> <http://ontology.projectchronos.eu/spacecraft/isComponent> "http://ontology.projectchronos.eu/spacecraft/Spacecraft" .
-_:N4744afad9c7f462a9da80ccbb21ddb59 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasVolume" .
+_:N26ddbcdff8684e63867db215cd559eb1 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ontology.projectchronos.eu/spacecraft/Spacecraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> "http://umbel.org/umbel/rc/SystemOfDevices" .
 <http://ontology.projectchronos.eu/spacecraft/isSubsystemOf> <http://www.w3.org/2004/02/skos/core#prefLabel> "subject is a device or a system of devices that is subsystem of a wider system or device" .
-<http://ontology.projectchronos.eu/spacecraft/hasSubSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontology.projectchronos.eu/subsystems/embedSensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
-<http://ontology.projectchronos.eu/spacecraft/Spacecraft> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/spacecraft> .
-<http://ontology.projectchronos.eu/subsystems/embedSensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> "http://ontology.projectchronos.eu/sensors/Detector" .
-<http://ontology.projectchronos.eu/spacecraft/hasSubSystem> <http://www.w3.org/2000/01/rdf-schema#label> "hasSubSystem" .
-_:Nd3e48b29996d4339a01f10440ed4a696 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/spacecraft/Spacecraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nccdfd91cbaba4f8490406bc77dafb719 .
-<http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N7207f1825a87450089b0cc0c42dc260c .
-<http://ontology.projectchronos.eu/spacecraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://ontology.projectchronos.eu/subsystems/embedSensor> <http://www.w3.org/2000/01/rdf-schema#label> "embedSensor" .
+_:Nd91d522f996a444a845f181a1e09d77a <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasMass" .
+_:N3a361b53c2794ebb9f48488a7b9e1e25 <http://www.w3.org/2002/07/owl#hasValue> "http://dbpedia.org/ontology/Outer_space" .
+_:Nd91d522f996a444a845f181a1e09d77a <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ontology.projectchronos.eu/spacecraft> <http://www.w3.org/2000/01/rdf-schema#comment> "A space vessel is described as made of two components: a set of devices called BUS and a set of one or more DETECTORS (see /sensors/Detector)" .
 <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> <http://www.w3.org/2000/01/rdf-schema#label> "Subsystem_Spacecraft" .
-_:Nbf6fb9a92a104d57a9d3066e988db4e9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nd3e48b29996d4339a01f10440ed4a696 .
-<http://ontology.projectchronos.eu/spacecraft/Spacecraft> <http://www.w3.org/2004/02/skos/core#prefLabel> "Each instance of spacecraft is a transportation device either deployed entirely in outer space, or one whose trajectories leave the atmosphere of the planet it's launched from, in order to orbit the planet or to travel beyond the planet's gravitational field." .
-<http://ontology.projectchronos.eu/spacecraft/isComponentOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> "http://dbpedia.org/ontology/Device" .
-<http://ontology.projectchronos.eu/spacecraft/isComponentOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/spacecraft> .
-<http://ontology.projectchronos.eu/spacecraft/isSubsystemOf> <http://www.w3.org/2000/01/rdf-schema#label> "isSubsystemOf" .
-<http://ontology.projectchronos.eu/spacecraft/isDeployedIn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/spacecraft> .
+_:N79f79344ada74ac49f382826773416ad <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:N3a361b53c2794ebb9f48488a7b9e1e25 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/spacecraft/isDeployedIn" .
+<http://ontology.projectchronos.eu/spacecraft/Payload_Spacecraft> <http://www.w3.org/2000/01/rdf-schema#label> "Payload_Spacecraft" .
+<http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> <http://www.w3.org/2000/01/rdf-schema#comment> "A Device is an artifact with a relatively rigid, set shape, designed for a specific use or to perform a specific function" .
+<http://ontology.projectchronos.eu/spacecraft/hasSubSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:Nccdfd91cbaba4f8490406bc77dafb719 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:Nccdfd91cbaba4f8490406bc77dafb719 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/spacecraft/isDeployedIn" .
-<http://ontology.projectchronos.eu/subsystems/embedSensor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/spacecraft> .
-<http://ontology.projectchronos.eu/spacecraft/Payload_Spacecraft> <http://ontology.projectchronos.eu/spacecraft/isComponent> "http://ontology.projectchronos.eu/spacecraft/Spacecraft" .
+_:N79f79344ada74ac49f382826773416ad <http://www.w3.org/2002/07/owl#hasValue> "http://ontology.projectchronos.eu/spacecraft/Spacecraft" .
+<http://ontology.projectchronos.eu/spacecraft/Payload_Spacecraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N1e643b098eac4a8e930828c4956918f0 .
+_:N1e643b098eac4a8e930828c4956918f0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.projectchronos.eu/spacecraft/isComponentOf> <http://www.w3.org/2000/01/rdf-schema#label> "isComponentOf" .
+<http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> <http://ontology.projectchronos.eu/spacecraft/isComponent> "http://ontology.projectchronos.eu/spacecraft/Spacecraft" .
+<http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> "http://dbpedia.org/ontology/Device" .
+<http://ontology.projectchronos.eu/spacecraft/Spacecraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N3a361b53c2794ebb9f48488a7b9e1e25 .
+<http://ontology.projectchronos.eu/spacecraft/isDeployedIn> <http://www.w3.org/2004/02/skos/core#prefLabel> "the environment in which a device or a system of devices is designed to work" .
+<http://ontology.projectchronos.eu/spacecraft> <http://www.w3.org/2000/01/rdf-schema#label> "Objects and properties to describe systems and subsystems of devices and structures needed to fly a spacecraft, including structure and platform. Words separated by _ has to be read as separated concepts, camelCase in they are the same concepts (see umbel.org for this norm)" .
+_:N79f79344ada74ac49f382826773416ad <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/spacecraft/isSubsystemOf" .
+_:N26ddbcdff8684e63867db215cd559eb1 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasPower" .
+<http://ontology.projectchronos.eu/spacecraft/hasSubSystem> <http://www.w3.org/2002/07/owl#inverseOf> "http://ontology.projectchronos.eu/spacecraft/isSubsystemOf" .
+<http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N082b211c50704c6fb5f545abd7d6c407 .
+<http://ontology.projectchronos.eu/spacecraft/Spacecraft> <http://www.w3.org/2000/01/rdf-schema#label> "Spacecraft" .
+<http://ontology.projectchronos.eu/subsystems/embedSensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> "http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft" .
 <http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/spacecraft> .
 <http://ontology.projectchronos.eu/spacecraft/Payload_Spacecraft> <http://www.w3.org/2004/02/skos/core#prefLabel> "Payload_Spacecraft" .
-<http://ontology.projectchronos.eu/spacecraft/isSubsystemOf> <http://www.w3.org/2002/07/owl#inverseOf> "http://ontology.projectchronos.eu/spacecraft/hasSubSystem" .
-_:Nd3e48b29996d4339a01f10440ed4a696 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasPower" .
-_:Nbf6fb9a92a104d57a9d3066e988db4e9 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsytems/embedSensor" .
-<http://ontology.projectchronos.eu/spacecraft/isSubsystemOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N4744afad9c7f462a9da80ccbb21ddb59 .
-_:Nd3e48b29996d4339a01f10440ed4a696 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-_:N7207f1825a87450089b0cc0c42dc260c <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:Nccdfd91cbaba4f8490406bc77dafb719 <http://www.w3.org/2002/07/owl#hasValue> "http://dbpedia.org/ontology/Outer_space" .
-<http://ontology.projectchronos.eu/spacecraft/isComponentOf> <http://www.w3.org/2004/02/skos/core#prefLabel> "the subject is a member of a wider artifact, that is a set of artifacts" .
-<http://ontology.projectchronos.eu/spacecraft/Payload_Spacecraft> <http://www.w3.org/2000/01/rdf-schema#label> "Payload_Spacecraft" .
-<http://ontology.projectchronos.eu/spacecraft/Payload_Spacecraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> "http://umbel.org/umbel/rc/SystemOfDevices" .
-_:N9dc178b7c58845b6ba4f14c12b9061b1 <http://www.w3.org/2002/07/owl#hasValue> "http://ontology.projectchronos.eu/spacecraft/Spacecraft" .
-<http://ontology.projectchronos.eu/spacecraft/isComponentOf> <http://www.w3.org/2000/01/rdf-schema#label> "isComponentOf" .
-<http://ontology.projectchronos.eu/spacecraft> <http://www.w3.org/2000/01/rdf-schema#label> "Objects and properties to describe systems and subsystems of devices and structures needed to fly a spacecraft, including structure and platform. Words separated by _ has to be read as separated concepts, camelCase in they are the same concepts (see umbel.org for this norm)" .
-<http://ontology.projectchronos.eu/spacecraft/hasSubSystem> <http://www.w3.org/2002/07/owl#inverseOf> "http://ontology.projectchronos.eu/spacecraft/isSubsystemOf" .
+<http://ontology.projectchronos.eu/spacecraft/Payload_Spacecraft> <http://www.w3.org/2000/01/rdf-schema#comment> "The set of devices that the spacecraft carries for scientific purposes, with their supporting (readout) devices." .
+<http://ontology.projectchronos.eu/spacecraft/Spacecraft> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/spacecraft> .
+_:N3a361b53c2794ebb9f48488a7b9e1e25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Nd91d522f996a444a845f181a1e09d77a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.projectchronos.eu/subsystems/embedSensor> <http://www.w3.org/2004/02/skos/core#altLabel> "holds a sensor" .
+_:N26ddbcdff8684e63867db215cd559eb1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N79f79344ada74ac49f382826773416ad .
+_:N082b211c50704c6fb5f545abd7d6c407 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://ontology.projectchronos.eu/subsystems/embedSensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontology.projectchronos.eu/spacecraft/Spacecraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:N7207f1825a87450089b0cc0c42dc260c <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasMass" .
-<http://ontology.projectchronos.eu/spacecraft/isDeployedIn> <http://www.w3.org/2004/02/skos/core#prefLabel> "the environment in which a device or a system of devices is designed to work" .
-<http://ontology.projectchronos.eu/subsystems/embedSensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> "http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft" .
-<http://ontology.projectchronos.eu/spacecraft/Spacecraft> <http://www.w3.org/2002/07/owl#sameAs> "http://umbel.org/umbel/rc/Spacecraft" .
-<http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> <http://www.w3.org/2004/02/skos/core#prefLabel> "A device that is deployed into a spacecraft and works outside Earth lower atmosphere" .
-_:N9dc178b7c58845b6ba4f14c12b9061b1 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/spacecraft/isSubsystemOf" .
-<http://ontology.projectchronos.eu/spacecraft/Payload_Spacecraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nbf6fb9a92a104d57a9d3066e988db4e9 .
-_:N4744afad9c7f462a9da80ccbb21ddb59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontology.projectchronos.eu/spacecraft> <http://www.w3.org/2000/01/rdf-schema#comment> "A space vessel is described as made of two components: a set of devices called BUS and a set of one or more DETECTORS (see /sensors/Detector)" .
-<http://ontology.projectchronos.eu/spacecraft/isSubsystemOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/spacecraft> .
-_:N9dc178b7c58845b6ba4f14c12b9061b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://ontology.projectchronos.eu/spacecraft/Spacecraft> <http://www.w3.org/2004/02/skos/core#prefLabel> "Each instance of spacecraft is a transportation device either deployed entirely in outer space, or one whose trajectories leave the atmosphere of the planet it's launched from, in order to orbit the planet or to travel beyond the planet's gravitational field." .
+<http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nd91d522f996a444a845f181a1e09d77a .
+_:N082b211c50704c6fb5f545abd7d6c407 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsystems/hasVolume" .
+<http://ontology.projectchronos.eu/spacecraft/Spacecraft> <http://www.w3.org/2000/01/rdf-schema#comment> "In this set of ontologies a spacecraft is described as a system of devices, a vessel made by different subsystems." .
+_:N1e643b098eac4a8e930828c4956918f0 <http://www.w3.org/2002/07/owl#onProperty> "http://ontology.projectchronos.eu/subsytems/embedSensor" .
 <http://ontology.projectchronos.eu/spacecraft/isDeployedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontology.projectchronos.eu/subsystems/embedSensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
-<http://ontology.projectchronos.eu/spacecraft/hasSubSystem> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/spacecraft> .
-<http://ontology.projectchronos.eu/spacecraft/isDeployedIn> <http://www.w3.org/2000/01/rdf-schema#label> "isDeployedIn" .
+<http://ontology.projectchronos.eu/spacecraft/Payload_Spacecraft> <http://ontology.projectchronos.eu/spacecraft/isComponent> "http://ontology.projectchronos.eu/spacecraft/Spacecraft" .
+<http://ontology.projectchronos.eu/spacecraft/isComponentOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.projectchronos.eu/spacecraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <http://ontology.projectchronos.eu/spacecraft/Payload_Spacecraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N9dc178b7c58845b6ba4f14c12b9061b1 .
+<http://ontology.projectchronos.eu/spacecraft/isSubsystemOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.projectchronos.eu/spacecraft/hasSubSystem> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/spacecraft> .
+<http://ontology.projectchronos.eu/subsystems/embedSensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> "http://ontology.projectchronos.eu/sensors/Detector" .
+<http://ontology.projectchronos.eu/spacecraft/isSubsystemOf> <http://www.w3.org/2000/01/rdf-schema#label> "isSubsystemOf" .
+<http://ontology.projectchronos.eu/spacecraft/isDeployedIn> <http://www.w3.org/2000/01/rdf-schema#label> "isDeployedIn" .
+<http://ontology.projectchronos.eu/spacecraft/Spacecraft> <http://www.w3.org/2002/07/owl#sameAs> "http://umbel.org/umbel/rc/Spacecraft" .
+_:N1e643b098eac4a8e930828c4956918f0 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ontology.projectchronos.eu/spacecraft/Spacecraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.projectchronos.eu/spacecraft/isSubsystemOf> <http://www.w3.org/2002/07/owl#inverseOf> "http://ontology.projectchronos.eu/spacecraft/hasSubSystem" .
+<http://ontology.projectchronos.eu/spacecraft/Payload_Spacecraft> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/spacecraft> .
+<http://ontology.projectchronos.eu/subsystems/embedSensor> <http://www.w3.org/2000/01/rdf-schema#label> "embedSensor" .
+<http://ontology.projectchronos.eu/spacecraft/isComponentOf> <http://www.w3.org/2004/02/skos/core#prefLabel> "the subject is a member of a wider artifact, that is a set of artifacts" .
+<http://ontology.projectchronos.eu/subsystems/embedSensor> <http://www.w3.org/2004/02/skos/core#prefLabel> "a subsystem that holds a sensor" .
+<http://ontology.projectchronos.eu/spacecraft/isDeployedIn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/spacecraft> .
+<http://ontology.projectchronos.eu/spacecraft/Payload_Spacecraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> "http://umbel.org/umbel/rc/SystemOfDevices" .
+<http://ontology.projectchronos.eu/subsystems/embedSensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<http://ontology.projectchronos.eu/spacecraft/isComponentOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/spacecraft> .
+<http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N26ddbcdff8684e63867db215cd559eb1 .
+_:N082b211c50704c6fb5f545abd7d6c407 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://ontology.projectchronos.eu/subsystems/embedSensor> <http://www.w3.org/2000/01/rdf-schema#comment> "It is a payload" .
+<http://ontology.projectchronos.eu/spacecraft/hasSubSystem> <http://www.w3.org/2000/01/rdf-schema#label> "hasSubSystem" .
+<http://ontology.projectchronos.eu/spacecraft/isSubsystemOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/spacecraft> .
+<http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft> <http://www.w3.org/2004/02/skos/core#prefLabel> "A device that is deployed into a spacecraft and works outside Earth lower atmosphere" .
+<http://ontology.projectchronos.eu/subsystems/embedSensor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/spacecraft> .
+<http://ontology.projectchronos.eu/subsystems/embedSensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
 

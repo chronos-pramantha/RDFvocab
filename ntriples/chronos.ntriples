@@ -1,94 +1,94 @@
+<http://ontology.projectchronos.eu/chronos/webpage> <http://www.w3.org/2000/01/rdf-schema#comment> "a document representing a webpage" .
 <http://ontology.projectchronos.eu/chronos/relatedMatch> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/chronos> .
-<http://ontology.projectchronos.eu/chronos/relTarget> <http://www.w3.org/2000/01/rdf-schema#domain> "http://ontology.projectchronos.eu/chronos/mission" .
+<http://ontology.projectchronos.eu/chronos/mission> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/chronos> .
+<http://ontology.projectchronos.eu/chronos/relEvent> <http://www.w3.org/2000/01/rdf-schema#label> "relEvent" .
+<http://ontology.projectchronos.eu/chronos/relMission> <http://www.w3.org/2004/02/skos/core#prefLabel> "is related to a space mission or a space launch" .
 <http://ontology.projectchronos.eu/chronos/payload> <http://www.w3.org/2004/02/skos/core#prefLabel> "is a mission that carries the payload named" .
-<http://ontology.projectchronos.eu/chronos/mission> <http://www.w3.org/2004/02/skos/core#prefLabel> "a space mission" .
-<http://ontology.projectchronos.eu/chronos/event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/chronos/relKeyword> <http://www.w3.org/2000/01/rdf-schema#label> "relKeyword" .
-<http://ontology.projectchronos.eu/chronos/keyword> <http://www.w3.org/2000/01/rdf-schema#label> "keyword" .
-<http://ontology.projectchronos.eu/chronos/keyword> <http://www.w3.org/2004/02/skos/core#prefLabel> "NASA-STI keyword" .
-<http://ontology.projectchronos.eu/chronos/mission> <http://www.w3.org/2000/01/rdf-schema#label> "mission" .
-<http://ontology.projectchronos.eu/chronos/relatedMatch> <http://www.w3.org/2000/01/rdf-schema#label> "relatedMatch" .
-<http://ontology.projectchronos.eu/chronos/relKeyword> <http://www.w3.org/2004/02/skos/core#prefLabel> "is related to a keyword Concept" .
-<http://ontology.projectchronos.eu/chronos/relatedMatch> <http://www.w3.org/2000/01/rdf-schema#comment> "a DBpedia document highly semantically related to another of the same kind" .
-<http://ontology.projectchronos.eu/chronos/launch> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/chronos> .
-<http://ontology.projectchronos.eu/chronos/relEvent> <http://www.w3.org/2004/02/skos/core#prefLabel> "is a document related to an event" .
-<http://ontology.projectchronos.eu/chronos/launch> <http://www.w3.org/2000/01/rdf-schema#comment> "a document representing a space launch taken from wikipedia page" .
-<http://ontology.projectchronos.eu/chronos/relMission> <http://www.w3.org/2000/01/rdf-schema#range> "http://ontology.projectchronos.eu/chronos/mission" .
-<http://ontology.projectchronos.eu/chronos/relTarget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.projectchronos.eu/chronos/webpage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/chronos> .
+<http://ontology.projectchronos.eu/chronos/relatedMatch> <http://www.w3.org/2004/02/skos/core#prefLabel> "is a DBpedia document with an high level of semantical relation with" .
+<http://ontology.projectchronos.eu/chronos/dbpediadoc> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/chronos> .
+<http://ontology.projectchronos.eu/chronos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://ontology.projectchronos.eu/chronos/event> <http://www.w3.org/2000/01/rdf-schema#label> "event" .
 <http://ontology.projectchronos.eu/chronos/relEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/chronos> .
-<http://ontology.projectchronos.eu/chronos/relTarget> <http://www.w3.org/2000/01/rdf-schema#range> "http://dbpedia.org/chronos/Asteroid" .
+<http://ontology.projectchronos.eu/chronos/relEvent> <http://www.w3.org/2004/02/skos/core#prefLabel> "is a document related to an event" .
+<http://ontology.projectchronos.eu/chronos/event> <http://www.w3.org/2000/01/rdf-schema#comment> "a document representing an event or happening from Chronos legacy" .
+<http://ontology.projectchronos.eu/chronos/relatedMatch> <http://www.w3.org/2000/01/rdf-schema#range> "http://ontology.projectchronos.eu/chronos/dbpediadoc" .
+<http://ontology.projectchronos.eu/chronos/relTarget> <http://www.w3.org/2000/01/rdf-schema#domain> "http://ontology.projectchronos.eu/chronos/webpage" .
+<http://ontology.projectchronos.eu/chronos/payload> <http://www.w3.org/2000/01/rdf-schema#domain> "http://ontology.projectchronos.eu/chronos/mission" .
+<http://ontology.projectchronos.eu/chronos/relMission> <http://www.w3.org/2000/01/rdf-schema#domain> "http://ontology.projectchronos.eu/chronos/webpage" .
+<http://ontology.projectchronos.eu/chronos/relKeyword> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://ontology.projectchronos.eu/chronos/relTarget> <http://www.w3.org/2000/01/rdf-schema#range> "http://dbpedia.org/chronos/Planet" .
 <http://ontology.projectchronos.eu/chronos/webpage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CreativeWork> .
-<http://ontology.projectchronos.eu/chronos/event> <http://www.w3.org/2000/01/rdf-schema#label> "event" .
+<http://ontology.projectchronos.eu/chronos/relMission> <http://www.w3.org/2000/01/rdf-schema#label> "relMission" .
 <http://ontology.projectchronos.eu/chronos/webpage> <http://www.w3.org/2000/01/rdf-schema#label> "webpage" .
-<http://ontology.projectchronos.eu/chronos> <http://www.w3.org/2000/01/rdf-schema#comment> "Generic classes and semantic properties" .
-<http://ontology.projectchronos.eu/chronos/relKeyword> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/chronos> .
-<http://ontology.projectchronos.eu/chronos/relTarget> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/chronos> .
+<http://ontology.projectchronos.eu/chronos/payload> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.projectchronos.eu/chronos/keyword> <http://www.w3.org/2000/01/rdf-schema#label> "keyword" .
+<http://ontology.projectchronos.eu/chronos/launch> <http://www.w3.org/2000/01/rdf-schema#comment> "a document representing a space launch taken from wikipedia page" .
 <http://ontology.projectchronos.eu/chronos/launch> <http://www.w3.org/2002/07/owl#sameAs> "http://umbel.org/umbel/rc/GroundToOrbitVehicle" .
-<http://ontology.projectchronos.eu/chronos/mission> <http://www.w3.org/2000/01/rdf-schema#comment> "a document representing a space mission from Chronos legacy" .
-<http://ontology.projectchronos.eu/chronos/dbpediadoc> <http://www.w3.org/2000/01/rdf-schema#label> "dbpediadoc" .
-<http://ontology.projectchronos.eu/chronos/payload> <http://www.w3.org/2000/01/rdf-schema#label> "payload" .
-<http://ontology.projectchronos.eu/chronos/relatedMatch> <http://www.w3.org/2004/02/skos/core#prefLabel> "is a DBpedia document with an high level of semantical relation with" .
-<http://ontology.projectchronos.eu/chronos> <http://www.w3.org/2000/01/rdf-schema#label> "Classes and properties to describe space activities in Chronos Knowledge Base" .
-<http://ontology.projectchronos.eu/chronos/webpage> <http://www.w3.org/2004/02/skos/core#prefLabel> "a crawled webpage" .
-<http://ontology.projectchronos.eu/chronos/launch> <http://www.w3.org/2004/02/skos/core#prefLabel> "a space launch that took place in the past" .
-<http://ontology.projectchronos.eu/chronos/relKeyword> <http://www.w3.org/2000/01/rdf-schema#comment> "subject-document is in a semantic relation with the object-keyword" .
-<http://ontology.projectchronos.eu/chronos/relTarget> <http://www.w3.org/2000/01/rdf-schema#domain> "http://ontology.projectchronos.eu/chronos/launch" .
-<http://ontology.projectchronos.eu/chronos/group> <http://www.w3.org/2000/01/rdf-schema#comment> "a string assigning the document to a set or a Class in the datastore, useful for fast querying" .
-<http://ontology.projectchronos.eu/chronos/dbpediadoc> <http://www.w3.org/2000/01/rdf-schema#comment> "a document representing a wikipedia page information" .
-<http://ontology.projectchronos.eu/chronos/group> <http://www.w3.org/2000/01/rdf-schema#label> "group" .
-<http://ontology.projectchronos.eu/chronos/relMission> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/chronos> .
-<http://ontology.projectchronos.eu/chronos/relTarget> <http://www.w3.org/2000/01/rdf-schema#domain> "http://ontology.projectchronos.eu/chronos/webpage" .
-<http://ontology.projectchronos.eu/chronos/relTarget> <http://www.w3.org/2000/01/rdf-schema#range> "http://dbpedia.org/chronos/CelestialBody" .
-<http://ontology.projectchronos.eu/chronos/relTarget> <http://www.w3.org/2004/02/skos/core#prefLabel> "is a document related to a celestial body named" .
-<http://ontology.projectchronos.eu/chronos/relMission> <http://www.w3.org/2000/01/rdf-schema#range> "http://ontology.projectchronos.eu/chronos/launch" .
-<http://ontology.projectchronos.eu/chronos/event> <http://www.w3.org/2004/02/skos/core#prefLabel> "an event or happening related with a space mission" .
-<http://ontology.projectchronos.eu/chronos/webpage> <http://www.w3.org/2000/01/rdf-schema#comment> "a document representing a webpage" .
-<http://ontology.projectchronos.eu/chronos/group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> .
-<http://ontology.projectchronos.eu/chronos/relTarget> <http://www.w3.org/2000/01/rdf-schema#range> "http://dbpedia.org/chronos/Satellite" .
-<http://ontology.projectchronos.eu/chronos/relTarget> <http://www.w3.org/2000/01/rdf-schema#label> "relTarget" .
 <http://ontology.projectchronos.eu/chronos/relEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.projectchronos.eu/chronos/relatedMatch> <http://www.w3.org/2000/01/rdf-schema#comment> "a DBpedia document highly semantically related to another of the same kind" .
+<http://ontology.projectchronos.eu/chronos/launch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.projectchronos.eu/chronos> <http://www.w3.org/2000/01/rdf-schema#comment> "Generic classes and semantic properties" .
+<http://ontology.projectchronos.eu/chronos/relMission> <http://www.w3.org/2000/01/rdf-schema#domain> "http://ontology.projectchronos.eu/chronos/event" .
+<http://ontology.projectchronos.eu/chronos/relTarget> <http://www.w3.org/2000/01/rdf-schema#comment> "subject-document is semantically related to a celestial body" .
+<http://ontology.projectchronos.eu/chronos/relTarget> <http://www.w3.org/2000/01/rdf-schema#range> "http://dbpedia.org/chronos/CelestialBody" .
+<http://ontology.projectchronos.eu/chronos/payload> <http://www.w3.org/2000/01/rdf-schema#label> "payload" .
+<http://ontology.projectchronos.eu/chronos/group> <http://www.w3.org/2004/02/skos/core#prefLabel> "can be queried as a member of this group" .
+<http://ontology.projectchronos.eu/chronos/relTarget> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/chronos> .
+<http://ontology.projectchronos.eu/chronos/group> <http://www.w3.org/2000/01/rdf-schema#comment> "a string assigning the document to a set or a Class in the datastore, useful for fast querying" .
+<http://ontology.projectchronos.eu/chronos/dbpediadoc> <http://www.w3.org/2004/02/skos/core#prefLabel> "data taken from a DBpedia page" .
+<http://ontology.projectchronos.eu/chronos/event> <http://www.w3.org/2004/02/skos/core#prefLabel> "an event or happening related with a space mission" .
 <http://ontology.projectchronos.eu/chronos/relEvent> <http://www.w3.org/2000/01/rdf-schema#range> "http://ontology.projectchronos.eu/chronos/event" .
 <http://ontology.projectchronos.eu/chronos/payload> <http://www.w3.org/2000/01/rdf-schema#range> "http://ontology.projectchronos.eu/sensors/Detector" .
-<http://ontology.projectchronos.eu/chronos/relTarget> <http://www.w3.org/2000/01/rdf-schema#comment> "subject-document is semantically related to a celestial body" .
-<http://ontology.projectchronos.eu/chronos/relMission> <http://www.w3.org/2000/01/rdf-schema#domain> "http://ontology.projectchronos.eu/chronos/dbpediadoc" .
-<http://ontology.projectchronos.eu/chronos/event> <http://www.w3.org/2002/07/owl#sameAs> "http://umbel.org/umbel/rc/Event" .
-<http://ontology.projectchronos.eu/chronos/relMission> <http://www.w3.org/2000/01/rdf-schema#domain> "http://ontology.projectchronos.eu/chronos/event" .
-<http://ontology.projectchronos.eu/chronos/keyword> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/chronos> .
-<http://ontology.projectchronos.eu/chronos/payload> <http://www.w3.org/2000/01/rdf-schema#comment> "subject-document is a mission or a launch carrying the object-document" .
-<http://ontology.projectchronos.eu/chronos/relMission> <http://www.w3.org/2000/01/rdf-schema#comment> "subject-document is historically or technically related to a space mission" .
-<http://ontology.projectchronos.eu/chronos/relatedMatch> <http://www.w3.org/2000/01/rdf-schema#domain> "http://ontology.projectchronos.eu/chronos/dbpediadoc" .
-<http://ontology.projectchronos.eu/chronos/relMission> <http://www.w3.org/2000/01/rdf-schema#label> "relMission" .
-<http://ontology.projectchronos.eu/chronos/mission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/chronos/payload> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontology.projectchronos.eu/chronos/dbpediadoc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/chronos/relMission> <http://www.w3.org/2004/02/skos/core#prefLabel> "is related to a space mission or a space launch" .
-<http://ontology.projectchronos.eu/chronos/launch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/chronos/launch> <http://www.w3.org/2000/01/rdf-schema#label> "launch" .
-<http://ontology.projectchronos.eu/chronos/group> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/chronos> .
-<http://ontology.projectchronos.eu/chronos/payload> <http://www.w3.org/2000/01/rdf-schema#domain> "http://ontology.projectchronos.eu/chronos/mission" .
-<http://ontology.projectchronos.eu/chronos/payload> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/chronos> .
-<http://ontology.projectchronos.eu/chronos/payload> <http://www.w3.org/2000/01/rdf-schema#domain> "http://ontology.projectchronos.eu/chronos/launch" .
-<http://ontology.projectchronos.eu/chronos/relEvent> <http://www.w3.org/2000/01/rdf-schema#label> "relEvent" .
-<http://ontology.projectchronos.eu/chronos/relMission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontology.projectchronos.eu/chronos/dbpediadoc> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/chronos> .
-<http://ontology.projectchronos.eu/chronos/relKeyword> <http://www.w3.org/2000/01/rdf-schema#range> "http://ontology.projectchronos.eu/chronos/keyword" .
-<http://ontology.projectchronos.eu/chronos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://ontology.projectchronos.eu/chronos/event> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/chronos> .
-<http://ontology.projectchronos.eu/chronos/group> <http://www.w3.org/2004/02/skos/core#prefLabel> "can be queried as a member of this group" .
-<http://ontology.projectchronos.eu/chronos/relatedMatch> <http://www.w3.org/2000/01/rdf-schema#range> "http://ontology.projectchronos.eu/chronos/dbpediadoc" .
-<http://ontology.projectchronos.eu/chronos/relKeyword> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontology.projectchronos.eu/chronos/mission> <http://www.w3.org/2002/07/owl#sameAs> "http://dbpedia.org/ontology/SpaceMission" .
-<http://ontology.projectchronos.eu/chronos/relEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "subject-document is semantically related with an event or happening" .
-<http://ontology.projectchronos.eu/chronos/event> <http://www.w3.org/2000/01/rdf-schema#comment> "a document representing an event or happening from Chronos legacy" .
-<http://ontology.projectchronos.eu/chronos/keyword> <http://www.w3.org/2000/01/rdf-schema#comment> "a keyword representing a Concept in the NASA-STI taxonomy" .
+<http://ontology.projectchronos.eu/chronos/mission> <http://www.w3.org/2000/01/rdf-schema#comment> "a document representing a space mission from Chronos legacy" .
+<http://ontology.projectchronos.eu/chronos/launch> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/chronos> .
+<http://ontology.projectchronos.eu/chronos> <http://www.w3.org/2000/01/rdf-schema#label> "Classes and properties to describe space activities in Chronos Knowledge Base" .
+<http://ontology.projectchronos.eu/chronos/relKeyword> <http://www.w3.org/2004/02/skos/core#prefLabel> "is related to a keyword Concept" .
 <http://ontology.projectchronos.eu/chronos/relTarget> <http://www.w3.org/2000/01/rdf-schema#domain> "http://ontology.projectchronos.eu/chronos/dbpediadoc" .
-<http://ontology.projectchronos.eu/chronos/mission> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/chronos> .
+<http://ontology.projectchronos.eu/chronos/relTarget> <http://www.w3.org/2000/01/rdf-schema#label> "relTarget" .
+<http://ontology.projectchronos.eu/chronos/relTarget> <http://www.w3.org/2000/01/rdf-schema#domain> "http://ontology.projectchronos.eu/chronos/launch" .
+<http://ontology.projectchronos.eu/chronos/relKeyword> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/chronos> .
+<http://ontology.projectchronos.eu/chronos/mission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.projectchronos.eu/chronos/relTarget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.projectchronos.eu/chronos/event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://ontology.projectchronos.eu/chronos/relatedMatch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontology.projectchronos.eu/chronos/relKeyword> <http://www.w3.org/2000/01/rdf-schema#domain> "http://ontology.projectchronos.eu/chronos/dbpediadoc" .
+<http://ontology.projectchronos.eu/chronos/relMission> <http://www.w3.org/2000/01/rdf-schema#comment> "subject-document is historically or technically related to a space mission" .
+<http://ontology.projectchronos.eu/chronos/dbpediadoc> <http://www.w3.org/2000/01/rdf-schema#label> "dbpediadoc" .
+<http://ontology.projectchronos.eu/chronos/dbpediadoc> <http://www.w3.org/2000/01/rdf-schema#comment> "a document representing a wikipedia page information" .
+<http://ontology.projectchronos.eu/chronos/relKeyword> <http://www.w3.org/2000/01/rdf-schema#range> "http://ontology.projectchronos.eu/chronos/keyword" .
+<http://ontology.projectchronos.eu/chronos/group> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/chronos> .
+<http://ontology.projectchronos.eu/chronos/relMission> <http://www.w3.org/2000/01/rdf-schema#domain> "http://ontology.projectchronos.eu/chronos/dbpediadoc" .
+<http://ontology.projectchronos.eu/chronos/payload> <http://www.w3.org/2000/01/rdf-schema#domain> "http://ontology.projectchronos.eu/chronos/launch" .
+<http://ontology.projectchronos.eu/chronos/mission> <http://www.w3.org/2000/01/rdf-schema#label> "mission" .
+<http://ontology.projectchronos.eu/chronos/payload> <http://www.w3.org/2000/01/rdf-schema#comment> "subject-document is a mission or a launch carrying the object-document" .
+<http://ontology.projectchronos.eu/chronos/group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> .
+<http://ontology.projectchronos.eu/chronos/relTarget> <http://www.w3.org/2004/02/skos/core#prefLabel> "is a document related to a celestial body named" .
+<http://ontology.projectchronos.eu/chronos/keyword> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/chronos> .
+<http://ontology.projectchronos.eu/chronos/keyword> <http://www.w3.org/2004/02/skos/core#prefLabel> "NASA-STI keyword" .
+<http://ontology.projectchronos.eu/chronos/relMission> <http://www.w3.org/2000/01/rdf-schema#range> "http://ontology.projectchronos.eu/chronos/mission" .
+<http://ontology.projectchronos.eu/chronos/relKeyword> <http://www.w3.org/2000/01/rdf-schema#comment> "subject-document is in a semantic relation with the object-keyword" .
+<http://ontology.projectchronos.eu/chronos/keyword> <http://www.w3.org/2000/01/rdf-schema#comment> "a keyword representing a Concept in the NASA-STI taxonomy" .
 <http://ontology.projectchronos.eu/chronos/relEvent> <http://www.w3.org/2000/01/rdf-schema#domain> "http://ontology.projectchronos.eu/chronos/dbpediadoc" .
-<http://ontology.projectchronos.eu/chronos/relMission> <http://www.w3.org/2000/01/rdf-schema#domain> "http://ontology.projectchronos.eu/chronos/webpage" .
-<http://ontology.projectchronos.eu/chronos/dbpediadoc> <http://www.w3.org/2004/02/skos/core#prefLabel> "data taken from a DBpedia page" .
-<http://ontology.projectchronos.eu/chronos/webpage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/chronos> .
+<http://ontology.projectchronos.eu/chronos/relatedMatch> <http://www.w3.org/2000/01/rdf-schema#domain> "http://ontology.projectchronos.eu/chronos/dbpediadoc" .
+<http://ontology.projectchronos.eu/chronos/relKeyword> <http://www.w3.org/2000/01/rdf-schema#domain> "http://ontology.projectchronos.eu/chronos/dbpediadoc" .
+<http://ontology.projectchronos.eu/chronos/relTarget> <http://www.w3.org/2000/01/rdf-schema#domain> "http://ontology.projectchronos.eu/chronos/mission" .
+<http://ontology.projectchronos.eu/chronos/relTarget> <http://www.w3.org/2000/01/rdf-schema#range> "http://dbpedia.org/chronos/Asteroid" .
+<http://ontology.projectchronos.eu/chronos/dbpediadoc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.projectchronos.eu/chronos/payload> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/chronos> .
+<http://ontology.projectchronos.eu/chronos/relatedMatch> <http://www.w3.org/2000/01/rdf-schema#label> "relatedMatch" .
+<http://ontology.projectchronos.eu/chronos/relMission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.projectchronos.eu/chronos/group> <http://www.w3.org/2000/01/rdf-schema#label> "group" .
+<http://ontology.projectchronos.eu/chronos/event> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/chronos> .
+<http://ontology.projectchronos.eu/chronos/launch> <http://www.w3.org/2004/02/skos/core#prefLabel> "a space launch that took place in the past" .
+<http://ontology.projectchronos.eu/chronos/launch> <http://www.w3.org/2000/01/rdf-schema#label> "launch" .
+<http://ontology.projectchronos.eu/chronos/relEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "subject-document is semantically related with an event or happening" .
+<http://ontology.projectchronos.eu/chronos/event> <http://www.w3.org/2002/07/owl#sameAs> "http://umbel.org/umbel/rc/Event" .
+<http://ontology.projectchronos.eu/chronos/relMission> <http://www.w3.org/2000/01/rdf-schema#range> "http://ontology.projectchronos.eu/chronos/launch" .
+<http://ontology.projectchronos.eu/chronos/relKeyword> <http://www.w3.org/2000/01/rdf-schema#label> "relKeyword" .
+<http://ontology.projectchronos.eu/chronos/mission> <http://www.w3.org/2004/02/skos/core#prefLabel> "a space mission" .
+<http://ontology.projectchronos.eu/chronos/relMission> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/chronos> .
+<http://ontology.projectchronos.eu/chronos/mission> <http://www.w3.org/2002/07/owl#sameAs> "http://dbpedia.org/ontology/SpaceMission" .
 <http://ontology.projectchronos.eu/chronos/keyword> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://ontology.projectchronos.eu/chronos/relTarget> <http://www.w3.org/2000/01/rdf-schema#range> "http://dbpedia.org/chronos/Satellite" .
+<http://ontology.projectchronos.eu/chronos/webpage> <http://www.w3.org/2004/02/skos/core#prefLabel> "a crawled webpage" .
 

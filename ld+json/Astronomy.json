@@ -103,6 +103,7 @@
         {
             "@id": "http://ontology.projectchronos.eu/astronomy/TerrestrialPlanet",
             "owl:sameAs": "http://umbel.org/umbel/rc/TerrestrialPlanet",
+            "rdfs:subClassOf": {"@id": "http://ontology.projectchronos.eu/astronomy/PlanetaryBody"},
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "rdfs:label": "TerrestrialPlanet",
             "rdfs:comment": "a document representing a solid/rocky planet"
@@ -111,12 +112,14 @@
             "@id": "http://ontology.projectchronos.eu/astronomy/SolidPlanetaryBody",
             "owl:sameAs": "http://umbel.org/umbel/rc/SolidPlanetaryBody",
             "@type": "http://www.w3.org/2002/07/owl#Class",
+            "rdfs:subClassOf": {"@id": "http://ontology.projectchronos.eu/astronomy/PlanetaryBody"},
             "rdfs:comment": "planet  composed primarily of solid substances",
             "rdfs:label": "SolidPlanetaryBody"
         },
         {
             "@id": "http://ontology.projectchronos.eu/astronomy/IcyPlanetaryBody",
             "owl:sameAs": "http://umbel.org/umbel/rc/IcyPlanetaryBody",
+            "rdfs:subClassOf": {"@id": "http://ontology.projectchronos.eu/astronomy/PlanetaryBody"},
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "rdfs:label": "IcyPlanetaryBody",
             "rdfs:comment": "a document representing an icy body"
@@ -133,6 +136,7 @@
             "@id": "http://ontology.projectchronos.eu/astronomy/GasGiant",
             "@owl:sameAs": "http://umbel.org/umbel/rc/GasGiant",
             "@type": "http://www.w3.org/2002/07/owl#Class",
+            "rdfs:subClassOf": {"@id": "http://ontology.projectchronos.eu/astronomy/PlanetaryBody"},
             "rdfs:label": "GasGiant",
             "rdfs:comment": "a Jovian planet, a document representing a Jovian planet"
         },
@@ -140,7 +144,7 @@
             "@id": "http://ontology.projectchronos.eu/astronomy/DwarfPlanet",
             "@owl:sameAs": "http://dbpedia.org/resource/Dwarf_planet",
             "@type": "http://www.w3.org/2002/07/owl#Class",
-            "rdfs:label": "Dwarfplanet",
+            "rdfs:label": "DwarfPlanet",
             "rdfs:comment": "a trans-neptunian object with planet-like size",
             "rdfs:subClassOf" : { "@id": "http://umbel.org/umbel/rc/SubplanetaryStellarOrbiter" },
             "astronomy:orbiting": { "@id": "http://ontology.projectchronos.eu/astronomy/Sun" }
@@ -149,6 +153,7 @@
             "@id": "http://ontology.projectchronos.eu/astronomy/RockyPlanetaryBody",
             "owl:sameAs": "http://umbel.org/umbel/rc/RockyPlanetaryBody",
             "@type": "http://www.w3.org/2002/07/owl#Class",
+            "rdfs:subClassOf": {"@id": "http://ontology.projectchronos.eu/astronomy/PlanetaryBody"},
             "rdfs:label": "RockyPlanetaryBody",
             "rdfs:comment": "a document representing a rocky body"
         },
@@ -162,6 +167,7 @@
         {
             "@id": "http://ontology.projectchronos.eu/astronomy/FluidPlanetaryBody",
             "owl:sameAs" : "http://umbel.org/umbel/rc/FluidPlanetaryBody",
+            "rdfs:subClassOf": {"@id": "http://ontology.projectchronos.eu/astronomy/PlanetaryBody"},
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "rdfs:label": "FluidPlanetaryBody",
             "rdfs:comment": "a document representing a non-solid planet"
