@@ -38,13 +38,13 @@ def _curling(url, params, file):
 
 jsonpath = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'ld+json')
 ntpath = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'ntriples')
-url = 'http://rdf-translator.appspot.com/convert/json-ld/nt/'
 
 ld_json = (filename[:-5] for path, dirs, files in os.walk(jsonpath) for filename in files if filename.endswith(".json"))
 
 for f in ld_json:
     filename = f.lower()
-    url = url + 'http%3A%2F%2Fontology.projectchronos.eu%2F' + filename +'%2F%3Fformat%3Djsonld'
+    print filename
+    url = 'http://rdf-translator.appspot.com/convert/json-ld/nt/http%3A%2F%2Fontology.projectchronos.eu%2F' + filename +'%2F%3Fformat%3Djsonld'
     filename += '.ntriples'
     with open(os.path.join(ntpath, filename), 'wb+') as file:
         _curling(url, {}, file)
