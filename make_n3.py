@@ -1,6 +1,7 @@
 """
 This script translates JSON-LD vocabularies into N-Triples using
 http://rdf-translator.appspot.com/ REST service by Alex Stolz
+--- Python2.7 ---
 """
 __author__ = 'lorenzo'
 
