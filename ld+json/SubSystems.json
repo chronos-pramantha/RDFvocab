@@ -137,7 +137,7 @@
                 { "@id": "http://dbpedia.org/resource/Temperature" },
                 { "@id": "http://schema.org/Temperature" }
             ],
-            "rdfs:label": "minWorkingTemperature",
+            "rdfs:label": "maxWorkingTemperature",
             "@type" : { "@id": "http://www.w3.org/2002/07/owl#ObjectProperty" }
         },
         {
