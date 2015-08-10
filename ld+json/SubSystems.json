@@ -117,6 +117,30 @@
             "@type" : { "@id": "http://www.w3.org/2002/07/owl#ObjectProperty" }
         },
         {
+            "@id": "http://ontology.projectchronos.eu/subsystems/minWorkingTemperature",
+            "rdf:domain" : { "@id": "http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft" },
+            "rdf:range" : { "@id": "http://www.w3.org/2001/XMLSchema#float" },
+            "owl:sameAs": [
+                { "@id": "http://umbel.org/umbel/rc/Temperature" },
+                { "@id": "http://dbpedia.org/resource/Temperature" },
+                { "@id": "http://schema.org/Temperature" }
+            ],
+            "rdfs:label": "minWorkingTemperature",
+            "@type" : { "@id": "http://www.w3.org/2002/07/owl#ObjectProperty" }
+        },
+        {
+            "@id": "http://ontology.projectchronos.eu/subsystems/maxWorkingTemperature",
+            "rdf:domain" : { "@id": "http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft" },
+            "rdf:range" : { "@id": "http://www.w3.org/2001/XMLSchema#float" },
+            "owl:sameAs": [
+                { "@id": "http://umbel.org/umbel/rc/Temperature" },
+                { "@id": "http://dbpedia.org/resource/Temperature" },
+                { "@id": "http://schema.org/Temperature" }
+            ],
+            "rdfs:label": "minWorkingTemperature",
+            "@type" : { "@id": "http://www.w3.org/2002/07/owl#ObjectProperty" }
+        },
+        {
             "@id": "http://ontology.projectchronos.eu/subsystems/hasPower",
             "rdf:domain" : { "@id": "http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft" },
             "rdf:range" : { "@id": "http://www.w3.org/2001/XMLSchema#float" },
@@ -202,12 +226,12 @@
                 },
                 {
                     "@type" : "http://www.w3.org/2002/07/owl#Restriction",
-                    "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsystems/hasMinAmpere" },
+                    "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsystems/maxWorkingTemperature" },
                     "owl:minCardinality" : 1
                 },
                               {
                     "@type" : "http://www.w3.org/2002/07/owl#Restriction",
-                    "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsystems/hasMaxAmpere" },
+                    "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsystems/minWorkingTemperature" },
                     "owl:minCardinality" : 1
                 },
                 {
@@ -244,6 +268,16 @@
                 {
                     "@type" : "http://www.w3.org/2002/07/owl#Restriction",
                     "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsystems/hasSpecificImpulse" },
+                    "owl:minCardinality" : 1
+                },
+                {
+                    "@type" : "http://www.w3.org/2002/07/owl#Restriction",
+                    "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsystems/maxWorkingTemperature" },
+                    "owl:minCardinality" : 1
+                },
+                              {
+                    "@type" : "http://www.w3.org/2002/07/owl#Restriction",
+                    "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsystems/minWorkingTemperature" },
                     "owl:minCardinality" : 1
                 },
                 {
@@ -299,6 +333,16 @@
                 },
                 {
                     "@type" : "http://www.w3.org/2002/07/owl#Restriction",
+                    "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsystems/maxWorkingTemperature" },
+                    "owl:minCardinality" : 1
+                },
+                              {
+                    "@type" : "http://www.w3.org/2002/07/owl#Restriction",
+                    "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsystems/minWorkingTemperature" },
+                    "owl:minCardinality" : 1
+                },
+                {
+                    "@type" : "http://www.w3.org/2002/07/owl#Restriction",
                     "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsystems/hasWireOutWith" },
                     "owl:hasValue" : [
                       { "@id":"http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication" },
@@ -341,6 +385,16 @@
                     "owl:hasValue" : [
                         { "@id": "http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower" }
                     ]
+                },
+                {
+                    "@type" : "http://www.w3.org/2002/07/owl#Restriction",
+                    "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsystems/maxWorkingTemperature" },
+                    "owl:minCardinality" : 1
+                },
+                {
+                    "@type" : "http://www.w3.org/2002/07/owl#Restriction",
+                    "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsystems/minWorkingTemperature" },
+                    "owl:minCardinality" : 1
                 },
                 {
                     "@type" : "http://www.w3.org/2002/07/owl#Restriction",
@@ -387,6 +441,16 @@
                     "@type" : "http://www.w3.org/2002/07/owl#Restriction",
                     "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsystems/subSystemType" },
                     "owl:hasValue" : { "@id": "http://umbel.org/umbel/rc/PhysicalDevice" }
+                },
+                {
+                    "@type" : "http://www.w3.org/2002/07/owl#Restriction",
+                    "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsystems/maxWorkingTemperature" },
+                    "owl:minCardinality" : 1
+                },
+                {
+                    "@type" : "http://www.w3.org/2002/07/owl#Restriction",
+                    "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsystems/minWorkingTemperature" },
+                    "owl:minCardinality" : 1
                 }
             ],
 
@@ -439,6 +503,16 @@
                 {
                     "@type" : "http://www.w3.org/2002/07/owl#Restriction",
                     "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsystems/standsMinTemperature" },
+                    "owl:minCardinality" : 1
+                },
+                {
+                    "@type" : "http://www.w3.org/2002/07/owl#Restriction",
+                    "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsystems/maxWorkingTemperature" },
+                    "owl:minCardinality" : 1
+                },
+                {
+                    "@type" : "http://www.w3.org/2002/07/owl#Restriction",
+                    "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsystems/minWorkingTemperature" },
                     "owl:minCardinality" : 1
                 },
                 {
@@ -524,6 +598,16 @@
                 },
                 {
                     "@type" : "http://www.w3.org/2002/07/owl#Restriction",
+                    "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsystems/maxWorkingTemperature" },
+                    "owl:minCardinality" : 1
+                },
+                {
+                    "@type" : "http://www.w3.org/2002/07/owl#Restriction",
+                    "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsystems/minWorkingTemperature" },
+                    "owl:minCardinality" : 1
+                },
+                {
+                    "@type" : "http://www.w3.org/2002/07/owl#Restriction",
                     "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsystems/hasWireOutWith" },
                     "owl:hasValue" : [
                       { "@id": "http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication" },
@@ -590,6 +674,16 @@
                 },
                 {
                     "@type" : "http://www.w3.org/2002/07/owl#Restriction",
+                    "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsystems/maxWorkingTemperature" },
+                    "owl:minCardinality" : 1
+                },
+                {
+                    "@type" : "http://www.w3.org/2002/07/owl#Restriction",
+                    "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsystems/minWorkingTemperature" },
+                    "owl:minCardinality" : 1
+                },
+                {
+                    "@type" : "http://www.w3.org/2002/07/owl#Restriction",
                     "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsystems/hasWireInWith" },
                     "owl:hasValue" : [
                       { "@id": "http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower" },
@@ -626,6 +720,16 @@
                 {
                     "@type" : "http://www.w3.org/2002/07/owl#Restriction",
                     "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsystems/standsMaxTemperature" },
+                    "owl:minCardinality" : 1
+                },
+                {
+                    "@type" : "http://www.w3.org/2002/07/owl#Restriction",
+                    "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsystems/maxWorkingTemperature" },
+                    "owl:minCardinality" : 1
+                },
+                {
+                    "@type" : "http://www.w3.org/2002/07/owl#Restriction",
+                    "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsystems/minWorkingTemperature" },
                     "owl:minCardinality" : 1
                 },
                 {

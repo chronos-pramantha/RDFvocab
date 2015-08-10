@@ -48,11 +48,31 @@ def readjson(path):
 jsonpath = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'ld+json')
 ntpath = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'ntriples')
 
-ld_json = ((readjson(os.path.join(path, filename)), filename[:-5]) for path, dirs, files in os.walk(jsonpath) for filename in files if filename.endswith(".json"))
 
-for c, f in ld_json:
-    print f
-    filename = f.lower()
-    filename += '.ntriples'
-    with open(os.path.join(ntpath, filename), 'wb+') as file:
-        _curling(url, {'content': c}, file)
+def convert_all_dictionaries():
+    ld_json = ((readjson(os.path.join(path, filename)), filename[:-5]) for path, dirs, files in os.walk(jsonpath) for filename in files if filename.endswith(".json"))
+
+    for c, f in ld_json:
+        print f
+        filename = f.lower()
+        filename += '.ntriples'
+        with open(os.path.join(ntpath, filename), 'wb+') as file:
+            _curling(url, {'content': c}, file)
+
+#
+# if you need to convert all the dictionaries in the json+ld directory
+#
+# convert_all_dictionaries()
+
+#
+# if you need to convert only one dictionary
+#
+name = 'Subsystems.json'
+namepath = os.path.join(jsonpath, name)
+content = readjson(namepath)
+filename = name[:-5].lower()
+filename += '.ntriples'
+with open(os.path.join(ntpath, filename), 'wb+') as file:
+    _curling(url, {'content': content}, file)
+
+#
