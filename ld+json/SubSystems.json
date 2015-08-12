@@ -124,7 +124,7 @@
         {
             "@id": "http://ontology.projectchronos.eu/subsystems/minWorkingTemperature",
             "rdf:domain" : { "@id": "http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft" },
-            "rdf:range" : { "@id": "http://www.w3.org/2001/XMLSchema#float" },
+            "rdf:range" : { "@id": "http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius" },
             "owl:sameAs": [
                 { "@id": "http://umbel.org/umbel/rc/Temperature" },
                 { "@id": "http://dbpedia.org/resource/Temperature" },
@@ -136,7 +136,7 @@
         {
             "@id": "http://ontology.projectchronos.eu/subsystems/maxWorkingTemperature",
             "rdf:domain" : { "@id": "http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft" },
-            "rdf:range" : { "@id": "http://www.w3.org/2001/XMLSchema#float" },
+            "rdf:range" : { "@id": "http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius" },
             "owl:sameAs": [
                 { "@id": "http://umbel.org/umbel/rc/Temperature" },
                 { "@id": "http://dbpedia.org/resource/Temperature" },
