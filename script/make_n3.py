@@ -6,6 +6,7 @@ http://rdf-translator.appspot.com/ REST service by Alex Stolz
 __author__ = 'lorenzo'
 
 import os
+from os.path import dirname
 import pycurl
 from urllib import urlencode
 
@@ -45,8 +46,8 @@ def readjson(path):
         content = f.read()
     return content
 
-jsonpath = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'ld+json')
-ntpath = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'ntriples')
+jsonpath = os.path.join(dirname(dirname(os.path.abspath(__file__))), 'ld+json')
+ntpath = os.path.join(dirname(dirname(os.path.abspath(__file__))), 'ntriples')
 
 
 def convert_all_dictionaries():

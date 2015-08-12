@@ -2,7 +2,6 @@
   "@context": {
     "@base": "http://ontology.projectchronos.eu/subsystems",
     "spacecraft": "http://ontology.projectchronos.eu/spacecraft/",
-    "subsystem": "http://ontology.projectchronos.eu/subsystems/",
     "skos": "http://www.w3.org/2004/02/skos/core#",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
@@ -23,6 +22,7 @@
            "@type" : [
                 { "@id": "http://www.w3.org/2002/07/owl#ObjectProperty" }
            ],
+           "owl:sameAs": {"@id": "http://sw.opencyc.org/2012/05/10/concept/Mx8Ngh4rvkpzWpwpEbGdrcN5Y29ycB4rvViQlZwpEbGdrcN5Y29ycA"},
            "rdfs:label": "manufacturer"
          },
          {
@@ -47,7 +47,8 @@
             ],
             "owl:sameAs": [
                 { "@id": "http://umbel.org/umbel/rc/UnitOfMeasure"}, 
-                { "@id": "http://dbpedia.org/resource/Units_of_measurement" }
+                { "@id": "http://dbpedia.org/resource/Units_of_measurement" },
+                { "@id": "http://sw.opencyc.org/2012/05/10/concept/Mx4rvViAqpwpEbGdrcN5Y29ycA" }
             ],
             "rdf:domain" : { "@id": "http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft" },
             "rdf:range" : { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral" },
@@ -77,7 +78,8 @@
             "rdf:range" : { "@id": "http://www.w3.org/2001/XMLSchema#float" },
             "owl:sameAs": [
                 { "@id": "http://umbel.org/umbel/rc/Volume" }, 
-                { "@id": "http://dbpedia.org/resource/Volume" }
+                { "@id": "http://dbpedia.org/resource/Volume" },
+                { "@id": "http://sw.opencyc.org/2012/05/10/concept/Mx4rvVju5JwpEbGdrcN5Y29ycA" }
             ],
             "rdfs:label": "hasVolume",
             "@type" : { "@id": "http://www.w3.org/2002/07/owl#ObjectProperty" }
@@ -88,7 +90,8 @@
             "rdf:range" : { "@id": "http://www.w3.org/2001/XMLSchema#float" },
             "owl:sameAs": [
                 { "@id": "http://umbel.org/umbel/rc/Ampere" }, 
-                { "@id": "http://dbpedia.org/resource/Ampere" }
+                { "@id": "http://dbpedia.org/resource/Ampere" },
+                { "@id": "http://sw.opencyc.org/2012/05/10/concept/Mx4rvVieG5wpEbGdrcN5Y29ycA" }
             ],
             "rdfs:label": "hasMinAmpere",
             "@type" : { "@id": "http://www.w3.org/2002/07/owl#ObjectProperty" }
@@ -99,7 +102,8 @@
             "rdf:range" : { "@id": "http://www.w3.org/2001/XMLSchema#float" },
             "owl:sameAs": [
                 { "@id": "http://umbel.org/umbel/rc/Ampere" }, 
-                { "@id": "http://dbpedia.org/resource/Ampere" }
+                { "@id": "http://dbpedia.org/resource/Ampere" },
+                { "@id": "http://sw.opencyc.org/2012/05/10/concept/Mx4rvVieG5wpEbGdrcN5Y29ycA" }
             ],
             "rdfs:label": "hasMaxAmpere",
             "@type" : { "@id": "http://www.w3.org/2002/07/owl#ObjectProperty" }
@@ -111,7 +115,8 @@
             "owl:sameAs": [
                 { "@id": "http://umbel.org/umbel/rc/Mass" }, 
                 { "@id": "http://dbpedia.org/resource/Mass" }, 
-                { "@id": "http://schema.org/Mass" }
+                { "@id": "http://schema.org/Mass" },
+                { "@id": "http://sw.opencyc.org/2012/05/10/concept/Mx4rvVjb5pwpEbGdrcN5Y29ycA" }
             ],
             "rdfs:label": "hasMass",
             "@type" : { "@id": "http://www.w3.org/2002/07/owl#ObjectProperty" }
@@ -123,7 +128,7 @@
             "owl:sameAs": [
                 { "@id": "http://umbel.org/umbel/rc/Temperature" },
                 { "@id": "http://dbpedia.org/resource/Temperature" },
-                { "@id": "http://schema.org/Temperature" }
+                { "@id": "http://sw.opencyc.org/concept/Mx4rvVixf5wpEbGdrcN5Y29ycA" }
             ],
             "rdfs:label": "minWorkingTemperature",
             "@type" : { "@id": "http://www.w3.org/2002/07/owl#ObjectProperty" }
@@ -135,7 +140,7 @@
             "owl:sameAs": [
                 { "@id": "http://umbel.org/umbel/rc/Temperature" },
                 { "@id": "http://dbpedia.org/resource/Temperature" },
-                { "@id": "http://schema.org/Temperature" }
+                { "@id": "http://sw.opencyc.org/concept/Mx4rvVixf5wpEbGdrcN5Y29ycA" }
             ],
             "rdfs:label": "maxWorkingTemperature",
             "@type" : { "@id": "http://www.w3.org/2002/07/owl#ObjectProperty" }
@@ -146,7 +151,8 @@
             "rdf:range" : { "@id": "http://www.w3.org/2001/XMLSchema#float" },
             "owl:sameAs": [
                 { "@id": "http://umbel.org/umbel/rc/Power" }, 
-                { "@id": "http://dbpedia.org/resource/Power_(physics)"}
+                { "@id": "http://dbpedia.org/resource/Power_(physics)"},
+                { "@id": "http://sw.opencyc.org/2012/05/10/concept/Mx4rvVjcq5wpEbGdrcN5Y29ycA" }
             ],
             "rdfs:label": "hasPower",
             "@type" : { "@id": "http://www.w3.org/2002/07/owl#ObjectProperty" }

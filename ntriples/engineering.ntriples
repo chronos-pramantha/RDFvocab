@@ -1,55 +1,55 @@
-<http://ontology.projectchronos.eu/engineering/AstronomicalSatellite> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/engineering> .
-<http://ontology.projectchronos.eu/engineering/SpaceProbe> <http://www.w3.org/2000/01/rdf-schema#label> "SpaceProbe" .
-<http://ontology.projectchronos.eu/engineering/GroundToOrbitVehicle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://umbel.org/umbel/rc/AirTransportationVehicle.n3> .
-<http://ontology.projectchronos.eu/engineering/Satellite_Device> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/engineering> .
-<http://ontology.projectchronos.eu/engineering/AstronomicalSatellite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://umbel.org/umbel/rc/AstronomicalObservatory.n3> .
-<http://ontology.projectchronos.eu/engineering/Satellite_Device> <http://www.w3.org/2004/02/skos/core#prefLabel> "an artificial satellite" .
-<http://ontology.projectchronos.eu/engineering/EarthRemoteSensingSatellite> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/EarthRemoteSensingSatellite.n3> .
-<http://ontology.projectchronos.eu/engineering/SpaceProbe> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/SpaceProbe.n3> .
-<http://ontology.projectchronos.eu/engineering/WeatherSatellite> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/engineering> .
-<http://ontology.projectchronos.eu/engineering/AstronomicalSatellite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/engineering/InformationGatheringDevice> <http://www.w3.org/2004/02/skos/core#prefLabel> "device typically used in instances of gathering information." .
-<http://ontology.projectchronos.eu/engineering/GroundToOrbitVehicle> <http://www.w3.org/2004/02/skos/core#prefLabel> "a rocket or any transportation vehicle that can reach orbit" .
-<http://ontology.projectchronos.eu/engineering/SpaceProbe> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/engineering> .
-<http://ontology.projectchronos.eu/engineering/InformationGatheringDevice> <http://www.w3.org/2000/01/rdf-schema#label> "InformationGatheringDevice" .
-<http://ontology.projectchronos.eu/engineering/InformationGatheringDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/engineering/AstronomicalSatellite> <http://www.w3.org/2000/01/rdf-schema#comment> "a document representing an artificial satellite" .
-<http://ontology.projectchronos.eu/engineering/Satellite_Device> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/Satellite_Device.n3> .
-<http://ontology.projectchronos.eu/engineering/Satellite_Device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/engineering/GroundToOrbitVehicle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/engineering/InformationGatheringDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "a document representing a information gathering device" .
-<http://ontology.projectchronos.eu/engineering/WeatherSatellite> <http://www.w3.org/2000/01/rdf-schema#label> "WeatherSatellite" .
-<http://ontology.projectchronos.eu/engineering/Satellite_Device> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://umbel.org/umbel/rc/Spacecraft.n3> .
-<http://ontology.projectchronos.eu/engineering/GroundToOrbitVehicle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://umbel.org/umbel/rc/Spacecraft.n3> .
-<http://ontology.projectchronos.eu/engineering/GroundToOrbitVehicle> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/engineering> .
-<http://ontology.projectchronos.eu/engineering/SpaceProbe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/engineering/WeatherSatellite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://umbel.org/umbel/rc/Satellite_Device.n3> .
-<http://ontology.projectchronos.eu/engineering/WeatherSatellite> <http://www.w3.org/2004/02/skos/core#prefLabel> "an satellite collecting data on the weather of the heavenly body which it orbits" .
-<http://ontology.projectchronos.eu/engineering/SpaceProbe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://umbel.org/umbel/rc/InformationGatheringDevice.n3> .
-<http://ontology.projectchronos.eu/engineering/WeatherSatellite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/engineering/AstronomicalSatellite> <http://www.w3.org/2004/02/skos/core#prefLabel> "an artificial satellite" .
-<http://ontology.projectchronos.eu/engineering/EarthRemoteSensingSatellite> <http://www.w3.org/2000/01/rdf-schema#comment> "a document representing an artificial satellite" .
-<http://ontology.projectchronos.eu/engineering/WeatherSatellite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://umbel.org/umbel/rc/InformationGatheringDevice.n3> .
-<http://ontology.projectchronos.eu/engineering/Satellite_Device> <http://www.w3.org/2000/01/rdf-schema#comment> "a document representing an artificial satellite" .
-<http://ontology.projectchronos.eu/engineering/Satellite_Device> <http://www.w3.org/2000/01/rdf-schema#label> "Satellite_Device" .
-<http://ontology.projectchronos.eu/engineering/AstronomicalSatellite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://umbel.org/umbel/rc/Satellite_Device.n3> .
-<http://ontology.projectchronos.eu/engineering/GroundToOrbitVehicle> <http://www.w3.org/2000/01/rdf-schema#label> "GroundToOrbitVehicle" .
-<http://ontology.projectchronos.eu/engineering/SpaceProbe> <http://www.w3.org/2004/02/skos/core#prefLabel> "These are unmanned vehicles which are sent to other bodies in the Solar system for the purpose gathering data. Sometimes a separate vehicle (probe or lander) is launched from the main vehicle, the smaller vehicle usually being referred to as a probe. In these cases, both vehicle would be SpaceProbes in the present sense." .
-<http://ontology.projectchronos.eu/engineering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://ontology.projectchronos.eu/engineering/SpaceProbe> <http://www.w3.org/2000/01/rdf-schema#comment> "a document representing a space faring probe" .
-<http://ontology.projectchronos.eu/engineering/InformationGatheringDevice> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/InformationGatheringDevice.n3> .
-<http://ontology.projectchronos.eu/engineering/EarthRemoteSensingSatellite> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/engineering> .
-<http://ontology.projectchronos.eu/engineering> <http://www.w3.org/2000/01/rdf-schema#label> "Generic engineering concepts " .
-<http://ontology.projectchronos.eu/engineering/EarthRemoteSensingSatellite> <http://www.w3.org/2000/01/rdf-schema#label> "EarthRemoteSensingSatellite" .
-<http://ontology.projectchronos.eu/engineering/EarthRemoteSensingSatellite> <http://www.w3.org/2004/02/skos/core#prefLabel> "an artificial satellite" .
-<http://ontology.projectchronos.eu/engineering/GroundToOrbitVehicle> <http://www.w3.org/2000/01/rdf-schema#comment> "a document representing a rocket or any transportation vehicle that can reach orbit" .
-<http://ontology.projectchronos.eu/engineering/GroundToOrbitVehicle> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/GroundToOrbitVehicle.n3> .
-<http://ontology.projectchronos.eu/engineering/AstronomicalSatellite> <http://www.w3.org/2000/01/rdf-schema#label> "AstronomicalSatellite" .
 <http://ontology.projectchronos.eu/engineering/InformationGatheringDevice> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/engineering> .
-<http://ontology.projectchronos.eu/engineering/EarthRemoteSensingSatellite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://umbel.org/umbel/rc/Satellite_Device.n3> .
-<http://ontology.projectchronos.eu/engineering/WeatherSatellite> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/WeatherSatellite.n3> .
+<http://ontology.projectchronos.eu/engineering/InformationGatheringDevice> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/InformationGatheringDevice.n3> .
+<http://ontology.projectchronos.eu/engineering/EarthRemoteSensingSatellite> <http://www.w3.org/2000/01/rdf-schema#label> "EarthRemoteSensingSatellite" .
+<http://ontology.projectchronos.eu/engineering/GroundToOrbitVehicle> <http://www.w3.org/2000/01/rdf-schema#comment> "a document representing a rocket or any transportation vehicle that can reach orbit" .
+<http://ontology.projectchronos.eu/engineering/SpaceProbe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.projectchronos.eu/engineering/GroundToOrbitVehicle> <http://www.w3.org/2004/02/skos/core#prefLabel> "a rocket or any transportation vehicle that can reach orbit" .
+<http://ontology.projectchronos.eu/engineering/InformationGatheringDevice> <http://www.w3.org/2004/02/skos/core#prefLabel> "device typically used in instances of gathering information." .
+<http://ontology.projectchronos.eu/engineering/InformationGatheringDevice> <http://www.w3.org/2000/01/rdf-schema#label> "InformationGatheringDevice" .
+<http://ontology.projectchronos.eu/engineering/GroundToOrbitVehicle> <http://www.w3.org/2000/01/rdf-schema#label> "GroundToOrbitVehicle" .
+<http://ontology.projectchronos.eu/engineering/Satellite_Device> <http://www.w3.org/2000/01/rdf-schema#comment> "a document representing an artificial satellite" .
+<http://ontology.projectchronos.eu/engineering/Satellite_Device> <http://www.w3.org/2004/02/skos/core#prefLabel> "an artificial satellite" .
+<http://ontology.projectchronos.eu/engineering/WeatherSatellite> <http://www.w3.org/2000/01/rdf-schema#label> "WeatherSatellite" .
+<http://ontology.projectchronos.eu/engineering> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://ontology.projectchronos.eu/engineering/WeatherSatellite> <http://www.w3.org/2000/01/rdf-schema#comment> "a document representing a weather satellite" .
+<http://ontology.projectchronos.eu/engineering/EarthRemoteSensingSatellite> <http://www.w3.org/2004/02/skos/core#prefLabel> "an artificial satellite" .
 <http://ontology.projectchronos.eu/engineering/AstronomicalSatellite> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/AstronomicalSatellite.n3> .
 <http://ontology.projectchronos.eu/engineering> <http://www.w3.org/2000/01/rdf-schema#comment> "a set of concepts to be used to describe engineering objects" .
-<http://ontology.projectchronos.eu/engineering/WeatherSatellite> <http://www.w3.org/2000/01/rdf-schema#comment> "a document representing a weather satellite" .
+<http://ontology.projectchronos.eu/engineering/Satellite_Device> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/Satellite_Device.n3> .
+<http://ontology.projectchronos.eu/engineering/Satellite_Device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.projectchronos.eu/engineering/GroundToOrbitVehicle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://umbel.org/umbel/rc/Spacecraft.n3> .
+<http://ontology.projectchronos.eu/engineering/InformationGatheringDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "a document representing a information gathering device" .
+<http://ontology.projectchronos.eu/engineering/AstronomicalSatellite> <http://www.w3.org/2000/01/rdf-schema#label> "AstronomicalSatellite" .
+<http://ontology.projectchronos.eu/engineering/AstronomicalSatellite> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/engineering> .
+<http://ontology.projectchronos.eu/engineering/AstronomicalSatellite> <http://www.w3.org/2000/01/rdf-schema#comment> "a document representing an artificial satellite" .
+<http://ontology.projectchronos.eu/engineering/SpaceProbe> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/engineering> .
+<http://ontology.projectchronos.eu/engineering/EarthRemoteSensingSatellite> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/engineering> .
+<http://ontology.projectchronos.eu/engineering/GroundToOrbitVehicle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://umbel.org/umbel/rc/AirTransportationVehicle.n3> .
+<http://ontology.projectchronos.eu/engineering/SpaceProbe> <http://www.w3.org/2000/01/rdf-schema#comment> "a document representing a space faring probe" .
+<http://ontology.projectchronos.eu/engineering/AstronomicalSatellite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.projectchronos.eu/engineering/WeatherSatellite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://umbel.org/umbel/rc/Satellite_Device.n3> .
+<http://ontology.projectchronos.eu/engineering/InformationGatheringDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.projectchronos.eu/engineering/WeatherSatellite> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/WeatherSatellite.n3> .
+<http://ontology.projectchronos.eu/engineering/WeatherSatellite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.projectchronos.eu/engineering/SpaceProbe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://umbel.org/umbel/rc/InformationGatheringDevice.n3> .
+<http://ontology.projectchronos.eu/engineering/SpaceProbe> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/SpaceProbe.n3> .
+<http://ontology.projectchronos.eu/engineering/AstronomicalSatellite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://umbel.org/umbel/rc/AstronomicalObservatory.n3> .
+<http://ontology.projectchronos.eu/engineering/AstronomicalSatellite> <http://www.w3.org/2004/02/skos/core#prefLabel> "an artificial satellite" .
+<http://ontology.projectchronos.eu/engineering/GroundToOrbitVehicle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.projectchronos.eu/engineering> <http://www.w3.org/2000/01/rdf-schema#label> "Generic engineering concepts " .
+<http://ontology.projectchronos.eu/engineering/EarthRemoteSensingSatellite> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/EarthRemoteSensingSatellite.n3> .
+<http://ontology.projectchronos.eu/engineering/WeatherSatellite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://umbel.org/umbel/rc/InformationGatheringDevice.n3> .
+<http://ontology.projectchronos.eu/engineering/SpaceProbe> <http://www.w3.org/2004/02/skos/core#prefLabel> "These are unmanned vehicles which are sent to other bodies in the Solar system for the purpose gathering data. Sometimes a separate vehicle (probe or lander) is launched from the main vehicle, the smaller vehicle usually being referred to as a probe. In these cases, both vehicle would be SpaceProbes in the present sense." .
+<http://ontology.projectchronos.eu/engineering/EarthRemoteSensingSatellite> <http://www.w3.org/2000/01/rdf-schema#comment> "a document representing an artificial satellite" .
+<http://ontology.projectchronos.eu/engineering/SpaceProbe> <http://www.w3.org/2000/01/rdf-schema#label> "SpaceProbe" .
+<http://ontology.projectchronos.eu/engineering/WeatherSatellite> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/engineering> .
+<http://ontology.projectchronos.eu/engineering/GroundToOrbitVehicle> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/engineering> .
+<http://ontology.projectchronos.eu/engineering/Satellite_Device> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://umbel.org/umbel/rc/Spacecraft.n3> .
+<http://ontology.projectchronos.eu/engineering/EarthRemoteSensingSatellite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://umbel.org/umbel/rc/Satellite_Device.n3> .
 <http://ontology.projectchronos.eu/engineering/EarthRemoteSensingSatellite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.projectchronos.eu/engineering/Satellite_Device> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/engineering> .
+<http://ontology.projectchronos.eu/engineering/GroundToOrbitVehicle> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/GroundToOrbitVehicle.n3> .
+<http://ontology.projectchronos.eu/engineering/Satellite_Device> <http://www.w3.org/2000/01/rdf-schema#label> "Satellite_Device" .
+<http://ontology.projectchronos.eu/engineering/AstronomicalSatellite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://umbel.org/umbel/rc/Satellite_Device.n3> .
+<http://ontology.projectchronos.eu/engineering/WeatherSatellite> <http://www.w3.org/2004/02/skos/core#prefLabel> "an satellite collecting data on the weather of the heavenly body which it orbits" .
 

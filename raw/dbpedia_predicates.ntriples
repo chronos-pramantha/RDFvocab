@@ -1,0 +1,15 @@
+<http://dbpedia.org/resource/Mercury_(planet)>	<http://dbpedia.org/ontology/Planet/averageSpeed>	"47.362"^^<http://dbpedia.org/datatype/kilometrePerSecond> .
+<http://dbpedia.org/resource/Mercury_(planet)>	<http://dbpedia.org/ontology/Planet/minimumTemperature>	"100.0"^^<http://dbpedia.org/datatype/kelvin> .
+<http://dbpedia.org/resource/Mercury_(planet)>	<http://dbpedia.org/ontology/orbitalPeriod>	"20736.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/resource/Mercury_(planet)>	<http://dbpedia.org/ontology/Planet/maximumTemperature>	"380.0"^^<http://dbpedia.org/datatype/kelvin> .
+<http://dbpedia.org/resource/Mercury_(planet)>	<http://dbpedia.org/ontology/wikiPageExternalLink>	<http://history.nasa.gov/SP-423/sp423.htm> .
+<http://dbpedia.org/resource/Mercury_(planet)>	<http://dbpedia.org/ontology/maximumTemperature>	"700.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/resource/Mercury_(planet)>	<http://dbpedia.org/ontology/abstract>	" "@en .
+<http://dbpedia.org/resource/Mercury_(planet)>	<http://dbpedia.org/ontology/Planet/orbitalPeriod>	"0.24"^^<http://dbpedia.org/datatype/day> .
+<http://dbpedia.org/resource/Mercury_(planet)>	<http://dbpedia.org/property/escapeVelocity>	"4.25"^^<http://dbpedia.org/datatype/kilometrePerSecond> .
+<http://dbpedia.org/resource/Mercury_(planet)>	<http://dbpedia.org/ontology/Planet/meanTemperature>	"340.0"^^<http://dbpedia.org/datatype/kelvin> .
+<http://dbpedia.org/resource/Mercury_(planet)>	<http://dbpedia.org/property/surfaceGrav>	"* \n* 0.38 g"@en .
+<http://dbpedia.org/resource/Mercury_(planet)>	<http://dbpedia.org/ontology/volume>	"0.056"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/resource/Mercury_(planet)>	<http://dbpedia.org/property/meanAnomaly>	"174.796"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/resource/Mercury_(planet)>	<http://dbpedia.org/property/eccentricity>	"0.205"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://dbpedia.org/resource/Mercury_(planet)>	<http://dbpedia.org/property/atmosphereComposition>	"* 42% molecular oxygen\n* 29.0% sodium\n* 22.0% hydrogen\n*  6.0% helium\n*  0.5% potassium\n* Trace amounts of argon, nitrogen, carbon dioxide, water vapor, xenon, krypton, and neon"@en .
