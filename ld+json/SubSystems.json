@@ -39,21 +39,10 @@
             "skos:altLabel" : "is used for"
         },
         {
-            "@id" : "http://ontology.projectchronos.eu/subsystems/unitOfMeasure",
-            "@type" : [
-                { "@id": "http://www.w3.org/2002/07/owl#AsymmetricProperty" },
-                { "@id": "http://www.w3.org/2002/07/owl#IrreflexiveProperty" },
-                { "@id": "http://www.w3.org/2002/07/owl#ObjectProperty" }
-            ],
-            "owl:sameAs": [
-                { "@id": "http://umbel.org/umbel/rc/UnitOfMeasure"}, 
-                { "@id": "http://dbpedia.org/resource/Units_of_measurement" },
-                { "@id": "http://sw.opencyc.org/2012/05/10/concept/Mx4rvViAqpwpEbGdrcN5Y29ycA" }
-            ],
-            "rdf:domain" : { "@id": "http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft" },
-            "rdf:range" : { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral" },
-            "rdfs:comment" : "Property to set the unit of measure used by a physical value",
-            "rdfs:label" : "unitOfMeasure"
+            "@id" : "http://ontology.projectchronos.eu/subsystems/cubicMillimeters",
+            "@type" : "http://www.w3.org/2002/07/owl#Class",
+            "rdfs:comment" : "unit of measure for volume",
+            "rdfs:label" : "cubicMillimeters"
         },
         {
             "@id": "http://ontology.projectchronos.eu/subsystems/subSystemType",
@@ -508,11 +497,6 @@
                 },
                 {
                     "@type" : "http://www.w3.org/2002/07/owl#Restriction",
-                    "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsystems/standsMinTemperature" },
-                    "owl:minCardinality" : 1
-                },
-                {
-                    "@type" : "http://www.w3.org/2002/07/owl#Restriction",
                     "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsystems/maxWorkingTemperature" },
                     "owl:minCardinality" : 1
                 },
@@ -717,11 +701,6 @@
                         { "@id": "http://dbpedia.org/resource/Attitude_control" },
                         { "@id": "http://dbpedia.org/resource/Process_control" }
                     ]
-                },
-                {
-                    "@type" : "http://www.w3.org/2002/07/owl#Restriction",
-                    "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsystems/standsMinTemperature" },
-                    "owl:minCardinality" : 1
                 },
                 {
                     "@type" : "http://www.w3.org/2002/07/owl#Restriction",
