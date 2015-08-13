@@ -14,7 +14,7 @@
   },
   "http://ontology.projectchronos.eu/subsystems/hasPower": {
         "@value": "137",
-        "@type": "hhttp://dbpedia.org/data/Watt.ntriples"
+        "@type": "http://dbpedia.org/data/Watt.ntriples"
   },
   "http://ontology.projectchronos.eu/subsystems/maxWorkingTemp": {
         "@type": "http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius",
@@ -29,5 +29,5 @@
   "http://ontology.projectchronos.eu/subsystems/manufacturer": "Chronos",
   "http://ontology.projectchronos.eu/subsystems/isStandard": "Cubesat",
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#label": "e3349c8fe32d4174a405aeee1e441fad",
-  "http://ontology.projectchronos.eu/subsystem/name": "0T communication"
+  "http://ontology.projectchronos.eu/subsystems/name": "0T communication"
 }

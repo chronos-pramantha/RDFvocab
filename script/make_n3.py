@@ -12,7 +12,7 @@ from urllib import urlencode
 
 url = 'http://rdf-translator.appspot.com/convert/json-ld/nt/content'
 
-def _curling(url, params, file):
+def _curling(url, params, file=None):
     """
     POST to a remote url and print the response in a file
     :param url: target url
@@ -34,7 +34,8 @@ def _curling(url, params, file):
     # and data to send in request body.
     c.setopt(c.POSTFIELDS, postfields)
 
-    c.setopt(c.WRITEDATA, file)
+    if file:
+        c.setopt(c.WRITEDATA, file)
     c.perform()
     c.close()
 
