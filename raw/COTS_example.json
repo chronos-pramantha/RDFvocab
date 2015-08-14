@@ -1,33 +1,33 @@
 {
-  "@id": "http://ontology.projectchronos.eu/COTS/e3349c8fe32d4174a405aeee1e441fad",
-  "http://ontology.projectchronos.eu/subsystems/minWorkingTemp": {
-        "@type": "http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius",
-        "@value": "-23"
-  },
-  "http://ontology.projectchronos.eu/subsystems/hasMonetaryValue": {
-        "@value": "3932",
-        "@type": "http://sw.opencyc.org/2012/05/10/concept/en/Euro"
-  },
-  "http://ontology.projectchronos.eu/subsystems/hasMass": {
-        "@value": "51",
-        "@type": "http://sw.opencyc.org/2012/05/10/concept/en/Gram"
-  },
-  "http://ontology.projectchronos.eu/subsystems/hasPower": {
-        "@value": "137",
-        "@type": "http://dbpedia.org/data/Watt.ntriples"
-  },
-  "http://ontology.projectchronos.eu/subsystems/maxWorkingTemp": {
-        "@type": "http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius",
-        "@value": "70"
-  },
-  "http://ontology.projectchronos.eu/subsystems/hasVolume": {
-        "@type": "http://ontology.projectchronos.eu/subsystems/cubicMillimeters",
-        "@value": "48"
-  },
-  "@type": "http://ontology.projectchronos.eu/subsystems/Spacecraft_Communication",
-  "http://ontology.projectchronos.eu/subsystems/function": "communication",
-  "http://ontology.projectchronos.eu/subsystems/manufacturer": "Chronos",
-  "http://ontology.projectchronos.eu/subsystems/isStandard": "Cubesat",
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#label": "e3349c8fe32d4174a405aeee1e441fad",
-  "http://ontology.projectchronos.eu/subsystems/name": "0T communication"
-}
+        "http://ontology.projectchronos.eu/subsystems/name": "14W primary power", 
+        "http://ontology.projectchronos.eu/subsystems/minWorkingTemp": {
+            "@type": "http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius", 
+            "@value": -53
+        }, 
+        "http://ontology.projectchronos.eu/subsystems/hasMonetaryValue": {
+            "@type": "http://sw.opencyc.org/2012/05/10/concept/en/Euro", 
+            "@value": 6220
+        }, 
+        "http://ontology.projectchronos.eu/subsystems/function": "primary power", 
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#label": "e3349c8fe32d4174a405aeee1e441fad", 
+        "http://ontology.projectchronos.eu/subsystems/hasVolume": {
+            "@type": "http://ontology.projectchronos.eu/subsystems/cubicMillimeters", 
+            "@value": 44
+        }, 
+        "http://ontology.projectchronos.eu/subsystems/hasMass": {
+            "@type": "http://sw.opencyc.org/2012/05/10/concept/en/Gram", 
+            "@value": 66
+        }, 
+        "http://ontology.projectchronos.eu/subsystems/maxWorkingTemp": {
+            "@type": "http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius", 
+            "@value": 61
+        }, 
+        "http://ontology.projectchronos.eu/subsystems/isStandard": "Cubesat", 
+        "http://ontology.projectchronos.eu/subsystems/manufacturer": "Chronos", 
+        "@id": "http://ontology.projectchronos.eu/COTS/5802a7c51c514552ad2a93d9292d3835", 
+        "@type": "http://ontology.projectchronos.eu/subsystems/Spacecraft_PrimaryPower", 
+        "http://ontology.projectchronos.eu/subsystems/hasPower": {
+            "@type": "http://dbpedia.org/data/Watt.ntriples", 
+            "@value": 1244
+        }
+    }
