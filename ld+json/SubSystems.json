@@ -155,6 +155,12 @@
             "@type" : { "@id": "http://www.w3.org/2002/07/owl#ObjectProperty" }
         },
         {
+          "@id": "http://ontology.projectchronos.eu/subsystems/holdsSensor",
+          "rdf:domain" : { "@id": "http://ontology.projectchronos.eu/spacecraft/Spacecraft_Detector" },
+          "@type" : { "@id": "http://www.w3.org/2002/07/owl#ObjectProperty" },
+          "rdfs:label": "holdsSensor"
+        },
+        {
             "@id": "http://ontology.projectchronos.eu/subsystems/hasMonetaryValue",
             "rdf:domain" : { "@id": "http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft" },
             "rdf:range" : { "@id": "http://www.w3.org/2001/XMLSchema#float" },
