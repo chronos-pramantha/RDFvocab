@@ -43,6 +43,9 @@
                 },
                 {
                     "@id": "http://ontology.projectchronos.eu/astronomy/SolidPlanetaryBody"
+                },
+                {
+                    "@id": "http://ontology.projectchronos.eu/astronomy/Planet"
                 }
             ],
             "owl:sameAs": [
@@ -64,6 +67,9 @@
                 },
                 {
                     "@id": "http://ontology.projectchronos.eu/astronomy/SolidPlanetaryBody"
+                },
+                {
+                    "@id": "http://ontology.projectchronos.eu/astronomy/Planet"
                 }
             ],
             "owl:sameAs": [
@@ -85,6 +91,9 @@
                 },
                 {
                     "@id": "http://ontology.projectchronos.eu/astronomy/SolidPlanetaryBody"
+                },
+                {
+                    "@id": "http://ontology.projectchronos.eu/astronomy/Planet"
                 }
             ],
             "owl:sameAs": [
@@ -123,6 +132,9 @@
                 },
                 {
                     "@id": "http://ontology.projectchronos.eu/astronomy/SolidPlanetaryBody"
+                },
+                {
+                    "@id": "http://ontology.projectchronos.eu/astronomy/Planet"
                 }
             ],
             "owl:sameAs": [
@@ -195,7 +207,11 @@
             "@type": [
                 {
                     "@id": "http://ontology.projectchronos.eu/astronomy/GasGiant"
+                },
+                {
+                    "@id": "http://ontology.projectchronos.eu/astronomy/Planet"
                 }
+
             ],
             "owl:sameAs": [
                 {
@@ -474,6 +490,9 @@
             "@type": [
                 {
                     "@id": "http://ontology.projectchronos.eu/astronomy/GasGiant"
+                },
+                {
+                    "@id": "http://ontology.projectchronos.eu/astronomy/Planet"
                 }
             ],
             "owl:sameAs": [
@@ -606,6 +625,9 @@
                 },
                 {
                     "@id": "http://ontology.projectchronos.eu/astronomy/Ice_giant"
+                },
+                {
+                    "@id": "http://ontology.projectchronos.eu/astronomy/Planet"
                 }
             ],
             "owl:sameAs": [
@@ -914,6 +936,9 @@
                 },
                 {       
                     "@id": "http://ontology.projectchronos.eu/astronomy/GasGiant"
+                },
+                {
+                    "@id": "http://ontology.projectchronos.eu/astronomy/Planet"
                 }
             ],
             "owl:sameAs": [

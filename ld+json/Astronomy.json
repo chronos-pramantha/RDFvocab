@@ -16,7 +16,7 @@
     "@id": "",
     "@type": "http://www.w3.org/2002/07/owl#Ontology",
     "rdfs:label": "Generic astronomical concepts ",
-    "rdfs:comment": "a set of concepts to be used to describe astronomical objects",
+    "rdfs:comment": "a set of concepts to be used to describe astronomical objects. Notes: 1. two different properties are applied for bodies orbiting a star (property \"orbiting\") and orbiting a planet (property \"orbitsPlanet\") - 2. PlanetaryBody entity is a wider group for any object subject permanently to the gravity of a Planet. Planet entity is for the planet itself",
     "defines": [
         {
             "@id": "http://ontology.projectchronos.eu/astronomy/AstronomicalObject",
@@ -30,11 +30,15 @@
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "owl:sameAs": { "@id": "http://dbpedia.org/resource/Planetary_system" },
             "rdfs:subClassOf": { "@id": "http://ontology.projectchronos.eu/astronomy/AstronomicalObject" },
-            "rdfs:label": "Planetary_system"
+            "rdfs:label": "Planetary_system",
+            "rdfs:comment": "Solar System is a planetary system - see solarsystem vocabulary"
         },
         {       
             "@id": "http://ontology.projectchronos.eu/astronomy/Star",
-            "owl:sameAs" : { "@id": "http://umbel.org/umbel/rc/Star.n3" },
+            "owl:sameAs" : [
+              { "@id": "http://umbel.org/umbel/rc/Star.n3" },
+              { "@id": "http://sw.opencyc.org/concept/Mx4rvVi80ZwpEbGdrcN5Y29ycA"}
+              ],
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "rdfs:label": "Star",
             "rdfs:comment": "a star",
@@ -43,22 +47,40 @@
         {
             "@id": "http://ontology.projectchronos.eu/astronomy/PlanetaryBody",
             "@type": "http://www.w3.org/2002/07/owl#Class",
-            "rdfs:label": "a general planet shaped body",
-            "rdfs:comment": "a document representing a general planet-shaped body or natural satellite",
+            "rdfs:label": "a general astronomical object with the characteristics of a planet or any natural object under gravitational influence of a planet",
+            "rdfs:comment": "a document representing a general planet-shaped body or natural satellite or dust or rock or macroscopic particle of matter",
             "rdfs:label": "PlanetaryBody"
+        },
+        {
+            "@id": "http://ontology.projectchronos.eu/astronomy/Planet",
+            "rdfs:subClassOf": { "@id": "http://ontology.projectchronos.eu/astronomy/PlanetaryBody" },
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "rdfs:label": "a general astronomical object with the characteristics of a planet",
+            "rdfs:comment": "a document representing a general planet-shaped astronomical body",
+            "rdfs:label": "Planet",
+            "owl:sameAs": {
+              "@id": "http://sw.opencyc.org/concept/Mx4rvVjRL5wpEbGdrcN5Y29ycA"
+            }
         },
         {
             "@id": "http://ontology.projectchronos.eu/astronomy/orbiting",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty", 
             "rdf:domain": { "@id": "http://ontology.projectchronos.eu/astronomy/AstronomicalObject" },
-            "rdf:range": { "@id": "http://ontology.projectchronos.eu/astronomy/AstronomicalObject" },
+            "rdf:range": { "@id": "http://ontology.projectchronos.eu/astronomy/Star" },
             "rdfs:comment": "this property describe the generic astronomical object-object gravitational interaction",
-            "rdfs:label": "orbiting"
+            "rdfs:label": "orbiting",
+            "owl:sameAs": {
+              "@id": "http://sw.opencyc.org/concept/Mx4rvmlCvZwpEbGdrcN5Y29ycA"
+            }
         },
         {
             "@id": "http://ontology.projectchronos.eu/astronomy/orbitsPlanet",
+            "rdfs:subClassOf": {"@id": ""},
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty", 
-            "rdf:domain": { "@id": "http://ontology.projectchronos.eu/astronomy/Natural_satellite" },
+            "rdf:domain": [
+              { "@id": "http://ontology.projectchronos.eu/astronomy/Natural_satellite" },
+              { "@id": "http://ontology.projectchronos.eu/astronomy/PlanetaryBody" }
+              ],
             "rdf:range": [
                 { "@id": "http://ontology.projectchronos.eu/astronomy/PlanetaryBody" },
                 { "@id": "http://ontology.projectchronos.eu/astronomy/DwarfPlanet" }
@@ -94,7 +116,8 @@
             "@id": "http://ontology.projectchronos.eu/astronomy/Natural_satellite",
             "owl:sameAs": [
                 { "@id": "http://umbel.org/umbel/rc/MoonOfAPlanet.n3" },
-                { "@id": "http://dbpedia.org/resource/Natural_satellite" }
+                { "@id": "http://dbpedia.org/resource/Natural_satellite" },
+                { "@id": "http://sw.opencyc.org/concept/Mx4rvfn7-pwpEbGdrcN5Y29ycA"}
             ],
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "rdfs:label": "Natural_satellite",
