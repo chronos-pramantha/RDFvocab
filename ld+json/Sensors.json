@@ -769,10 +769,6 @@
                         "@id"                 : "http://ontology.projectchronos.eu/sensors/RemoteSensingInstrument",
                         "@type"               : "http://www.w3.org/2002/07/owl#Class",
                         "rdfs:label"          : "RemoteSensingInstrument",
-                        "owl:sameAs"          : [
-                          { "@id": "http://dbpedia.org/resource/Remote_sensing" },
-                          { "@id": "http://sw.opencyc.org/2012/05/10/concept/Mx4rvfC7QpwpEbGdrcN5Y29ycA"}
-                        ],
                         "owl:equivalentClass" : {
                                                     "@type" : "http://www.w3.org/2002/07/owl#Class",
                                                     "owl:intersectionOf" : [

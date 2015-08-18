@@ -119,7 +119,10 @@
         {
             "@id": "http://ontology.projectchronos.eu/chronos/mission",
             "@type": "http://www.w3.org/2002/07/owl#Class",
-            "owl:sameAs": { "@id": "http://dbpedia.org/ontology/SpaceMission" },
+            "owl:sameAs": [
+              { "@id": "http://dbpedia.org/ontology/SpaceMission" },
+              { "@id": "http://sw.opencyc.org/concept/Mx4rvt6oU5wpEbGdrcN5Y29ycA" }
+            ],
             "skos:prefLabel": "a space mission",
             "rdfs:label": "mission",
             "rdfs:comment": "a document representing a space mission from Chronos legacy"

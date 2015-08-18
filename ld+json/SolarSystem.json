@@ -15,14 +15,14 @@
     "@id": "",
     "@type": "http://www.w3.org/2002/07/owl#Ontology",
     "rdfs:label": "A description of the Solar System taking major classes from DBpedia and Umbel",
-    "rdfs:comment": "The major Astronomical Bodies in the Solar System are described in terms of what orbits what",
+    "rdfs:comment": "The major Astronomical Bodies in the Solar System are described in terms of what orbits what. Inherited from OpenCyc, DBpedia and Umbel",
     "defines": [
         {
             "@id": "http://ontology.projectchronos.eu/solarsystem/Solar_System",
             "@type": "http://ontology.projectchronos.eu/astronomy/Planetary_system",
             "owl:sameAs": [
               { "@id": "http://umbel.org/umbel/rc/SolarSystem" },
-              { "@id": "http://sw.opencyc.org/concept/Mx4rvgEKQ5wpEbGdrcN5Y29ycA"}
+              { "@id": "http://sw.opencyc.org/2012/05/10/concept/en/SolarSystem"}
               ],
             "rdfs:label": "Solar_System"
         },
@@ -30,7 +30,7 @@
             "@id": "http://ontology.projectchronos.eu/solarsystem/Sun",
             "@type": "http://ontology.projectchronos.eu/astronomy/Star",
             "owl:sameAs": [
-              { "@id" : "http://sw.opencyc.org/concept/Mx4rlxNJlmKqEdqAAAACs71DGQ"},
+              { "@id" : "http://sw.opencyc.org/2012/05/10/concept/en/Sun"},
               { "@id" : "http://dbpedia.org/data/Sun.ntriples"}
             ],
             "rdfs:label": "The Sun"
@@ -197,7 +197,7 @@
                     "@id": "http://dbpedia.org/data/Asteroid_belt.ntriples"
                 },
                 {
-                    "@id": "http://sw.opencyc.org/concept/Mx4rvhvYSpwpEbGdrcN5Y29ycA"
+                    "@id": "http://sw.opencyc.org/2012/05/10/concept/en/AsteroidBelt"
                 }
             ],
             "rdfs:label": "Asteroids_belt"
@@ -221,7 +221,7 @@
                     "@id": "http://dbpedia.org/data/Jupiter.ntriples"
                 },
                 {
-                  "@id": "http://sw.opencyc.org/concept/Mx4rvVkBSpwpEbGdrcN5Y29ycA"
+                  "@id": "http://sw.opencyc.org/2012/05/10/concept/en/PlanetJupiter"
                 }
             ],
             "rdfs:label": "Jupiter",
