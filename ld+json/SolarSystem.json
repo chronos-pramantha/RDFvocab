@@ -54,6 +54,9 @@
                 },
                 {
                     "@id": "http://dbpedia.org/data/Mercury_%28planet%29.ntriples"
+                },
+                {
+                    "@id": "http://sw.opencyc.org/2012/05/10/concept/en/PlanetMercury"
                 }
             ],
             "rdfs:label": "Mercury",
@@ -78,6 +81,9 @@
                 },
                 {
                     "@id": "http://dbpedia.org/data/Venus_(planet).ntriples"
+                },
+                {
+                    "@id": "http://sw.opencyc.org/2012/05/10/concept/en/PlanetVenus"
                 }
             ],
             "rdfs:label": "Venus",
@@ -102,6 +108,9 @@
                 },
                 {
                     "@id": "http://dbpedia.org/data/Earth.ntriples"
+                },
+                {
+                    "@id": "http://sw.opencyc.org/2012/05/10/concept/en/PlanetEarth"
                 }
             ],
             "rdfs:label": "Earth",
@@ -119,7 +128,8 @@
             ],
             "owl:sameAs": [
                 { "@id": "http://umbel.org/umbel/rc/MoonOfEarth" },
-                { "@id": "http://dbpedia.org/data/Moon.ntriples" }
+                { "@id": "http://dbpedia.org/data/Moon.ntriples" },
+                { "@id": "http://sw.opencyc.org/2012/05/10/concept/en/MoonOfEarth" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Earth" },
             "rdfs:label": "Moon"
@@ -143,6 +153,9 @@
                 },
                 {
                     "@id": "http://dbpedia.org/data/Mars.ntriples"
+                },
+                {
+                  "@id": "http://sw.opencyc.org/2012/05/10/concept/en/PlanetMars"
                 }
             ],
             "rdfs:label": "Mars",
@@ -636,6 +649,9 @@
                 },
                 {
                     "@id": "http://dbpedia.org/data/Uranus.ntriples"
+                },
+                {
+                    "@id": "http://sw.opencyc.org/2012/05/10/concept/en/PlanetUranus"
                 }
             ],
             "rdfs:label": "Uranus"
@@ -947,6 +963,9 @@
                 },
                 {
                     "@id": "http://dbpedia.org/data/Neptune.ntriples"
+                },
+                {
+                    "@id": "http://sw.opencyc.org/2012/05/10/concept/en/PlanetNeptune"
                 }
             ],
             "rdfs:label": "Neptune"
