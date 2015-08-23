@@ -33,7 +33,7 @@
               { "@id" : "http://sw.opencyc.org/2012/05/10/concept/en/Sun"},
               { "@id" : "http://dbpedia.org/data/Sun.ntriples"}
             ],
-            "rdfs:label": "The Sun"
+            "rdfs:label": "Sun"
         },
         {
             "@id": "http://ontology.projectchronos.eu/solarsystem/Mercury",
