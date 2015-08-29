@@ -69,7 +69,7 @@ def convert_all_dictionaries():
 #
 # if you need to convert only one dictionary
 #
-name = 'Chronos.json'
+name = 'SolarSystem.json'
 namepath = os.path.join(jsonpath, name)
 content = readjson(namepath)
 filename = name[:-5].lower()
