@@ -6,7 +6,7 @@ Credits to JacopoD, Lorenzo, Giacomo, AntonioG
 
 ### Notes:
 
-- this repo contains six files containing RDF ontologies:
+- this repo contains eight files containing RDF ontologies:
 - Chronos: a generic ontology for documents in the Chronos database
 - Sensors: an ontology for sensors instrument
 - Astronomy: an ontology for general astronomic concepts taken from wikipedia and umble.org
