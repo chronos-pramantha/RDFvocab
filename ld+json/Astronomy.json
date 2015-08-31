@@ -7,7 +7,7 @@
         "rdf"      : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs"     : "http://www.w3.org/2000/01/rdf-schema#",
         "owl"      : "http://www.w3.org/2002/07/owl#",
-        "dbpedia"  : "http://dbpedia.org/ontology/",
+        "dbpedia"  : "http://live.dbpedia.org/ontology/",
         "defines"  : {
           "@reverse": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
         }
@@ -28,7 +28,7 @@
         {
             "@id": "http://ontology.projectchronos.eu/astronomy/Planetary_system",
             "@type": "http://www.w3.org/2002/07/owl#Class",
-            "owl:sameAs": { "@id": "http://dbpedia.org/resource/Planetary_system" },
+            "owl:sameAs": { "@id": "http://live.dbpedia.org/data/Planetary_system.ntriples" },
             "rdfs:subClassOf": { "@id": "http://ontology.projectchronos.eu/astronomy/AstronomicalObject" },
             "rdfs:label": "Planetary_system",
             "rdfs:comment": "Solar System is a planetary system - see solarsystem vocabulary"
@@ -90,7 +90,7 @@
         },
         {
             "@id": "http://ontology.projectchronos.eu/astronomy/Asteroid",
-            "owl:sameAs": { "@id": "http://dbpedia.org/ontology/Asteroid" },
+            "owl:sameAs": { "@id": "http://live.dbpedia.org/data/Asteroid.ntriples" },
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "rdfs:label": "Asteroid",
             "rdfs:comment": "a document representing an asteroid",
@@ -116,7 +116,7 @@
             "@id": "http://ontology.projectchronos.eu/astronomy/Natural_satellite",
             "owl:sameAs": [
                 { "@id": "http://umbel.org/umbel/rc/MoonOfAPlanet.n3" },
-                { "@id": "http://dbpedia.org/resource/Natural_satellite" },
+                { "@id": "http://live.dbpedia.org/data/Natural_satellite.ntriples" },
                 { "@id": "http://sw.opencyc.org/concept/Mx4rvfn7-pwpEbGdrcN5Y29ycA"}
             ],
             "@type": "http://www.w3.org/2002/07/owl#Class",
@@ -149,7 +149,7 @@
         },
         {
             "@id": "http://ontology.projectchronos.eu/astronomy/Ice_giant",
-            "owl:sameAs": { "@id": "http://dbpedia.org/resource/Ice_giant" },
+            "owl:sameAs": { "@id": "http://live.dbpedia.org/data/Ice_giant.ntriples" },
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "rdfs:subClassOf": { "@id": "http://ontology.projectchronos.eu/astronomy/GasGiant" },
             "rdfs:label": "Ice_giant",
@@ -165,7 +165,7 @@
         },
         {
             "@id": "http://ontology.projectchronos.eu/astronomy/DwarfPlanet",
-            "@owl:sameAs": { "@id": "http://dbpedia.org/resource/Dwarf_planet" },
+            "@owl:sameAs": { "@id": "http://live.dbpedia.org/data/Dwarf_planet.ntriples" },
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "rdfs:label": "DwarfPlanet",
             "rdfs:comment": "a trans-neptunian object with planet-like size",
@@ -204,14 +204,14 @@
         },
         {
             "@id": "http://ontology.projectchronos.eu/astronomy/CelestialBody",
-            "owl:sameAs": { "@id": "http://dbpedia.org/ontology/CelestialBody" },
+            "owl:sameAs": { "@id": "http://live.dbpedia.org/ontology/CelestialBody.ntriples" },
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "rdfs:label": "CelestialBody",
             "rdfs:comment": "a document representing a generic celestial body"
         },
         {
             "@id": "http://ontology.projectchronos.eu/astronomy/Outer_space",
-            "owl:sameAs": { "@id": "http://dbpedia.org/ontology/Outer_space" },
+            "owl:sameAs": { "@id": "http://live.dbpedia.org/ontology/Outer_space.ntriples" },
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "rdfs:label": "Outer_space",
             "rdfs:comment": "a document representing the open space outside atmosphere, from Low Earth Orbit to Extra Galactic Space"
@@ -221,7 +221,7 @@
             "@type"           : "http://www.w3.org/2002/07/owl#Class",
             "rdfs:subClassOf" : { "@id": "http://ontology.projectchronos.eu/sensors/FieldOfResearch" },
             "rdfs:label"      : "PlanetaryScience",
-            "owl:sameAs"      : { "@id": "http://dbpedia.org/resource/Planetary_science" }
+            "owl:sameAs"      : { "@id": "http://live.dbpedia.org/data/Planetary_science.ntriples" }
         },  
         {   
             "@id"             : "http://ontology.projectchronos.eu/astronomy/AtmosphericScience",
@@ -237,7 +237,7 @@
             "rdfs:label"      : "Cosmology",
             "owl:sameAs"      : [
                                     { "@id": "http://umbel.org/umbel/rc/Cosmology.n3" },
-                                    { "@id": "http://dbpedia.org/resource/Cosmology" }
+                                    { "@id": "http://live.dbpedia.org/data/Cosmology.ntriples" }
                                 ]
         },
         {
@@ -245,14 +245,14 @@
             "@type"           : "http://www.w3.org/2002/07/owl#Class",
             "rdfs:subClassOf" : { "@id": "http://ontology.projectchronos.eu/sensors/FieldOfResearch" },
             "rdfs:label"      : "ExtragalacticAstronomy",
-            "owl:sameAs"      : { "@id": "http://dbpedia.org/resource/Extragalactic_astronomy" }
+            "owl:sameAs"      : { "@id": "http://live.dbpedia.org/data/Extragalactic_astronomy.ntriples" }
         },
         {
             "@id"             : "http://ontology.projectchronos.eu/astronomy/GalacticAstronomy",
             "@type"           : "http://www.w3.org/2002/07/owl#Class",
             "rdfs:subClassOf" : { "@id": "http://ontology.projectchronos.eu/sensors/FieldOfResearch" },
             "rdfs:label"      : "GalacticAstronomy",
-            "owl:sameAs"      : { "@id": "http://dbpedia.org/resource/Galactic_astronomy" }
+            "owl:sameAs"      : { "@id": "http://live.dbpedia.org/data/Galactic_astronomy.ntriples" }
         },
         {
             "@id"             : "http://ontology.projectchronos.eu/sensors/PlanetaryAstronomy",

@@ -6,7 +6,7 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "owl": "http://www.w3.org/2002/07/owl#",
-    "dbpedia": "http://dbpedia.org/ontology/",
+    "dbpedia": "http://live.dbpedia.org/ontology/",
     "xml": "http://www.w3.org/2001/XMLSchema#",
     "defines"  : {
           "@reverse": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
@@ -67,7 +67,7 @@
             "rdf:range" : { "@id": "http://www.w3.org/2001/XMLSchema#float" },
             "owl:sameAs": [
                 { "@id": "http://umbel.org/umbel/rc/Volume" }, 
-                { "@id": "http://dbpedia.org/resource/Volume" },
+                { "@id": "http://live.dbpedia.org/data/Volume.ntriples" },
                 { "@id": "http://sw.opencyc.org/2012/05/10/concept/Mx4rvVju5JwpEbGdrcN5Y29ycA" }
             ],
             "rdfs:label": "hasVolume",
@@ -79,7 +79,7 @@
             "rdf:range" : { "@id": "http://www.w3.org/2001/XMLSchema#float" },
             "owl:sameAs": [
                 { "@id": "http://umbel.org/umbel/rc/Ampere" }, 
-                { "@id": "http://dbpedia.org/resource/Ampere" },
+                { "@id": "http://live.dbpedia.org/data/Ampere.ntriples" },
                 { "@id": "http://sw.opencyc.org/2012/05/10/concept/Mx4rvVieG5wpEbGdrcN5Y29ycA" }
             ],
             "rdfs:label": "hasMinAmpere",
@@ -91,7 +91,7 @@
             "rdf:range" : { "@id": "http://www.w3.org/2001/XMLSchema#float" },
             "owl:sameAs": [
                 { "@id": "http://umbel.org/umbel/rc/Ampere" }, 
-                { "@id": "http://dbpedia.org/resource/Ampere" },
+                { "@id": "http://live.dbpedia.org/data/Ampere.ntriples" },
                 { "@id": "http://sw.opencyc.org/2012/05/10/concept/Mx4rvVieG5wpEbGdrcN5Y29ycA" }
             ],
             "rdfs:label": "hasMaxAmpere",
@@ -103,7 +103,7 @@
             "rdf:range" : { "@id": "http://www.w3.org/2001/XMLSchema#float" },
             "owl:sameAs": [
                 { "@id": "http://umbel.org/umbel/rc/Mass" }, 
-                { "@id": "http://dbpedia.org/resource/Mass" }, 
+                { "@id": "http://live.dbpedia.org/data/Mass.ntriples" }, 
                 { "@id": "http://schema.org/Mass" },
                 { "@id": "http://sw.opencyc.org/2012/05/10/concept/Mx4rvVjb5pwpEbGdrcN5Y29ycA" }
             ],
@@ -116,7 +116,7 @@
             "rdf:range" : { "@id": "http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius" },
             "owl:sameAs": [
                 { "@id": "http://umbel.org/umbel/rc/Temperature" },
-                { "@id": "http://dbpedia.org/resource/Temperature" },
+                { "@id": "http://live.dbpedia.org/data/Temperature.ntriples" },
                 { "@id": "http://sw.opencyc.org/concept/Mx4rvVixf5wpEbGdrcN5Y29ycA" }
             ],
             "rdfs:label": "minWorkingTemperature",
@@ -128,7 +128,7 @@
             "rdf:range" : { "@id": "http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius" },
             "owl:sameAs": [
                 { "@id": "http://umbel.org/umbel/rc/Temperature" },
-                { "@id": "http://dbpedia.org/resource/Temperature" },
+                { "@id": "http://live.dbpedia.org/data/Temperature.ntriples" },
                 { "@id": "http://sw.opencyc.org/concept/Mx4rvVixf5wpEbGdrcN5Y29ycA" }
             ],
             "rdfs:label": "maxWorkingTemperature",
@@ -140,7 +140,7 @@
             "rdf:range" : { "@id": "http://www.w3.org/2001/XMLSchema#float" },
             "owl:sameAs": [
                 { "@id": "http://umbel.org/umbel/rc/Power" }, 
-                { "@id": "http://dbpedia.org/resource/Power_(physics)"},
+                { "@id": "http://live.dbpedia.org/data/Power_(physics).ntriples"},
                 { "@id": "http://sw.opencyc.org/2012/05/10/concept/Mx4rvVjcq5wpEbGdrcN5Y29ycA" }
             ],
             "rdfs:label": "hasPower",
@@ -150,7 +150,7 @@
             "@id": "http://ontology.projectchronos.eu/subsystems/hasSpecificImpulse",
             "rdf:domain" : { "@id": "http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft" },
             "rdf:range" : { "@id": "http://www.w3.org/2001/XMLSchema#float" },
-            "owl:sameAs": { "@id": "http://dbpedia.org/resource/Specific_impulse" },
+            "owl:sameAs": { "@id": "http://live.dbpedia.org/data/Specific_impulse.ntriples" },
             "rdfs:label": "hasSpecificImpulse",
             "@type" : { "@id": "http://www.w3.org/2002/07/owl#ObjectProperty" }
         },
@@ -165,7 +165,7 @@
             "rdf:domain" : { "@id": "http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft" },
             "rdf:range" : { "@id": "http://www.w3.org/2001/XMLSchema#float" },
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/resource/Price" }, 
+                { "@id": "http://live.dbpedia.org/data/Price.ntriples" }, 
                 { "@id": "http://umbel.org/umbel/rc/MonetaryValue" }, 
                 { "@id": "http://schema.org/PriceSpecification" }
             ],
@@ -368,7 +368,7 @@
                 {
                     "@type" : "http://www.w3.org/2002/07/owl#Restriction",
                     "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsytems/function" },
-                    "owl:hasValue" : { "@id": "http://dbpedia.org/resource/rc/Energy_storage" }
+                    "owl:hasValue" : { "@id": "http://live.dbpedia.org/data/rc/Energy_storage.ntriples" }
                 },
                 {
                     "@type" : "http://www.w3.org/2002/07/owl#Restriction",
@@ -423,7 +423,7 @@
                 {
                     "@type" : "http://www.w3.org/2002/07/owl#Restriction",
                     "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsytems/function" },
-                    "owl:hasValue" : { "@id": "http://dbpedia.org/resource/Process_control" }
+                    "owl:hasValue" : { "@id": "http://live.dbpedia.org/data/Process_control.ntriples" }
                 }
             ],
 
@@ -494,7 +494,7 @@
                 {
                     "@type" : "http://www.w3.org/2002/07/owl#Restriction",
                     "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsytems/function" },
-                    "owl:hasValue" : { "@id": "http://dbpedia.org/resource/Structural_system" }
+                    "owl:hasValue" : { "@id": "http://live.dbpedia.org/data/Structural_system.ntriples" }
                 },
                 {
                     "@type" : "http://www.w3.org/2002/07/owl#Restriction",
@@ -538,8 +538,8 @@
                     "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsytems/function" },
                     "owl:hasValue" : [
                         { "@id": "http://umbel.org/umbel/rc/InformationTransferEvent" },
-                        { "@id": "http://dbpedia.org/resource/Electronic_data_processing" },
-                        { "@id": "http://dbpedia.org/resource/Process_control" }
+                        { "@id": "http://live.dbpedia.org/data/Electronic_data_processing.ntriples" },
+                        { "@id": "http://live.dbpedia.org/data/Process_control.ntriples" }
                     ]
                 },
                 {
@@ -637,7 +637,7 @@
                     "@type" : "http://www.w3.org/2002/07/owl#Restriction",
                     "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsytems/function" },
                     "owl:hasValue" : [
-                        { "@id": "http://dbpedia.org/resource/Transmitting" },
+                        { "@id": "http://live.dbpedia.org/data/Transmitting.ntriples" },
                         { "@id": "http://umbel.org/umbel/rc/Receiving" }
                     ]
                 },
@@ -703,9 +703,9 @@
                     "@type" : "http://www.w3.org/2002/07/owl#Restriction",
                     "owl:onProperty" : { "@id": "http://ontology.projectchronos.eu/subsytems/function" },
                     "owl:hasValue" : [
-                        { "@id": "http://dbpedia.org/resource/Flight_dynamics_(spacecraft)" },
-                        { "@id": "http://dbpedia.org/resource/Attitude_control" },
-                        { "@id": "http://dbpedia.org/resource/Process_control" }
+                        { "@id": "http://live.dbpedia.org/data/Flight_dynamics_(spacecraft).ntriples" },
+                        { "@id": "http://live.dbpedia.org/data/Attitude_control.ntriples" },
+                        { "@id": "http://live.dbpedia.org/data/Process_control.ntriples" }
                     ]
                 },
                 {

@@ -7,7 +7,7 @@
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
         "owl": "http://www.w3.org/2002/07/owl#",
-        "dbpedia": "http://dbpedia.org/ontology/",
+        "dbpedia": "http://live.dbpedia.org/ontology/",
         "defines"  : {
           "@reverse": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
         }
@@ -31,7 +31,7 @@
             "@type": "http://ontology.projectchronos.eu/astronomy/Star",
             "owl:sameAs": [
               { "@id" : "http://sw.opencyc.org/2012/05/10/concept/en/Sun"},
-              { "@id" : "http://dbpedia.org/data/Sun.ntriples"}
+              { "@id" : "http://live.dbpedia.org/data/Sun.ntriples"}
             ],
             "rdfs:label": "Sun"
         },
@@ -53,7 +53,7 @@
                     "@id": "http://umbel.org/umbel/rc/PlanetMercury"
                 },
                 {
-                    "@id": "http://dbpedia.org/data/Mercury_%28planet%29.ntriples"
+                    "@id": "http://live.dbpedia.org/data/Mercury_%28planet%29.ntriples"
                 },
                 {
                     "@id": "http://sw.opencyc.org/2012/05/10/concept/en/PlanetMercury"
@@ -80,7 +80,7 @@
                     "@id": "http://umbel.org/umbel/rc/PlanetVenus"
                 },
                 {
-                    "@id": "http://dbpedia.org/data/Venus_(planet).ntriples"
+                    "@id": "http://live.dbpedia.org/data/Venus_(planet).ntriples"
                 },
                 {
                     "@id": "http://sw.opencyc.org/2012/05/10/concept/en/PlanetVenus"
@@ -107,7 +107,7 @@
                     "@id": "http://umbel.org/umbel/rc/PlanetEarth"
                 },
                 {
-                    "@id": "http://dbpedia.org/data/Earth.ntriples"
+                    "@id": "http://live.dbpedia.org/data/Earth.ntriples"
                 },
                 {
                     "@id": "http://sw.opencyc.org/2012/05/10/concept/en/PlanetEarth"
@@ -128,7 +128,7 @@
             ],
             "owl:sameAs": [
                 { "@id": "http://umbel.org/umbel/rc/MoonOfEarth" },
-                { "@id": "http://dbpedia.org/data/Moon.ntriples" },
+                { "@id": "http://live.dbpedia.org/data/Moon.ntriples" },
                 { "@id": "http://sw.opencyc.org/2012/05/10/concept/en/MoonOfEarth" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Earth" },
@@ -152,7 +152,7 @@
                     "@id": "http://umbel.org/umbel/rc/PlanetMars"
                 },
                 {
-                    "@id": "http://dbpedia.org/data/Mars.ntriples"
+                    "@id": "http://live.dbpedia.org/data/Mars.ntriples"
                 },
                 {
                   "@id": "http://sw.opencyc.org/2012/05/10/concept/en/PlanetMars"
@@ -173,7 +173,7 @@
             ],
             "owl:sameAs": [
                 { "@id": "http://umbel.org/umbel/rc/http://umbel.org/umbel/rc/Phobos_MoonOfMars" },
-                { "@id": "http://dbpedia.org/data/Phobos_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Phobos_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Mars" },
             "rdfs:label": "Phobos"
@@ -190,7 +190,7 @@
             ],
             "owl:sameAs": [
                 { "@id": "http://umbel.org/umbel/rc/http://umbel.org/umbel/rc/Deimos_MoonOfMars" },
-                { "@id": "http://dbpedia.org/data/Deimos_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Deimos_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Mars" },
             "rdfs:label": "Deimos"
@@ -207,7 +207,7 @@
                     "@id": "http://umbel.org/umbel/rc/AsteroidBelt"
                 },
                 {
-                    "@id": "http://dbpedia.org/data/Asteroid_belt.ntriples"
+                    "@id": "http://live.dbpedia.org/data/Asteroid_belt.ntriples"
                 },
                 {
                     "@id": "http://sw.opencyc.org/2012/05/10/concept/en/AsteroidBelt"
@@ -231,7 +231,7 @@
                     "@id": "http://umbel.org/umbel/rc/PlanetJupiter"
                 },
                 {
-                    "@id": "http://dbpedia.org/data/Jupiter.ntriples"
+                    "@id": "http://live.dbpedia.org/data/Jupiter.ntriples"
                 },
                 {
                   "@id": "http://sw.opencyc.org/2012/05/10/concept/en/PlanetJupiter"
@@ -251,7 +251,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Metis_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Metis_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Jupiter" },
             "rdfs:label": "Metis"
@@ -268,7 +268,7 @@
             ],
             "owl:sameAs": [
                 {
-                    "@id":  "http://dbpedia.org/data/Adrastea_(moon).ntriples"
+                    "@id":  "http://live.dbpedia.org/data/Adrastea_(moon).ntriples"
                 }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Jupiter" },
@@ -285,7 +285,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Amalthea_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Amalthea_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Jupiter" },
             "rdfs:label": "Amalthea"
@@ -301,7 +301,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Thebe_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Thebe_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Jupiter" },
             "rdfs:label": "Thebe"
@@ -317,7 +317,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Io_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Io_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Jupiter" },
             "rdfs:label": "Io"
@@ -333,7 +333,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Europa_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Europa_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Jupiter" },
             "rdfs:label": "Europa"
@@ -349,7 +349,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Ganymede_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Ganymede_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Jupiter" },
             "rdfs:label": "Ganymede"
@@ -365,7 +365,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Callisto_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Callisto_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Jupiter" },
             "rdfs:label": "Callisto"
@@ -381,7 +381,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Themisto_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Themisto_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Jupiter" },
             "rdfs:label": "Themisto"
@@ -397,7 +397,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Leda_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Leda_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Jupiter" },
             "rdfs:label": "Leda"
@@ -413,7 +413,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Himalia_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Himalia_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Jupiter" },
             "rdfs:label": "Himalia"
@@ -429,7 +429,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Lysithea_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Lysithea_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Jupiter" },
             "rdfs:label": "Lysithea"
@@ -445,7 +445,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Elara_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Elara_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Jupiter" },
             "rdfs:label": "Elara"
@@ -461,7 +461,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Carpo_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Carpo_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Jupiter" },
             "rdfs:label": "Carpo"
@@ -477,7 +477,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Euporie_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Euporie_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Jupiter" },
             "rdfs:label": "Euporie"
@@ -493,7 +493,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Moons_of_Jupiter.ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Moons_of_Jupiter.ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Jupiter" },
             "rdfs:label": "OtherMoonsOfJupiter"
@@ -513,7 +513,7 @@
                     "@id": "http://umbel.org/umbel/rc/PlanetSaturn"
                 },
                 {
-                    "@id": "http://dbpedia.org/data/Saturn.ntriples"
+                    "@id": "http://live.dbpedia.org/data/Saturn.ntriples"
                 }
             ],
             "rdfs:label": "Saturn"
@@ -529,7 +529,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Mimas_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Mimas_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": "http://ontology.projectchronos.eu/solarsystem/Saturn",
             "rdfs:label": "Mimas"
@@ -545,7 +545,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Enceladus_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Enceladus_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Saturn" },
             "rdfs:label": "Enceladus"
@@ -561,7 +561,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Thetys_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Thetys_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Saturn" },
             "rdfs:label": "Thetys"
@@ -577,7 +577,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Dione_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Dione_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Saturn" },
             "rdfs:label": "Dione"
@@ -593,7 +593,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Rhea_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Rhea_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Saturn" },
             "rdfs:label": "Rhea"
@@ -609,7 +609,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Titan_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Titan_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Saturn" },
             "rdfs:label": "Titan"
@@ -625,7 +625,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Iapetus_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Iapetus_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Saturn" },
             "rdfs:label": "Iapetus"
@@ -648,7 +648,7 @@
                     "@id": "http://umbel.org/umbel/rc/PlanetUranus"
                 },
                 {
-                    "@id": "http://dbpedia.org/data/Uranus.ntriples"
+                    "@id": "http://live.dbpedia.org/data/Uranus.ntriples"
                 },
                 {
                     "@id": "http://sw.opencyc.org/2012/05/10/concept/en/PlanetUranus"
@@ -667,7 +667,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Cordelia_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Cordelia_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Uranus" },
             "rdfs:label": "Cordelia"
@@ -683,7 +683,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Ophelia_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Ophelia_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Uranus" },
             "rdfs:label": "Ophelia"
@@ -699,7 +699,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Bianca_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Bianca_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Uranus" },
             "rdfs:label": "Bianca"
@@ -715,7 +715,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Cressida_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Cressida_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Uranus" },
             "rdfs:label": "Cressida"
@@ -731,7 +731,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Desdemona_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Desdemona_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Uranus" },
             "rdfs:label": "Desdemona"
@@ -747,7 +747,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Juliet_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Juliet_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Uranus" },
             "rdfs:label": "Juliet"
@@ -763,7 +763,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Portia_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Portia_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Uranus" },
             "rdfs:label": "Portia"
@@ -779,7 +779,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Rosalind_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Rosalind_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Uranus" },
             "rdfs:label": "Rosalind"
@@ -795,7 +795,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Cupid_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Cupid_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Uranus" },
             "rdfs:label": "Cupid"
@@ -811,7 +811,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Belinda_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Belinda_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Uranus" },
             "rdfs:label": "Belinda"
@@ -827,7 +827,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Perdita_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Perdita_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Uranus" },
             "rdfs:label": "Perdita"
@@ -843,7 +843,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Puck_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Puck_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Uranus" },
             "rdfs:label": "Puck"
@@ -859,7 +859,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Mab_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Mab_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Uranus" },
             "rdfs:label": "Mab"
@@ -875,7 +875,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Miranda_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Miranda_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Uranus" },
             "rdfs:label": "Miranda"
@@ -891,7 +891,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Ariel_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Ariel_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Uranus" },
             "rdfs:label": "Ariel"
@@ -907,7 +907,7 @@
                 }
             ],
             "owl:sameAs": [
-               { "@id":  "http://dbpedia.org/data/Umbriel_(moon).ntriples" }
+               { "@id":  "http://live.dbpedia.org/data/Umbriel_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Uranus" },
             "rdfs:label": "Umbriel"
@@ -923,7 +923,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Titania_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Titania_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Uranus" },
             "rdfs:label": "Titania"
@@ -939,7 +939,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Oberon_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Oberon_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Uranus" },
             "rdfs:label": "Oberon"
@@ -962,7 +962,7 @@
                     "@id": "http://umbel.org/umbel/rc/PlanetNeptune"
                 },
                 {
-                    "@id": "http://dbpedia.org/data/Neptune.ntriples"
+                    "@id": "http://live.dbpedia.org/data/Neptune.ntriples"
                 },
                 {
                     "@id": "http://sw.opencyc.org/2012/05/10/concept/en/PlanetNeptune"
@@ -981,7 +981,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Naiad_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Naiad_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Neptune" },
             "rdfs:label": "Naiad"
@@ -997,7 +997,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Thalassa_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Thalassa_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Neptune" },
             "rdfs:label": "Thalassa"
@@ -1013,7 +1013,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Despina_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Despina_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Neptune" },
             "rdfs:label": "Despina"
@@ -1029,7 +1029,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Galatea_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Galatea_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Neptune" },
             "rdfs:label": "Galatea"
@@ -1045,7 +1045,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Larissa_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Larissa_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Neptune" },
             "rdfs:label": "Larissa"
@@ -1061,7 +1061,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Proteus_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Proteus_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Neptune" },
             "rdfs:label": "Proteus"
@@ -1077,7 +1077,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Triton_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Triton_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Neptune" },
             "rdfs:label": "Triton"
@@ -1093,7 +1093,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Nereid_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Nereid_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Neptune" },
             "rdfs:label": "Nereid"
@@ -1109,7 +1109,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Halimede_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Halimede_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Neptune" },
             "rdfs:label": "Halimede"
@@ -1125,7 +1125,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Sao_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Sao_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Neptune" },
             "rdfs:label": "Sao"
@@ -1141,7 +1141,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Laomedeia_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Laomedeia_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Neptune" },
             "rdfs:label": "Laomedeia"
@@ -1157,7 +1157,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Psamathe_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Psamathe_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Neptune" },
             "rdfs:label": "Psamathe"
@@ -1173,7 +1173,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Neso_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Neso_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Neptune" },
             "rdfs:label": "Neso"
@@ -1184,7 +1184,7 @@
                 "@id": "http://ontology.projectchronos.eu/astronomy/DwarfPlanet"
             },
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Ceres_(dwarf_planet).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Ceres_(dwarf_planet).ntriples" }
             ],
             "rdfs:label": "Ceres",
             "astronomy:orbiting": { "@id": "http://ontology.projectchronos.eu/solarsystem/Sun" }
@@ -1193,7 +1193,7 @@
             "@id": "http://ontology.projectchronos.eu/solarsystem/Pluto",
             "@type": "http://ontology.projectchronos.eu/astronomy/DwarfPlanet",
             "owl:sameAs": [
-                "http://dbpedia.org/data/Pluto.ntriples"
+                "http://live.dbpedia.org/data/Pluto.ntriples"
             ],
             "rdfs:label": "Pluto",
             "astronomy:orbiting": { "@id": "http://ontology.projectchronos.eu/solarsystem/Sun" }
@@ -1209,7 +1209,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Charon_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Charon_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Pluto" },
             "rdfs:label": "Charon"
@@ -1225,7 +1225,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Styx_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Styx_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Pluto" },
             "rdfs:label": "Styx"
@@ -1241,7 +1241,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Nix_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Nix_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Pluto" },
             "rdfs:label": "Nix"
@@ -1257,7 +1257,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Kerberos_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Kerberos_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Pluto" },
             "rdfs:label": "Kerberos"
@@ -1273,7 +1273,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Hydra_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Hydra_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Pluto" },
             "rdfs:label": "Hydra"
@@ -1282,7 +1282,7 @@
             "@id": "http://ontology.projectchronos.eu/solarsystem/Haumea",
             "@type": "http://ontology.projectchronos.eu/astronomy/DwarfPlanet",
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Haumea.ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Haumea.ntriples" }
             ],
             "rdfs:label": "Haumea",
             "astronomy:orbiting": { "@id": "http://ontology.projectchronos.eu/solarsystem/Sun" }
@@ -1298,7 +1298,7 @@
                 }
             ],
             "owl:sameAs": [
-               { "@id": "http://dbpedia.org/data/Moons_of_Haumea_(moon).ntriples" }
+               { "@id": "http://live.dbpedia.org/data/Moons_of_Haumea_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Haumea" },
             "rdfs:label": "Haumea_I_and_II"
@@ -1307,7 +1307,7 @@
             "@id": "http://ontology.projectchronos.eu/solarsystem/Makemake",
             "@type": "http://ontology.projectchronos.eu/astronomy/DwarfPlanet",
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Makemake.ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Makemake.ntriples" }
             ],
             "rdfs:label": "Makemake"
         },
@@ -1315,7 +1315,7 @@
             "@id": "http://ontology.projectchronos.eu/solarsystem/Eris",
             "@type": "http://ontology.projectchronos.eu/astronomy/DwarfPlanet",
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Eris_(dwarf_planet).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Eris_(dwarf_planet).ntriples" }
             ],
             "rdfs:label": "Eris"
         },
@@ -1330,7 +1330,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Dysnomia_(moon).ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Dysnomia_(moon).ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Eris" },
             "rdfs:label": "Dysnomia"
@@ -1343,7 +1343,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Trans-Neptunian_object.ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Trans-Neptunian_object.ntriples" }
             ],
             "rdfs:label": "Trans-Neptunian_object"
         },
@@ -1355,7 +1355,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Kuiper_belt.ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Kuiper_belt.ntriples" }
             ],
             "rdfs:subClassOf": { "@id": "http://ontology.projectchronos.eu/solarsystem/Trans-Neptunian_object" },
             "rdfs:label": "Kuiper_belt",
@@ -1369,7 +1369,7 @@
                 }
             ],
             "owl:sameAs": [
-                { "@id": "http://dbpedia.org/data/Oort_cloud.ntriples" }
+                { "@id": "http://live.dbpedia.org/data/Oort_cloud.ntriples" }
             ],
             "rdfs:subClassOf": { "@id": "http://ontology.projectchronos.eu/solarsystem/Trans-Neptunian_object" },
             "rdfs:label": "Oort_cloud",

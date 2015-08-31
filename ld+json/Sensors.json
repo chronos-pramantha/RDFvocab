@@ -449,21 +449,21 @@
                         "@type"        : "http://www.w3.org/2002/07/owl#Class",
                         "rdfs:comment" : "I copied and pasted this class and its subclasses from some image file (.png) of an ontology which I cannot find again. It is important to find it again to give credits.",
                         "rdfs:label"   : "EMSpectrum",
-                        "owl:sameAs"   : { "@id": "http://dbpedia.org/resource/Electromagnetic_spectrum" }
+                        "owl:sameAs"   : { "@id": "http://live.dbpedia.org/data/Electromagnetic_spectrum.ntriples" }
                     },
                     {
                         "@id"             : "http://ontology.projectchronos.eu/sensors/EarthObservation",
                         "@type"           : "http://www.w3.org/2002/07/owl#Class",
                         "rdfs:subClassOf" : { "@id": "http://ontology.projectchronos.eu/sensors/FieldOfResearch" },
                         "rdfs:label"      : "EarthObservation",
-                        "owl:sameAs"      : { "@id": "http://dbpedia.org/resource/Earth_observation" }
+                        "owl:sameAs"      : { "@id": "http://live.dbpedia.org/data/Earth_observation.ntriples" }
                     },
                     {
                         "@id"             : "http://ontology.projectchronos.eu/sensors/ElectricCharge",
                         "@type"           : "http://www.w3.org/2002/07/owl#Class",
                         "rdfs:subClassOf" : { "@id": "http://ontology.projectchronos.eu/sensors/PhysicalQuantity" },
                         "rdfs:label"      : "ElectricCharge",
-                        "owl:sameAs"      : { "@id": "http://dbpedia.org/resource/Electric_charge" }
+                        "owl:sameAs"      : { "@id": "http://live.dbpedia.org/data/Electric_charge.ntriples" }
                     },
                     {
                         "@id"             : "http://ontology.projectchronos.eu/sensors/ElectricCurrent",
@@ -482,7 +482,7 @@
                         "@type"           : "http://www.w3.org/2002/07/owl#Class",
                         "rdfs:subClassOf" : { "@id": "http://ontology.projectchronos.eu/sensors/PhysicalQuantity" },
                         "rdfs:label"      : "ElectricPotential",
-                        "owl:sameAs"      : { "@id": "http://dbpedia.org/resource/Electric_potential" }
+                        "owl:sameAs"      : { "@id": "http://live.dbpedia.org/data/Electric_potential.ntriples" }
 
                     },
                     {
@@ -490,21 +490,21 @@
                         "@type"           : "http://www.w3.org/2002/07/owl#Class",
                         "rdfs:subClassOf" : { "@id": "http://ontology.projectchronos.eu/sensors/PhysicalQuantity" },
                         "rdfs:label"      : "ElectricalResistance",
-                        "owl:sameAs"      : { "@id": "http://dbpedia.org/resource/Electrical_resistance_and_conductance" }
+                        "owl:sameAs"      : { "@id": "http://live.dbpedia.org/data/Electrical_resistance_and_conductance.ntriples" }
                     },
                     {
                         "@id"             : "http://ontology.projectchronos.eu/sensors/Energy",
                         "@type"           : "http://www.w3.org/2002/07/owl#Class",
                         "rdfs:subClassOf" : { "@id": "http://ontology.projectchronos.eu/sensors/PhysicalQuantity" },
                         "rdfs:label"      : "Energy",
-                        "owl:sameAs"      : { "@id": "http://dbpedia.org/resource/Energy" }
+                        "owl:sameAs"      : { "@id": "http://live.dbpedia.org/data/Energy.ntriples" }
                     },
                     {
                         "@id"             : "http://ontology.projectchronos.eu/sensors/EnergyDensity",
                         "@type"           : "http://www.w3.org/2002/07/owl#Class",
                         "rdfs:subClassOf" : { "@id": "http://ontology.projectchronos.eu/sensors/PhysicalQuantity" },
                         "rdfs:label"      : "EnergyDensity",
-                        "owl:sameAs"      : { "@id": "http://dbpedia.org/resource/Energy_density" }
+                        "owl:sameAs"      : { "@id": "http://live.dbpedia.org/data/Energy_density.ntriples" }
                     },
                     {
                         "@id"             : "http://ontology.projectchronos.eu/sensors/ExtremeUltraViolet",
@@ -530,28 +530,28 @@
                         "@type"           : "http://www.w3.org/2002/07/owl#Class",
                         "rdfs:subClassOf" : { "@id": "http://ontology.projectchronos.eu/sensors/PhysicalQuantity" },
                         "rdfs:label"      : "Force",
-                        "owl:sameAs"      : { "@id": "http://dbpedia.org/resource/Force" }
+                        "owl:sameAs"      : { "@id": "http://live.dbpedia.org/data/Force.ntriples" }
                     },
                     {
                         "@id"             : "http://ontology.projectchronos.eu/sensors/Frequency",
                         "@type"           : "http://www.w3.org/2002/07/owl#Class",
                         "rdfs:subClassOf" : { "@id": "http://ontology.projectchronos.eu/sensors/PhysicalQuantity" },
                         "rdfs:label"      : "Frequency",
-                        "owl:sameAs"      : { "@id": "http://dbpedia.org/resource/Frequency" }
+                        "owl:sameAs"      : { "@id": "http://live.dbpedia.org/data/Frequency.ntriples" }
                     },
                     {
                         "@id"             : "http://ontology.projectchronos.eu/sensors/GammaRays",
                         "@type"           : "http://www.w3.org/2002/07/owl#Class",
                         "rdfs:subClassOf" : { "@id": "http://ontology.projectchronos.eu/sensors/EMSpectrum" },
                         "rdfs:label"      : "GammaRays",
-                        "owl:sameAs"      : { "@id": "http://dbpedia.org/resource/Gamma_ray" }
+                        "owl:sameAs"      : { "@id": "http://live.dbpedia.org/data/Gamma_ray.ntriples" }
                     },
                     {
                         "@id"             : "http://ontology.projectchronos.eu/sensors/Heat",
                         "@type"           : "http://www.w3.org/2002/07/owl#Class",
                         "rdfs:subClassOf" : { "@id": "http://ontology.projectchronos.eu/sensors/PhysicalQuantity" },
                         "rdfs:label"      : "Heat",
-                        "owl:sameAs"      : { "@id": "http://dbpedia.org/resource/Heat" }
+                        "owl:sameAs"      : { "@id": "http://live.dbpedia.org/data/Heat.ntriples" }
                     },
                     {
                         "@id"             : "http://ontology.projectchronos.eu/sensors/Impulse",
@@ -570,7 +570,7 @@
                         "@type"           : "http://www.w3.org/2002/07/owl#Class",
                         "rdfs:subClassOf" : { "@id": "http://ontology.projectchronos.eu/sensors/EMSpectrum" },
                         "rdfs:label"      : "Infrared",
-                        "owl:sameAs"      : { "@id": "http://dbpedia.org/resource/Infrared" }
+                        "owl:sameAs"      : { "@id": "http://live.dbpedia.org/data/Infrared.ntriples" }
                     },
                     {
                         "@id"             : "http://ontology.projectchronos.eu/sensors/InfraredRadiometer",
@@ -583,7 +583,7 @@
                         "@type"           : "http://www.w3.org/2002/07/owl#Class",
                         "rdfs:subClassOf" : { "@id": "http://ontology.projectchronos.eu/sensors/PhysicalQuantity" },
                         "rdfs:label"      : "Length",
-                        "owl:sameAs"      : { "@id": "http://dbpedia.org/resource/Length_measurement" }
+                        "owl:sameAs"      : { "@id": "http://live.dbpedia.org/data/Length_measurement.ntriples" }
                     },
                     {
                         "@id"             : "http://ontology.projectchronos.eu/sensors/LuminousIntensity",
@@ -614,7 +614,7 @@
                                                 }
                                             ],
                         "rdfs:label"      : "Magnetometer",
-                        "owl:sameAs"      : { "@id": "http://dbpedia.org/resource/Magnetometer" }
+                        "owl:sameAs"      : { "@id": "http://live.dbpedia.org/data/Magnetometer.ntriples" }
                     },
                     {
                         "@id"             : "http://ontology.projectchronos.eu/sensors/Mass",
@@ -623,7 +623,7 @@
                         "rdfs:label"      : "Mass",
                         "owl:sameAs"      : [
                           { "@id": "http://umbel.org/umbel/rc/Mass.n3" },
-                          { "@id": "http://dbpedia.org/resource/Mass" },
+                          { "@id": "http://live.dbpedia.org/data/Mass.ntriples" },
                           { "@id": "http://schema.org/Mass" }
                         ]
                     },
@@ -638,7 +638,7 @@
                         "@type"           : "http://www.w3.org/2002/07/owl#Class",
                         "rdfs:subClassOf" : { "@id": "http://ontology.projectchronos.eu/sensors/PhysicalEntity" },
                         "rdfs:label"      : "Molecule",
-                        "owl:sameAs"      : { "@id": "http://dbpedia.org/resource/Molecule" }
+                        "owl:sameAs"      : { "@id": "http://live.dbpedia.org/data/Molecule.ntriples" }
                     },
                     {
                         "@id"             : "http://ontology.projectchronos.eu/sensors/NearInfrared",
@@ -657,7 +657,7 @@
                         "@type"           : "http://www.w3.org/2002/07/owl#Class",
                         "rdfs:subClassOf" : { "@id": "http://ontology.projectchronos.eu/sensors/PhysicalEntity" },
                         "rdfs:label"      : "Particle",
-                        "owl:sameAs"      : { "@id": "http://dbpedia.org/resource/Subatomic_particle" }
+                        "owl:sameAs"      : { "@id": "http://live.dbpedia.org/data/Subatomic_particle.ntriples" }
                     },
                     {
                         "@id"                 : "http://ontology.projectchronos.eu/sensors/PassiveInstrument",
@@ -701,7 +701,7 @@
                         "rdfs:subClassOf" : { "@id": "http://ontology.projectchronos.eu/sensors/PhysicalEntity" },
                         "rdfs:label"      : "Plasma",
                         "owl:sameAs"      : [
-                          { "@id": "http://dbpedia.org/resource/Plasma_(physics)" },
+                          { "@id": "http://live.dbpedia.org/data/Plasma_(physics).ntriples" },
                           { "@id": "http://sw.opencyc.org/2012/05/10/concept/Mx4rvhh7xJwpEbGdrcN5Y29ycA" }
                         ]
                     },
@@ -710,7 +710,7 @@
                         "@type"           : "http://www.w3.org/2002/07/owl#Class",
                         "rdfs:subClassOf" : { "@id": "http://ontology.projectchronos.eu/sensors/PhysicalQuantity" },
                         "rdfs:label"      : "Power",
-                        "owl:sameAs"      : { "@id": "http://dbpedia.org/resource/Power_(physics)" }
+                        "owl:sameAs"      : { "@id": "http://live.dbpedia.org/data/Power_(physics).ntriples" }
                     },
                     {
                         "@id"             : "http://ontology.projectchronos.eu/sensors/Pressure",
@@ -718,7 +718,7 @@
                         "rdfs:subClassOf" : { "@id": "http://ontology.projectchronos.eu/sensors/PhysicalQuantity" },
                         "rdfs:label"      : "Pressure",
                         "owl:sameAs"      : [
-                            { "@id": "http://dbpedia.org/resource/Pressure" },
+                            { "@id": "http://live.dbpedia.org/data/Pressure.ntriples" },
                             { "@id": "http://sw.opencyc.org/2012/05/10/concept/Mx4rvVjtE5wpEbGdrcN5Y29ycA"}
                           ]
                     },
@@ -758,7 +758,7 @@
                         "@type"           : "http://www.w3.org/2002/07/owl#Class",
                         "rdfs:subClassOf" : { "@id": "http://ontology.projectchronos.eu/sensors/OpticalInstrument" },
                         "rdfs:label"      : "Radiometer",
-                        "owl:sameAs"      : { "@id": "http://dbpedia.org/resource/Radiometer" }
+                        "owl:sameAs"      : { "@id": "http://live.dbpedia.org/data/Radiometer.ntriples" }
                     },
                     {
                         "@id"             : "http://ontology.projectchronos.eu/sensors/Red",
@@ -788,14 +788,14 @@
                         "@type"           : "http://www.w3.org/2002/07/owl#Class",
                         "rdfs:subClassOf" : { "@id": "http://ontology.projectchronos.eu/sensors/SpectroscopicInstrument" },
                         "rdfs:label"      : "Spectrograph",
-                        "owl:sameAs"      : { "@id": "http://dbpedia.org/resource/Spectrograph" }
+                        "owl:sameAs"      : { "@id": "http://live.dbpedia.org/data/Spectrograph.ntriples" }
                     },
                     {
                         "@id"             : "http://ontology.projectchronos.eu/sensors/Spectrometer",
                         "@type"           : "http://www.w3.org/2002/07/owl#Class",
                         "rdfs:subClassOf" : { "@id": "http://ontology.projectchronos.eu/sensors/SpectroscopicInstrument" },
                         "rdfs:label"      : "Spectrometer",
-                        "owl:sameAs"      : { "@id": "http://dbpedia.org/resource/Spectrometer" }
+                        "owl:sameAs"      : { "@id": "http://live.dbpedia.org/data/Spectrometer.ntriples" }
                     },
                     {
                         "@id"             : "http://ontology.projectchronos.eu/sensors/SpectroscopicInstrument",
@@ -808,7 +808,7 @@
                         "@type"           : "http://www.w3.org/2002/07/owl#Class",
                         "rdfs:subClassOf" : { "@id": "http://ontology.projectchronos.eu/sensors/PhysicalQuantity" },
                         "rdfs:label"      : "Spin_(physics)",
-                        "owl:sameAs"      : { "@id": "http://dbpedia.org/resource/Spin_(physics)" }
+                        "owl:sameAs"      : { "@id": "http://live.dbpedia.org/data/Spin_(physics).ntriples" }
                     },
                     {
                         "@id"             : "http://ontology.projectchronos.eu/sensors/Temperature",
@@ -816,7 +816,7 @@
                         "rdfs:subClassOf" : { "@id": "http://ontology.projectchronos.eu/sensors/PhysicalQuantity" },
                         "rdfs:label"      : "Temperature",
                         "owl:sameAs"     : [
-                          { "@id": "http://dbpedia.org/resource/Temperature" },
+                          { "@id": "http://live.dbpedia.org/data/Temperature.ntriples" },
                           { "@id": "http://sw.opencyc.org/2012/05/10/concept/Mx4rvVicfJwpEbGdrcN5Y29ycA" }
                           ]
 
@@ -858,7 +858,7 @@
                         "rdfs:label"      : "Volume",
                         "owl:sameAs"      : [
                           { "@id": "http://umbel.org/umbel/rc/Volume.n3" },
-                          { "@id": "http://dbpedia.org/resource/Volume" },
+                          { "@id": "http://live.dbpedia.org/data/Volume.ntriples" },
                           { "@id": "http://sw.opencyc.org/2012/05/10/concept/Mx4rvVju5JwpEbGdrcN5Y29ycA" }
                         ]
                     },
