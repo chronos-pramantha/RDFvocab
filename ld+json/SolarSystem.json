@@ -60,7 +60,12 @@
                 }
             ],
             "rdfs:label": "Mercury",
-            "astronomy:orbiting": "http://ontology.projectchronos.eu/solarsystem/Sun"
+            "astronomy:orbiting": {
+                "@id": "http://ontology.projectchronos.eu/solarsystem/Sun"
+            },
+            "chronos:relatedTo": {
+                "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/mercury_(planet)"
+            }
         },
         {
             "@id": "http://ontology.projectchronos.eu/solarsystem/Venus",
@@ -87,7 +92,12 @@
                 }
             ],
             "rdfs:label": "Venus",
-            "astronomy:orbiting": "http://ontology.projectchronos.eu/solarsystem/Sun"
+            "astronomy:orbiting": {
+                "@id": "http://ontology.projectchronos.eu/solarsystem/Sun"
+            },
+            "chronos:relatedTo": {
+                "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/venus"
+            }
         },
         {
             "@id": "http://ontology.projectchronos.eu/solarsystem/Earth",
@@ -114,7 +124,12 @@
                 }
             ],
             "rdfs:label": "Earth",
-            "astronomy:orbiting": "http://ontology.projectchronos.eu/solarsystem/Sun"
+            "astronomy:orbiting": {
+                "@id": "http://ontology.projectchronos.eu/solarsystem/Sun"
+            },
+            "chronos:relatedTo": {
+                "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/earth"
+            }
         },
         {
             "@id": "http://ontology.projectchronos.eu/solarsystem/Moon",
@@ -159,7 +174,12 @@
                 }
             ],
             "rdfs:label": "Mars",
-            "astronomy:orbiting": "http://ontology.projectchronos.eu/solarsystem/Sun"
+            "astronomy:orbiting": {
+                "@id": "http://ontology.projectchronos.eu/solarsystem/Sun"
+            },
+            "chronos:relatedTo": {
+                "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/mars"
+            }
         },
         {
             "@id": "http://ontology.projectchronos.eu/solarsystem/Phobos",
@@ -238,7 +258,12 @@
                 }
             ],
             "rdfs:label": "Jupiter",
-            "astronomy:orbiting": "http://ontology.projectchronos.eu/solarsystem/Sun"
+            "astronomy:orbiting": {
+                "@id": "http://ontology.projectchronos.eu/solarsystem/Sun"
+            },
+            "chronos:relatedTo": {
+                "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/jupiter"
+            }
         },
         {
             "@id": "http://ontology.projectchronos.eu/solarsystem/Metis",
@@ -516,7 +541,13 @@
                     "@id": "http://live.dbpedia.org/data/Saturn.ntriples"
                 }
             ],
-            "rdfs:label": "Saturn"
+            "rdfs:label": "Saturn",
+            "chronos:relatedTo": {
+                "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/saturn"
+            },
+            "astronomy:orbiting": {
+                "@id": "http://ontology.projectchronos.eu/solarsystem/Sun"
+            }
         },
         {
             "@id": "http://ontology.projectchronos.eu/solarsystem/Mimas",
@@ -654,7 +685,13 @@
                     "@id": "http://sw.opencyc.org/2012/05/10/concept/en/PlanetUranus"
                 }
             ],
-            "rdfs:label": "Uranus"
+            "rdfs:label": "Uranus",
+            "astronomy:orbiting": {
+                "@id": "http://ontology.projectchronos.eu/solarsystem/Sun"
+            },
+            "chronos:relatedTo": {
+                "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/uranus"
+            }
         },
         {
             "@id": "http://ontology.projectchronos.eu/solarsystem/Cordelia",
@@ -968,7 +1005,13 @@
                     "@id": "http://sw.opencyc.org/2012/05/10/concept/en/PlanetNeptune"
                 }
             ],
-            "rdfs:label": "Neptune"
+            "rdfs:label": "Neptune",
+            "astronomy:orbiting": {
+                "@id": "http://ontology.projectchronos.eu/solarsystem/Sun"
+            },
+            "chronos:relatedTo": {
+                "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/neptune"
+            }
         },
         {
             "@id": "http://ontology.projectchronos.eu/solarsystem/Naiad",
