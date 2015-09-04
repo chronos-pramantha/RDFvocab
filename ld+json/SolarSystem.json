@@ -33,7 +33,10 @@
               { "@id" : "http://sw.opencyc.org/2012/05/10/concept/en/Sun"},
               { "@id" : "http://live.dbpedia.org/data/Sun.ntriples"}
             ],
-            "rdfs:label": "Sun"
+            "rdfs:label": "Sun",
+            "chronos:relatedTo": {
+                "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/sun"
+            }
         },
         {
             "@id": "http://ontology.projectchronos.eu/solarsystem/Mercury",
@@ -233,7 +236,13 @@
                     "@id": "http://sw.opencyc.org/2012/05/10/concept/en/AsteroidBelt"
                 }
             ],
-            "rdfs:label": "Asteroids_belt"
+            "rdfs:label": "Asteroids_belt",
+            "astronomy:orbiting": {
+                "@id": "http://ontology.projectchronos.eu/solarsystem/Sun"
+            },
+            "chronos:relatedTo": {
+                "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/asteroid_belt"
+            }
         },
         {
             "@id": "http://ontology.projectchronos.eu/solarsystem/Jupiter",
@@ -1239,7 +1248,10 @@
                 "http://live.dbpedia.org/data/Pluto.ntriples"
             ],
             "rdfs:label": "Pluto",
-            "astronomy:orbiting": { "@id": "http://ontology.projectchronos.eu/solarsystem/Sun" }
+            "astronomy:orbiting": { "@id": "http://ontology.projectchronos.eu/solarsystem/Sun" },
+            "chronos:relatedTo": {
+                "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/pluto"
+            }
         },
         {
             "@id": "http://ontology.projectchronos.eu/solarsystem/Charon",
@@ -1352,7 +1364,8 @@
             "owl:sameAs": [
                 { "@id": "http://live.dbpedia.org/data/Makemake.ntriples" }
             ],
-            "rdfs:label": "Makemake"
+            "rdfs:label": "Makemake",
+            "astronomy:orbiting": { "@id": "http://ontology.projectchronos.eu/solarsystem/Sun" }
         },
         {
             "@id": "http://ontology.projectchronos.eu/solarsystem/Eris",
@@ -1360,7 +1373,8 @@
             "owl:sameAs": [
                 { "@id": "http://live.dbpedia.org/data/Eris_(dwarf_planet).ntriples" }
             ],
-            "rdfs:label": "Eris"
+            "rdfs:label": "Eris",
+            "astronomy:orbiting": { "@id": "http://ontology.projectchronos.eu/solarsystem/Sun" }
         },
         {
             "@id": "http://ontology.projectchronos.eu/solarsystem/Dysnomia",
@@ -1388,7 +1402,11 @@
             "owl:sameAs": [
                 { "@id": "http://live.dbpedia.org/data/Trans-Neptunian_object.ntriples" }
             ],
-            "rdfs:label": "Trans-Neptunian_object"
+            "rdfs:label": "Trans-Neptunian_object",
+            "astronomy:orbiting": { "@id": "http://ontology.projectchronos.eu/solarsystem/Sun" },
+            "chronos:relatedTo": {
+                "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/trans-neptunian_object"
+            }
         },
         {
             "@id": "http://ontology.projectchronos.eu/solarsystem/Kuiper_belt",
@@ -1402,7 +1420,10 @@
             ],
             "rdfs:subClassOf": { "@id": "http://ontology.projectchronos.eu/solarsystem/Trans-Neptunian_object" },
             "rdfs:label": "Kuiper_belt",
-            "astronomy:orbiting": { "@id": "http://ontology.projectchronos.eu/solarsystem/Sun" }
+            "astronomy:orbiting": { "@id": "http://ontology.projectchronos.eu/solarsystem/Sun" },
+            "chronos:relatedTo": {
+                "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/kuiper_belt"
+            }
         },
         {
             "@id": "http://ontology.projectchronos.eu/solarsystem/Oort_cloud",
@@ -1416,7 +1437,10 @@
             ],
             "rdfs:subClassOf": { "@id": "http://ontology.projectchronos.eu/solarsystem/Trans-Neptunian_object" },
             "rdfs:label": "Oort_cloud",
-            "astronomy:orbiting": { "@id": "http://ontology.projectchronos.eu/solarsystem/Sun" }
+            "astronomy:orbiting": { "@id": "http://ontology.projectchronos.eu/solarsystem/Sun" },
+            "chronos:relatedTo": {
+                "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/oort_cloud"
+            }
         }
     ]
 }
