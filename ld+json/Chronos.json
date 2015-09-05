@@ -109,6 +109,20 @@
             "rdfs:comment": "a keyword representing a Concept in the NASA-STI taxonomy"
         },
         {
+            "@id": "http://ontology.projectchronos.eu/chronos/webresource",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "rdfs:label": "webresource",
+            "skos:prefLabel": "A resource crawled from the web",
+            "rdfs:comment": "the resources crawled are dumped in the triples store"
+        },
+        {
+            "@id": "http://ontology.projectchronos.eu/chronos/concept",
+            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "rdfs:label": "concept",
+            "skos:prefLabel": "a concept stored in taxonomy.projectchronos.eu/concepts/c",
+            "rdfs:comment": "other classes instances and webresources are linked to a concept in the taxonomy"
+        },
+        {
             "@id": "http://ontology.projectchronos.eu/chronos/dbpediadoc",
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "skos:prefLabel": "data taken from a DBpedia page",
