@@ -4,6 +4,7 @@
         "astronomy": "http://ontology.projectchronos.eu/astronomy/",
         "schema"   : "https://schema.org/",
         "skos"     : "http://www.w3.org/2004/02/skos/core#",
+        "chronos"  : "http://ontology.projectchronos.eu/chronos/",
         "rdf"      : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs"     : "http://www.w3.org/2000/01/rdf-schema#",
         "owl"      : "http://www.w3.org/2002/07/owl#",
@@ -42,12 +43,15 @@
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "rdfs:label": "Star",
             "rdfs:comment": "a star",
-            "rdfs:subClassOf": { "@id": "http://ontology.projectchronos.eu/astronomy/AstronomicalObject" }
+            "rdfs:subClassOf": { "@id": "http://ontology.projectchronos.eu/astronomy/AstronomicalObject" },
+            "chronos:relConcept": {
+                "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/star"
+            }
         },
         {
             "@id": "http://ontology.projectchronos.eu/astronomy/PlanetaryBody",
             "@type": "http://www.w3.org/2002/07/owl#Class",
-            "rdfs:label": "a general astronomical object with the characteristics of a planet or any natural object under gravitational influence of a planet",
+            "skos:altLabel": "a general astronomical object with the characteristics of a planet or any natural object under gravitational influence of a planet",
             "rdfs:comment": "a document representing a general planet-shaped body or natural satellite or dust or rock or macroscopic particle of matter",
             "rdfs:label": "PlanetaryBody"
         },
@@ -55,7 +59,7 @@
             "@id": "http://ontology.projectchronos.eu/astronomy/Planet",
             "rdfs:subClassOf": { "@id": "http://ontology.projectchronos.eu/astronomy/PlanetaryBody" },
             "@type": "http://www.w3.org/2002/07/owl#Class",
-            "rdfs:label": "a general astronomical object with the characteristics of a planet",
+            "skos:altLabel": "a general astronomical object with the characteristics of a planet",
             "rdfs:comment": "a document representing a general planet-shaped astronomical body",
             "rdfs:label": "Planet",
             "owl:sameAs": {
@@ -94,7 +98,10 @@
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "rdfs:label": "Asteroid",
             "rdfs:comment": "a document representing an asteroid",
-            "rdfs:sameAs": { "@id": "http://umbel.org/umbel/rc/SubplanetaryStellarOrbiter.n3" }
+            "rdfs:sameAs": { "@id": "http://umbel.org/umbel/rc/SubplanetaryStellarOrbiter.n3" },
+            "chronos:relConcept": {
+                "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/asteroid"
+            }
         },
         {
             "@id": "http://ontology.projectchronos.eu/astronomy/Meteoroid",
@@ -102,7 +109,10 @@
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "rdfs:label": "Meteoroid",
             "rdfs:comment": "a document representing a meteoroid",
-            "rdfs:sameAs": { "@id": "http://umbel.org/umbel/rc/SubplanetaryStellarOrbiter.n3" }
+            "rdfs:sameAs": { "@id": "http://umbel.org/umbel/rc/SubplanetaryStellarOrbiter.n3" },
+            "chronos:relConcept": {
+                "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/meteoroid"
+            }
         },
         {
             "@id": "http://ontology.projectchronos.eu/astronomy/Comet",
@@ -110,7 +120,10 @@
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "rdfs:label": "Comet",
             "rdfs:comment": "a document representing a comet",
-            "rdfs:sameAs": { "@id": "http://umbel.org/umbel/rc/SubplanetaryStellarOrbiter.n3" }
+            "rdfs:sameAs": { "@id": "http://umbel.org/umbel/rc/SubplanetaryStellarOrbiter.n3" },
+            "chronos:relConcept": {
+                "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/comet"
+            }
         },
         {
             "@id": "http://ontology.projectchronos.eu/astronomy/Natural_satellite",
@@ -121,7 +134,10 @@
             ],
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "rdfs:label": "Natural_satellite",
-            "rdfs:comment": "a document representing a natural satellite or moon"
+            "rdfs:comment": "a document representing a natural satellite or moon",
+            "chronos:relConcept": {
+                "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/natural_satellite"
+            }
         },
         {
             "@id": "http://ontology.projectchronos.eu/astronomy/TerrestrialPlanet",

@@ -6,6 +6,7 @@
        "schema": "https://schema.org/",
        "skos": "http://www.w3.org/2004/02/skos/core#",
        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+       "chronos": "http://ontology.projectchronos.eu/chronos/",
        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
        "owl": "http://www.w3.org/2002/07/owl#",
        "dbpedia": "http://live.dbpedia.org/ontology/",
@@ -35,7 +36,10 @@
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "rdfs:label": "Spacecraft",
             "skos:prefLabel": "Each instance of spacecraft is a transportation device either deployed entirely in outer space, or one whose trajectories leave the atmosphere of the planet it's launched from, in order to orbit the planet or to travel beyond the planet's gravitational field.",
-            "rdfs:comment": "In this set of ontologies a spacecraft is described as a system of devices, a vessel made by different subsystems."
+            "rdfs:comment": "In this set of ontologies a spacecraft is described as a system of devices, a vessel made by different subsystems.",
+            "chronos:relConcept": {
+                "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/spacecraft"
+            }
         },
         {
             "@id": "http://ontology.projectchronos.eu/spacecraft/isSubsystemOf",

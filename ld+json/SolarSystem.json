@@ -35,7 +35,7 @@
               { "@id" : "http://live.dbpedia.org/data/Sun.ntriples"}
             ],
             "rdfs:label": "Sun",
-            "chronos:relatedTo": {
+            "chronos:relConcept": {
                 "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/sun"
             }
         },
@@ -67,7 +67,7 @@
             "astronomy:orbiting": {
                 "@id": "http://ontology.projectchronos.eu/solarsystem/Sun"
             },
-            "chronos:relatedTo": {
+            "chronos:relConcept": {
                 "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/mercury_(planet)"
             }
         },
@@ -99,7 +99,7 @@
             "astronomy:orbiting": {
                 "@id": "http://ontology.projectchronos.eu/solarsystem/Sun"
             },
-            "chronos:relatedTo": {
+            "chronos:relConcept": {
                 "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/venus"
             }
         },
@@ -131,7 +131,7 @@
             "astronomy:orbiting": {
                 "@id": "http://ontology.projectchronos.eu/solarsystem/Sun"
             },
-            "chronos:relatedTo": {
+            "chronos:relConcept": {
                 "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/earth"
             }
         },
@@ -181,7 +181,7 @@
             "astronomy:orbiting": {
                 "@id": "http://ontology.projectchronos.eu/solarsystem/Sun"
             },
-            "chronos:relatedTo": {
+            "chronos:relConcept": {
                 "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/mars"
             }
         },
@@ -241,7 +241,7 @@
             "astronomy:orbiting": {
                 "@id": "http://ontology.projectchronos.eu/solarsystem/Sun"
             },
-            "chronos:relatedTo": {
+            "chronos:relConcept": {
                 "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/asteroid_belt"
             }
         },
@@ -271,7 +271,7 @@
             "astronomy:orbiting": {
                 "@id": "http://ontology.projectchronos.eu/solarsystem/Sun"
             },
-            "chronos:relatedTo": {
+            "chronos:relConcept": {
                 "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/jupiter"
             }
         },
@@ -552,7 +552,7 @@
                 }
             ],
             "rdfs:label": "Saturn",
-            "chronos:relatedTo": {
+            "chronos:relConcept": {
                 "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/saturn"
             },
             "astronomy:orbiting": {
@@ -699,7 +699,7 @@
             "astronomy:orbiting": {
                 "@id": "http://ontology.projectchronos.eu/solarsystem/Sun"
             },
-            "chronos:relatedTo": {
+            "chronos:relConcept": {
                 "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/uranus"
             }
         },
@@ -1019,7 +1019,7 @@
             "astronomy:orbiting": {
                 "@id": "http://ontology.projectchronos.eu/solarsystem/Sun"
             },
-            "chronos:relatedTo": {
+            "chronos:relConcept": {
                 "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/neptune"
             }
         },
@@ -1250,7 +1250,7 @@
             ],
             "rdfs:label": "Pluto",
             "astronomy:orbiting": { "@id": "http://ontology.projectchronos.eu/solarsystem/Sun" },
-            "chronos:relatedTo": {
+            "chronos:relConcept": {
                 "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/pluto"
             }
         },
@@ -1405,7 +1405,7 @@
             ],
             "rdfs:label": "Trans-Neptunian_object",
             "astronomy:orbiting": { "@id": "http://ontology.projectchronos.eu/solarsystem/Sun" },
-            "chronos:relatedTo": {
+            "chronos:relConcept": {
                 "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/trans-neptunian_object"
             }
         },
@@ -1422,7 +1422,7 @@
             "rdfs:subClassOf": { "@id": "http://ontology.projectchronos.eu/solarsystem/Trans-Neptunian_object" },
             "rdfs:label": "Kuiper_belt",
             "astronomy:orbiting": { "@id": "http://ontology.projectchronos.eu/solarsystem/Sun" },
-            "chronos:relatedTo": {
+            "chronos:relConcept": {
                 "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/kuiper_belt"
             }
         },
@@ -1439,7 +1439,7 @@
             "rdfs:subClassOf": { "@id": "http://ontology.projectchronos.eu/solarsystem/Trans-Neptunian_object" },
             "rdfs:label": "Oort_cloud",
             "astronomy:orbiting": { "@id": "http://ontology.projectchronos.eu/solarsystem/Sun" },
-            "chronos:relatedTo": {
+            "chronos:relConcept": {
                 "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/oort_cloud"
             }
         }

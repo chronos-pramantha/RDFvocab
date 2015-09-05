@@ -1,113 +1,113 @@
-<http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/Geology> .
-<http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/Meteorology> .
-<http://ontology.projectchronos.eu/exploration/EarthObservation> <http://www.w3.org/2000/01/rdf-schema#label> "Earth Observation" .
-<http://ontology.projectchronos.eu/exploration/DeepSpaceObservation> <http://sw.opencyc.org/2012/05/10/concept/en/performedBy> <http://ontology.projectchronos.eu/engineering/AstronomicalSatellite> .
-<http://ontology.projectchronos.eu/exploration/Sampling> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/Atmosphere> .
-<http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/Geomorphology> .
-<http://ontology.projectchronos.eu/exploration/Sampling> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/Geomorphology> .
-<http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/GeologicProcess> .
-<http://ontology.projectchronos.eu/exploration/hasTarget> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/exploration> .
-<http://ontology.projectchronos.eu/exploration/EarthObservation> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/AtmosphericPhysics> .
-<http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation> <http://www.w3.org/2004/02/skos/core#prefLabel> "The task of observing Solar System Bodies from orbit (see sensors: RemoteSensingInstrument)" .
-<http://ontology.projectchronos.eu/exploration/hasTarget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://ontology.projectchronos.eu/astronomy/Planet> .
-<http://ontology.projectchronos.eu/exploration/Sampling> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/Geology> .
-<http://ontology.projectchronos.eu/exploration/Sampling> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/AtmosphericChemistry> .
-<http://ontology.projectchronos.eu/engineering/AstronomicalSatellite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://umbel.org/umbel/rc/AstronomicalObservatory.n3> .
-<http://umbel.org/umbel/rc/SpaceProbe.n3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://umbel.org/umbel/rc/InformationGatheringDevice.n3> .
-<http://ontology.projectchronos.eu/exploration/EarthObservation> <http://www.w3.org/2002/07/owl#sameAs> <http://live.dbpedia.org/data/Earth_observation.ntriples> .
-<http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation> <http://sw.opencyc.org/2012/05/10/concept/en/performedBy> <http://ontology.projectchronos.eu/engineering/AstronomicalSatellite> .
-<http://ontology.projectchronos.eu/exploration/Telecommunication> <http://www.w3.org/2002/07/owl#sameAs> <http://sw.opencyc.org/2012/05/10/concept/en/Telecommunication> .
-<http://ontology.projectchronos.eu/exploration/spaceMission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/exploration/EarthObservation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sw.opencyc.org/2012/05/10/concept/en/RemoteSensing> .
-<http://ontology.projectchronos.eu/exploration/DeepSpaceObservation> <http://www.w3.org/2000/01/rdf-schema#label> "DeepSpaceObservation" .
-<http://ontology.projectchronos.eu/exploration/hasTarget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://ontology.projectchronos.eu/astronomy/Natural_Satellite> .
-<http://ontology.projectchronos.eu/exploration/spaceMission> <http://www.w3.org/2002/07/owl#sameAs> <http://ontology.projectchronos.eu/live.dbpedia.org/data/Spaceflight.ntriples> .
-<http://ontology.projectchronos.eu/exploration/spaceMission> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/exploration> .
-<http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation> <http://www.w3.org/2000/01/rdf-schema#label> "Solar System Body Observation" .
-<http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/Geography> .
-<http://ontology.projectchronos.eu/exploration/EarthObservation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/exploration> .
-<http://ontology.projectchronos.eu/exploration/Sampling> <http://www.w3.org/2000/01/rdf-schema#label> "Taking a Sample" .
-<http://ontology.projectchronos.eu/exploration/EarthObservation> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/Meteorology> .
-<http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/AtmosphericPhysics> .
-<http://ontology.projectchronos.eu/exploration/Telecommunication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sw.opencyc.org/2012/05/10/concept/en/Telecommunication> .
-<http://ontology.projectchronos.eu/exploration/EarthObservation> <http://www.w3.org/2004/02/skos/core#prefLabel> "The task of observing Earth from orbit (see sensors: RemoteSensingInstrument)" .
-<http://ontology.projectchronos.eu/exploration/EarthObservation> <http://sw.opencyc.org/2012/05/10/concept/en/performedBy> <http://umbel.org/umbel/rc/EarthRemoteSensingSatellite.n3> .
-<http://ontology.projectchronos.eu/exploration/spaceMission> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://sw.opencyc.org/2012/05/10/concept/en/GeneralizedTransfer> .
-<http://ontology.projectchronos.eu/exploration/Sampling> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/Dust> .
-<http://ontology.projectchronos.eu/exploration/hasTarget> <http://www.w3.org/2004/02/skos/core#altLabel> "is going to" .
-<http://sw.opencyc.org/2012/05/10/concept/en/GeneralizedTransfer> <http://www.w3.org/2000/01/rdf-schema#comment> "a space mission is intended as a subclass of GeneralizedTransfer: 'A specialization of Event. Each instance of GeneralizedTransfer is an event in which something (tangible or intangible) is transferred from one 'place' to another. GeneralizedTransfer includes changes in physical location, in ownership or possession, transfer of information, and propagation of wave phenomena through space.' " .
-<http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/LandStuff> .
-<http://ontology.projectchronos.eu/exploration/hasTarget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontology.projectchronos.eu/exploration/EarthObservation> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/Geology> .
-<http://ontology.projectchronos.eu/exploration/EarthObservation> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/AtmosphericChemistry> .
-<http://ontology.projectchronos.eu/exploration/missionTask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.projectchronos.eu/exploration/Sampling> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/InorganicMaterial> .
+<http://ontology.projectchronos.eu/exploration/Sampling> <http://sw.opencyc.org/2012/05/10/concept/en/performedBy> <http://umbel.org/umbel/rc/SpaceProbe.n3> .
+<http://ontology.projectchronos.eu/exploration/Telecommunication> <http://www.w3.org/2000/01/rdf-schema#label> "Telecommunication" .
+<http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.projectchronos.eu/exploration/missionTask> .
+<http://ontology.projectchronos.eu/exploration/spaceMission> <http://www.w3.org/2000/01/rdf-schema#comment> "instances of this class can have multiple hasTask (see below)" .
+<http://ontology.projectchronos.eu/exploration/DeepSpaceObservation> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/PlasmaPhysics> .
 <http://ontology.projectchronos.eu/exploration/EarthObservation> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/Geography> .
-<http://ontology.projectchronos.eu/exploration/EarthObservation> <http://ontology.projectchronos.eu/exploration/hasTarget> <http://ontology.projectchronos.eu/solarsystem/Earth> .
-<http://ontology.projectchronos.eu/exploration/Sampling> <http://www.w3.org/2002/07/owl#sameAs> <http://live.dbpedia.org/data/Sample_%28material%29.ntriples> .
+<http://ontology.projectchronos.eu/exploration/DeepSpaceObservation> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/BlackHole> .
+<http://ontology.projectchronos.eu/exploration/spaceMission> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/exploration> .
+<http://ontology.projectchronos.eu/engineering/AstronomicalSatellite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://umbel.org/umbel/rc/Satellite_Device.n3> .
+<http://ontology.projectchronos.eu/exploration/Sampling> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/exploration> .
+<http://umbel.org/umbel/rc/SpaceProbe.n3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://umbel.org/umbel/rc/InformationGatheringDevice.n3> .
+<http://ontology.projectchronos.eu/exploration/EarthObservation> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/Meteorology> .
+<http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/AtmosphericChemistry> .
+<http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/GeologicProcess> .
+<http://ontology.projectchronos.eu/exploration/DeepSpaceObservation> <http://ontology.projectchronos.eu/exploration/hasTarget> <http://ontology.projectchronos.eu/astronomy/Outer_space> .
+<http://ontology.projectchronos.eu/exploration/Telecommunication> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/exploration> .
+<http://ontology.projectchronos.eu/exploration/spaceMission> <http://www.w3.org/2002/07/owl#sameAs> <http://ontology.projectchronos.eu/live.dbpedia.org/data/Spaceflight.ntriples> .
+<http://ontology.projectchronos.eu/exploration> <http://www.w3.org/2000/01/rdf-schema#label> "Classes and properties to describe space techniques and tools about space exploration" .
+<http://ontology.projectchronos.eu/exploration/Sampling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.projectchronos.eu/exploration/missionTask> .
+<http://ontology.projectchronos.eu/exploration/hasTarget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://ontology.projectchronos.eu/astronomy/Natural_Satellite> .
+<http://ontology.projectchronos.eu/exploration/hasTarget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://ontology.projectchronos.eu/astronomy/Planet> .
 <http://sw.opencyc.org/2012/05/10/concept/en/target> <http://www.w3.org/2000/01/rdf-schema#comment> "it is intended as a subclass of 'Predicate: intended destination' that applies to spaceMission" .
+<http://ontology.projectchronos.eu/exploration> <http://www.w3.org/2000/01/rdf-schema#comment> "Generic classes and object properties properties, inherited from OpenCyc, DBpedia and Umbel" .
+<http://ontology.projectchronos.eu/exploration/EarthObservation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.projectchronos.eu/exploration/missionTask> .
+<http://ontology.projectchronos.eu/exploration/Sampling> <http://www.w3.org/2002/07/owl#sameAs> <http://live.dbpedia.org/data/Sample_%28material%29.ntriples> .
+<http://ontology.projectchronos.eu/exploration/Telecommunication> <http://www.w3.org/2004/02/skos/core#prefLabel> "The action of transferring information around the globe using satellite devices" .
+<http://ontology.projectchronos.eu/exploration/hasTarget> <http://www.w3.org/2004/02/skos/core#altLabel> "is going to" .
+<http://ontology.projectchronos.eu/exploration/DeepSpaceObservation> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/ElectromagneticRadiation> .
+<http://ontology.projectchronos.eu/exploration/EarthObservation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sw.opencyc.org/2012/05/10/concept/en/RemoteSensing> .
+<http://ontology.projectchronos.eu/exploration/EarthObservation> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/WeatherEvent> .
+<http://umbel.org/umbel/rc/EarthRemoteSensingSatellite.n3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://umbel.org/umbel/rc/Satellite_Device.n3> .
+<http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/AtmosphericPhysics> .
+<http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation> <http://www.w3.org/2004/02/skos/core#prefLabel> "The task of observing Solar System Bodies from orbit (see sensors: RemoteSensingInstrument)" .
+<http://ontology.projectchronos.eu/exploration/DeepSpaceObservation> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/Galaxy> .
+<http://ontology.projectchronos.eu/exploration/spaceMission> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://sw.opencyc.org/2012/05/10/concept/en/GeneralizedTransfer> .
+<http://ontology.projectchronos.eu/exploration/EarthObservation> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/Atmosphere> .
+<http://ontology.projectchronos.eu/exploration/hasTarget> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://sw.opencyc.org/2012/05/10/concept/en/target> .
+<http://ontology.projectchronos.eu/exploration/missionTask> <http://www.w3.org/2000/01/rdf-schema#label> "Space_Mission_Task" .
+<http://ontology.projectchronos.eu/exploration/Sampling> <http://www.w3.org/2000/01/rdf-schema#label> "Taking a Sample" .
+<http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/Geology> .
+<http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/LandStuff> .
+<http://ontology.projectchronos.eu/exploration/Telecommunication> <http://www.w3.org/2002/07/owl#sameAs> <http://sw.opencyc.org/2012/05/10/concept/en/Telecommunication> .
+<http://ontology.projectchronos.eu/exploration/missionTask> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/exploration> .
+<http://ontology.projectchronos.eu/exploration/hasTarget> <http://www.w3.org/2000/01/rdf-schema#label> "Target of a space mission" .
+<http://ontology.projectchronos.eu/exploration/EarthObservation> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/Geology> .
+<http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/WeatherEvent> .
+<http://ontology.projectchronos.eu/exploration/Sampling> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/Dust> .
+<http://sw.opencyc.org/2012/05/10/concept/en/TakingASample> <http://www.w3.org/2000/01/rdf-schema#comment> "'A specialization of both Action and AtLeastPartiallyMentalEvent. Each instance of PurposefulAction is an action consciously, volitionally, and purposefully done by (see performedBy) at least one actor.'" .
+<http://ontology.projectchronos.eu/exploration/DeepSpaceObservation> <http://www.w3.org/2004/02/skos/core#prefLabel> "The action of observing Extra-galactic and Intra-galactic space from orbit (see sensors: RemoteSensingInstrument)" .
+<http://ontology.projectchronos.eu/exploration/hasTarget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontology.projectchronos.eu/exploration/missionTask> .
+<http://ontology.projectchronos.eu/exploration/Telecommunication> <http://www.w3.org/2002/07/owl#sameAs> <http://live.dbpedia.org/data/Telecommunication.ntriples> .
+<http://ontology.projectchronos.eu/exploration/EarthObservation> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/AtmosphericChemistry> .
+<http://ontology.projectchronos.eu/exploration/DeepSpaceObservation> <http://www.w3.org/2000/01/rdf-schema#label> "DeepSpaceObservation" .
+<http://ontology.projectchronos.eu/exploration/Sampling> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/GeologicProcess> .
+<http://ontology.projectchronos.eu/exploration/EarthObservation> <http://www.w3.org/2000/01/rdf-schema#label> "Earth Observation" .
+<http://ontology.projectchronos.eu/exploration/EarthObservation> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/LandStuff> .
+<http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sw.opencyc.org/2012/05/10/concept/en/RemoteSensing> .
+<http://ontology.projectchronos.eu/exploration/spaceMission> <http://www.w3.org/2002/07/owl#sameAs> <http://ontology.projectchronos.eu/sw.opencyc.org/2012/05/10/concept/en/SpaceMission> .
+<http://ontology.projectchronos.eu/exploration/missionTask> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://sw.opencyc.org/2012/05/10/concept/en/AssignedTaskType> .
+<http://ontology.projectchronos.eu/exploration/missionTask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.projectchronos.eu/exploration/EarthObservation> <http://ontology.projectchronos.eu/exploration/hasTarget> <http://ontology.projectchronos.eu/solarsystem/Earth> .
+<http://ontology.projectchronos.eu/exploration/Sampling> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/AtmosphericChemistry> .
+<http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/Atmosphere> .
+<http://ontology.projectchronos.eu/exploration/EarthObservation> <http://www.w3.org/2002/07/owl#sameAs> <http://live.dbpedia.org/data/Earth_observation.ntriples> .
+<http://ontology.projectchronos.eu/exploration/hasTarget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://ontology.projectchronos.eu/astronomy/AstronomicalObject> .
+<http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation> <http://www.w3.org/2000/01/rdf-schema#label> "Solar System Body Observation" .
+<http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/PlasmaPhysics> .
+<http://ontology.projectchronos.eu/exploration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://ontology.projectchronos.eu/exploration/spaceMission> <http://www.w3.org/2000/01/rdf-schema#label> "Space_Mission" .
+<http://sw.opencyc.org/2012/05/10/concept/en/AssignedTaskType> <http://www.w3.org/2000/01/rdf-schema#comment> "it is intended as a subclass of 'Collection: task' that applies to space missions: 'Instances of this collection are specializations of PurposefulAction which are assigned tasks in some planning context.' " .
+<http://ontology.projectchronos.eu/exploration/Telecommunication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sw.opencyc.org/2012/05/10/concept/en/Telecommunication> .
 <http://ontology.projectchronos.eu/exploration/DeepSpaceObservation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.projectchronos.eu/exploration/missionTask> .
+<http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation> <http://sw.opencyc.org/2012/05/10/concept/en/performedBy> <http://ontology.projectchronos.eu/engineering/AstronomicalSatellite> .
+<http://ontology.projectchronos.eu/exploration/hasTarget> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/exploration> .
+<http://ontology.projectchronos.eu/exploration/EarthObservation> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://live.dbpedia.org/data/Positioning_system.ntriples> .
+<http://ontology.projectchronos.eu/exploration/EarthObservation> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/AtmosphericPhysics> .
+<http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/Geography> .
+<http://ontology.projectchronos.eu/exploration/EarthObservation> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/GeologicProcess> .
+<http://ontology.projectchronos.eu/exploration/Sampling> <http://www.w3.org/2004/02/skos/core#prefLabel> "The action of taking a sample" .
+<http://ontology.projectchronos.eu/exploration/DeepSpaceObservation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/exploration> .
+<http://ontology.projectchronos.eu/exploration/spaceMission> <http://www.w3.org/2004/02/skos/core#prefLabel> "a class that represents a 'planned endeavors wherein a spacecraft of some sort is sent either into Earth orbit or into interplanetary space. Often the same name is used to refer both to the mission and to the craft involved in the mission.', quoted from opencyc.org " .
+<http://ontology.projectchronos.eu/exploration/DeepSpaceObservation> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/ParticlePhysics> .
+<http://ontology.projectchronos.eu/exploration/Sampling> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/LandStuff> .
+<http://sw.opencyc.org/2012/05/10/concept/en/AtmosphericPhysics> <http://www.w3.org/2000/01/rdf-schema#comment> "'This is the study of planetary atmospheres in general.': note: to include studies on atmospheric plasma" .
+<http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/exploration> .
+<http://ontology.projectchronos.eu/exploration/Sampling> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/Geology> .
+<http://ontology.projectchronos.eu/exploration/EarthObservation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/exploration> .
+<http://ontology.projectchronos.eu/exploration/Telecommunication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.projectchronos.eu/exploration/missionTask> .
+<http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/Geomorphology> .
+<http://sw.opencyc.org/2012/05/10/concept/en/GeneralizedTransfer> <http://www.w3.org/2000/01/rdf-schema#comment> "a space mission is intended as a subclass of GeneralizedTransfer: 'A specialization of Event. Each instance of GeneralizedTransfer is an event in which something (tangible or intangible) is transferred from one 'place' to another. GeneralizedTransfer includes changes in physical location, in ownership or possession, transfer of information, and propagation of wave phenomena through space.' " .
 <http://ontology.projectchronos.eu/exploration/EarthObservation> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/Geomorphology> .
 <http://ontology.projectchronos.eu/exploration/DeepSpaceObservation> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/Astrophysics> .
-<http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/WeatherEvent> .
-<http://ontology.projectchronos.eu/exploration/hasTarget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontology.projectchronos.eu/exploration/missionTask> .
-<http://ontology.projectchronos.eu/exploration/EarthObservation> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/LandStuff> .
-<http://ontology.projectchronos.eu/exploration/Sampling> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/InorganicMaterial> .
-<http://ontology.projectchronos.eu/exploration/spaceMission> <http://www.w3.org/2004/02/skos/core#prefLabel> "a class that represents a 'planned endeavors wherein a spacecraft of some sort is sent either into Earth orbit or into interplanetary space. Often the same name is used to refer both to the mission and to the craft involved in the mission.', quoted from opencyc.org " .
-<http://ontology.projectchronos.eu/exploration/missionTask> <http://www.w3.org/2004/02/skos/core#prefLabel> "The task of the space mission, that can be measuring, observing or visiting a celestial body" .
-<http://ontology.projectchronos.eu/exploration/missionTask> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://sw.opencyc.org/2012/05/10/concept/en/AssignedTaskType> .
-<http://ontology.projectchronos.eu/exploration/Telecommunication> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/exploration> .
-<http://ontology.projectchronos.eu/exploration/EarthObservation> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/Atmosphere> .
-<http://ontology.projectchronos.eu/exploration/Telecommunication> <http://www.w3.org/2004/02/skos/core#prefLabel> "The action of transferring information around the globe using satellite devices" .
-<http://ontology.projectchronos.eu/exploration/DeepSpaceObservation> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/PlasmaPhysics> .
-<http://ontology.projectchronos.eu/exploration> <http://www.w3.org/2000/01/rdf-schema#label> "Classes and properties to describe space techniques and tools about space exploration" .
-<http://ontology.projectchronos.eu/exploration/hasTarget> <http://www.w3.org/2000/01/rdf-schema#comment> "The target of the space mission, an astronomical bodies that can be measured, observed or visited" .
-<http://ontology.projectchronos.eu/exploration/EarthObservation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.projectchronos.eu/exploration/missionTask> .
-<http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.projectchronos.eu/exploration/missionTask> .
-<http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/exploration> .
-<http://ontology.projectchronos.eu/exploration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://sw.opencyc.org/2012/05/10/concept/en/RemoteSensing> <http://www.w3.org/2000/01/rdf-schema#comment> "'A specialization of both Action and AtLeastPartiallyMentalEvent. Each instance of PurposefulAction is an action consciously, volitionally, and purposefully done by (see performedBy) at least one actor.'" .
-<http://ontology.projectchronos.eu/exploration/Sampling> <http://sw.opencyc.org/2012/05/10/concept/en/performedBy> <http://umbel.org/umbel/rc/SpaceProbe.n3> .
-<http://ontology.projectchronos.eu/exploration/Sampling> <http://www.w3.org/2002/07/owl#sameAs> <http://sw.opencyc.org/2012/05/10/concept/en/TakingASample> .
-<http://ontology.projectchronos.eu/exploration/hasTarget> <http://www.w3.org/2000/01/rdf-schema#label> "Target of a space mission" .
-<http://ontology.projectchronos.eu/exploration/hasTarget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://ontology.projectchronos.eu/astronomy/PlanetaryBody> .
-<http://ontology.projectchronos.eu/exploration/EarthObservation> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/GeologicProcess> .
-<http://ontology.projectchronos.eu/exploration/Telecommunication> <http://www.w3.org/2002/07/owl#sameAs> <http://live.dbpedia.org/data/Telecommunication.ntriples> .
-<http://ontology.projectchronos.eu/exploration/spaceMission> <http://www.w3.org/2000/01/rdf-schema#comment> "instances of this class can have multiple hasTask (see below)" .
-<http://ontology.projectchronos.eu/exploration/Telecommunication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.projectchronos.eu/exploration/missionTask> .
-<http://ontology.projectchronos.eu/exploration/EarthObservation> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/WeatherEvent> .
-<http://sw.opencyc.org/2012/05/10/concept/en/AssignedTaskType> <http://www.w3.org/2000/01/rdf-schema#comment> "it is intended as a subclass of 'Collection: task' that applies to space missions: 'Instances of this collection are specializations of PurposefulAction which are assigned tasks in some planning context.' " .
-<http://ontology.projectchronos.eu/exploration/hasTarget> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://sw.opencyc.org/2012/05/10/concept/en/target> .
-<http://ontology.projectchronos.eu/exploration/DeepSpaceObservation> <http://ontology.projectchronos.eu/exploration/hasTarget> <http://ontology.projectchronos.eu/astronomy/Outer_space> .
-<http://ontology.projectchronos.eu/exploration/Sampling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sw.opencyc.org/2012/05/10/concept/en/TakingASample> .
-<http://ontology.projectchronos.eu/exploration/spaceMission> <http://www.w3.org/2000/01/rdf-schema#label> "Space_Mission" .
-<http://ontology.projectchronos.eu/exploration/spaceMission> <http://www.w3.org/2002/07/owl#sameAs> <http://ontology.projectchronos.eu/sw.opencyc.org/2012/05/10/concept/en/SpaceMission> .
-<http://ontology.projectchronos.eu/exploration/Sampling> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/exploration> .
-<http://ontology.projectchronos.eu/exploration/DeepSpaceObservation> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/BlackHole> .
-<http://ontology.projectchronos.eu/exploration/EarthObservation> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://live.dbpedia.org/data/Positioning_system.ntriples> .
-<http://ontology.projectchronos.eu/exploration/hasTarget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://ontology.projectchronos.eu/astronomy/AstronomicalObject> .
-<http://ontology.projectchronos.eu/exploration/missionTask> <http://www.w3.org/2000/01/rdf-schema#label> "Space_Mission_Task" .
-<http://ontology.projectchronos.eu/exploration/Telecommunication> <http://www.w3.org/2000/01/rdf-schema#label> "Telecommunication" .
-<http://ontology.projectchronos.eu/exploration/DeepSpaceObservation> <http://www.w3.org/2004/02/skos/core#prefLabel> "The action of observing Extra-galactic and Intra-galactic space from orbit (see sensors: RemoteSensingInstrument)" .
-<http://ontology.projectchronos.eu/exploration/Sampling> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/GeologicProcess> .
-<http://ontology.projectchronos.eu/exploration/DeepSpaceObservation> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/ParticlePhysics> .
-<http://sw.opencyc.org/2012/05/10/concept/en/AtmosphericPhysics> <http://www.w3.org/2000/01/rdf-schema#comment> "'This is the study of planetary atmospheres in general.': note: to include studies on atmospheric plasma" .
-<http://ontology.projectchronos.eu/exploration/DeepSpaceObservation> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/ElectromagneticRadiation> .
-<http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/Atmosphere> .
-<http://ontology.projectchronos.eu/exploration> <http://www.w3.org/2000/01/rdf-schema#comment> "Generic classes and object properties properties, inherited from OpenCyc, DBpedia and Umbel" .
-<http://ontology.projectchronos.eu/exploration/missionTask> <http://www.w3.org/2000/01/rdf-schema#comment> "instances of this class have an hasTarget property (see below)" .
 <http://ontology.projectchronos.eu/exploration/DeepSpaceObservation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sw.opencyc.org/2012/05/10/concept/en/RemoteSensing> .
-<http://ontology.projectchronos.eu/exploration/DeepSpaceObservation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/exploration> .
-<http://ontology.projectchronos.eu/exploration/DeepSpaceObservation> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/Galaxy> .
-<http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/PlasmaPhysics> .
-<http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sw.opencyc.org/2012/05/10/concept/en/RemoteSensing> .
-<http://ontology.projectchronos.eu/exploration/missionTask> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/exploration> .
-<http://ontology.projectchronos.eu/exploration/Sampling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.projectchronos.eu/exploration/missionTask> .
-<http://ontology.projectchronos.eu/exploration/Sampling> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/LandStuff> .
-<http://ontology.projectchronos.eu/exploration/DeepSpaceObservation> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/Plasma_StateOfMatter> .
-<http://umbel.org/umbel/rc/EarthRemoteSensingSatellite.n3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://umbel.org/umbel/rc/Satellite_Device.n3> .
-<http://ontology.projectchronos.eu/exploration/Sampling> <http://www.w3.org/2004/02/skos/core#prefLabel> "The action of taking a sample" .
-<http://sw.opencyc.org/2012/05/10/concept/en/TakingASample> <http://www.w3.org/2000/01/rdf-schema#comment> "'A specialization of both Action and AtLeastPartiallyMentalEvent. Each instance of PurposefulAction is an action consciously, volitionally, and purposefully done by (see performedBy) at least one actor.'" .
+<http://ontology.projectchronos.eu/exploration/EarthObservation> <http://sw.opencyc.org/2012/05/10/concept/en/performedBy> <http://umbel.org/umbel/rc/EarthRemoteSensingSatellite.n3> .
+<http://ontology.projectchronos.eu/exploration/Sampling> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/Geomorphology> .
+<http://ontology.projectchronos.eu/exploration/DeepSpaceObservation> <http://sw.opencyc.org/2012/05/10/concept/en/performedBy> <http://ontology.projectchronos.eu/engineering/AstronomicalSatellite> .
 <http://ontology.projectchronos.eu/exploration/DeepSpaceObservation> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/Particle> .
-<http://ontology.projectchronos.eu/engineering/AstronomicalSatellite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://umbel.org/umbel/rc/Satellite_Device.n3> .
-<http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/AtmosphericChemistry> .
+<http://ontology.projectchronos.eu/exploration/hasTarget> <http://www.w3.org/2000/01/rdf-schema#comment> "The target of the space mission, an astronomical bodies that can be measured, observed or visited" .
+<http://ontology.projectchronos.eu/exploration/Sampling> <http://www.w3.org/2002/07/owl#sameAs> <http://sw.opencyc.org/2012/05/10/concept/en/TakingASample> .
+<http://ontology.projectchronos.eu/exploration/EarthObservation> <http://www.w3.org/2004/02/skos/core#prefLabel> "The task of observing Earth from orbit (see sensors: RemoteSensingInstrument)" .
+<http://ontology.projectchronos.eu/engineering/AstronomicalSatellite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://umbel.org/umbel/rc/AstronomicalObservatory.n3> .
+<http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation> <http://sw.opencyc.org/2012/05/10/concept/en/researches> <http://sw.opencyc.org/2012/05/10/concept/en/Meteorology> .
+<http://ontology.projectchronos.eu/exploration/missionTask> <http://www.w3.org/2000/01/rdf-schema#comment> "instances of this class have an hasTarget property (see below)" .
+<http://ontology.projectchronos.eu/exploration/DeepSpaceObservation> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/Plasma_StateOfMatter> .
+<http://ontology.projectchronos.eu/exploration/hasTarget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://ontology.projectchronos.eu/astronomy/PlanetaryBody> .
+<http://ontology.projectchronos.eu/exploration/Sampling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://sw.opencyc.org/2012/05/10/concept/en/TakingASample> .
+<http://ontology.projectchronos.eu/exploration/Sampling> <http://sw.opencyc.org/2012/05/10/concept/en/studies> <http://sw.opencyc.org/2012/05/10/concept/en/Atmosphere> .
+<http://ontology.projectchronos.eu/exploration/spaceMission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontology.projectchronos.eu/exploration/hasTarget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontology.projectchronos.eu/exploration/missionTask> <http://www.w3.org/2004/02/skos/core#prefLabel> "The task of the space mission, that can be measuring, observing or visiting a celestial body" .
+<http://sw.opencyc.org/2012/05/10/concept/en/RemoteSensing> <http://www.w3.org/2000/01/rdf-schema#comment> "'A specialization of both Action and AtLeastPartiallyMentalEvent. Each instance of PurposefulAction is an action consciously, volitionally, and purposefully done by (see performedBy) at least one actor.'" .
 

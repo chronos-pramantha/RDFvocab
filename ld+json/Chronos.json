@@ -28,11 +28,11 @@
             "rdfs:range": { "@id": "http://ontology.projectchronos.eu/chronos/keyword" }
         },
         {
-            "@id": "http://ontology.projectchronos.eu/chronos/relatedTo",
+            "@id": "http://ontology.projectchronos.eu/chronos/relConcept",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
-            "skos:prefLabel": "relatedTo",
-            "rdfs:comment": "a property that relate a web resource to its related concepts in the taxonomy",
-            "rdfs:label": "relatedTo"
+            "skos:prefLabel": "relConcept",
+            "rdfs:comment": "a property that relate a web resource to its related concepts in the taxonomy. Preferred domains are cestial objects and web resources",
+            "rdfs:label": "relConcept"
         },
         {
             "@id": "http://ontology.projectchronos.eu/chronos/relMission",

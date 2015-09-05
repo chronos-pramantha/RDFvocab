@@ -7,6 +7,7 @@
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "owl": "http://www.w3.org/2002/07/owl#",
     "dbpedia": "http://live.dbpedia.org/ontology/",
+    "chronos": "http://ontology.projectchronos.eu/chronos/",
     "xml": "http://www.w3.org/2001/XMLSchema#",
     "defines"  : {
           "@reverse": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
@@ -244,7 +245,10 @@
             "rdfs:label": "Spacecraft_Detector",
             "rdfs:comment": "A space detector is a sensor supported by another device that let it collect data, that is deployed into a spacecraft and works outside Earth lower atmosphere",
             "skos:prefLabel": "Any scientific instrument carried by a space probe or an artificial satellite",
-            "spacecraft:isComponentOf": { "@id": "http://ontology.projectchronos.eu/spacecraft/Payload_Spacecraft" }
+            "spacecraft:isComponentOf": { "@id": "http://ontology.projectchronos.eu/spacecraft/Payload_Spacecraft" },
+            "chronos:relConcept": {
+              "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/sensor"
+            }
         },
         {
             "@id": "http://ontology.projectchronos.eu/subsystems/Spacecraft_Propulsion",
@@ -299,7 +303,10 @@
             "skos:prefLabel": "The set of subsystems needed to make a spacecraft moving in space",
             "rdfs:label": "Spacecraft_Propulsion.",
             "rdfs:comment": "Complex devices-subsystems used for impelling (processes of applying a force which results in translational motion) a spacecraft, in the specific http://umbel.org/umbel/rc/ProjectilePropelling",
-            "spacecraft:isComponentOf": "http://ontology.projectchronos.eu/spacecraft/Spacecraft"
+            "spacecraft:isComponentOf": "http://ontology.projectchronos.eu/spacecraft/Spacecraft",
+            "chronos:relConcept": {
+              "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/propulsion"
+            }
 
         },
         {
@@ -692,7 +699,10 @@
             "rdfs:label": "Spacecraft_Communication",
             "skos:prefLabel": "It handles communication from/to ground base or other spacecraft.",
             "rdfs:comment": "Complex devices-subsystems used for transmitting/receiving radio waves.",
-            "spacecraft:isComponentOf": { "@id": "http://ontology.projectchronos.eu/spacecraft/Spacecraft" }
+            "spacecraft:isComponentOf": { "@id": "http://ontology.projectchronos.eu/spacecraft/Spacecraft" },
+            "chronos:relConcept": {
+              "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/telecommunication"
+            }
         },
         {
             "@id": "http://ontology.projectchronos.eu/subsystems/Spacecraft_AODCS",
