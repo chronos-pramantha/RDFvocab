@@ -592,22 +592,6 @@
             "rdfs:label": "Enceladus"
         },
         {
-            "@id": "http://ontology.projectchronos.eu/solarsystem/Thetys",
-            "@type": [
-                {
-                    "@id": "http://ontology.projectchronos.eu/astronomy/PlanetaryBody"
-                },
-                {
-                    "@id": "http://ontology.projectchronos.eu/astronomy/Natural_satellite"
-                }
-            ],
-            "owl:sameAs": [
-                { "@id": "http://live.dbpedia.org/data/Thetys_(moon).ntriples" }
-            ],
-            "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Saturn" },
-            "rdfs:label": "Thetys"
-        },
-        {
             "@id": "http://ontology.projectchronos.eu/solarsystem/Dione",
             "@type": [
                 {
@@ -1354,7 +1338,7 @@
                 }
             ],
             "owl:sameAs": [
-               { "@id": "http://live.dbpedia.org/data/Moons_of_Haumea_(moon).ntriples" }
+               { "@id": "http://live.dbpedia.org/data/Moons_of_Haumea.ntriples" }
             ],
             "astronomy:orbitsPlanet": { "@id": "http://ontology.projectchronos.eu/solarsystem/Haumea" },
             "rdfs:label": "Haumea_I_and_II"
