@@ -57,7 +57,7 @@
                     "@id": "http://umbel.org/umbel/rc/PlanetMercury"
                 },
                 {
-                    "@id": "http://live.dbpedia.org/data/Mercury_%28planet%29.ntriples"
+                    "@id": "http://live.dbpedia.org/data/Mercury_(planet).ntriples"
                 },
                 {
                     "@id": "http://sw.opencyc.org/2012/05/10/concept/en/PlanetMercury"
