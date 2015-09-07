@@ -1230,7 +1230,9 @@
             "@id": "http://ontology.projectchronos.eu/solarsystem/Pluto",
             "@type": "http://ontology.projectchronos.eu/astronomy/DwarfPlanet",
             "owl:sameAs": [
-                "http://live.dbpedia.org/data/Pluto.ntriples"
+                {
+                    "@id": "http://live.dbpedia.org/data/Pluto.ntriples"
+                }
             ],
             "rdfs:label": "Pluto",
             "astronomy:orbiting": { "@id": "http://ontology.projectchronos.eu/solarsystem/Sun" },
