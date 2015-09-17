@@ -31,8 +31,15 @@
             "@id": "http://ontology.projectchronos.eu/chronos/relConcept",
             "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
             "skos:prefLabel": "relConcept",
-            "rdfs:comment": "a property that relate a web resource to its related concepts in the taxonomy. Preferred domains are cestial objects and web resources",
+            "rdfs:comment": "a property that relate a web resource to its related concepts in the taxonomy. Preferred domains are celestial objects and web resources",
             "rdfs:label": "relConcept"
+        },
+        {
+            "@id": "http://ontology.projectchronos.eu/chronos/relAncestor",
+            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty",
+            "skos:prefLabel": "relAncestor",
+            "rdfs:comment": "a property that relate a chronos:concept to its ancestor in the taxonomy.",
+            "rdfs:label": "relAncestor"
         },
         {
             "@id": "http://ontology.projectchronos.eu/chronos/relMission",
