@@ -21,7 +21,7 @@
                   :IrreflexiveProperty ,
                   :ObjectProperty ;
          
-         rdfs:comment """A relation between Detector and PhysicalEntity.
+         rdf:comment """A relation between Detector and PhysicalEntity.
 Detectors detect physical entities like particles, plasma, molecules, etc.
 For ex, spectrometers detect light. Magnetometers detect magnetic fields, which are part of the EM-field""" ;
          
@@ -35,7 +35,7 @@ For ex, spectrometers detect light. Magnetometers detect magnetic fields, which 
                 :IrreflexiveProperty ,
                 :ObjectProperty ;
        
-       rdfs:comment """A relation between a Detector and a PhysicalEntity.
+       rdf:comment """A relation between a Detector and a PhysicalEntity.
 The relation defines an \"active sensor\": if a sensor emits any particles or waves, which are backscattered and re-absorbed, then it is an \"active sensor\".
 The term \"emits\" implies therefore that the emitted physical entity is also reabsorbed by the same instrument.
 
@@ -58,7 +58,7 @@ References for this assumption are:
                     
                     rdfs:label "application" ;
                     
-                    rdfs:comment """A relation between a Detector and FieldOfResearch.
+                    rdf:comment """A relation between a Detector and FieldOfResearch.
 
 A detector is used for some research purpose, i.e. hasApplication in some FieldOfResearch. Examples of fields of research are: Determination of the elemental characteristics of a planet's surface; Dark Energy; Climate Change monitoring, etc...""" ;
                     
@@ -76,7 +76,7 @@ A detector is used for some research purpose, i.e. hasApplication in some FieldO
                     :IrreflexiveProperty ,
                     :ObjectProperty ;
            
-           rdfs:comment "A relation between Detector and a Physical Quantity. Detectors give outputs which are then processed by the due electronics. Usual outputs are Physical Quantities such as varying voltages or current flows." ;
+           rdf:comment "A relation between Detector and a Physical Quantity. Detectors give outputs which are then processed by the due electronics. Usual outputs are Physical Quantities such as varying voltages or current flows." ;
            
            rdfs:range :PhysicalQuantity .
 
@@ -98,7 +98,7 @@ A detector is used for some research purpose, i.e. hasApplication in some FieldO
                       :IrreflexiveProperty ,
                       :ObjectProperty ;
              
-             rdfs:comment """A relation between a PhysicalEntity and a Detector. It is the inverse of the emits property.
+             rdf:comment """A relation between a PhysicalEntity and a Detector. It is the inverse of the emits property.
 
 In case the detector is an active sensor, it \"fires\" something out, usually light, which is backscattered and absorbed. This \"something\", say, light, isEmittedBy the firing Detector""" ;
              
@@ -114,7 +114,7 @@ In case the detector is an active sensor, it \"fires\" something out, usually li
 
 :isResearchedBy rdf:type :ObjectProperty ;
                 
-                rdfs:comment """A relation between FieldOfResearch and Detector.
+                rdf:comment """A relation between FieldOfResearch and Detector.
 
 For every field of research given detectors are used, For Example, to look for pollutants in the Atmosphere (Earth Observation) spectrometers are used. To investigate the surface of celestial bodies ( Solar System Studies) spectrometers are used, but also dust detectors, ecc...
 
@@ -144,7 +144,7 @@ This property and the related classes as well might be changed a lot in the comi
 
 :measures rdf:type :ObjectProperty ;
           
-          rdfs:comment """A relation between the Detector and the PhysicalQuantity it measures.
+          rdf:comment """A relation between the Detector and the PhysicalQuantity it measures.
 Examples of physical quantities can be: polarization, mass, electric charge, etc...""" ;
           
           rdfs:range :PhysicalQuantity .
@@ -190,7 +190,7 @@ Examples of physical quantities can be: polarization, mass, electric charge, etc
                                                                      
                                                                      rdfs:subClassOf <http://www.semanticweb.org/jacopo/ontologies/2014/11/untitled-ontology-66#EMFieldInstrument> ;
                                                                      
-                                                                     rdfs:comment "Taken from the ontology : http://escience.rpi.edu/ontology/vsto/2/0/vsto_all.owl" .
+                                                                     rdf:comment "Taken from the ontology : http://escience.rpi.edu/ontology/vsto/2/0/vsto_all.owl" .
 
 
 
@@ -296,7 +296,7 @@ Examples of physical quantities can be: polarization, mass, electric charge, etc
                                                                                                                 :someValuesFrom :PhysicalEntity
                                                                                                               ] ;
                                                                                               
-                                                                                              rdfs:comment "Electromagnetic field instruments measure some physical property of incoming photons. (My definition)" .
+                                                                                              rdf:comment "Electromagnetic field instruments measure some physical property of incoming photons. (My definition)" .
 
 
 
@@ -345,7 +345,7 @@ Examples of physical quantities can be: polarization, mass, electric charge, etc
                
                rdfs:subClassOf :DetectorWorkingPrinciple ;
                
-               rdfs:comment "An antenna (or aerial) is an electrical device which converts electric power into radio waves, and vice versa.[1] It is usually used with a radio transmitter or radio receiver. In transmission, a radio transmitter supplies an electric current oscillating at radio frequency (i.e. a high frequency alternating current (AC)) to the antenna's terminals, and the antenna radiates the energy from the current as electromagnetic waves (radio waves). In reception, an antenna intercepts some of the power of an electromagnetic wave in order to produce a tiny voltage at its terminals, that is applied to a receiver to be amplified. [Source: http://en.wikipedia.org/wiki/Antenna_%28radio%29" .
+               rdf:comment "An antenna (or aerial) is an electrical device which converts electric power into radio waves, and vice versa.[1] It is usually used with a radio transmitter or radio receiver. In transmission, a radio transmitter supplies an electric current oscillating at radio frequency (i.e. a high frequency alternating current (AC)) to the antenna's terminals, and the antenna radiates the energy from the current as electromagnetic waves (radio waves). In reception, an antenna intercepts some of the power of an electromagnetic wave in order to produce a tiny voltage at its terminals, that is applied to a receiver to be amplified. [Source: http://en.wikipedia.org/wiki/Antenna_%28radio%29" .
 
 
 
@@ -368,7 +368,7 @@ Examples of physical quantities can be: polarization, mass, electric charge, etc
                   
                   :disjointWith :PassiveInstrument ;
                   
-                  rdfs:comment """An active instrument provides its own means of sensing the remote object. Typical of this would be a radar system.  Radar generates pulses of radio waves that it sends to a surface, and then receives their reflections back from the surface, 
+                  rdf:comment """An active instrument provides its own means of sensing the remote object. Typical of this would be a radar system.  Radar generates pulses of radio waves that it sends to a surface, and then receives their reflections back from the surface,
 
 Source: \"Basics of Space flight, Section II, Chapter 12. Typical Science Instruments\", Jet Propulsion Laboratory.
 http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
@@ -452,7 +452,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
                             :someValuesFrom :PhysicalEntity
                           ] ;
           
-          rdfs:comment """- [Detector detects some PhysicalEntity] : Detectors are described as objects detecting some physical entity: elementary particles, light, atoms, cosimc dust, etc. 
+          rdf:comment """- [Detector detects some PhysicalEntity] : Detectors are described as objects detecting some physical entity: elementary particles, light, atoms, cosimc dust, etc.
 
 - [Detector measures some PhysicalQuantity] : Detection of any physical entity entails that some physical quantity of the detected particle is measured: mass, charge, spin, velocity,..
 
@@ -466,7 +466,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 :DetectorWorkingPrinciple rdf:type :Class ;
                           
-                          rdfs:comment "To be expanded" .
+                          rdf:comment "To be expanded" .
 
 
 
@@ -486,7 +486,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
                          
                          :disjointWith :RemoteSensingInstrument ;
                          
-                         rdfs:comment "Direct-sensing instruments, also called contact science instruments, register characteristics of phenomena in their vicinity. (Source: \"Basic of Space flight, Section II, Chapter 12. Typical Science Instruments\", Jet Propulsion Laboratory, www.jpl.nasa.gov/basics/bsf12-1.php )" .
+                         rdf:comment "Direct-sensing instruments, also called contact science instruments, register characteristics of phenomena in their vicinity. (Source: \"Basic of Space flight, Section II, Chapter 12. Typical Science Instruments\", Jet Propulsion Laboratory, www.jpl.nasa.gov/basics/bsf12-1.php )" .
 
 
 
@@ -502,7 +502,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 :EMSpectrum rdf:type :Class ;
             
-            rdfs:comment "I copied and pasted this class and its subclasses from some image file (.png) of an ontology which I cannot find again. It is important to find it again to give credits." .
+            rdf:comment "I copied and pasted this class and its subclasses from some image file (.png) of an ontology which I cannot find again. It is important to find it again to give credits." .
 
 
 
@@ -598,7 +598,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 :FieldOfResearch rdf:type :Class ;
                  
-                 rdfs:comment "This is just a first sketch. To be expanded." .
+                 rdf:comment "This is just a first sketch. To be expanded." .
 
 
 
@@ -640,7 +640,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
                    
                    rdfs:subClassOf :DetectorWorkingPrinciple ;
                    
-                   rdfs:comment "\"Geometrical optics, or ray optics, describes light propagation in terms of rays. The ray in geometric optics is an abstraction, or instrument, useful in approximating the paths along which light propagates in certain classes of circumstances. The simplifying assumptions of geometrical optics include that light rays: \\npropagate in rectilinear paths as they travel in a homogeneous medium \\n bend, and in particular circumstances may split in two, at the interface between two dissimilar media \\nfollow curved paths in a medium in which the refractive index changes \\nmay be absorbed or reflected. \\nGeometrical optics does not account for certain optical effects such as diffraction and interference. This simplification is useful in practice; it is an excellent approximation when the wavelength is small compared to the size of structures with which the light interacts. The techniques are particularly useful in describing geometrical aspects of imaging, including optical aberrations. [Source: http://en.wikipedia.org/wiki/Geometrical_optics]\"" .
+                   rdf:comment "\"Geometrical optics, or ray optics, describes light propagation in terms of rays. The ray in geometric optics is an abstraction, or instrument, useful in approximating the paths along which light propagates in certain classes of circumstances. The simplifying assumptions of geometrical optics include that light rays: \\npropagate in rectilinear paths as they travel in a homogeneous medium \\n bend, and in particular circumstances may split in two, at the interface between two dissimilar media \\nfollow curved paths in a medium in which the refractive index changes \\nmay be absorbed or reflected. \\nGeometrical optics does not account for certain optical effects such as diffraction and interference. This simplification is useful in practice; it is an excellent approximation when the wavelength is small compared to the size of structures with which the light interacts. The techniques are particularly useful in describing geometrical aspects of imaging, including optical aberrations. [Source: http://en.wikipedia.org/wiki/Geometrical_optics]\"" .
 
 
 
@@ -795,7 +795,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
                    
                    rdfs:subClassOf :Detector ;
                    
-                   rdfs:comment """Most instruments only receive and process existing light, particles, or other phenomena, and they are said to be passive. Typical of this type would be an imaging instrument viewing a planet that is illuminated by sunlight, or a magnetometer measuring existing magnetic fields. 
+                   rdf:comment """Most instruments only receive and process existing light, particles, or other phenomena, and they are said to be passive. Typical of this type would be an imaging instrument viewing a planet that is illuminated by sunlight, or a magnetometer measuring existing magnetic fields.
 
 Source: \"Basics of Space flight, Section II, Chapter 12. Typical Science Instruments\", Jet Propulsion Laboratory.
 http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
@@ -814,7 +814,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 :PhysicalEntity rdf:type :Class ;
                 
-                rdfs:comment "Physical Entities are what is sensed by a detector. They can be atoms, ions, elementary particles, light, molecules, etc..." .
+                rdf:comment "Physical Entities are what is sensed by a detector. They can be atoms, ions, elementary particles, light, molecules, etc..." .
 
 
 
@@ -822,7 +822,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 :PhysicalQuantity rdf:type :Class ;
                   
-                  rdfs:comment """A physical quantity (or \"physical magnitude\") is a physical property of a phenomenon, body, or substance, that can be quantified by measurement. 
+                  rdf:comment """A physical quantity (or \"physical magnitude\") is a physical property of a phenomenon, body, or substance, that can be quantified by measurement.
 
 Source: Wikipedia, http://en.wikipedia.org/wiki/Physical_quantity""" .
 
@@ -947,7 +947,7 @@ Source: Wikipedia, http://en.wikipedia.org/wiki/Physical_quantity""" .
                                                             )
                                           ] ;
                          
-                         rdfs:comment "Remote-sensing instruments exist to form some kind of image or characterization of the source of the phenomena that enter the instrument. In doing so, they record characteristics of objects at a distance, sometimes forming an image by gathering, focusing and recording light. (Source: \"Basics of Space flight, Section II, Chapter 12. Typical Science Instruments\", Jet Propulsion Laboratory, www.jpl.nasa.gov/basics/bsf12-1.php)" .
+                         rdf:comment "Remote-sensing instruments exist to form some kind of image or characterization of the source of the phenomena that enter the instrument. In doing so, they record characteristics of objects at a distance, sometimes forming an image by gathering, focusing and recording light. (Source: \"Basics of Space flight, Section II, Chapter 12. Typical Science Instruments\", Jet Propulsion Laboratory, www.jpl.nasa.gov/basics/bsf12-1.php)" .
 
 
 

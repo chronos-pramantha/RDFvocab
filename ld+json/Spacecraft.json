@@ -17,8 +17,8 @@
 
     "@id": "",
     "@type" : "http://www.w3.org/2002/07/owl#Ontology",
-    "rdfs:label": "Objects and properties to describe systems and subsystems of devices and structures needed to fly a spacecraft, including structure and platform. Words separated by _ has to be read as separated concepts, camelCase in they are the same concepts (see umbel.org for this norm)",
-    "rdfs:comment": "A space vessel is described as made of two components: a set of devices called BUS and a set of one or more DETECTORS (see /sensors/Detector)",
+    "rdf:label": "Objects and properties to describe systems and subsystems of devices and structures needed to fly a spacecraft, including structure and platform. Words separated by _ has to be read as separated concepts, camelCase in they are the same concepts (see umbel.org for this norm)",
+    "rdf:comment": "A space vessel is described as made of two components: a set of devices called BUS and a set of one or more DETECTORS (see /sensors/Detector)",
 
 
     "defines": [
@@ -34,9 +34,9 @@
                 }
             ],
             "@type": "http://www.w3.org/2002/07/owl#Class",
-            "rdfs:label": "Spacecraft",
+            "rdf:label": "Spacecraft",
             "skos:prefLabel": "Each instance of spacecraft is a transportation device either deployed entirely in outer space, or one whose trajectories leave the atmosphere of the planet it's launched from, in order to orbit the planet or to travel beyond the planet's gravitational field.",
-            "rdfs:comment": "In this set of ontologies a spacecraft is described as a system of devices, a vessel made by different subsystems.",
+            "rdf:comment": "In this set of ontologies a spacecraft is described as a system of devices, a vessel made by different subsystems.",
             "chronos:relConcept": {
                 "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/spacecraft"
             }
@@ -48,7 +48,7 @@
             ],
             "owl:inverseOf": { "@id": "http://ontology.projectchronos.eu/spacecraft/hasSubSystem" },
             "skos:prefLabel": "subject is a device or a system of devices that is subsystem of a wider system or device",
-            "rdfs:label": "isSubsystemOf"
+            "rdf:label": "isSubsystemOf"
         },
         {
             "@id": "http://ontology.projectchronos.eu/spacecraft/isComponentOf",
@@ -56,7 +56,7 @@
                 "http://www.w3.org/2002/07/owl#ObjectProperty"
             ],
             "skos:prefLabel": "the subject is a member of a wider artifact, that is a set of artifacts",
-            "rdfs:label": "isComponentOf"
+            "rdf:label": "isComponentOf"
         },
         {
             "@id": "http://ontology.projectchronos.eu/spacecraft/hasSubSystem",
@@ -64,7 +64,7 @@
             "@type" : [
                 "http://www.w3.org/2002/07/owl#ObjectProperty"
             ],
-            "rdfs:label": "hasSubSystem"
+            "rdf:label": "hasSubSystem"
         },
         {
             "@id": "http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft",
@@ -93,8 +93,8 @@
                 }
             ],
             "skos:prefLabel": "A device that is deployed into a spacecraft and works outside Earth lower atmosphere",
-            "rdfs:comment": "A Device is an artifact with a relatively rigid, set shape, designed for a specific use or to perform a specific function",
-            "rdfs:label": "Subsystem_Spacecraft",
+            "rdf:comment": "A Device is an artifact with a relatively rigid, set shape, designed for a specific use or to perform a specific function",
+            "rdf:label": "Subsystem_Spacecraft",
             "spacecraft:isComponent": { "@id": "http://ontology.projectchronos.eu/spacecraft/Spacecraft" }
         },
         {
@@ -108,8 +108,8 @@
                     "owl:minCardinality" : 1
                 }
             ],
-            "rdfs:label": "Payload_Spacecraft",
-            "rdfs:comment": "The set of devices that the spacecraft carries for scientific purposes, with their supporting (readout) devices.",
+            "rdf:label": "Payload_Spacecraft",
+            "rdf:comment": "The set of devices that the spacecraft carries for scientific purposes, with their supporting (readout) devices.",
             "skos:prefLabel": "Payload_Spacecraft",
             "spacecraft:isComponent": { "@id": "http://ontology.projectchronos.eu/spacecraft/Spacecraft" }
         },
@@ -126,8 +126,8 @@
             "rdf:range" : [
                 { "@id": "http://ontology.projectchronos.eu/sensors/Detector" }
             ],
-            "rdfs:comment" : "It is a payload",
-            "rdfs:label" : "embedSensor", 
+            "rdf:comment" : "It is a payload",
+            "rdf:label" : "embedSensor",
             "skos:prefLabel" : "a subsystem that holds a sensor",
             "skos:altLabel" : "holds a sensor"
         },
@@ -137,7 +137,7 @@
                       "http://www.w3.org/2002/07/owl#AsymmetricProperty",
                       "http://www.w3.org/2002/07/owl#ObjectProperty"
             ],
-            "rdfs:label": "isDeployedIn",
+            "rdf:label": "isDeployedIn",
             "skos:prefLabel": "the environment in which a device or a system of devices is designed to work"
         }
 

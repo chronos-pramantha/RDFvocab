@@ -15,23 +15,23 @@
   },
   "@id": "",
   "@type": "http://www.w3.org/2002/07/owl#Ontology",
-  "rdfs:label": "Classes and properties to describe space techniques and tools about space exploration",
-  "rdfs:comment": "Generic classes and object properties properties, inherited from OpenCyc, DBpedia and Umbel",
+  "rdf:label": "Classes and properties to describe space techniques and tools about space exploration",
+  "rdf:comment": "Generic classes and object properties properties, inherited from OpenCyc, DBpedia and Umbel",
   "defines": [
     {
         "@id": "http://ontology.projectchronos.eu/exploration/spaceMission",
         "@type": "http://www.w3.org/2002/07/owl#Class",
         "rdfs:subClassOf": {
           "@id": "http://sw.opencyc.org/2012/05/10/concept/en/GeneralizedTransfer",
-          "rdfs:comment": "a space mission is intended as a subclass of GeneralizedTransfer: 'A specialization of Event. Each instance of GeneralizedTransfer is an event in which something (tangible or intangible) is transferred from one 'place' to another. GeneralizedTransfer includes changes in physical location, in ownership or possession, transfer of information, and propagation of wave phenomena through space.' "
+          "rdf:comment": "a space mission is intended as a subclass of GeneralizedTransfer: 'A specialization of Event. Each instance of GeneralizedTransfer is an event in which something (tangible or intangible) is transferred from one 'place' to another. GeneralizedTransfer includes changes in physical location, in ownership or possession, transfer of information, and propagation of wave phenomena through space.' "
         },
         "owl:sameAs": [
           { "@id": "live.dbpedia.org/data/Spaceflight.ntriples" },
           { "@id": "sw.opencyc.org/2012/05/10/concept/en/SpaceMission" }
         ],
         "skos:prefLabel": "a class that represents a 'planned endeavors wherein a spacecraft of some sort is sent either into Earth orbit or into interplanetary space. Often the same name is used to refer both to the mission and to the craft involved in the mission.', quoted from opencyc.org ",
-        "rdfs:label": "Space_Mission",
-        "rdfs:comment": "instances of this class can have multiple hasTask (see below)"
+        "rdf:label": "Space_Mission",
+        "rdf:comment": "instances of this class can have multiple hasTask (see below)"
     },
     {
         "@id": "http://ontology.projectchronos.eu/exploration/missionTask",
@@ -39,12 +39,12 @@
         "rdfs:subClassOf": [
           {
             "@id": "http://sw.opencyc.org/2012/05/10/concept/en/AssignedTaskType",
-            "rdfs:comment": "it is intended as a subclass of 'Collection: task' that applies to space missions: 'Instances of this collection are specializations of PurposefulAction which are assigned tasks in some planning context.' "
+            "rdf:comment": "it is intended as a subclass of 'Collection: task' that applies to space missions: 'Instances of this collection are specializations of PurposefulAction which are assigned tasks in some planning context.' "
           }
           ],
         "skos:prefLabel": "The task of the space mission, that can be measuring, observing or visiting a celestial body",
-        "rdfs:label": "Space_Mission_Task",
-        "rdfs:comment": "instances of this class have an hasTarget property (see below)"
+        "rdf:label": "Space_Mission_Task",
+        "rdf:comment": "instances of this class have an hasTarget property (see below)"
     },
     {
         "@id" : "http://ontology.projectchronos.eu/exploration/hasTarget",
@@ -53,7 +53,7 @@
         ],
         "rdfs:subClassOf": {
           "@id": "http://sw.opencyc.org/2012/05/10/concept/en/target",
-          "rdfs:comment": "it is intended as a subclass of 'Predicate: intended destination' that applies to spaceMission"
+          "rdf:comment": "it is intended as a subclass of 'Predicate: intended destination' that applies to spaceMission"
         },
         "rdf:domain" : { "@id": "http://ontology.projectchronos.eu/exploration/missionTask" },
         "rdf:range": [
@@ -62,8 +62,8 @@
           { "@id": "http://ontology.projectchronos.eu/astronomy/PlanetaryBody" },
           { "@id": "http://ontology.projectchronos.eu/astronomy/Natural_Satellite" }
           ],
-        "rdfs:comment" : "The target of the space mission, an astronomical bodies that can be measured, observed or visited",
-        "rdfs:label" : "Target of a space mission",
+        "rdf:comment" : "The target of the space mission, an astronomical bodies that can be measured, observed or visited",
+        "rdf:label" : "Target of a space mission",
         "skos:altLabel" : "is going to"
     },
     {
@@ -71,7 +71,7 @@
         "@type": [
           {
             "@id": "http://sw.opencyc.org/2012/05/10/concept/en/RemoteSensing",
-            "rdfs:comment": "'A specialization of both Action and AtLeastPartiallyMentalEvent. Each instance of PurposefulAction is an action consciously, volitionally, and purposefully done by (see performedBy) at least one actor.'"
+            "rdf:comment": "'A specialization of both Action and AtLeastPartiallyMentalEvent. Each instance of PurposefulAction is an action consciously, volitionally, and purposefully done by (see performedBy) at least one actor.'"
           },
           {
             "@id": "http://ontology.projectchronos.eu/exploration/missionTask"
@@ -81,7 +81,7 @@
           { "@id": "http://live.dbpedia.org/data/Earth_observation.ntriples"}
         ],
         "skos:prefLabel": "The task of observing Earth from orbit (see sensors: RemoteSensingInstrument)",
-        "rdfs:label": "Earth Observation",
+        "rdf:label": "Earth Observation",
         "exploration:hasTarget": { "@id": "http://ontology.projectchronos.eu/solarsystem/Earth" },
         "cyc:performedBy": {
           "@id": "http://umbel.org/umbel/rc/EarthRemoteSensingSatellite.n3",
@@ -94,7 +94,7 @@
           { "@id": "http://sw.opencyc.org/2012/05/10/concept/en/AtmosphericChemistry"},
           { "@id": "http://sw.opencyc.org/2012/05/10/concept/en/Meteorology"},
           { "@id": "http://sw.opencyc.org/2012/05/10/concept/en/AtmosphericPhysics",
-            "rdfs:comment": "'This is the study of planetary atmospheres in general.': note: to include studies on atmospheric plasma"},
+            "rdf:comment": "'This is the study of planetary atmospheres in general.': note: to include studies on atmospheric plasma"},
           { "@id": "http://sw.opencyc.org/2012/05/10/concept/en/Geology"},
           { "@id": "http://sw.opencyc.org/2012/05/10/concept/en/Geography"},
           { "@id": "http://live.dbpedia.org/data/Positioning_system.ntriples"}
@@ -111,14 +111,14 @@
         "@type": [
           {
             "@id": "http://sw.opencyc.org/2012/05/10/concept/en/RemoteSensing",
-            "rdfs:comment": "'A specialization of both Action and AtLeastPartiallyMentalEvent. Each instance of PurposefulAction is an action consciously, volitionally, and purposefully done by (see performedBy) at least one actor.'"
+            "rdf:comment": "'A specialization of both Action and AtLeastPartiallyMentalEvent. Each instance of PurposefulAction is an action consciously, volitionally, and purposefully done by (see performedBy) at least one actor.'"
           },
           {
             "@id": "http://ontology.projectchronos.eu/exploration/missionTask"
           }
         ],
         "skos:prefLabel": "The task of observing Solar System Bodies from orbit (see sensors: RemoteSensingInstrument)",
-        "rdfs:label": "Solar System Body Observation",
+        "rdf:label": "Solar System Body Observation",
         "cyc:performedBy": {
           "@id": "http://ontology.projectchronos.eu/engineering/AstronomicalSatellite",
           "rdfs:subClassOf": [
@@ -131,7 +131,7 @@
           { "@id": "http://sw.opencyc.org/2012/05/10/concept/en/AtmosphericChemistry"},
           { "@id": "http://sw.opencyc.org/2012/05/10/concept/en/Meteorology"},
           { "@id": "http://sw.opencyc.org/2012/05/10/concept/en/AtmosphericPhysics",
-            "rdfs:comment": "'This is the study of planetary atmospheres in general.': note: to include studies on atmospheric plasma"},
+            "rdf:comment": "'This is the study of planetary atmospheres in general.': note: to include studies on atmospheric plasma"},
           { "@id": "http://sw.opencyc.org/2012/05/10/concept/en/Geology"},
           { "@id": "http://sw.opencyc.org/2012/05/10/concept/en/Geography"},
           { "@id": "http://sw.opencyc.org/2012/05/10/concept/en/PlasmaPhysics"}
@@ -148,7 +148,7 @@
         "@type": [
           {
             "@id": "http://sw.opencyc.org/2012/05/10/concept/en/RemoteSensing",
-            "rdfs:comment": "'A specialization of both Action and AtLeastPartiallyMentalEvent. Each instance of PurposefulAction is an action consciously, volitionally, and purposefully done by (see performedBy) at least one actor.'"
+            "rdf:comment": "'A specialization of both Action and AtLeastPartiallyMentalEvent. Each instance of PurposefulAction is an action consciously, volitionally, and purposefully done by (see performedBy) at least one actor.'"
           },
           {
             "@id": "http://ontology.projectchronos.eu/exploration/missionTask"
@@ -162,7 +162,7 @@
           ]
         },
         "skos:prefLabel": "The action of observing Extra-galactic and Intra-galactic space from orbit (see sensors: RemoteSensingInstrument)",
-        "rdfs:label": "DeepSpaceObservation",
+        "rdf:label": "DeepSpaceObservation",
         "exploration:hasTarget": { "@id": "http://ontology.projectchronos.eu/astronomy/Outer_space" },
         "cyc:researches": [
           { "@id": "http://sw.opencyc.org/2012/05/10/concept/en/Astrophysics"},
@@ -182,7 +182,7 @@
         "@type": [
           {
             "@id": "http://sw.opencyc.org/2012/05/10/concept/en/TakingASample",
-            "rdfs:comment": "'A specialization of both Action and AtLeastPartiallyMentalEvent. Each instance of PurposefulAction is an action consciously, volitionally, and purposefully done by (see performedBy) at least one actor.'"
+            "rdf:comment": "'A specialization of both Action and AtLeastPartiallyMentalEvent. Each instance of PurposefulAction is an action consciously, volitionally, and purposefully done by (see performedBy) at least one actor.'"
           },
           {
             "@id": "http://ontology.projectchronos.eu/exploration/missionTask"
@@ -193,7 +193,7 @@
           { "@id": "http://live.dbpedia.org/data/Sample_%28material%29.ntriples"}
         ],
         "skos:prefLabel": "The action of taking a sample",
-        "rdfs:label": "Taking a Sample",
+        "rdf:label": "Taking a Sample",
         "cyc:performedBy": {
           "@id": "http://umbel.org/umbel/rc/SpaceProbe.n3",
           "rdfs:subClassOf": [
@@ -228,7 +228,7 @@
           { "@id": "http://live.dbpedia.org/data/Telecommunication.ntriples"}
         ],
         "skos:prefLabel": "The action of transferring information around the globe using satellite devices",
-        "rdfs:label": "Telecommunication"
+        "rdf:label": "Telecommunication"
     }
 
 
