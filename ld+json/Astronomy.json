@@ -45,7 +45,7 @@
             "rdf:comment": "a star",
             "rdfs:subClassOf": { "@id": "http://ontology.projectchronos.eu/astronomy/AstronomicalObject" },
             "chronos:relConcept": {
-                "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/star"
+                "@id": "http://hypermedia.projectchronos.eu/data/dbpediadocs/star"
             }
         },
         {
@@ -100,7 +100,7 @@
             "rdf:comment": "a document representing an asteroid",
             "rdfs:sameAs": { "@id": "http://umbel.org/umbel/rc/SubplanetaryStellarOrbiter.n3" },
             "chronos:relConcept": {
-                "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/asteroid"
+                "@id": "http://hypermedia.projectchronos.eu/data/dbpediadocs/asteroid"
             }
         },
         {
@@ -111,7 +111,7 @@
             "rdf:comment": "a document representing a meteoroid",
             "rdfs:sameAs": { "@id": "http://umbel.org/umbel/rc/SubplanetaryStellarOrbiter.n3" },
             "chronos:relConcept": {
-                "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/meteoroid"
+                "@id": "http://hypermedia.projectchronos.eu/data/dbpediadocs/meteoroid"
             }
         },
         {
@@ -122,7 +122,7 @@
             "rdf:comment": "a document representing a comet",
             "rdfs:sameAs": { "@id": "http://umbel.org/umbel/rc/SubplanetaryStellarOrbiter.n3" },
             "chronos:relConcept": {
-                "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/comet"
+                "@id": "http://hypermedia.projectchronos.eu/data/dbpediadocs/comet"
             }
         },
         {
@@ -136,7 +136,7 @@
             "rdf:label": "Natural_satellite",
             "rdf:comment": "a document representing a natural satellite or moon",
             "chronos:relConcept": {
-                "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/natural_satellite"
+                "@id": "http://hypermedia.projectchronos.eu/data/dbpediadocs/natural_satellite"
             }
         },
         {

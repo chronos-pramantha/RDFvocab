@@ -35,7 +35,6 @@
             ],
             "rdf:domain" : { "@id": "http://ontology.projectchronos.eu/spacecraft/Subsystem_Spacecraft" },
             "rdf:comment" : "The function and the objective what the device performs or make possible",
-            "rdf:label" : "what the device is used for",
             "rdf:label" : "function",
             "skos:altLabel" : "is used for"
         },
@@ -247,7 +246,7 @@
             "skos:prefLabel": "Any scientific instrument carried by a space probe or an artificial satellite",
             "spacecraft:isComponentOf": { "@id": "http://ontology.projectchronos.eu/spacecraft/Payload_Spacecraft" },
             "chronos:relConcept": {
-              "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/sensor"
+              "@id": "http://hypermedia.projectchronos.eu/data/dbpediadocs/sensor"
             }
         },
         {
@@ -305,7 +304,7 @@
             "rdf:comment": "Complex devices-subsystems used for impelling (processes of applying a force which results in translational motion) a spacecraft, in the specific http://umbel.org/umbel/rc/ProjectilePropelling",
             "spacecraft:isComponentOf": "http://ontology.projectchronos.eu/spacecraft/Spacecraft",
             "chronos:relConcept": {
-              "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/propulsion"
+              "@id": "http://hypermedia.projectchronos.eu/data/dbpediadocs/propulsion"
             }
 
         },
@@ -701,7 +700,7 @@
             "rdf:comment": "Complex devices-subsystems used for transmitting/receiving radio waves.",
             "spacecraft:isComponentOf": { "@id": "http://ontology.projectchronos.eu/spacecraft/Spacecraft" },
             "chronos:relConcept": {
-              "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/telecommunication"
+              "@id": "http://hypermedia.projectchronos.eu/data/dbpediadocs/telecommunication"
             }
         },
         {

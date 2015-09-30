@@ -30,7 +30,7 @@
             "rdfs:subClassOf": { "@id": "http://umbel.org/umbel/rc/Spacecraft.n3" },
             "rdf:label": "Satellite_Device",
             "chronos:relConcept": {
-                "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/satellite"
+                "@id": "http://hypermedia.projectchronos.eu/data/dbpediadocs/satellite"
             }
         },
         {

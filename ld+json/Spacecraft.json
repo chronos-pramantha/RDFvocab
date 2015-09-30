@@ -38,7 +38,7 @@
             "skos:prefLabel": "Each instance of spacecraft is a transportation device either deployed entirely in outer space, or one whose trajectories leave the atmosphere of the planet it's launched from, in order to orbit the planet or to travel beyond the planet's gravitational field.",
             "rdf:comment": "In this set of ontologies a spacecraft is described as a system of devices, a vessel made by different subsystems.",
             "chronos:relConcept": {
-                "@id": "http://taxonomy.projectchronos.eu/space/dbpediadocs/spacecraft"
+                "@id": "http://hypermedia.projectchronos.eu/data/dbpediadocs/spacecraft"
             }
         },
         {
