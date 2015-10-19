@@ -38,15 +38,13 @@
             "@id": "http://ontology.projectchronos.eu/astronomy/Star",
             "owl:sameAs" : [
               { "@id": "http://umbel.org/umbel/rc/Star.n3" },
-              { "@id": "http://sw.opencyc.org/concept/Mx4rvVi80ZwpEbGdrcN5Y29ycA"}
+              { "@id": "http://sw.opencyc.org/concept/Mx4rvVi80ZwpEbGdrcN5Y29ycA"},
+              { "@id": "http://live.dbpedia.org/data/Star.n3"}
               ],
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "rdf:label": "Star",
             "rdf:comment": "a star",
-            "rdfs:subClassOf": { "@id": "http://ontology.projectchronos.eu/astronomy/AstronomicalObject" },
-            "chronos:relConcept": {
-                "@id": "http://hypermedia.projectchronos.eu/data/dbpediadocs/star"
-            }
+            "rdfs:subClassOf": { "@id": "http://ontology.projectchronos.eu/astronomy/AstronomicalObject" }
         },
         {
             "@id": "http://ontology.projectchronos.eu/astronomy/PlanetaryBody",
@@ -62,9 +60,10 @@
             "skos:altLabel": "a general astronomical object with the characteristics of a planet",
             "rdf:comment": "a document representing a general planet-shaped astronomical body",
             "rdf:label": "Planet",
-            "owl:sameAs": {
-              "@id": "http://sw.opencyc.org/concept/Mx4rvVjRL5wpEbGdrcN5Y29ycA"
-            }
+            "owl:sameAs": [
+                {"@id": "http://sw.opencyc.org/concept/Mx4rvVjRL5wpEbGdrcN5Y29ycA"},
+                {"@id": "http://live.dbpedia.org/data/Planet.n3"}
+            ]
         },
         {
             "@id": "http://ontology.projectchronos.eu/astronomy/orbiting",
@@ -98,10 +97,10 @@
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "rdf:label": "Asteroid",
             "rdf:comment": "a document representing an asteroid",
-            "rdfs:sameAs": { "@id": "http://umbel.org/umbel/rc/SubplanetaryStellarOrbiter.n3" },
-            "chronos:relConcept": {
-                "@id": "http://hypermedia.projectchronos.eu/data/dbpediadocs/asteroid"
-            }
+            "rdfs:sameAs": [
+                { "@id": "http://umbel.org/umbel/rc/SubplanetaryStellarOrbiter.n3" },
+                { "@id": "http://live.dbpedia.org/data/Asteroid.ntriples" }
+            ]
         },
         {
             "@id": "http://ontology.projectchronos.eu/astronomy/Meteoroid",
@@ -109,10 +108,10 @@
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "rdf:label": "Meteoroid",
             "rdf:comment": "a document representing a meteoroid",
-            "rdfs:sameAs": { "@id": "http://umbel.org/umbel/rc/SubplanetaryStellarOrbiter.n3" },
-            "chronos:relConcept": {
-                "@id": "http://hypermedia.projectchronos.eu/data/dbpediadocs/meteoroid"
-            }
+            "rdfs:sameAs": [
+                { "@id": "http://umbel.org/umbel/rc/SubplanetaryStellarOrbiter.n3" },
+                { "@id": "http://live.dbpedia.org/data/Meteoroid.ntriples" }
+            ]
         },
         {
             "@id": "http://ontology.projectchronos.eu/astronomy/Comet",
@@ -120,10 +119,10 @@
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "rdf:label": "Comet",
             "rdf:comment": "a document representing a comet",
-            "rdfs:sameAs": { "@id": "http://umbel.org/umbel/rc/SubplanetaryStellarOrbiter.n3" },
-            "chronos:relConcept": {
-                "@id": "http://hypermedia.projectchronos.eu/data/dbpediadocs/comet"
-            }
+            "rdfs:sameAs": [
+                { "@id": "http://umbel.org/umbel/rc/SubplanetaryStellarOrbiter.n3" },
+                { "@id": "http://live.dbpedia.org/data/Comet.ntriples" }
+            ]
         },
         {
             "@id": "http://ontology.projectchronos.eu/astronomy/Natural_satellite",
@@ -134,10 +133,7 @@
             ],
             "@type": "http://www.w3.org/2002/07/owl#Class",
             "rdf:label": "Natural_satellite",
-            "rdf:comment": "a document representing a natural satellite or moon",
-            "chronos:relConcept": {
-                "@id": "http://hypermedia.projectchronos.eu/data/dbpediadocs/natural_satellite"
-            }
+            "rdf:comment": "a document representing a natural satellite or moon"
         },
         {
             "@id": "http://ontology.projectchronos.eu/astronomy/TerrestrialPlanet",
