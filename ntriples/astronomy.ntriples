@@ -1,191 +1,191 @@
-<http://ontology.projectchronos.eu/astronomy/Cosmology> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/Cosmology.n3> .
-<http://ontology.projectchronos.eu/astronomy/PlanetaryBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "PlanetaryBody" .
-<http://ontology.projectchronos.eu/sensors/PlanetaryAstronomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "PlanetaryAstronomy" .
-<http://ontology.projectchronos.eu/astronomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Generic astronomical concepts " .
-<http://ontology.projectchronos.eu/astronomy/SolidPlanetaryBody> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/astronomy> .
-<http://ontology.projectchronos.eu/astronomy/TerrestrialPlanet> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/astronomy> .
-<http://ontology.projectchronos.eu/astronomy/AstronomicalObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/astronomy/Asteroid> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/astronomy> .
-<http://ontology.projectchronos.eu/astronomy/AtmosphericScience> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/astronomy> .
-<http://ontology.projectchronos.eu/astronomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a set of concepts to be used to describe astronomical objects. Notes: 1. two different properties are applied for bodies orbiting a star (property \"orbiting\") and orbiting a planet (property \"orbitsPlanet\") - 2. PlanetaryBody entity is a wider group for any object subject permanently to the gravity of a Planet. Planet entity is for the planet itself" .
-<http://ontology.projectchronos.eu/astronomy/Planetary_system> <http://www.w3.org/2002/07/owl#sameAs> <http://live.dbpedia.org/data/Planetary_system.ntriples> .
-<http://ontology.projectchronos.eu/astronomy/PlanetaryScience> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/astronomy> .
-<http://ontology.projectchronos.eu/astronomy/orbitsPlanet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/astronomy> .
-<http://ontology.projectchronos.eu/astronomy/orbitsPlanet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontology.projectchronos.eu/astronomy/Natural_satellite> .
-<http://ontology.projectchronos.eu/astronomy/Outer_space> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/astronomy> .
-<http://ontology.projectchronos.eu/astronomy/ExtragalacticAstronomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/astronomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://ontology.projectchronos.eu/astronomy/Natural_satellite> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/MoonOfAPlanet.n3> .
-<http://ontology.projectchronos.eu/astronomy/Planet> <http://www.w3.org/2004/02/skos/core#altLabel> "a general astronomical object with the characteristics of a planet" .
-<http://ontology.projectchronos.eu/astronomy/PlanetaryBody> <http://www.w3.org/2004/02/skos/core#altLabel> "a general astronomical object with the characteristics of a planet or any natural object under gravitational influence of a planet" .
-<http://ontology.projectchronos.eu/astronomy/AstronomicalObject> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/astronomy> .
-<http://ontology.projectchronos.eu/astronomy/Comet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Comet" .
-<http://ontology.projectchronos.eu/sensors/PlanetaryGeology> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/astronomy> .
-<http://ontology.projectchronos.eu/astronomy/PlanetaryScience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/astronomy/Natural_satellite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Natural_satellite" .
-<http://ontology.projectchronos.eu/astronomy/RockyPlanetaryBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing a rocky body" .
-<http://ontology.projectchronos.eu/astronomy/DwarfPlanet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "DwarfPlanet" .
-<http://ontology.projectchronos.eu/astronomy/Planet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/astronomy/orbitsPlanet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://ontology.projectchronos.eu/astronomy/DwarfPlanet> .
-<http://ontology.projectchronos.eu/astronomy/Meteoroid> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/astronomy> .
-<http://ontology.projectchronos.eu/astronomy/RockyPlanetaryBody> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/astronomy> .
-<http://ontology.projectchronos.eu/astronomy/orbiting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://ontology.projectchronos.eu/astronomy/Star> .
-<http://ontology.projectchronos.eu/astronomy/AstronomicalObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "AstronomicalObject" .
-<http://ontology.projectchronos.eu/astronomy/FluidPlanetaryBody> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/astronomy/PlanetaryBody> .
-<http://ontology.projectchronos.eu/astronomy/orbiting> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/astronomy> .
-<http://ontology.projectchronos.eu/astronomy/Cosmology> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/astronomy> .
-<http://ontology.projectchronos.eu/sensors/PlanetaryAstronomy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/sensors/PlanetaryScience> .
-<http://ontology.projectchronos.eu/astronomy/CelestialBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing a generic celestial body" .
-<http://ontology.projectchronos.eu/sensors/PlanetaryGeology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "PlanetaryGeology" .
-<http://ontology.projectchronos.eu/astronomy/Natural_satellite> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/astronomy> .
-<http://ontology.projectchronos.eu/astronomy/Star> <http://www.w3.org/2002/07/owl#sameAs> <http://live.dbpedia.org/data/Star.n3> .
-<http://ontology.projectchronos.eu/astronomy/AstronomicalObservatory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing an astronomical observatory" .
-<http://ontology.projectchronos.eu/astronomy/GasGiant> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/astronomy> .
-<http://ontology.projectchronos.eu/astronomy/Asteroid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/sensors/SolarAstronomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/astronomy/GasGiant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/astronomy/orbiting> <http://www.w3.org/2002/07/owl#sameAs> <http://sw.opencyc.org/concept/Mx4rvmlCvZwpEbGdrcN5Y29ycA> .
-<http://ontology.projectchronos.eu/astronomy/Star> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/astronomy/AstronomicalObject> .
-<http://ontology.projectchronos.eu/astronomy/SolidPlanetaryBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/astronomy/DwarfPlanet> <http://ontology.projectchronos.eu/astronomy/orbiting> <http://ontology.projectchronos.eu/astronomy/Sun> .
-<http://ontology.projectchronos.eu/astronomy/SolidPlanetaryBody> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/SolidPlanetaryBody.n3> .
-<http://ontology.projectchronos.eu/astronomy/DwarfPlanet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a trans-neptunian object with planet-like size" .
-<http://ontology.projectchronos.eu/sensors/PlanetaryGeology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/astronomy/FluidPlanetaryBody> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/FluidPlanetaryBody.n3> .
-<http://ontology.projectchronos.eu/astronomy/TerrestrialPlanet> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/TerrestrialPlanet.n3> .
-<http://ontology.projectchronos.eu/astronomy/GalacticAstronomy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/astronomy> .
-<http://ontology.projectchronos.eu/astronomy/Planet> <http://www.w3.org/2002/07/owl#sameAs> <http://sw.opencyc.org/concept/Mx4rvVjRL5wpEbGdrcN5Y29ycA> .
-<http://ontology.projectchronos.eu/astronomy/orbitsPlanet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontology.projectchronos.eu/astronomy/PlanetaryBody> .
-<http://ontology.projectchronos.eu/astronomy/PlanetaryScience> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/sensors/FieldOfResearch> .
-<http://ontology.projectchronos.eu/astronomy/Outer_space> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Outer_space" .
-<http://ontology.projectchronos.eu/astronomy/DwarfPlanet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://umbel.org/umbel/rc/SubplanetaryStellarOrbiter.n3> .
-<http://ontology.projectchronos.eu/astronomy/orbitsPlanet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://ontology.projectchronos.eu/astronomy/PlanetaryBody> .
-<http://ontology.projectchronos.eu/astronomy/Planet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/astronomy/PlanetaryBody> .
-<http://ontology.projectchronos.eu/astronomy/AstronomicalObservatory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/astronomy/FluidPlanetaryBody> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/astronomy> .
-<http://ontology.projectchronos.eu/astronomy/PlanetaryBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing a general planet-shaped body or natural satellite or dust or rock or macroscopic particle of matter" .
-<http://ontology.projectchronos.eu/astronomy/ExtragalacticAstronomy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/astronomy> .
-<http://ontology.projectchronos.eu/sensors/PlanetaryAstronomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/astronomy/Cosmology> <http://www.w3.org/2002/07/owl#sameAs> <http://live.dbpedia.org/data/Cosmology.ntriples> .
-<http://ontology.projectchronos.eu/astronomy/RockyPlanetaryBody> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/astronomy/PlanetaryBody> .
-<http://ontology.projectchronos.eu/astronomy/FluidPlanetaryBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing a non-solid planet" .
-<http://ontology.projectchronos.eu/astronomy/CelestialBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "CelestialBody" .
-<http://ontology.projectchronos.eu/astronomy/Meteoroid> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/Meteoroid.n3> .
-<http://ontology.projectchronos.eu/astronomy/orbiting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontology.projectchronos.eu/astronomy/AstronomicalObject> .
-<http://ontology.projectchronos.eu/astronomy/Outer_space> <http://www.w3.org/2002/07/owl#sameAs> <http://live.dbpedia.org/ontology/Outer_space.ntriples> .
-<http://ontology.projectchronos.eu/sensors/StellarAstronomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/astronomy/Meteoroid> <http://www.w3.org/2000/01/rdf-schema#sameAs> <http://umbel.org/umbel/rc/SubplanetaryStellarOrbiter.n3> .
-<http://ontology.projectchronos.eu/astronomy/TerrestrialPlanet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing a solid/rocky planet" .
-<http://ontology.projectchronos.eu/astronomy/RockyPlanetaryBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/astronomy/SubplanetaryStellarOrbiter> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/SubplanetaryStellarOrbiter.n3> .
-<http://ontology.projectchronos.eu/astronomy/PlanetaryScience> <http://www.w3.org/2002/07/owl#sameAs> <http://live.dbpedia.org/data/Planetary_science.ntriples> .
-<http://ontology.projectchronos.eu/sensors/SolarAstronomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "SolarAstronomy" .
-<http://ontology.projectchronos.eu/astronomy/orbitsPlanet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "this property describe the Moon-Planet gravitational interaction" .
-<http://ontology.projectchronos.eu/astronomy/Cosmology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/sensors/FieldOfResearch> .
-<http://ontology.projectchronos.eu/astronomy/Ice_giant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/astronomy/Planetary_system> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/astronomy/AstronomicalObject> .
-<http://ontology.projectchronos.eu/astronomy/Star> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/astronomy> .
-<http://ontology.projectchronos.eu/astronomy/Planet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Planet" .
-<http://ontology.projectchronos.eu/astronomy/Natural_satellite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing a natural satellite or moon" .
-<http://ontology.projectchronos.eu/astronomy/PlanetaryBody> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/astronomy> .
-<http://ontology.projectchronos.eu/astronomy/Asteroid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing an asteroid" .
-<http://ontology.projectchronos.eu/astronomy/Planetary_system> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/astronomy> .
-<http://ontology.projectchronos.eu/astronomy/GasGiant> <http://ontology.projectchronos.eu/@owl:sameAs> <http://umbel.org/umbel/rc/GasGiant.n3> .
-<http://ontology.projectchronos.eu/astronomy/GalacticAstronomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "GalacticAstronomy" .
-<http://ontology.projectchronos.eu/astronomy/SubplanetaryStellarOrbiter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/astronomy> .
-<http://ontology.projectchronos.eu/astronomy/Planet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing a general planet-shaped astronomical body" .
-<http://ontology.projectchronos.eu/astronomy/DwarfPlanet> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/astronomy> .
-<http://ontology.projectchronos.eu/astronomy/SubplanetaryStellarOrbiter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/astronomy/GalacticAstronomy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/sensors/FieldOfResearch> .
-<http://ontology.projectchronos.eu/astronomy/Natural_satellite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/astronomy/DwarfPlanet> <http://ontology.projectchronos.eu/@owl:sameAs> <http://live.dbpedia.org/data/Dwarf_planet.ntriples> .
-<http://ontology.projectchronos.eu/astronomy/orbitsPlanet> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/astronomy> .
-<http://ontology.projectchronos.eu/astronomy/Asteroid> <http://www.w3.org/2002/07/owl#sameAs> <http://live.dbpedia.org/data/Asteroid.ntriples> .
-<http://ontology.projectchronos.eu/astronomy/Meteoroid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Meteoroid" .
-<http://ontology.projectchronos.eu/astronomy/Comet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/astronomy/CelestialBody> <http://www.w3.org/2002/07/owl#sameAs> <http://live.dbpedia.org/ontology/CelestialBody.ntriples> .
-<http://ontology.projectchronos.eu/sensors/PlanetaryGeology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/sensors/PlanetaryScience> .
-<http://ontology.projectchronos.eu/astronomy/Planetary_system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "Solar System is a planetary system - see solarsystem vocabulary" .
-<http://ontology.projectchronos.eu/astronomy/Comet> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/astronomy> .
-<http://ontology.projectchronos.eu/astronomy/CelestialBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/astronomy/AtmosphericScience> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/sensors/PlanetaryScience> .
-<http://ontology.projectchronos.eu/astronomy/IcyPlanetaryBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/astronomy/orbitsPlanet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontology.projectchronos.eu/astronomy/IcyPlanetaryBody> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/astronomy/PlanetaryBody> .
-<http://ontology.projectchronos.eu/astronomy/IcyPlanetaryBody> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/IcyPlanetaryBody.n3> .
-<http://ontology.projectchronos.eu/astronomy/Outer_space> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing the open space outside atmosphere, from Low Earth Orbit to Extra Galactic Space" .
-<http://ontology.projectchronos.eu/astronomy/Asteroid> <http://www.w3.org/2000/01/rdf-schema#sameAs> <http://umbel.org/umbel/rc/SubplanetaryStellarOrbiter.n3> .
-<http://ontology.projectchronos.eu/astronomy/AstronomicalObservatory> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/AstronomicalObservatory.n3> .
-<http://ontology.projectchronos.eu/astronomy/orbiting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "orbiting" .
-<http://ontology.projectchronos.eu/astronomy/AtmosphericScience> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/AtmosphericScience.n3> .
-<http://ontology.projectchronos.eu/astronomy/SolidPlanetaryBody> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/astronomy/PlanetaryBody> .
-<http://ontology.projectchronos.eu/astronomy/GasGiant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a Jovian planet, a document representing a Jovian planet" .
-<http://ontology.projectchronos.eu/astronomy/Comet> <http://www.w3.org/2000/01/rdf-schema#sameAs> <http://umbel.org/umbel/rc/SubplanetaryStellarOrbiter.n3> .
-<http://ontology.projectchronos.eu/astronomy/orbitsPlanet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "orbitsPlanet" .
-<http://ontology.projectchronos.eu/astronomy/Planet> <http://www.w3.org/2002/07/owl#sameAs> <http://live.dbpedia.org/data/Planet.n3> .
-<http://ontology.projectchronos.eu/astronomy/Cosmology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Cosmology" .
-<http://ontology.projectchronos.eu/astronomy/Asteroid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Asteroid" .
-<http://ontology.projectchronos.eu/astronomy/GalacticAstronomy> <http://www.w3.org/2002/07/owl#sameAs> <http://live.dbpedia.org/data/Galactic_astronomy.ntriples> .
-<http://ontology.projectchronos.eu/astronomy/Meteoroid> <http://www.w3.org/2000/01/rdf-schema#sameAs> <http://live.dbpedia.org/data/Meteoroid.ntriples> .
-<http://ontology.projectchronos.eu/astronomy/Comet> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/Comet.n3> .
-<http://ontology.projectchronos.eu/astronomy/DwarfPlanet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/astronomy/AtmosphericScience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "AtmosphericScience" .
-<http://ontology.projectchronos.eu/astronomy/Planetary_system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Planetary_system" .
-<http://ontology.projectchronos.eu/astronomy/RockyPlanetaryBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "RockyPlanetaryBody" .
-<http://ontology.projectchronos.eu/astronomy/Ice_giant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/astronomy/GasGiant> .
-<http://ontology.projectchronos.eu/astronomy/Natural_satellite> <http://www.w3.org/2002/07/owl#sameAs> <http://sw.opencyc.org/concept/Mx4rvfn7-pwpEbGdrcN5Y29ycA> .
-<http://ontology.projectchronos.eu/astronomy/Meteoroid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing a meteoroid" .
-<http://ontology.projectchronos.eu/astronomy/GasGiant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "GasGiant" .
-<http://ontology.projectchronos.eu/astronomy/Ice_giant> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/astronomy> .
-<http://ontology.projectchronos.eu/astronomy/Star> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/astronomy/AtmosphericScience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/astronomy/Star> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Star" .
-<http://ontology.projectchronos.eu/astronomy/orbiting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "this property describe the generic astronomical object-object gravitational interaction" .
-<http://ontology.projectchronos.eu/astronomy/Asteroid> <http://www.w3.org/2000/01/rdf-schema#sameAs> <http://live.dbpedia.org/data/Asteroid.ntriples> .
-<http://ontology.projectchronos.eu/astronomy/ExtragalacticAstronomy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/sensors/FieldOfResearch> .
-<http://ontology.projectchronos.eu/astronomy/AstronomicalObject> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/AstronomicalObject.n3> .
-<http://ontology.projectchronos.eu/astronomy/ExtragalacticAstronomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "ExtragalacticAstronomy" .
-<http://ontology.projectchronos.eu/astronomy/PlanetaryScience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "PlanetaryScience" .
-<http://ontology.projectchronos.eu/astronomy/GasGiant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/astronomy/PlanetaryBody> .
-<http://ontology.projectchronos.eu/astronomy/Star> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a star" .
-<http://ontology.projectchronos.eu/sensors/SolarAstronomy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/sensors/FieldOfResearch> .
-<http://ontology.projectchronos.eu/astronomy/SubplanetaryStellarOrbiter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "SubplanetaryStellarOrbiter" .
-<http://ontology.projectchronos.eu/sensors/PlanetaryAstronomy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/astronomy> .
-<http://ontology.projectchronos.eu/astronomy/Comet> <http://www.w3.org/2000/01/rdf-schema#sameAs> <http://live.dbpedia.org/data/Comet.ntriples> .
-<http://ontology.projectchronos.eu/astronomy/Natural_satellite> <http://www.w3.org/2002/07/owl#sameAs> <http://live.dbpedia.org/data/Natural_satellite.ntriples> .
-<http://ontology.projectchronos.eu/sensors/StellarAstronomy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/sensors/FieldOfResearch> .
-<http://ontology.projectchronos.eu/astronomy/Ice_giant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a gas giant with less helium/hydrogen and more 'ices', Uranus and Neputne subclass" .
-<http://ontology.projectchronos.eu/astronomy/FluidPlanetaryBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "FluidPlanetaryBody" .
-<http://ontology.projectchronos.eu/astronomy/AstronomicalObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "an astronomical body (from a natural satellite size up) or a group of astronomical body" .
-<http://ontology.projectchronos.eu/astronomy/Planetary_system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/astronomy/Cosmology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/astronomy/Ice_giant> <http://www.w3.org/2002/07/owl#sameAs> <http://live.dbpedia.org/data/Ice_giant.ntriples> .
-<http://ontology.projectchronos.eu/astronomy/SolidPlanetaryBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "planet  composed primarily of solid substances" .
-<http://ontology.projectchronos.eu/astronomy/Star> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/Star.n3> .
-<http://ontology.projectchronos.eu/sensors/StellarAstronomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "StellarAstronomy" .
-<http://ontology.projectchronos.eu/astronomy/Planet> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/astronomy> .
-<http://ontology.projectchronos.eu/astronomy/TerrestrialPlanet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "TerrestrialPlanet" .
-<http://ontology.projectchronos.eu/astronomy/Meteoroid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/astronomy/ExtragalacticAstronomy> <http://www.w3.org/2002/07/owl#sameAs> <http://live.dbpedia.org/data/Extragalactic_astronomy.ntriples> .
-<http://ontology.projectchronos.eu/astronomy/SolidPlanetaryBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "SolidPlanetaryBody" .
-<http://ontology.projectchronos.eu/astronomy/RockyPlanetaryBody> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/RockyPlanetaryBody.n3> .
-<http://ontology.projectchronos.eu/astronomy/IcyPlanetaryBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "IcyPlanetaryBody" .
-<http://ontology.projectchronos.eu/astronomy/TerrestrialPlanet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/sensors/SolarAstronomy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/astronomy> .
-<http://ontology.projectchronos.eu/astronomy/TerrestrialPlanet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.projectchronos.eu/astronomy/PlanetaryBody> .
-<http://ontology.projectchronos.eu/astronomy/SubplanetaryStellarOrbiter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a smaller body orbiting around stars or planets, a document representing smaller body orbiting around stars or planets" .
-<http://ontology.projectchronos.eu/astronomy/AstronomicalObservatory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "AstronomicalObservatory" .
-<http://ontology.projectchronos.eu/astronomy/Outer_space> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/sensors/StellarAstronomy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/astronomy> .
-<http://ontology.projectchronos.eu/astronomy/PlanetaryBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/astronomy/FluidPlanetaryBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/astronomy/Star> <http://www.w3.org/2002/07/owl#sameAs> <http://sw.opencyc.org/concept/Mx4rvVi80ZwpEbGdrcN5Y29ycA> .
-<http://ontology.projectchronos.eu/astronomy/AstronomicalObservatory> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/astronomy> .
-<http://ontology.projectchronos.eu/astronomy/Ice_giant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Ice_giant" .
-<http://ontology.projectchronos.eu/astronomy/IcyPlanetaryBody> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/astronomy> .
-<http://ontology.projectchronos.eu/astronomy/orbiting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontology.projectchronos.eu/astronomy/GalacticAstronomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontology.projectchronos.eu/astronomy/IcyPlanetaryBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing an icy body" .
-<http://ontology.projectchronos.eu/astronomy/Comet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing a comet" .
-<http://ontology.projectchronos.eu/astronomy/CelestialBody> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontology.projectchronos.eu/astronomy> .
+<http://ontologies.pramantha.net/astronomy/Cosmology> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/Cosmology.n3> .
+<http://ontologies.pramantha.net/astronomy/PlanetaryBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "PlanetaryBody" .
+<http://ontologies.pramantha.net/sensors/PlanetaryAstronomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "PlanetaryAstronomy" .
+<http://ontologies.pramantha.net/astronomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Generic astronomical concepts " .
+<http://ontologies.pramantha.net/astronomy/SolidPlanetaryBody> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/astronomy> .
+<http://ontologies.pramantha.net/astronomy/TerrestrialPlanet> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/astronomy> .
+<http://ontologies.pramantha.net/astronomy/AstronomicalObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.pramantha.net/astronomy/Asteroid> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/astronomy> .
+<http://ontologies.pramantha.net/astronomy/AtmosphericScience> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/astronomy> .
+<http://ontologies.pramantha.net/astronomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a set of concepts to be used to describe astronomical objects. Notes: 1. two different properties are applied for bodies orbiting a star (property \"orbiting\") and orbiting a planet (property \"orbitsPlanet\") - 2. PlanetaryBody entity is a wider group for any object subject permanently to the gravity of a Planet. Planet entity is for the planet itself" .
+<http://ontologies.pramantha.net/astronomy/Planetary_system> <http://www.w3.org/2002/07/owl#sameAs> <http://live.dbpedia.org/data/Planetary_system.ntriples> .
+<http://ontologies.pramantha.net/astronomy/PlanetaryScience> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/astronomy> .
+<http://ontologies.pramantha.net/astronomy/orbitsPlanet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontologies.pramantha.net/astronomy> .
+<http://ontologies.pramantha.net/astronomy/orbitsPlanet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontologies.pramantha.net/astronomy/Natural_satellite> .
+<http://ontologies.pramantha.net/astronomy/Outer_space> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/astronomy> .
+<http://ontologies.pramantha.net/astronomy/ExtragalacticAstronomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.pramantha.net/astronomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://ontologies.pramantha.net/astronomy/Natural_satellite> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/MoonOfAPlanet.n3> .
+<http://ontologies.pramantha.net/astronomy/Planet> <http://www.w3.org/2004/02/skos/core#altLabel> "a general astronomical object with the characteristics of a planet" .
+<http://ontologies.pramantha.net/astronomy/PlanetaryBody> <http://www.w3.org/2004/02/skos/core#altLabel> "a general astronomical object with the characteristics of a planet or any natural object under gravitational influence of a planet" .
+<http://ontologies.pramantha.net/astronomy/AstronomicalObject> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/astronomy> .
+<http://ontologies.pramantha.net/astronomy/Comet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Comet" .
+<http://ontologies.pramantha.net/sensors/PlanetaryGeology> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/astronomy> .
+<http://ontologies.pramantha.net/astronomy/PlanetaryScience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.pramantha.net/astronomy/Natural_satellite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Natural_satellite" .
+<http://ontologies.pramantha.net/astronomy/RockyPlanetaryBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing a rocky body" .
+<http://ontologies.pramantha.net/astronomy/DwarfPlanet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "DwarfPlanet" .
+<http://ontologies.pramantha.net/astronomy/Planet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.pramantha.net/astronomy/orbitsPlanet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://ontologies.pramantha.net/astronomy/DwarfPlanet> .
+<http://ontologies.pramantha.net/astronomy/Meteoroid> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/astronomy> .
+<http://ontologies.pramantha.net/astronomy/RockyPlanetaryBody> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/astronomy> .
+<http://ontologies.pramantha.net/astronomy/orbiting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://ontologies.pramantha.net/astronomy/Star> .
+<http://ontologies.pramantha.net/astronomy/AstronomicalObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "AstronomicalObject" .
+<http://ontologies.pramantha.net/astronomy/FluidPlanetaryBody> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontologies.pramantha.net/astronomy/PlanetaryBody> .
+<http://ontologies.pramantha.net/astronomy/orbiting> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/astronomy> .
+<http://ontologies.pramantha.net/astronomy/Cosmology> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/astronomy> .
+<http://ontologies.pramantha.net/sensors/PlanetaryAstronomy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontologies.pramantha.net/sensors/PlanetaryScience> .
+<http://ontologies.pramantha.net/astronomy/CelestialBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing a generic celestial body" .
+<http://ontologies.pramantha.net/sensors/PlanetaryGeology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "PlanetaryGeology" .
+<http://ontologies.pramantha.net/astronomy/Natural_satellite> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/astronomy> .
+<http://ontologies.pramantha.net/astronomy/Star> <http://www.w3.org/2002/07/owl#sameAs> <http://live.dbpedia.org/data/Star.n3> .
+<http://ontologies.pramantha.net/astronomy/AstronomicalObservatory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing an astronomical observatory" .
+<http://ontologies.pramantha.net/astronomy/GasGiant> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/astronomy> .
+<http://ontologies.pramantha.net/astronomy/Asteroid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.pramantha.net/sensors/SolarAstronomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.pramantha.net/astronomy/GasGiant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.pramantha.net/astronomy/orbiting> <http://www.w3.org/2002/07/owl#sameAs> <http://sw.opencyc.org/concept/Mx4rvmlCvZwpEbGdrcN5Y29ycA> .
+<http://ontologies.pramantha.net/astronomy/Star> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontologies.pramantha.net/astronomy/AstronomicalObject> .
+<http://ontologies.pramantha.net/astronomy/SolidPlanetaryBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.pramantha.net/astronomy/DwarfPlanet> <http://ontologies.pramantha.net/astronomy/orbiting> <http://ontologies.pramantha.net/astronomy/Sun> .
+<http://ontologies.pramantha.net/astronomy/SolidPlanetaryBody> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/SolidPlanetaryBody.n3> .
+<http://ontologies.pramantha.net/astronomy/DwarfPlanet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a trans-neptunian object with planet-like size" .
+<http://ontologies.pramantha.net/sensors/PlanetaryGeology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.pramantha.net/astronomy/FluidPlanetaryBody> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/FluidPlanetaryBody.n3> .
+<http://ontologies.pramantha.net/astronomy/TerrestrialPlanet> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/TerrestrialPlanet.n3> .
+<http://ontologies.pramantha.net/astronomy/GalacticAstronomy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/astronomy> .
+<http://ontologies.pramantha.net/astronomy/Planet> <http://www.w3.org/2002/07/owl#sameAs> <http://sw.opencyc.org/concept/Mx4rvVjRL5wpEbGdrcN5Y29ycA> .
+<http://ontologies.pramantha.net/astronomy/orbitsPlanet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontologies.pramantha.net/astronomy/PlanetaryBody> .
+<http://ontologies.pramantha.net/astronomy/PlanetaryScience> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontologies.pramantha.net/sensors/FieldOfResearch> .
+<http://ontologies.pramantha.net/astronomy/Outer_space> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Outer_space" .
+<http://ontologies.pramantha.net/astronomy/DwarfPlanet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://umbel.org/umbel/rc/SubplanetaryStellarOrbiter.n3> .
+<http://ontologies.pramantha.net/astronomy/orbitsPlanet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://ontologies.pramantha.net/astronomy/PlanetaryBody> .
+<http://ontologies.pramantha.net/astronomy/Planet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontologies.pramantha.net/astronomy/PlanetaryBody> .
+<http://ontologies.pramantha.net/astronomy/AstronomicalObservatory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.pramantha.net/astronomy/FluidPlanetaryBody> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/astronomy> .
+<http://ontologies.pramantha.net/astronomy/PlanetaryBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing a general planet-shaped body or natural satellite or dust or rock or macroscopic particle of matter" .
+<http://ontologies.pramantha.net/astronomy/ExtragalacticAstronomy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/astronomy> .
+<http://ontologies.pramantha.net/sensors/PlanetaryAstronomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.pramantha.net/astronomy/Cosmology> <http://www.w3.org/2002/07/owl#sameAs> <http://live.dbpedia.org/data/Cosmology.ntriples> .
+<http://ontologies.pramantha.net/astronomy/RockyPlanetaryBody> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontologies.pramantha.net/astronomy/PlanetaryBody> .
+<http://ontologies.pramantha.net/astronomy/FluidPlanetaryBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing a non-solid planet" .
+<http://ontologies.pramantha.net/astronomy/CelestialBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "CelestialBody" .
+<http://ontologies.pramantha.net/astronomy/Meteoroid> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/Meteoroid.n3> .
+<http://ontologies.pramantha.net/astronomy/orbiting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontologies.pramantha.net/astronomy/AstronomicalObject> .
+<http://ontologies.pramantha.net/astronomy/Outer_space> <http://www.w3.org/2002/07/owl#sameAs> <http://live.dbpedia.org/ontology/Outer_space.ntriples> .
+<http://ontologies.pramantha.net/sensors/StellarAstronomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.pramantha.net/astronomy/Meteoroid> <http://www.w3.org/2000/01/rdf-schema#sameAs> <http://umbel.org/umbel/rc/SubplanetaryStellarOrbiter.n3> .
+<http://ontologies.pramantha.net/astronomy/TerrestrialPlanet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing a solid/rocky planet" .
+<http://ontologies.pramantha.net/astronomy/RockyPlanetaryBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.pramantha.net/astronomy/SubplanetaryStellarOrbiter> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/SubplanetaryStellarOrbiter.n3> .
+<http://ontologies.pramantha.net/astronomy/PlanetaryScience> <http://www.w3.org/2002/07/owl#sameAs> <http://live.dbpedia.org/data/Planetary_science.ntriples> .
+<http://ontologies.pramantha.net/sensors/SolarAstronomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "SolarAstronomy" .
+<http://ontologies.pramantha.net/astronomy/orbitsPlanet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "this property describe the Moon-Planet gravitational interaction" .
+<http://ontologies.pramantha.net/astronomy/Cosmology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontologies.pramantha.net/sensors/FieldOfResearch> .
+<http://ontologies.pramantha.net/astronomy/Ice_giant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.pramantha.net/astronomy/Planetary_system> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontologies.pramantha.net/astronomy/AstronomicalObject> .
+<http://ontologies.pramantha.net/astronomy/Star> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/astronomy> .
+<http://ontologies.pramantha.net/astronomy/Planet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Planet" .
+<http://ontologies.pramantha.net/astronomy/Natural_satellite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing a natural satellite or moon" .
+<http://ontologies.pramantha.net/astronomy/PlanetaryBody> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/astronomy> .
+<http://ontologies.pramantha.net/astronomy/Asteroid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing an asteroid" .
+<http://ontologies.pramantha.net/astronomy/Planetary_system> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/astronomy> .
+<http://ontologies.pramantha.net/astronomy/GasGiant> <http://ontologies.pramantha.net/@owl:sameAs> <http://umbel.org/umbel/rc/GasGiant.n3> .
+<http://ontologies.pramantha.net/astronomy/GalacticAstronomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "GalacticAstronomy" .
+<http://ontologies.pramantha.net/astronomy/SubplanetaryStellarOrbiter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/astronomy> .
+<http://ontologies.pramantha.net/astronomy/Planet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing a general planet-shaped astronomical body" .
+<http://ontologies.pramantha.net/astronomy/DwarfPlanet> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/astronomy> .
+<http://ontologies.pramantha.net/astronomy/SubplanetaryStellarOrbiter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.pramantha.net/astronomy/GalacticAstronomy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontologies.pramantha.net/sensors/FieldOfResearch> .
+<http://ontologies.pramantha.net/astronomy/Natural_satellite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.pramantha.net/astronomy/DwarfPlanet> <http://ontologies.pramantha.net/@owl:sameAs> <http://live.dbpedia.org/data/Dwarf_planet.ntriples> .
+<http://ontologies.pramantha.net/astronomy/orbitsPlanet> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/astronomy> .
+<http://ontologies.pramantha.net/astronomy/Asteroid> <http://www.w3.org/2002/07/owl#sameAs> <http://live.dbpedia.org/data/Asteroid.ntriples> .
+<http://ontologies.pramantha.net/astronomy/Meteoroid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Meteoroid" .
+<http://ontologies.pramantha.net/astronomy/Comet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.pramantha.net/astronomy/CelestialBody> <http://www.w3.org/2002/07/owl#sameAs> <http://live.dbpedia.org/ontology/CelestialBody.ntriples> .
+<http://ontologies.pramantha.net/sensors/PlanetaryGeology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontologies.pramantha.net/sensors/PlanetaryScience> .
+<http://ontologies.pramantha.net/astronomy/Planetary_system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "Solar System is a planetary system - see solarsystem vocabulary" .
+<http://ontologies.pramantha.net/astronomy/Comet> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/astronomy> .
+<http://ontologies.pramantha.net/astronomy/CelestialBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.pramantha.net/astronomy/AtmosphericScience> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontologies.pramantha.net/sensors/PlanetaryScience> .
+<http://ontologies.pramantha.net/astronomy/IcyPlanetaryBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.pramantha.net/astronomy/orbitsPlanet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontologies.pramantha.net/astronomy/IcyPlanetaryBody> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontologies.pramantha.net/astronomy/PlanetaryBody> .
+<http://ontologies.pramantha.net/astronomy/IcyPlanetaryBody> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/IcyPlanetaryBody.n3> .
+<http://ontologies.pramantha.net/astronomy/Outer_space> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing the open space outside atmosphere, from Low Earth Orbit to Extra Galactic Space" .
+<http://ontologies.pramantha.net/astronomy/Asteroid> <http://www.w3.org/2000/01/rdf-schema#sameAs> <http://umbel.org/umbel/rc/SubplanetaryStellarOrbiter.n3> .
+<http://ontologies.pramantha.net/astronomy/AstronomicalObservatory> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/AstronomicalObservatory.n3> .
+<http://ontologies.pramantha.net/astronomy/orbiting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "orbiting" .
+<http://ontologies.pramantha.net/astronomy/AtmosphericScience> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/AtmosphericScience.n3> .
+<http://ontologies.pramantha.net/astronomy/SolidPlanetaryBody> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontologies.pramantha.net/astronomy/PlanetaryBody> .
+<http://ontologies.pramantha.net/astronomy/GasGiant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a Jovian planet, a document representing a Jovian planet" .
+<http://ontologies.pramantha.net/astronomy/Comet> <http://www.w3.org/2000/01/rdf-schema#sameAs> <http://umbel.org/umbel/rc/SubplanetaryStellarOrbiter.n3> .
+<http://ontologies.pramantha.net/astronomy/orbitsPlanet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "orbitsPlanet" .
+<http://ontologies.pramantha.net/astronomy/Planet> <http://www.w3.org/2002/07/owl#sameAs> <http://live.dbpedia.org/data/Planet.n3> .
+<http://ontologies.pramantha.net/astronomy/Cosmology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Cosmology" .
+<http://ontologies.pramantha.net/astronomy/Asteroid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Asteroid" .
+<http://ontologies.pramantha.net/astronomy/GalacticAstronomy> <http://www.w3.org/2002/07/owl#sameAs> <http://live.dbpedia.org/data/Galactic_astronomy.ntriples> .
+<http://ontologies.pramantha.net/astronomy/Meteoroid> <http://www.w3.org/2000/01/rdf-schema#sameAs> <http://live.dbpedia.org/data/Meteoroid.ntriples> .
+<http://ontologies.pramantha.net/astronomy/Comet> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/Comet.n3> .
+<http://ontologies.pramantha.net/astronomy/DwarfPlanet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.pramantha.net/astronomy/AtmosphericScience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "AtmosphericScience" .
+<http://ontologies.pramantha.net/astronomy/Planetary_system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Planetary_system" .
+<http://ontologies.pramantha.net/astronomy/RockyPlanetaryBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "RockyPlanetaryBody" .
+<http://ontologies.pramantha.net/astronomy/Ice_giant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontologies.pramantha.net/astronomy/GasGiant> .
+<http://ontologies.pramantha.net/astronomy/Natural_satellite> <http://www.w3.org/2002/07/owl#sameAs> <http://sw.opencyc.org/concept/Mx4rvfn7-pwpEbGdrcN5Y29ycA> .
+<http://ontologies.pramantha.net/astronomy/Meteoroid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing a meteoroid" .
+<http://ontologies.pramantha.net/astronomy/GasGiant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "GasGiant" .
+<http://ontologies.pramantha.net/astronomy/Ice_giant> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/astronomy> .
+<http://ontologies.pramantha.net/astronomy/Star> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.pramantha.net/astronomy/AtmosphericScience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.pramantha.net/astronomy/Star> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Star" .
+<http://ontologies.pramantha.net/astronomy/orbiting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "this property describe the generic astronomical object-object gravitational interaction" .
+<http://ontologies.pramantha.net/astronomy/Asteroid> <http://www.w3.org/2000/01/rdf-schema#sameAs> <http://live.dbpedia.org/data/Asteroid.ntriples> .
+<http://ontologies.pramantha.net/astronomy/ExtragalacticAstronomy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontologies.pramantha.net/sensors/FieldOfResearch> .
+<http://ontologies.pramantha.net/astronomy/AstronomicalObject> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/AstronomicalObject.n3> .
+<http://ontologies.pramantha.net/astronomy/ExtragalacticAstronomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "ExtragalacticAstronomy" .
+<http://ontologies.pramantha.net/astronomy/PlanetaryScience> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "PlanetaryScience" .
+<http://ontologies.pramantha.net/astronomy/GasGiant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontologies.pramantha.net/astronomy/PlanetaryBody> .
+<http://ontologies.pramantha.net/astronomy/Star> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a star" .
+<http://ontologies.pramantha.net/sensors/SolarAstronomy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontologies.pramantha.net/sensors/FieldOfResearch> .
+<http://ontologies.pramantha.net/astronomy/SubplanetaryStellarOrbiter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "SubplanetaryStellarOrbiter" .
+<http://ontologies.pramantha.net/sensors/PlanetaryAstronomy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/astronomy> .
+<http://ontologies.pramantha.net/astronomy/Comet> <http://www.w3.org/2000/01/rdf-schema#sameAs> <http://live.dbpedia.org/data/Comet.ntriples> .
+<http://ontologies.pramantha.net/astronomy/Natural_satellite> <http://www.w3.org/2002/07/owl#sameAs> <http://live.dbpedia.org/data/Natural_satellite.ntriples> .
+<http://ontologies.pramantha.net/sensors/StellarAstronomy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontologies.pramantha.net/sensors/FieldOfResearch> .
+<http://ontologies.pramantha.net/astronomy/Ice_giant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a gas giant with less helium/hydrogen and more 'ices', Uranus and Neputne subclass" .
+<http://ontologies.pramantha.net/astronomy/FluidPlanetaryBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "FluidPlanetaryBody" .
+<http://ontologies.pramantha.net/astronomy/AstronomicalObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "an astronomical body (from a natural satellite size up) or a group of astronomical body" .
+<http://ontologies.pramantha.net/astronomy/Planetary_system> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.pramantha.net/astronomy/Cosmology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.pramantha.net/astronomy/Ice_giant> <http://www.w3.org/2002/07/owl#sameAs> <http://live.dbpedia.org/data/Ice_giant.ntriples> .
+<http://ontologies.pramantha.net/astronomy/SolidPlanetaryBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "planet  composed primarily of solid substances" .
+<http://ontologies.pramantha.net/astronomy/Star> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/Star.n3> .
+<http://ontologies.pramantha.net/sensors/StellarAstronomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "StellarAstronomy" .
+<http://ontologies.pramantha.net/astronomy/Planet> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/astronomy> .
+<http://ontologies.pramantha.net/astronomy/TerrestrialPlanet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "TerrestrialPlanet" .
+<http://ontologies.pramantha.net/astronomy/Meteoroid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.pramantha.net/astronomy/ExtragalacticAstronomy> <http://www.w3.org/2002/07/owl#sameAs> <http://live.dbpedia.org/data/Extragalactic_astronomy.ntriples> .
+<http://ontologies.pramantha.net/astronomy/SolidPlanetaryBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "SolidPlanetaryBody" .
+<http://ontologies.pramantha.net/astronomy/RockyPlanetaryBody> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/RockyPlanetaryBody.n3> .
+<http://ontologies.pramantha.net/astronomy/IcyPlanetaryBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "IcyPlanetaryBody" .
+<http://ontologies.pramantha.net/astronomy/TerrestrialPlanet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.pramantha.net/sensors/SolarAstronomy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/astronomy> .
+<http://ontologies.pramantha.net/astronomy/TerrestrialPlanet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontologies.pramantha.net/astronomy/PlanetaryBody> .
+<http://ontologies.pramantha.net/astronomy/SubplanetaryStellarOrbiter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a smaller body orbiting around stars or planets, a document representing smaller body orbiting around stars or planets" .
+<http://ontologies.pramantha.net/astronomy/AstronomicalObservatory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "AstronomicalObservatory" .
+<http://ontologies.pramantha.net/astronomy/Outer_space> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.pramantha.net/sensors/StellarAstronomy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/astronomy> .
+<http://ontologies.pramantha.net/astronomy/PlanetaryBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.pramantha.net/astronomy/FluidPlanetaryBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.pramantha.net/astronomy/Star> <http://www.w3.org/2002/07/owl#sameAs> <http://sw.opencyc.org/concept/Mx4rvVi80ZwpEbGdrcN5Y29ycA> .
+<http://ontologies.pramantha.net/astronomy/AstronomicalObservatory> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/astronomy> .
+<http://ontologies.pramantha.net/astronomy/Ice_giant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Ice_giant" .
+<http://ontologies.pramantha.net/astronomy/IcyPlanetaryBody> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/astronomy> .
+<http://ontologies.pramantha.net/astronomy/orbiting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://ontologies.pramantha.net/astronomy/GalacticAstronomy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://ontologies.pramantha.net/astronomy/IcyPlanetaryBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing an icy body" .
+<http://ontologies.pramantha.net/astronomy/Comet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing a comet" .
+<http://ontologies.pramantha.net/astronomy/CelestialBody> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/astronomy> .
 

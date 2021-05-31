@@ -1,7 +1,7 @@
 {
   "@context": {
-    "@base": "http://ontology.projectchronos.eu/exploration",
-    "exploration": "http://ontology.projectchronos.eu/exploration/",
+    "@base": "http://ontologies.pramantha.net/exploration",
+    "exploration": "http://ontologies.pramantha.net/exploration/",
     "schema": "https://schema.org/",
     "skos": "http://www.w3.org/2004/02/skos/core#",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
@@ -19,7 +19,7 @@
   "rdf:comment": "Generic classes and object properties properties, inherited from OpenCyc, DBpedia and Umbel",
   "defines": [
     {
-        "@id": "http://ontology.projectchronos.eu/exploration/spaceMission",
+        "@id": "http://ontologies.pramantha.net/exploration/spaceMission",
         "@type": "http://www.w3.org/2002/07/owl#Class",
         "rdfs:subClassOf": {
           "@id": "http://sw.opencyc.org/2012/05/10/concept/en/GeneralizedTransfer",
@@ -34,7 +34,7 @@
         "rdf:comment": "instances of this class can have multiple hasTask (see below)"
     },
     {
-        "@id": "http://ontology.projectchronos.eu/exploration/missionTask",
+        "@id": "http://ontologies.pramantha.net/exploration/missionTask",
         "@type": "http://www.w3.org/2002/07/owl#Class",
         "rdfs:subClassOf": [
           {
@@ -47,7 +47,7 @@
         "rdf:comment": "instances of this class have an hasTarget property (see below)"
     },
     {
-        "@id" : "http://ontology.projectchronos.eu/exploration/hasTarget",
+        "@id" : "http://ontologies.pramantha.net/exploration/hasTarget",
         "@type" : [
             { "@id": "http://www.w3.org/2002/07/owl#ObjectProperty" }
         ],
@@ -55,26 +55,26 @@
           "@id": "http://sw.opencyc.org/2012/05/10/concept/en/target",
           "rdf:comment": "it is intended as a subclass of 'Predicate: intended destination' that applies to spaceMission"
         },
-        "rdf:domain" : { "@id": "http://ontology.projectchronos.eu/exploration/missionTask" },
+        "rdf:domain" : { "@id": "http://ontologies.pramantha.net/exploration/missionTask" },
         "rdf:range": [
-          { "@id": "http://ontology.projectchronos.eu/astronomy/AstronomicalObject" },
-          { "@id": "http://ontology.projectchronos.eu/astronomy/Planet" },
-          { "@id": "http://ontology.projectchronos.eu/astronomy/PlanetaryBody" },
-          { "@id": "http://ontology.projectchronos.eu/astronomy/Natural_Satellite" }
+          { "@id": "http://ontologies.pramantha.net/astronomy/AstronomicalObject" },
+          { "@id": "http://ontologies.pramantha.net/astronomy/Planet" },
+          { "@id": "http://ontologies.pramantha.net/astronomy/PlanetaryBody" },
+          { "@id": "http://ontologies.pramantha.net/astronomy/Natural_Satellite" }
           ],
         "rdf:comment" : "The target of the space mission, an astronomical bodies that can be measured, observed or visited",
         "rdf:label" : "Target of a space mission",
         "skos:altLabel" : "is going to"
     },
     {
-        "@id": "http://ontology.projectchronos.eu/exploration/EarthObservation",
+        "@id": "http://ontologies.pramantha.net/exploration/EarthObservation",
         "@type": [
           {
             "@id": "http://sw.opencyc.org/2012/05/10/concept/en/RemoteSensing",
             "rdf:comment": "'A specialization of both Action and AtLeastPartiallyMentalEvent. Each instance of PurposefulAction is an action consciously, volitionally, and purposefully done by (see performedBy) at least one actor.'"
           },
           {
-            "@id": "http://ontology.projectchronos.eu/exploration/missionTask"
+            "@id": "http://ontologies.pramantha.net/exploration/missionTask"
           }
         ],
         "owl:sameAs":[
@@ -82,7 +82,7 @@
         ],
         "skos:prefLabel": "The task of observing Earth from orbit (see sensors: RemoteSensingInstrument)",
         "rdf:label": "Earth Observation",
-        "exploration:hasTarget": { "@id": "http://ontology.projectchronos.eu/solarsystem/Earth" },
+        "exploration:hasTarget": { "@id": "http://ontologies.pramantha.net/solarsystem/Earth" },
         "cyc:performedBy": {
           "@id": "http://umbel.org/umbel/rc/EarthRemoteSensingSatellite.n3",
           "rdfs:subClassOf": [
@@ -107,20 +107,20 @@
         ]
     },
     {
-        "@id": "http://ontology.projectchronos.eu/exploration/SolarSystemBodyObservation",
+        "@id": "http://ontologies.pramantha.net/exploration/SolarSystemBodyObservation",
         "@type": [
           {
             "@id": "http://sw.opencyc.org/2012/05/10/concept/en/RemoteSensing",
             "rdf:comment": "'A specialization of both Action and AtLeastPartiallyMentalEvent. Each instance of PurposefulAction is an action consciously, volitionally, and purposefully done by (see performedBy) at least one actor.'"
           },
           {
-            "@id": "http://ontology.projectchronos.eu/exploration/missionTask"
+            "@id": "http://ontologies.pramantha.net/exploration/missionTask"
           }
         ],
         "skos:prefLabel": "The task of observing Solar System Bodies from orbit (see sensors: RemoteSensingInstrument)",
         "rdf:label": "Solar System Body Observation",
         "cyc:performedBy": {
-          "@id": "http://ontology.projectchronos.eu/engineering/AstronomicalSatellite",
+          "@id": "http://ontologies.pramantha.net/engineering/AstronomicalSatellite",
           "rdfs:subClassOf": [
                 { "@id": "http://umbel.org/umbel/rc/Satellite_Device.n3" },
                 { "@id": "http://umbel.org/umbel/rc/AstronomicalObservatory.n3" }
@@ -144,18 +144,18 @@
         ]
     },
     {
-        "@id": "http://ontology.projectchronos.eu/exploration/DeepSpaceObservation",
+        "@id": "http://ontologies.pramantha.net/exploration/DeepSpaceObservation",
         "@type": [
           {
             "@id": "http://sw.opencyc.org/2012/05/10/concept/en/RemoteSensing",
             "rdf:comment": "'A specialization of both Action and AtLeastPartiallyMentalEvent. Each instance of PurposefulAction is an action consciously, volitionally, and purposefully done by (see performedBy) at least one actor.'"
           },
           {
-            "@id": "http://ontology.projectchronos.eu/exploration/missionTask"
+            "@id": "http://ontologies.pramantha.net/exploration/missionTask"
           }
         ],
         "cyc:performedBy": {
-          "@id": "http://ontology.projectchronos.eu/engineering/AstronomicalSatellite",
+          "@id": "http://ontologies.pramantha.net/engineering/AstronomicalSatellite",
           "rdfs:subClassOf": [
                 { "@id": "http://umbel.org/umbel/rc/Satellite_Device.n3" },
                 { "@id": "http://umbel.org/umbel/rc/AstronomicalObservatory.n3" }
@@ -163,7 +163,7 @@
         },
         "skos:prefLabel": "The action of observing Extra-galactic and Intra-galactic space from orbit (see sensors: RemoteSensingInstrument)",
         "rdf:label": "DeepSpaceObservation",
-        "exploration:hasTarget": { "@id": "http://ontology.projectchronos.eu/astronomy/Outer_space" },
+        "exploration:hasTarget": { "@id": "http://ontologies.pramantha.net/astronomy/Outer_space" },
         "cyc:researches": [
           { "@id": "http://sw.opencyc.org/2012/05/10/concept/en/Astrophysics"},
           { "@id": "http://sw.opencyc.org/2012/05/10/concept/en/ParticlePhysics"},
@@ -178,14 +178,14 @@
         ]
     },
     {
-        "@id": "http://ontology.projectchronos.eu/exploration/Sampling",
+        "@id": "http://ontologies.pramantha.net/exploration/Sampling",
         "@type": [
           {
             "@id": "http://sw.opencyc.org/2012/05/10/concept/en/TakingASample",
             "rdf:comment": "'A specialization of both Action and AtLeastPartiallyMentalEvent. Each instance of PurposefulAction is an action consciously, volitionally, and purposefully done by (see performedBy) at least one actor.'"
           },
           {
-            "@id": "http://ontology.projectchronos.eu/exploration/missionTask"
+            "@id": "http://ontologies.pramantha.net/exploration/missionTask"
           }
         ],
         "owl:sameAs":[
@@ -214,13 +214,13 @@
         ]
     },
     {
-        "@id": "http://ontology.projectchronos.eu/exploration/Telecommunication",
+        "@id": "http://ontologies.pramantha.net/exploration/Telecommunication",
         "@type": [
           {
             "@id": "http://sw.opencyc.org/2012/05/10/concept/en/Telecommunication"
           },
           {
-            "@id": "http://ontology.projectchronos.eu/exploration/missionTask"
+            "@id": "http://ontologies.pramantha.net/exploration/missionTask"
           }
         ],
         "owl:sameAs":[

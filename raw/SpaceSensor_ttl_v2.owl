@@ -3,7 +3,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://ontology.projectchronos.eu/sensors/> .
+@base <http://ontologies.pramantha.net/sensors/> .
 
 <http://www.semanticweb.org/jacopo/ontologies/2014/11/untitled-ontology-69> rdf:type :Ontology .
 

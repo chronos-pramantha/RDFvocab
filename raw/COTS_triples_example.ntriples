@@ -1,97 +1,97 @@
-<http://ontology.projectchronos.eu/COTS/94a6e5f21ba84a1a9009b53dde8afa1a> <http://ontology.projectchronos.eu/subsystems/hasVolume> "69"^^<http://ontology.projectchronos.eu/subsystems/cubicMillimeters> .
-<http://ontology.projectchronos.eu/COTS/afee6a313b324a29adb55b441e4623af> <http://ontology.projectchronos.eu/subsystems/function> "command and data" .
-<http://ontology.projectchronos.eu/COTS/ec035a3f4a804ee48dc432ce66a11db7> <http://ontology.projectchronos.eu/subsystems/hasMass> "25"^^<http://sw.opencyc.org/2012/05/10/concept/en/Gram> .
-<http://ontology.projectchronos.eu/COTS/ec035a3f4a804ee48dc432ce66a11db7> <http://ontology.projectchronos.eu/subsystems/hasVolume> "23"^^<http://ontology.projectchronos.eu/subsystems/cubicMillimeters> .
-<http://ontology.projectchronos.eu/COTS/17855d98a0674a9f989b8ca1df6fa0a1> <http://ontology.projectchronos.eu/subsystems/hasMass> "68"^^<http://sw.opencyc.org/2012/05/10/concept/en/Gram> .
-<http://ontology.projectchronos.eu/COTS/17855d98a0674a9f989b8ca1df6fa0a1> <http://ontology.projectchronos.eu/subsystems/isStandard> "Cubesat" .
-<http://ontology.projectchronos.eu/COTS/d0be9f28aa9541feb22bcc5a2383e031> <http://ontology.projectchronos.eu/subsystems/hasMass> "165"^^<http://sw.opencyc.org/2012/05/10/concept/en/Gram> .
-<http://ontology.projectchronos.eu/COTS/2130885aa35f42219667250369f96e0c> <http://ontology.projectchronos.eu/subsystems/hasPower> "1044"^^<http://dbpedia.org/data/Watt.ntriples> .
-<http://ontology.projectchronos.eu/COTS/d0be9f28aa9541feb22bcc5a2383e031> <http://ontology.projectchronos.eu/subsystems/hasMonetaryValue> "14702"^^<http://sw.opencyc.org/2012/05/10/concept/en/Euro> .
-<http://ontology.projectchronos.eu/COTS/1f2c2ac705e6430d9d2f55a2db694312> <http://ontology.projectchronos.eu/subsystems/name> "14JFG structure" .
-<http://ontology.projectchronos.eu/COTS/17855d98a0674a9f989b8ca1df6fa0a1> <http://ontology.projectchronos.eu/subsystems/hasPower> "-54"^^<http://dbpedia.org/data/Watt.ntriples> .
-<http://ontology.projectchronos.eu/COTS/17855d98a0674a9f989b8ca1df6fa0a1> <http://ontology.projectchronos.eu/subsystems/function> "propulsion" .
-<http://ontology.projectchronos.eu/COTS/420eca0815cf4a0a933aa7542c6dec93> <http://ontology.projectchronos.eu/subsystems/hasMass> "31"^^<http://sw.opencyc.org/2012/05/10/concept/en/Gram> .
-<http://ontology.projectchronos.eu/COTS/d0be9f28aa9541feb22bcc5a2383e031> <http://ontology.projectchronos.eu/subsystems/manufacturer> "Chronos" .
-<http://ontology.projectchronos.eu/COTS/ec035a3f4a804ee48dc432ce66a11db7> <http://ontology.projectchronos.eu/subsystems/name> "59W attitude and orbit control" .
-<http://ontology.projectchronos.eu/COTS/67e4296ba7cc4d55a53d61a191c5c75f> <http://ontology.projectchronos.eu/subsystems/hasPower> "330"^^<http://dbpedia.org/data/Watt.ntriples> .
-<http://ontology.projectchronos.eu/COTS/afee6a313b324a29adb55b441e4623af> <http://ontology.projectchronos.eu/subsystems/hasMonetaryValue> "2480"^^<http://sw.opencyc.org/2012/05/10/concept/en/Euro> .
-<http://ontology.projectchronos.eu/COTS/94a6e5f21ba84a1a9009b53dde8afa1a> <http://ontology.projectchronos.eu/subsystems/isStandard> "Cubesat" .
-<http://ontology.projectchronos.eu/COTS/17855d98a0674a9f989b8ca1df6fa0a1> <http://ontology.projectchronos.eu/subsystems/manufacturer> "Chronos" .
-<http://ontology.projectchronos.eu/COTS/17855d98a0674a9f989b8ca1df6fa0a1> <http://ontology.projectchronos.eu/subsystems/hasVolume> "67"^^<http://ontology.projectchronos.eu/subsystems/cubicMillimeters> .
-<http://ontology.projectchronos.eu/COTS/94a6e5f21ba84a1a9009b53dde8afa1a> <http://ontology.projectchronos.eu/subsystems/hasPower> "-110"^^<http://dbpedia.org/data/Watt.ntriples> .
-<http://ontology.projectchronos.eu/COTS/afee6a313b324a29adb55b441e4623af> <http://ontology.projectchronos.eu/subsystems/hasVolume> "38"^^<http://ontology.projectchronos.eu/subsystems/cubicMillimeters> .
-<http://ontology.projectchronos.eu/COTS/420eca0815cf4a0a933aa7542c6dec93> <http://ontology.projectchronos.eu/subsystems/hasMonetaryValue> "3080"^^<http://sw.opencyc.org/2012/05/10/concept/en/Euro> .
-<http://ontology.projectchronos.eu/COTS/420eca0815cf4a0a933aa7542c6dec93> <http://ontology.projectchronos.eu/subsystems/minWorkingTemp> "-56"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
-<http://ontology.projectchronos.eu/COTS/d0be9f28aa9541feb22bcc5a2383e031> <http://ontology.projectchronos.eu/subsystems/maxWorkingTemp> "54"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
-<http://ontology.projectchronos.eu/COTS/1f2c2ac705e6430d9d2f55a2db694312> <http://ontology.projectchronos.eu/subsystems/hasVolume> "51"^^<http://ontology.projectchronos.eu/subsystems/cubicMillimeters> .
-<http://ontology.projectchronos.eu/COTS/94a6e5f21ba84a1a9009b53dde8afa1a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "e3349c8fe32d4174a405aeee1e441fad" .
-<http://ontology.projectchronos.eu/COTS/2130885aa35f42219667250369f96e0c> <http://ontology.projectchronos.eu/subsystems/function> "primary power" .
-<http://ontology.projectchronos.eu/COTS/94a6e5f21ba84a1a9009b53dde8afa1a> <http://ontology.projectchronos.eu/subsystems/hasMass> "72"^^<http://sw.opencyc.org/2012/05/10/concept/en/Gram> .
-<http://ontology.projectchronos.eu/COTS/ec035a3f4a804ee48dc432ce66a11db7> <http://ontology.projectchronos.eu/subsystems/hasPower> "-25"^^<http://dbpedia.org/data/Watt.ntriples> .
-<http://ontology.projectchronos.eu/COTS/1f2c2ac705e6430d9d2f55a2db694312> <http://ontology.projectchronos.eu/subsystems/maxWorkingTemp> "68"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
-<http://ontology.projectchronos.eu/COTS/17855d98a0674a9f989b8ca1df6fa0a1> <http://ontology.projectchronos.eu/subsystems/minWorkingTemp> "-23"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
-<http://ontology.projectchronos.eu/COTS/2130885aa35f42219667250369f96e0c> <http://ontology.projectchronos.eu/subsystems/isStandard> "Cubesat" .
-<http://ontology.projectchronos.eu/COTS/d0be9f28aa9541feb22bcc5a2383e031> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "e3349c8fe32d4174a405aeee1e441fad" .
-<http://ontology.projectchronos.eu/COTS/2130885aa35f42219667250369f96e0c> <http://ontology.projectchronos.eu/subsystems/hasVolume> "36"^^<http://ontology.projectchronos.eu/subsystems/cubicMillimeters> .
-<http://ontology.projectchronos.eu/COTS/420eca0815cf4a0a933aa7542c6dec93> <http://ontology.projectchronos.eu/subsystems/isStandard> "Cubesat" .
-<http://ontology.projectchronos.eu/COTS/420eca0815cf4a0a933aa7542c6dec93> <http://ontology.projectchronos.eu/subsystems/name> "172W thermal" .
-<http://ontology.projectchronos.eu/COTS/ec035a3f4a804ee48dc432ce66a11db7> <http://ontology.projectchronos.eu/subsystems/maxWorkingTemp> "54"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
-<http://ontology.projectchronos.eu/COTS/94a6e5f21ba84a1a9009b53dde8afa1a> <http://ontology.projectchronos.eu/subsystems/maxWorkingTemp> "53"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
-<http://ontology.projectchronos.eu/COTS/ec035a3f4a804ee48dc432ce66a11db7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "e3349c8fe32d4174a405aeee1e441fad" .
-<http://ontology.projectchronos.eu/COTS/420eca0815cf4a0a933aa7542c6dec93> <http://ontology.projectchronos.eu/subsystems/hasVolume> "28"^^<http://ontology.projectchronos.eu/subsystems/cubicMillimeters> .
-<http://ontology.projectchronos.eu/COTS/2130885aa35f42219667250369f96e0c> <http://ontology.projectchronos.eu/subsystems/name> "135W primary power" .
-<http://ontology.projectchronos.eu/COTS/94a6e5f21ba84a1a9009b53dde8afa1a> <http://ontology.projectchronos.eu/subsystems/minWorkingTemp> "-30"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
-<http://ontology.projectchronos.eu/COTS/1f2c2ac705e6430d9d2f55a2db694312> <http://ontology.projectchronos.eu/subsystems/hasMonetaryValue> "6862"^^<http://sw.opencyc.org/2012/05/10/concept/en/Euro> .
-<http://ontology.projectchronos.eu/COTS/67e4296ba7cc4d55a53d61a191c5c75f> <http://ontology.projectchronos.eu/subsystems/hasVolume> "111"^^<http://ontology.projectchronos.eu/subsystems/cubicMillimeters> .
-<http://ontology.projectchronos.eu/COTS/ec035a3f4a804ee48dc432ce66a11db7> <http://ontology.projectchronos.eu/subsystems/manufacturer> "Chronos" .
-<http://ontology.projectchronos.eu/COTS/1f2c2ac705e6430d9d2f55a2db694312> <http://ontology.projectchronos.eu/subsystems/isStandard> "Cubesat" .
-<http://ontology.projectchronos.eu/COTS/67e4296ba7cc4d55a53d61a191c5c75f> <http://ontology.projectchronos.eu/subsystems/hasMass> "222"^^<http://sw.opencyc.org/2012/05/10/concept/en/Gram> .
-<http://ontology.projectchronos.eu/COTS/afee6a313b324a29adb55b441e4623af> <http://ontology.projectchronos.eu/subsystems/isStandard> "Cubesat" .
-<http://ontology.projectchronos.eu/COTS/2130885aa35f42219667250369f96e0c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "e3349c8fe32d4174a405aeee1e441fad" .
-<http://ontology.projectchronos.eu/COTS/67e4296ba7cc4d55a53d61a191c5c75f> <http://ontology.projectchronos.eu/subsystems/name> "165KV backup power" .
-<http://ontology.projectchronos.eu/COTS/94a6e5f21ba84a1a9009b53dde8afa1a> <http://ontology.projectchronos.eu/subsystems/hasMonetaryValue> "3325"^^<http://sw.opencyc.org/2012/05/10/concept/en/Euro> .
-<http://ontology.projectchronos.eu/COTS/afee6a313b324a29adb55b441e4623af> <http://ontology.projectchronos.eu/subsystems/minWorkingTemp> "-15"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
-<http://ontology.projectchronos.eu/COTS/67e4296ba7cc4d55a53d61a191c5c75f> <http://ontology.projectchronos.eu/subsystems/maxWorkingTemp> "35"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
-<http://ontology.projectchronos.eu/COTS/afee6a313b324a29adb55b441e4623af> <http://ontology.projectchronos.eu/subsystems/hasMass> "35"^^<http://sw.opencyc.org/2012/05/10/concept/en/Gram> .
-<http://ontology.projectchronos.eu/COTS/67e4296ba7cc4d55a53d61a191c5c75f> <http://ontology.projectchronos.eu/subsystems/isStandard> "Cubesat" .
-<http://ontology.projectchronos.eu/COTS/afee6a313b324a29adb55b441e4623af> <http://ontology.projectchronos.eu/subsystems/hasPower> "-19"^^<http://dbpedia.org/data/Watt.ntriples> .
-<http://ontology.projectchronos.eu/COTS/ec035a3f4a804ee48dc432ce66a11db7> <http://ontology.projectchronos.eu/subsystems/isStandard> "Cubesat" .
-<http://ontology.projectchronos.eu/COTS/2130885aa35f42219667250369f96e0c> <http://ontology.projectchronos.eu/subsystems/hasMass> "54"^^<http://sw.opencyc.org/2012/05/10/concept/en/Gram> .
-<http://ontology.projectchronos.eu/COTS/2130885aa35f42219667250369f96e0c> <http://ontology.projectchronos.eu/subsystems/hasMonetaryValue> "5220"^^<http://sw.opencyc.org/2012/05/10/concept/en/Euro> .
-<http://ontology.projectchronos.eu/COTS/ec035a3f4a804ee48dc432ce66a11db7> <http://ontology.projectchronos.eu/subsystems/function> "attitude and orbit control" .
-<http://ontology.projectchronos.eu/COTS/17855d98a0674a9f989b8ca1df6fa0a1> <http://ontology.projectchronos.eu/subsystems/maxWorkingTemp> "42"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
-<http://ontology.projectchronos.eu/COTS/d0be9f28aa9541feb22bcc5a2383e031> <http://ontology.projectchronos.eu/subsystems/isStandard> "Cubesat" .
-<http://ontology.projectchronos.eu/COTS/d0be9f28aa9541feb22bcc5a2383e031> <http://ontology.projectchronos.eu/subsystems/hasVolume> "167"^^<http://ontology.projectchronos.eu/subsystems/cubicMillimeters> .
-<http://ontology.projectchronos.eu/COTS/420eca0815cf4a0a933aa7542c6dec93> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "e3349c8fe32d4174a405aeee1e441fad" .
-<http://ontology.projectchronos.eu/COTS/94a6e5f21ba84a1a9009b53dde8afa1a> <http://ontology.projectchronos.eu/subsystems/manufacturer> "Chronos" .
-<http://ontology.projectchronos.eu/COTS/2130885aa35f42219667250369f96e0c> <http://ontology.projectchronos.eu/subsystems/maxWorkingTemp> "56"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
-<http://ontology.projectchronos.eu/COTS/67e4296ba7cc4d55a53d61a191c5c75f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "e3349c8fe32d4174a405aeee1e441fad" .
-<http://ontology.projectchronos.eu/COTS/67e4296ba7cc4d55a53d61a191c5c75f> <http://ontology.projectchronos.eu/subsystems/minWorkingTemp> "-11"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
-<http://ontology.projectchronos.eu/COTS/d0be9f28aa9541feb22bcc5a2383e031> <http://ontology.projectchronos.eu/subsystems/function> "detector" .
-<http://ontology.projectchronos.eu/COTS/d0be9f28aa9541feb22bcc5a2383e031> <http://ontology.projectchronos.eu/subsystems/name> "80KV detector" .
-<http://ontology.projectchronos.eu/COTS/afee6a313b324a29adb55b441e4623af> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "e3349c8fe32d4174a405aeee1e441fad" .
-<http://ontology.projectchronos.eu/COTS/d0be9f28aa9541feb22bcc5a2383e031> <http://ontology.projectchronos.eu/subsystems/hasPower> "-26"^^<http://dbpedia.org/data/Watt.ntriples> .
-<http://ontology.projectchronos.eu/COTS/67e4296ba7cc4d55a53d61a191c5c75f> <http://ontology.projectchronos.eu/subsystems/hasMonetaryValue> "5280"^^<http://sw.opencyc.org/2012/05/10/concept/en/Euro> .
-<http://ontology.projectchronos.eu/COTS/1f2c2ac705e6430d9d2f55a2db694312> <http://ontology.projectchronos.eu/subsystems/minWorkingTemp> "-66"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
-<http://ontology.projectchronos.eu/COTS/1f2c2ac705e6430d9d2f55a2db694312> <http://ontology.projectchronos.eu/subsystems/function> "structure" .
-<http://ontology.projectchronos.eu/COTS/afee6a313b324a29adb55b441e4623af> <http://ontology.projectchronos.eu/subsystems/name> "90JFG command and data" .
-<http://ontology.projectchronos.eu/COTS/afee6a313b324a29adb55b441e4623af> <http://ontology.projectchronos.eu/subsystems/maxWorkingTemp> "47"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
-<http://ontology.projectchronos.eu/COTS/420eca0815cf4a0a933aa7542c6dec93> <http://ontology.projectchronos.eu/subsystems/function> "thermal" .
-<http://ontology.projectchronos.eu/COTS/2130885aa35f42219667250369f96e0c> <http://ontology.projectchronos.eu/subsystems/minWorkingTemp> "-58"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
-<http://ontology.projectchronos.eu/COTS/ec035a3f4a804ee48dc432ce66a11db7> <http://ontology.projectchronos.eu/subsystems/minWorkingTemp> "-34"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
-<http://ontology.projectchronos.eu/COTS/17855d98a0674a9f989b8ca1df6fa0a1> <http://ontology.projectchronos.eu/subsystems/hasMonetaryValue> "17318"^^<http://sw.opencyc.org/2012/05/10/concept/en/Euro> .
-<http://ontology.projectchronos.eu/COTS/2130885aa35f42219667250369f96e0c> <http://ontology.projectchronos.eu/subsystems/manufacturer> "Chronos" .
-<http://ontology.projectchronos.eu/COTS/ec035a3f4a804ee48dc432ce66a11db7> <http://ontology.projectchronos.eu/subsystems/hasMonetaryValue> "2126"^^<http://sw.opencyc.org/2012/05/10/concept/en/Euro> .
-<http://ontology.projectchronos.eu/COTS/d0be9f28aa9541feb22bcc5a2383e031> <http://ontology.projectchronos.eu/subsystems/minWorkingTemp> "-17"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
-<http://ontology.projectchronos.eu/COTS/420eca0815cf4a0a933aa7542c6dec93> <http://ontology.projectchronos.eu/subsystems/manufacturer> "Chronos" .
-<http://ontology.projectchronos.eu/COTS/67e4296ba7cc4d55a53d61a191c5c75f> <http://ontology.projectchronos.eu/subsystems/function> "backup power" .
-<http://ontology.projectchronos.eu/COTS/1f2c2ac705e6430d9d2f55a2db694312> <http://ontology.projectchronos.eu/subsystems/manufacturer> "Chronos" .
-<http://ontology.projectchronos.eu/COTS/67e4296ba7cc4d55a53d61a191c5c75f> <http://ontology.projectchronos.eu/subsystems/manufacturer> "Chronos" .
-<http://ontology.projectchronos.eu/COTS/17855d98a0674a9f989b8ca1df6fa0a1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "e3349c8fe32d4174a405aeee1e441fad" .
-<http://ontology.projectchronos.eu/COTS/17855d98a0674a9f989b8ca1df6fa0a1> <http://ontology.projectchronos.eu/subsystems/name> "69T propulsion" .
-<http://ontology.projectchronos.eu/COTS/1f2c2ac705e6430d9d2f55a2db694312> <http://ontology.projectchronos.eu/subsystems/hasMass> "51"^^<http://sw.opencyc.org/2012/05/10/concept/en/Gram> .
-<http://ontology.projectchronos.eu/COTS/94a6e5f21ba84a1a9009b53dde8afa1a> <http://ontology.projectchronos.eu/subsystems/function> "communication" .
-<http://ontology.projectchronos.eu/COTS/afee6a313b324a29adb55b441e4623af> <http://ontology.projectchronos.eu/subsystems/manufacturer> "Chronos" .
-<http://ontology.projectchronos.eu/COTS/94a6e5f21ba84a1a9009b53dde8afa1a> <http://ontology.projectchronos.eu/subsystems/name> "90JFG communication" .
-<http://ontology.projectchronos.eu/COTS/420eca0815cf4a0a933aa7542c6dec93> <http://ontology.projectchronos.eu/subsystems/maxWorkingTemp> "98"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
-<http://ontology.projectchronos.eu/COTS/1f2c2ac705e6430d9d2f55a2db694312> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "e3349c8fe32d4174a405aeee1e441fad" .
+<http://ontologies.pramantha.net/COTS/94a6e5f21ba84a1a9009b53dde8afa1a> <http://ontologies.pramantha.net/subsystems/hasVolume> "69"^^<http://ontologies.pramantha.net/subsystems/cubicMillimeters> .
+<http://ontologies.pramantha.net/COTS/afee6a313b324a29adb55b441e4623af> <http://ontologies.pramantha.net/subsystems/function> "command and data" .
+<http://ontologies.pramantha.net/COTS/ec035a3f4a804ee48dc432ce66a11db7> <http://ontologies.pramantha.net/subsystems/hasMass> "25"^^<http://sw.opencyc.org/2012/05/10/concept/en/Gram> .
+<http://ontologies.pramantha.net/COTS/ec035a3f4a804ee48dc432ce66a11db7> <http://ontologies.pramantha.net/subsystems/hasVolume> "23"^^<http://ontologies.pramantha.net/subsystems/cubicMillimeters> .
+<http://ontologies.pramantha.net/COTS/17855d98a0674a9f989b8ca1df6fa0a1> <http://ontologies.pramantha.net/subsystems/hasMass> "68"^^<http://sw.opencyc.org/2012/05/10/concept/en/Gram> .
+<http://ontologies.pramantha.net/COTS/17855d98a0674a9f989b8ca1df6fa0a1> <http://ontologies.pramantha.net/subsystems/isStandard> "Cubesat" .
+<http://ontologies.pramantha.net/COTS/d0be9f28aa9541feb22bcc5a2383e031> <http://ontologies.pramantha.net/subsystems/hasMass> "165"^^<http://sw.opencyc.org/2012/05/10/concept/en/Gram> .
+<http://ontologies.pramantha.net/COTS/2130885aa35f42219667250369f96e0c> <http://ontologies.pramantha.net/subsystems/hasPower> "1044"^^<http://dbpedia.org/data/Watt.ntriples> .
+<http://ontologies.pramantha.net/COTS/d0be9f28aa9541feb22bcc5a2383e031> <http://ontologies.pramantha.net/subsystems/hasMonetaryValue> "14702"^^<http://sw.opencyc.org/2012/05/10/concept/en/Euro> .
+<http://ontologies.pramantha.net/COTS/1f2c2ac705e6430d9d2f55a2db694312> <http://ontologies.pramantha.net/subsystems/name> "14JFG structure" .
+<http://ontologies.pramantha.net/COTS/17855d98a0674a9f989b8ca1df6fa0a1> <http://ontologies.pramantha.net/subsystems/hasPower> "-54"^^<http://dbpedia.org/data/Watt.ntriples> .
+<http://ontologies.pramantha.net/COTS/17855d98a0674a9f989b8ca1df6fa0a1> <http://ontologies.pramantha.net/subsystems/function> "propulsion" .
+<http://ontologies.pramantha.net/COTS/420eca0815cf4a0a933aa7542c6dec93> <http://ontologies.pramantha.net/subsystems/hasMass> "31"^^<http://sw.opencyc.org/2012/05/10/concept/en/Gram> .
+<http://ontologies.pramantha.net/COTS/d0be9f28aa9541feb22bcc5a2383e031> <http://ontologies.pramantha.net/subsystems/manufacturer> "Chronos" .
+<http://ontologies.pramantha.net/COTS/ec035a3f4a804ee48dc432ce66a11db7> <http://ontologies.pramantha.net/subsystems/name> "59W attitude and orbit control" .
+<http://ontologies.pramantha.net/COTS/67e4296ba7cc4d55a53d61a191c5c75f> <http://ontologies.pramantha.net/subsystems/hasPower> "330"^^<http://dbpedia.org/data/Watt.ntriples> .
+<http://ontologies.pramantha.net/COTS/afee6a313b324a29adb55b441e4623af> <http://ontologies.pramantha.net/subsystems/hasMonetaryValue> "2480"^^<http://sw.opencyc.org/2012/05/10/concept/en/Euro> .
+<http://ontologies.pramantha.net/COTS/94a6e5f21ba84a1a9009b53dde8afa1a> <http://ontologies.pramantha.net/subsystems/isStandard> "Cubesat" .
+<http://ontologies.pramantha.net/COTS/17855d98a0674a9f989b8ca1df6fa0a1> <http://ontologies.pramantha.net/subsystems/manufacturer> "Chronos" .
+<http://ontologies.pramantha.net/COTS/17855d98a0674a9f989b8ca1df6fa0a1> <http://ontologies.pramantha.net/subsystems/hasVolume> "67"^^<http://ontologies.pramantha.net/subsystems/cubicMillimeters> .
+<http://ontologies.pramantha.net/COTS/94a6e5f21ba84a1a9009b53dde8afa1a> <http://ontologies.pramantha.net/subsystems/hasPower> "-110"^^<http://dbpedia.org/data/Watt.ntriples> .
+<http://ontologies.pramantha.net/COTS/afee6a313b324a29adb55b441e4623af> <http://ontologies.pramantha.net/subsystems/hasVolume> "38"^^<http://ontologies.pramantha.net/subsystems/cubicMillimeters> .
+<http://ontologies.pramantha.net/COTS/420eca0815cf4a0a933aa7542c6dec93> <http://ontologies.pramantha.net/subsystems/hasMonetaryValue> "3080"^^<http://sw.opencyc.org/2012/05/10/concept/en/Euro> .
+<http://ontologies.pramantha.net/COTS/420eca0815cf4a0a933aa7542c6dec93> <http://ontologies.pramantha.net/subsystems/minWorkingTemp> "-56"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
+<http://ontologies.pramantha.net/COTS/d0be9f28aa9541feb22bcc5a2383e031> <http://ontologies.pramantha.net/subsystems/maxWorkingTemp> "54"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
+<http://ontologies.pramantha.net/COTS/1f2c2ac705e6430d9d2f55a2db694312> <http://ontologies.pramantha.net/subsystems/hasVolume> "51"^^<http://ontologies.pramantha.net/subsystems/cubicMillimeters> .
+<http://ontologies.pramantha.net/COTS/94a6e5f21ba84a1a9009b53dde8afa1a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "e3349c8fe32d4174a405aeee1e441fad" .
+<http://ontologies.pramantha.net/COTS/2130885aa35f42219667250369f96e0c> <http://ontologies.pramantha.net/subsystems/function> "primary power" .
+<http://ontologies.pramantha.net/COTS/94a6e5f21ba84a1a9009b53dde8afa1a> <http://ontologies.pramantha.net/subsystems/hasMass> "72"^^<http://sw.opencyc.org/2012/05/10/concept/en/Gram> .
+<http://ontologies.pramantha.net/COTS/ec035a3f4a804ee48dc432ce66a11db7> <http://ontologies.pramantha.net/subsystems/hasPower> "-25"^^<http://dbpedia.org/data/Watt.ntriples> .
+<http://ontologies.pramantha.net/COTS/1f2c2ac705e6430d9d2f55a2db694312> <http://ontologies.pramantha.net/subsystems/maxWorkingTemp> "68"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
+<http://ontologies.pramantha.net/COTS/17855d98a0674a9f989b8ca1df6fa0a1> <http://ontologies.pramantha.net/subsystems/minWorkingTemp> "-23"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
+<http://ontologies.pramantha.net/COTS/2130885aa35f42219667250369f96e0c> <http://ontologies.pramantha.net/subsystems/isStandard> "Cubesat" .
+<http://ontologies.pramantha.net/COTS/d0be9f28aa9541feb22bcc5a2383e031> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "e3349c8fe32d4174a405aeee1e441fad" .
+<http://ontologies.pramantha.net/COTS/2130885aa35f42219667250369f96e0c> <http://ontologies.pramantha.net/subsystems/hasVolume> "36"^^<http://ontologies.pramantha.net/subsystems/cubicMillimeters> .
+<http://ontologies.pramantha.net/COTS/420eca0815cf4a0a933aa7542c6dec93> <http://ontologies.pramantha.net/subsystems/isStandard> "Cubesat" .
+<http://ontologies.pramantha.net/COTS/420eca0815cf4a0a933aa7542c6dec93> <http://ontologies.pramantha.net/subsystems/name> "172W thermal" .
+<http://ontologies.pramantha.net/COTS/ec035a3f4a804ee48dc432ce66a11db7> <http://ontologies.pramantha.net/subsystems/maxWorkingTemp> "54"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
+<http://ontologies.pramantha.net/COTS/94a6e5f21ba84a1a9009b53dde8afa1a> <http://ontologies.pramantha.net/subsystems/maxWorkingTemp> "53"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
+<http://ontologies.pramantha.net/COTS/ec035a3f4a804ee48dc432ce66a11db7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "e3349c8fe32d4174a405aeee1e441fad" .
+<http://ontologies.pramantha.net/COTS/420eca0815cf4a0a933aa7542c6dec93> <http://ontologies.pramantha.net/subsystems/hasVolume> "28"^^<http://ontologies.pramantha.net/subsystems/cubicMillimeters> .
+<http://ontologies.pramantha.net/COTS/2130885aa35f42219667250369f96e0c> <http://ontologies.pramantha.net/subsystems/name> "135W primary power" .
+<http://ontologies.pramantha.net/COTS/94a6e5f21ba84a1a9009b53dde8afa1a> <http://ontologies.pramantha.net/subsystems/minWorkingTemp> "-30"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
+<http://ontologies.pramantha.net/COTS/1f2c2ac705e6430d9d2f55a2db694312> <http://ontologies.pramantha.net/subsystems/hasMonetaryValue> "6862"^^<http://sw.opencyc.org/2012/05/10/concept/en/Euro> .
+<http://ontologies.pramantha.net/COTS/67e4296ba7cc4d55a53d61a191c5c75f> <http://ontologies.pramantha.net/subsystems/hasVolume> "111"^^<http://ontologies.pramantha.net/subsystems/cubicMillimeters> .
+<http://ontologies.pramantha.net/COTS/ec035a3f4a804ee48dc432ce66a11db7> <http://ontologies.pramantha.net/subsystems/manufacturer> "Chronos" .
+<http://ontologies.pramantha.net/COTS/1f2c2ac705e6430d9d2f55a2db694312> <http://ontologies.pramantha.net/subsystems/isStandard> "Cubesat" .
+<http://ontologies.pramantha.net/COTS/67e4296ba7cc4d55a53d61a191c5c75f> <http://ontologies.pramantha.net/subsystems/hasMass> "222"^^<http://sw.opencyc.org/2012/05/10/concept/en/Gram> .
+<http://ontologies.pramantha.net/COTS/afee6a313b324a29adb55b441e4623af> <http://ontologies.pramantha.net/subsystems/isStandard> "Cubesat" .
+<http://ontologies.pramantha.net/COTS/2130885aa35f42219667250369f96e0c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "e3349c8fe32d4174a405aeee1e441fad" .
+<http://ontologies.pramantha.net/COTS/67e4296ba7cc4d55a53d61a191c5c75f> <http://ontologies.pramantha.net/subsystems/name> "165KV backup power" .
+<http://ontologies.pramantha.net/COTS/94a6e5f21ba84a1a9009b53dde8afa1a> <http://ontologies.pramantha.net/subsystems/hasMonetaryValue> "3325"^^<http://sw.opencyc.org/2012/05/10/concept/en/Euro> .
+<http://ontologies.pramantha.net/COTS/afee6a313b324a29adb55b441e4623af> <http://ontologies.pramantha.net/subsystems/minWorkingTemp> "-15"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
+<http://ontologies.pramantha.net/COTS/67e4296ba7cc4d55a53d61a191c5c75f> <http://ontologies.pramantha.net/subsystems/maxWorkingTemp> "35"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
+<http://ontologies.pramantha.net/COTS/afee6a313b324a29adb55b441e4623af> <http://ontologies.pramantha.net/subsystems/hasMass> "35"^^<http://sw.opencyc.org/2012/05/10/concept/en/Gram> .
+<http://ontologies.pramantha.net/COTS/67e4296ba7cc4d55a53d61a191c5c75f> <http://ontologies.pramantha.net/subsystems/isStandard> "Cubesat" .
+<http://ontologies.pramantha.net/COTS/afee6a313b324a29adb55b441e4623af> <http://ontologies.pramantha.net/subsystems/hasPower> "-19"^^<http://dbpedia.org/data/Watt.ntriples> .
+<http://ontologies.pramantha.net/COTS/ec035a3f4a804ee48dc432ce66a11db7> <http://ontologies.pramantha.net/subsystems/isStandard> "Cubesat" .
+<http://ontologies.pramantha.net/COTS/2130885aa35f42219667250369f96e0c> <http://ontologies.pramantha.net/subsystems/hasMass> "54"^^<http://sw.opencyc.org/2012/05/10/concept/en/Gram> .
+<http://ontologies.pramantha.net/COTS/2130885aa35f42219667250369f96e0c> <http://ontologies.pramantha.net/subsystems/hasMonetaryValue> "5220"^^<http://sw.opencyc.org/2012/05/10/concept/en/Euro> .
+<http://ontologies.pramantha.net/COTS/ec035a3f4a804ee48dc432ce66a11db7> <http://ontologies.pramantha.net/subsystems/function> "attitude and orbit control" .
+<http://ontologies.pramantha.net/COTS/17855d98a0674a9f989b8ca1df6fa0a1> <http://ontologies.pramantha.net/subsystems/maxWorkingTemp> "42"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
+<http://ontologies.pramantha.net/COTS/d0be9f28aa9541feb22bcc5a2383e031> <http://ontologies.pramantha.net/subsystems/isStandard> "Cubesat" .
+<http://ontologies.pramantha.net/COTS/d0be9f28aa9541feb22bcc5a2383e031> <http://ontologies.pramantha.net/subsystems/hasVolume> "167"^^<http://ontologies.pramantha.net/subsystems/cubicMillimeters> .
+<http://ontologies.pramantha.net/COTS/420eca0815cf4a0a933aa7542c6dec93> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "e3349c8fe32d4174a405aeee1e441fad" .
+<http://ontologies.pramantha.net/COTS/94a6e5f21ba84a1a9009b53dde8afa1a> <http://ontologies.pramantha.net/subsystems/manufacturer> "Chronos" .
+<http://ontologies.pramantha.net/COTS/2130885aa35f42219667250369f96e0c> <http://ontologies.pramantha.net/subsystems/maxWorkingTemp> "56"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
+<http://ontologies.pramantha.net/COTS/67e4296ba7cc4d55a53d61a191c5c75f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "e3349c8fe32d4174a405aeee1e441fad" .
+<http://ontologies.pramantha.net/COTS/67e4296ba7cc4d55a53d61a191c5c75f> <http://ontologies.pramantha.net/subsystems/minWorkingTemp> "-11"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
+<http://ontologies.pramantha.net/COTS/d0be9f28aa9541feb22bcc5a2383e031> <http://ontologies.pramantha.net/subsystems/function> "detector" .
+<http://ontologies.pramantha.net/COTS/d0be9f28aa9541feb22bcc5a2383e031> <http://ontologies.pramantha.net/subsystems/name> "80KV detector" .
+<http://ontologies.pramantha.net/COTS/afee6a313b324a29adb55b441e4623af> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "e3349c8fe32d4174a405aeee1e441fad" .
+<http://ontologies.pramantha.net/COTS/d0be9f28aa9541feb22bcc5a2383e031> <http://ontologies.pramantha.net/subsystems/hasPower> "-26"^^<http://dbpedia.org/data/Watt.ntriples> .
+<http://ontologies.pramantha.net/COTS/67e4296ba7cc4d55a53d61a191c5c75f> <http://ontologies.pramantha.net/subsystems/hasMonetaryValue> "5280"^^<http://sw.opencyc.org/2012/05/10/concept/en/Euro> .
+<http://ontologies.pramantha.net/COTS/1f2c2ac705e6430d9d2f55a2db694312> <http://ontologies.pramantha.net/subsystems/minWorkingTemp> "-66"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
+<http://ontologies.pramantha.net/COTS/1f2c2ac705e6430d9d2f55a2db694312> <http://ontologies.pramantha.net/subsystems/function> "structure" .
+<http://ontologies.pramantha.net/COTS/afee6a313b324a29adb55b441e4623af> <http://ontologies.pramantha.net/subsystems/name> "90JFG command and data" .
+<http://ontologies.pramantha.net/COTS/afee6a313b324a29adb55b441e4623af> <http://ontologies.pramantha.net/subsystems/maxWorkingTemp> "47"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
+<http://ontologies.pramantha.net/COTS/420eca0815cf4a0a933aa7542c6dec93> <http://ontologies.pramantha.net/subsystems/function> "thermal" .
+<http://ontologies.pramantha.net/COTS/2130885aa35f42219667250369f96e0c> <http://ontologies.pramantha.net/subsystems/minWorkingTemp> "-58"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
+<http://ontologies.pramantha.net/COTS/ec035a3f4a804ee48dc432ce66a11db7> <http://ontologies.pramantha.net/subsystems/minWorkingTemp> "-34"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
+<http://ontologies.pramantha.net/COTS/17855d98a0674a9f989b8ca1df6fa0a1> <http://ontologies.pramantha.net/subsystems/hasMonetaryValue> "17318"^^<http://sw.opencyc.org/2012/05/10/concept/en/Euro> .
+<http://ontologies.pramantha.net/COTS/2130885aa35f42219667250369f96e0c> <http://ontologies.pramantha.net/subsystems/manufacturer> "Chronos" .
+<http://ontologies.pramantha.net/COTS/ec035a3f4a804ee48dc432ce66a11db7> <http://ontologies.pramantha.net/subsystems/hasMonetaryValue> "2126"^^<http://sw.opencyc.org/2012/05/10/concept/en/Euro> .
+<http://ontologies.pramantha.net/COTS/d0be9f28aa9541feb22bcc5a2383e031> <http://ontologies.pramantha.net/subsystems/minWorkingTemp> "-17"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
+<http://ontologies.pramantha.net/COTS/420eca0815cf4a0a933aa7542c6dec93> <http://ontologies.pramantha.net/subsystems/manufacturer> "Chronos" .
+<http://ontologies.pramantha.net/COTS/67e4296ba7cc4d55a53d61a191c5c75f> <http://ontologies.pramantha.net/subsystems/function> "backup power" .
+<http://ontologies.pramantha.net/COTS/1f2c2ac705e6430d9d2f55a2db694312> <http://ontologies.pramantha.net/subsystems/manufacturer> "Chronos" .
+<http://ontologies.pramantha.net/COTS/67e4296ba7cc4d55a53d61a191c5c75f> <http://ontologies.pramantha.net/subsystems/manufacturer> "Chronos" .
+<http://ontologies.pramantha.net/COTS/17855d98a0674a9f989b8ca1df6fa0a1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "e3349c8fe32d4174a405aeee1e441fad" .
+<http://ontologies.pramantha.net/COTS/17855d98a0674a9f989b8ca1df6fa0a1> <http://ontologies.pramantha.net/subsystems/name> "69T propulsion" .
+<http://ontologies.pramantha.net/COTS/1f2c2ac705e6430d9d2f55a2db694312> <http://ontologies.pramantha.net/subsystems/hasMass> "51"^^<http://sw.opencyc.org/2012/05/10/concept/en/Gram> .
+<http://ontologies.pramantha.net/COTS/94a6e5f21ba84a1a9009b53dde8afa1a> <http://ontologies.pramantha.net/subsystems/function> "communication" .
+<http://ontologies.pramantha.net/COTS/afee6a313b324a29adb55b441e4623af> <http://ontologies.pramantha.net/subsystems/manufacturer> "Chronos" .
+<http://ontologies.pramantha.net/COTS/94a6e5f21ba84a1a9009b53dde8afa1a> <http://ontologies.pramantha.net/subsystems/name> "90JFG communication" .
+<http://ontologies.pramantha.net/COTS/420eca0815cf4a0a933aa7542c6dec93> <http://ontologies.pramantha.net/subsystems/maxWorkingTemp> "98"^^<http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius> .
+<http://ontologies.pramantha.net/COTS/1f2c2ac705e6430d9d2f55a2db694312> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "e3349c8fe32d4174a405aeee1e441fad" .
