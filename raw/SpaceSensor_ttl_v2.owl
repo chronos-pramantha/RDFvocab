@@ -1,9 +1,9 @@
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://ontologies.pramantha.net/sensors/> .
+@prefix owl: <https://www.w3.org/2002/07/owl#> .
+@prefix rdf: <https://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <https://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <https://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <https://www.w3.org/2000/01/rdf-schema#> .
+@base <https://ontologies.pramantha.net/sensors/> .
 
 <http://www.semanticweb.org/jacopo/ontologies/2014/11/untitled-ontology-69> rdf:type :Ontology .
 
@@ -15,7 +15,7 @@
 #################################################################
 
 
-###  http://www.w3.org/2002/07/owl#detects
+###  https://www.w3.org/2002/07/owl#detects
 
 :detects rdf:type :AsymmetricProperty ,
                   :IrreflexiveProperty ,
@@ -29,7 +29,7 @@ For ex, spectrometers detect light. Magnetometers detect magnetic fields, which 
 
 
 
-###  http://www.w3.org/2002/07/owl#emits
+###  https://www.w3.org/2002/07/owl#emits
 
 :emits rdf:type :AsymmetricProperty ,
                 :IrreflexiveProperty ,
@@ -52,7 +52,7 @@ References for this assumption are:
 
 
 
-###  http://www.w3.org/2002/07/owl#hasFieldOfResearch
+###  https://www.w3.org/2002/07/owl#hasFieldOfResearch
 
 :hasFieldOfResearch rdf:type :ObjectProperty ;
                     
@@ -70,7 +70,7 @@ A detector is used for some research purpose, i.e. hasApplication in some FieldO
 
 
 
-###  http://www.w3.org/2002/07/owl#hasOutput
+###  https://www.w3.org/2002/07/owl#hasOutput
 
 :hasOutput rdf:type :AsymmetricProperty ,
                     :IrreflexiveProperty ,
@@ -82,7 +82,7 @@ A detector is used for some research purpose, i.e. hasApplication in some FieldO
 
 
 
-###  http://www.w3.org/2002/07/owl#hasWorkingPrinciple
+###  https://www.w3.org/2002/07/owl#hasWorkingPrinciple
 
 :hasWorkingPrinciple rdf:type :AsymmetricProperty ,
                               :IrreflexiveProperty ,
@@ -92,7 +92,7 @@ A detector is used for some research purpose, i.e. hasApplication in some FieldO
 
 
 
-###  http://www.w3.org/2002/07/owl#isEmittedBy
+###  https://www.w3.org/2002/07/owl#isEmittedBy
 
 :isEmittedBy rdf:type :AsymmetricProperty ,
                       :IrreflexiveProperty ,
@@ -110,7 +110,7 @@ In case the detector is an active sensor, it \"fires\" something out, usually li
 
 
 
-###  http://www.w3.org/2002/07/owl#isResearchedBy
+###  https://www.w3.org/2002/07/owl#isResearchedBy
 
 :isResearchedBy rdf:type :ObjectProperty ;
                 
@@ -126,7 +126,7 @@ This property and the related classes as well might be changed a lot in the comi
 
 
 
-###  http://www.w3.org/2002/07/owl#isTraversedBy
+###  https://www.w3.org/2002/07/owl#isTraversedBy
 
 :isTraversedBy rdf:type :AsymmetricProperty ,
                         :IrreflexiveProperty ,
@@ -140,7 +140,7 @@ This property and the related classes as well might be changed a lot in the comi
 
 
 
-###  http://www.w3.org/2002/07/owl#measures
+###  https://www.w3.org/2002/07/owl#measures
 
 :measures rdf:type :ObjectProperty ;
           
@@ -349,7 +349,7 @@ Examples of physical quantities can be: polarization, mass, electric charge, etc
 
 
 
-###  http://www.w3.org/2002/07/owl#ActiveInstrument
+###  https://www.w3.org/2002/07/owl#ActiveInstrument
 
 :ActiveInstrument rdf:type :Class ;
                   
@@ -375,7 +375,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#AmountOfSubstance
+###  https://www.w3.org/2002/07/owl#AmountOfSubstance
 
 :AmountOfSubstance rdf:type :Class ;
                    
@@ -383,7 +383,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#AtmosphericScience
+###  https://www.w3.org/2002/07/owl#AtmosphericScience
 
 :AtmosphericScience rdf:type :Class ;
                     
@@ -391,7 +391,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#Atom
+###  https://www.w3.org/2002/07/owl#Atom
 
 :Atom rdf:type :Class ;
       
@@ -399,7 +399,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#Blue
+###  https://www.w3.org/2002/07/owl#Blue
 
 :Blue rdf:type :Class ;
       
@@ -407,7 +407,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#CMOS
+###  https://www.w3.org/2002/07/owl#CMOS
 
 :CMOS rdf:type :Class ;
       
@@ -415,7 +415,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#CosmicRays
+###  https://www.w3.org/2002/07/owl#CosmicRays
 
 :CosmicRays rdf:type :Class ;
             
@@ -423,7 +423,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#Cosmology
+###  https://www.w3.org/2002/07/owl#Cosmology
 
 :Cosmology rdf:type :Class ;
            
@@ -431,7 +431,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#Detector
+###  https://www.w3.org/2002/07/owl#Detector
 
 :Detector rdf:type :Class ;
           
@@ -462,7 +462,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#DetectorWorkingPrinciple
+###  https://www.w3.org/2002/07/owl#DetectorWorkingPrinciple
 
 :DetectorWorkingPrinciple rdf:type :Class ;
                           
@@ -470,7 +470,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#DirectSensingInstrument
+###  https://www.w3.org/2002/07/owl#DirectSensingInstrument
 
 :DirectSensingInstrument rdf:type :Class ;
                          
@@ -490,7 +490,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#Dust
+###  https://www.w3.org/2002/07/owl#Dust
 
 :Dust rdf:type :Class ;
       
@@ -498,7 +498,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#EMSpectrum
+###  https://www.w3.org/2002/07/owl#EMSpectrum
 
 :EMSpectrum rdf:type :Class ;
             
@@ -506,7 +506,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#EarthObservation
+###  https://www.w3.org/2002/07/owl#EarthObservation
 
 :EarthObservation rdf:type :Class ;
                   
@@ -514,7 +514,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#ElectricCharge
+###  https://www.w3.org/2002/07/owl#ElectricCharge
 
 :ElectricCharge rdf:type :Class ;
                 
@@ -522,7 +522,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#ElectricCurrent
+###  https://www.w3.org/2002/07/owl#ElectricCurrent
 
 :ElectricCurrent rdf:type :Class ;
                  
@@ -530,7 +530,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#ElectricFieldStrength
+###  https://www.w3.org/2002/07/owl#ElectricFieldStrength
 
 :ElectricFieldStrength rdf:type :Class ;
                        
@@ -538,7 +538,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#ElectricPotential
+###  https://www.w3.org/2002/07/owl#ElectricPotential
 
 :ElectricPotential rdf:type :Class ;
                    
@@ -546,7 +546,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#ElectricalResistance
+###  https://www.w3.org/2002/07/owl#ElectricalResistance
 
 :ElectricalResistance rdf:type :Class ;
                       
@@ -554,7 +554,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#Energy
+###  https://www.w3.org/2002/07/owl#Energy
 
 :Energy rdf:type :Class ;
         
@@ -562,7 +562,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#EnergyDensity
+###  https://www.w3.org/2002/07/owl#EnergyDensity
 
 :EnergyDensity rdf:type :Class ;
                
@@ -570,7 +570,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#ExtragalacticAstronomy
+###  https://www.w3.org/2002/07/owl#ExtragalacticAstronomy
 
 :ExtragalacticAstronomy rdf:type :Class ;
                         
@@ -578,7 +578,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#ExtremeUltraViolet
+###  https://www.w3.org/2002/07/owl#ExtremeUltraViolet
 
 :ExtremeUltraViolet rdf:type :Class ;
                     
@@ -586,7 +586,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#FarInfrared
+###  https://www.w3.org/2002/07/owl#FarInfrared
 
 :FarInfrared rdf:type :Class ;
              
@@ -594,7 +594,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#FieldOfResearch
+###  https://www.w3.org/2002/07/owl#FieldOfResearch
 
 :FieldOfResearch rdf:type :Class ;
                  
@@ -602,7 +602,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#Force
+###  https://www.w3.org/2002/07/owl#Force
 
 :Force rdf:type :Class ;
        
@@ -610,7 +610,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#Frequency
+###  https://www.w3.org/2002/07/owl#Frequency
 
 :Frequency rdf:type :Class ;
            
@@ -618,7 +618,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#GalacticAstronomy
+###  https://www.w3.org/2002/07/owl#GalacticAstronomy
 
 :GalacticAstronomy rdf:type :Class ;
                    
@@ -626,7 +626,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#GammaRays
+###  https://www.w3.org/2002/07/owl#GammaRays
 
 :GammaRays rdf:type :Class ;
            
@@ -634,7 +634,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#GeometricalOptics
+###  https://www.w3.org/2002/07/owl#GeometricalOptics
 
 :GeometricalOptics rdf:type :Class ;
                    
@@ -644,7 +644,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#Heat
+###  https://www.w3.org/2002/07/owl#Heat
 
 :Heat rdf:type :Class ;
       
@@ -652,7 +652,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#Impulse
+###  https://www.w3.org/2002/07/owl#Impulse
 
 :Impulse rdf:type :Class ;
          
@@ -660,7 +660,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#IndexOfRefraction
+###  https://www.w3.org/2002/07/owl#IndexOfRefraction
 
 :IndexOfRefraction rdf:type :Class ;
                    
@@ -668,7 +668,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#Infrared
+###  https://www.w3.org/2002/07/owl#Infrared
 
 :Infrared rdf:type :Class ;
           
@@ -676,7 +676,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#InfraredRadiometer
+###  https://www.w3.org/2002/07/owl#InfraredRadiometer
 
 :InfraredRadiometer rdf:type :Class ;
                     
@@ -684,7 +684,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#Intensity
+###  https://www.w3.org/2002/07/owl#Intensity
 
 :Intensity rdf:type :Class ;
            
@@ -692,7 +692,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#Length
+###  https://www.w3.org/2002/07/owl#Length
 
 :Length rdf:type :Class ;
         
@@ -700,7 +700,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#LuminousIntensity
+###  https://www.w3.org/2002/07/owl#LuminousIntensity
 
 :LuminousIntensity rdf:type :Class ;
                    
@@ -708,7 +708,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#MagneticFieldStrength
+###  https://www.w3.org/2002/07/owl#MagneticFieldStrength
 
 :MagneticFieldStrength rdf:type :Class ;
                        
@@ -716,7 +716,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#Magnetometer
+###  https://www.w3.org/2002/07/owl#Magnetometer
 
 :Magnetometer rdf:type :Class ;
               
@@ -731,7 +731,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#Mass
+###  https://www.w3.org/2002/07/owl#Mass
 
 :Mass rdf:type :Class ;
       
@@ -739,7 +739,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#MeanLifeTime
+###  https://www.w3.org/2002/07/owl#MeanLifeTime
 
 :MeanLifeTime rdf:type :Class ;
               
@@ -747,7 +747,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#Microscope
+###  https://www.w3.org/2002/07/owl#Microscope
 
 :Microscope rdf:type :Class ;
             
@@ -755,7 +755,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#Molecule
+###  https://www.w3.org/2002/07/owl#Molecule
 
 :Molecule rdf:type :Class ;
           
@@ -763,7 +763,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#NearInfrared
+###  https://www.w3.org/2002/07/owl#NearInfrared
 
 :NearInfrared rdf:type :Class ;
               
@@ -771,7 +771,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#Particle
+###  https://www.w3.org/2002/07/owl#Particle
 
 :Particle rdf:type :Class ;
           
@@ -779,7 +779,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#PassiveInstrument
+###  https://www.w3.org/2002/07/owl#PassiveInstrument
 
 :PassiveInstrument rdf:type :Class ;
                    
@@ -802,7 +802,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#PhotoElectronIonization
+###  https://www.w3.org/2002/07/owl#PhotoElectronIonization
 
 :PhotoElectronIonization rdf:type :Class ;
                          
@@ -810,7 +810,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#PhysicalEntity
+###  https://www.w3.org/2002/07/owl#PhysicalEntity
 
 :PhysicalEntity rdf:type :Class ;
                 
@@ -818,7 +818,7 @@ http://www2.jpl.nasa.gov/basics/bsf12-1.php""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#PhysicalQuantity
+###  https://www.w3.org/2002/07/owl#PhysicalQuantity
 
 :PhysicalQuantity rdf:type :Class ;
                   
@@ -828,7 +828,7 @@ Source: Wikipedia, http://en.wikipedia.org/wiki/Physical_quantity""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#PlanetaryAstronomy
+###  https://www.w3.org/2002/07/owl#PlanetaryAstronomy
 
 :PlanetaryAstronomy rdf:type :Class ;
                     
@@ -836,7 +836,7 @@ Source: Wikipedia, http://en.wikipedia.org/wiki/Physical_quantity""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#PlanetaryGeology
+###  https://www.w3.org/2002/07/owl#PlanetaryGeology
 
 :PlanetaryGeology rdf:type :Class ;
                   
@@ -844,7 +844,7 @@ Source: Wikipedia, http://en.wikipedia.org/wiki/Physical_quantity""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#PlanetaryScience
+###  https://www.w3.org/2002/07/owl#PlanetaryScience
 
 :PlanetaryScience rdf:type :Class ;
                   
@@ -852,7 +852,7 @@ Source: Wikipedia, http://en.wikipedia.org/wiki/Physical_quantity""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#Plasma
+###  https://www.w3.org/2002/07/owl#Plasma
 
 :Plasma rdf:type :Class ;
         
@@ -860,7 +860,7 @@ Source: Wikipedia, http://en.wikipedia.org/wiki/Physical_quantity""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#Power
+###  https://www.w3.org/2002/07/owl#Power
 
 :Power rdf:type :Class ;
        
@@ -868,7 +868,7 @@ Source: Wikipedia, http://en.wikipedia.org/wiki/Physical_quantity""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#Pressure
+###  https://www.w3.org/2002/07/owl#Pressure
 
 :Pressure rdf:type :Class ;
           
@@ -876,7 +876,7 @@ Source: Wikipedia, http://en.wikipedia.org/wiki/Physical_quantity""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#Radio
+###  https://www.w3.org/2002/07/owl#Radio
 
 :Radio rdf:type :Class ;
        
@@ -884,7 +884,7 @@ Source: Wikipedia, http://en.wikipedia.org/wiki/Physical_quantity""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#RadioCentrimetric
+###  https://www.w3.org/2002/07/owl#RadioCentrimetric
 
 :RadioCentrimetric rdf:type :Class ;
                    
@@ -892,7 +892,7 @@ Source: Wikipedia, http://en.wikipedia.org/wiki/Physical_quantity""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#RadioMetric
+###  https://www.w3.org/2002/07/owl#RadioMetric
 
 :RadioMetric rdf:type :Class ;
              
@@ -900,7 +900,7 @@ Source: Wikipedia, http://en.wikipedia.org/wiki/Physical_quantity""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#RadioMillimetric
+###  https://www.w3.org/2002/07/owl#RadioMillimetric
 
 :RadioMillimetric rdf:type :Class ;
                   
@@ -908,7 +908,7 @@ Source: Wikipedia, http://en.wikipedia.org/wiki/Physical_quantity""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#RadioSubMillimetric
+###  https://www.w3.org/2002/07/owl#RadioSubMillimetric
 
 :RadioSubMillimetric rdf:type :Class ;
                      
@@ -916,7 +916,7 @@ Source: Wikipedia, http://en.wikipedia.org/wiki/Physical_quantity""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#Radiometer
+###  https://www.w3.org/2002/07/owl#Radiometer
 
 :Radiometer rdf:type :Class ;
             
@@ -924,7 +924,7 @@ Source: Wikipedia, http://en.wikipedia.org/wiki/Physical_quantity""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#Red
+###  https://www.w3.org/2002/07/owl#Red
 
 :Red rdf:type :Class ;
      
@@ -932,7 +932,7 @@ Source: Wikipedia, http://en.wikipedia.org/wiki/Physical_quantity""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#RemoteSensingInstrument
+###  https://www.w3.org/2002/07/owl#RemoteSensingInstrument
 
 :RemoteSensingInstrument rdf:type :Class ;
                          
@@ -951,7 +951,7 @@ Source: Wikipedia, http://en.wikipedia.org/wiki/Physical_quantity""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#SolarAstronomy
+###  https://www.w3.org/2002/07/owl#SolarAstronomy
 
 :SolarAstronomy rdf:type :Class ;
                 
@@ -959,7 +959,7 @@ Source: Wikipedia, http://en.wikipedia.org/wiki/Physical_quantity""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#Spectrograph
+###  https://www.w3.org/2002/07/owl#Spectrograph
 
 :Spectrograph rdf:type :Class ;
               
@@ -967,7 +967,7 @@ Source: Wikipedia, http://en.wikipedia.org/wiki/Physical_quantity""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#Spectrometer
+###  https://www.w3.org/2002/07/owl#Spectrometer
 
 :Spectrometer rdf:type :Class ;
               
@@ -975,7 +975,7 @@ Source: Wikipedia, http://en.wikipedia.org/wiki/Physical_quantity""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#SpectroscopicInstrument
+###  https://www.w3.org/2002/07/owl#SpectroscopicInstrument
 
 :SpectroscopicInstrument rdf:type :Class ;
                          
@@ -983,7 +983,7 @@ Source: Wikipedia, http://en.wikipedia.org/wiki/Physical_quantity""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#Spin
+###  https://www.w3.org/2002/07/owl#Spin
 
 :Spin rdf:type :Class ;
       
@@ -991,7 +991,7 @@ Source: Wikipedia, http://en.wikipedia.org/wiki/Physical_quantity""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#StellarAstronomy
+###  https://www.w3.org/2002/07/owl#StellarAstronomy
 
 :StellarAstronomy rdf:type :Class ;
                   
@@ -999,7 +999,7 @@ Source: Wikipedia, http://en.wikipedia.org/wiki/Physical_quantity""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#Temperature
+###  https://www.w3.org/2002/07/owl#Temperature
 
 :Temperature rdf:type :Class ;
              
@@ -1007,7 +1007,7 @@ Source: Wikipedia, http://en.wikipedia.org/wiki/Physical_quantity""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#Time
+###  https://www.w3.org/2002/07/owl#Time
 
 :Time rdf:type :Class ;
       
@@ -1015,7 +1015,7 @@ Source: Wikipedia, http://en.wikipedia.org/wiki/Physical_quantity""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#UltraViolet
+###  https://www.w3.org/2002/07/owl#UltraViolet
 
 :UltraViolet rdf:type :Class ;
              
@@ -1023,7 +1023,7 @@ Source: Wikipedia, http://en.wikipedia.org/wiki/Physical_quantity""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#UtlravioletRadiometer
+###  https://www.w3.org/2002/07/owl#UtlravioletRadiometer
 
 :UtlravioletRadiometer rdf:type :Class ;
                        
@@ -1031,7 +1031,7 @@ Source: Wikipedia, http://en.wikipedia.org/wiki/Physical_quantity""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#Velocity
+###  https://www.w3.org/2002/07/owl#Velocity
 
 :Velocity rdf:type :Class ;
           
@@ -1039,7 +1039,7 @@ Source: Wikipedia, http://en.wikipedia.org/wiki/Physical_quantity""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#Visible
+###  https://www.w3.org/2002/07/owl#Visible
 
 :Visible rdf:type :Class ;
          
@@ -1047,7 +1047,7 @@ Source: Wikipedia, http://en.wikipedia.org/wiki/Physical_quantity""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#Volume
+###  https://www.w3.org/2002/07/owl#Volume
 
 :Volume rdf:type :Class ;
         
@@ -1055,7 +1055,7 @@ Source: Wikipedia, http://en.wikipedia.org/wiki/Physical_quantity""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#Wavelength
+###  https://www.w3.org/2002/07/owl#Wavelength
 
 :Wavelength rdf:type :Class ;
             
@@ -1063,7 +1063,7 @@ Source: Wikipedia, http://en.wikipedia.org/wiki/Physical_quantity""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#XRays
+###  https://www.w3.org/2002/07/owl#XRays
 
 :XRays rdf:type :Class ;
        
@@ -1071,7 +1071,7 @@ Source: Wikipedia, http://en.wikipedia.org/wiki/Physical_quantity""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#ion
+###  https://www.w3.org/2002/07/owl#ion
 
 :ion rdf:type :Class ;
      
@@ -1079,7 +1079,7 @@ Source: Wikipedia, http://en.wikipedia.org/wiki/Physical_quantity""" .
 
 
 
-###  http://www.w3.org/2002/07/owl#isotope
+###  https://www.w3.org/2002/07/owl#isotope
 
 :isotope rdf:type :Class ;
          
@@ -1096,35 +1096,35 @@ Source: Wikipedia, http://en.wikipedia.org/wiki/Physical_quantity""" .
 #################################################################
 
 
-###  http://www.w3.org/2002/07/owl#Electron
+###  https://www.w3.org/2002/07/owl#Electron
 
 :Electron rdf:type :NamedIndividual ,
                    :Particle .
 
 
 
-###  http://www.w3.org/2002/07/owl#Neutrino
+###  https://www.w3.org/2002/07/owl#Neutrino
 
 :Neutrino rdf:type :NamedIndividual ,
                    :Particle .
 
 
 
-###  http://www.w3.org/2002/07/owl#Neutron
+###  https://www.w3.org/2002/07/owl#Neutron
 
 :Neutron rdf:type :NamedIndividual ,
                   :Particle .
 
 
 
-###  http://www.w3.org/2002/07/owl#Photon
+###  https://www.w3.org/2002/07/owl#Photon
 
 :Photon rdf:type :NamedIndividual ,
                  :Particle .
 
 
 
-###  http://www.w3.org/2002/07/owl#Proton
+###  https://www.w3.org/2002/07/owl#Proton
 
 :Proton rdf:type :NamedIndividual ,
                  :Particle .

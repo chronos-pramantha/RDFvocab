@@ -1,115 +1,115 @@
-<http://ontologies.pramantha.net/chronos/launch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "launch" .
-<http://ontologies.pramantha.net/chronos/webresource> <http://www.w3.org/2004/02/skos/core#prefLabel> "A resource crawled from the web" .
-<http://ontologies.pramantha.net/chronos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://ontologies.pramantha.net/chronos/relTarget> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/chronos/Planet> .
-<http://ontologies.pramantha.net/chronos/group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "group" .
-<http://ontologies.pramantha.net/chronos/relEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "subject-document is semantically related with an event or happening" .
-<http://ontologies.pramantha.net/chronos/event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "event" .
-<http://ontologies.pramantha.net/chronos/relTarget> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/chronos/Satellite> .
-<http://ontologies.pramantha.net/chronos/mission> <http://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/ontology/SpaceMission> .
-<http://ontologies.pramantha.net/chronos/relAncestor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "relAncestor" .
-<http://ontologies.pramantha.net/chronos/concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "other classes instances and webresources are linked to a concept in the taxonomy" .
-<http://ontologies.pramantha.net/chronos/payload> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontologies.pramantha.net/chronos/relMission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "relMission" .
-<http://ontologies.pramantha.net/chronos/payload> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.pramantha.net/chronos/launch> .
-<http://ontologies.pramantha.net/chronos/relAncestor> <http://www.w3.org/2004/02/skos/core#prefLabel> "relAncestor" .
-<http://ontologies.pramantha.net/chronos/relMission> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontologies.pramantha.net/chronos/mission> .
-<http://ontologies.pramantha.net/chronos/webpage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing a webpage" .
-<http://ontologies.pramantha.net/chronos/mission> <http://www.w3.org/2004/02/skos/core#prefLabel> "a space mission" .
-<http://ontologies.pramantha.net/chronos/group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a string assigning the document to a set or a Class in the datastore, useful for fast querying" .
-<http://ontologies.pramantha.net/chronos/relKeyword> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "relKeyword" .
-<http://ontologies.pramantha.net/chronos/mission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing a space mission from Chronos legacy" .
-<http://ontologies.pramantha.net/chronos/group> <http://www.w3.org/2004/02/skos/core#prefLabel> "can be queried as a member of this group" .
-<http://ontologies.pramantha.net/chronos/relMission> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontologies.pramantha.net/chronos/launch> .
-<http://ontologies.pramantha.net/chronos/event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontologies.pramantha.net/chronos/relMission> <http://www.w3.org/2004/02/skos/core#prefLabel> "is related to a space mission or a space launch" .
-<http://ontologies.pramantha.net/chronos/relKeyword> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/chronos> .
-<http://ontologies.pramantha.net/chronos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "Generic classes and semantic properties" .
-<http://ontologies.pramantha.net/chronos/relConcept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a property that relate a web resource to its related concepts in the taxonomy. Preferred domains are celestial objects and web resources" .
-<http://ontologies.pramantha.net/chronos/webresource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontologies.pramantha.net/chronos/relConcept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "relConcept" .
-<http://ontologies.pramantha.net/chronos/relTarget> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/chronos> .
-<http://ontologies.pramantha.net/chronos/webpage> <http://www.w3.org/2004/02/skos/core#prefLabel> "a crawled webpage" .
-<http://ontologies.pramantha.net/chronos/mission> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/chronos> .
-<http://ontologies.pramantha.net/chronos/relEvent> <http://www.w3.org/2004/02/skos/core#prefLabel> "is a document related to an event" .
-<http://ontologies.pramantha.net/chronos/event> <http://www.w3.org/2004/02/skos/core#prefLabel> "an event or happening related with a space mission" .
-<http://ontologies.pramantha.net/chronos/relKeyword> <http://www.w3.org/2004/02/skos/core#prefLabel> "is related to a keyword Concept" .
-<http://ontologies.pramantha.net/chronos/keyword> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<http://ontologies.pramantha.net/chronos/concept> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/chronos> .
-<http://ontologies.pramantha.net/chronos/concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontologies.pramantha.net/chronos/relatedMatch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a DBpedia document highly semantically related to another of the same kind" .
-<http://ontologies.pramantha.net/chronos/dbpediadoc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing a wikipedia page information" .
-<http://ontologies.pramantha.net/chronos/relatedMatch> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontologies.pramantha.net/chronos/dbpediadoc> .
-<http://ontologies.pramantha.net/chronos/webpage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/chronos> .
-<http://ontologies.pramantha.net/chronos/relEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "relEvent" .
-<http://ontologies.pramantha.net/chronos/relEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontologies.pramantha.net/chronos/event> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/Event.n3> .
-<http://ontologies.pramantha.net/chronos/relKeyword> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontologies.pramantha.net/chronos/webpage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CreativeWork> .
-<http://ontologies.pramantha.net/chronos/relMission> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.pramantha.net/chronos/dbpediadoc> .
-<http://ontologies.pramantha.net/chronos/relAncestor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a property that relate a chronos:concept to its ancestor in the taxonomy." .
-<http://ontologies.pramantha.net/chronos/webpage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "webpage" .
-<http://ontologies.pramantha.net/chronos/launch> <http://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/GroundToOrbitVehicle.n3> .
-<http://ontologies.pramantha.net/chronos/dbpediadoc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "dbpediadoc" .
-<http://ontologies.pramantha.net/chronos/relTarget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "subject-document is semantically related to a celestial body" .
-<http://ontologies.pramantha.net/chronos/relatedMatch> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.pramantha.net/chronos/dbpediadoc> .
-<http://ontologies.pramantha.net/chronos/relTarget> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/chronos/Asteroid> .
-<http://ontologies.pramantha.net/chronos/relKeyword> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.pramantha.net/chronos/dbpediadoc> .
-<http://ontologies.pramantha.net/chronos/event> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/chronos> .
-<http://ontologies.pramantha.net/chronos/mission> <http://www.w3.org/2002/07/owl#sameAs> <http://sw.opencyc.org/concept/Mx4rvt6oU5wpEbGdrcN5Y29ycA> .
-<http://ontologies.pramantha.net/chronos/launch> <http://www.w3.org/2004/02/skos/core#prefLabel> "a space launch that took place in the past" .
-<http://ontologies.pramantha.net/chronos/relTarget> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.pramantha.net/chronos/dbpediadoc> .
-<http://ontologies.pramantha.net/chronos/concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "concept" .
-<http://ontologies.pramantha.net/chronos/event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing an event or happening from Chronos legacy" .
-<http://ontologies.pramantha.net/chronos/payload> <http://www.w3.org/2004/02/skos/core#prefLabel> "is a mission that carries the payload named" .
-<http://ontologies.pramantha.net/chronos/relConcept> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/chronos> .
-<http://ontologies.pramantha.net/chronos/relTarget> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.pramantha.net/chronos/webpage> .
-<http://ontologies.pramantha.net/chronos/webresource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "webresource" .
-<http://ontologies.pramantha.net/chronos/keyword> <http://www.w3.org/2004/02/skos/core#prefLabel> "NASA-STI keyword" .
-<http://ontologies.pramantha.net/chronos/payload> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.pramantha.net/chronos/mission> .
-<http://ontologies.pramantha.net/chronos/relAncestor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/chronos> .
-<http://ontologies.pramantha.net/chronos/relMission> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.pramantha.net/chronos/event> .
-<http://ontologies.pramantha.net/chronos/relKeyword> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "subject-document is in a semantic relation with the object-keyword" .
-<http://ontologies.pramantha.net/chronos/relTarget> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/chronos/CelestialBody> .
-<http://ontologies.pramantha.net/chronos/payload> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/chronos> .
-<http://ontologies.pramantha.net/chronos/relMission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "subject-document is historically or technically related to a space mission" .
-<http://ontologies.pramantha.net/chronos/mission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "mission" .
-<http://ontologies.pramantha.net/chronos/payload> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontologies.pramantha.net/sensors/Detector> .
-<http://ontologies.pramantha.net/chronos/payload> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "payload" .
-<http://ontologies.pramantha.net/chronos/relMission> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.pramantha.net/chronos/webpage> .
-<http://ontologies.pramantha.net/chronos/relTarget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "relTarget" .
-<http://ontologies.pramantha.net/chronos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Classes and properties to describe space activities in Chronos Knowledge Base" .
-<http://ontologies.pramantha.net/chronos/dbpediadoc> <http://www.w3.org/2004/02/skos/core#prefLabel> "data taken from a DBpedia page" .
-<http://ontologies.pramantha.net/chronos/relEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/chronos> .
-<http://ontologies.pramantha.net/chronos/relatedMatch> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/chronos> .
-<http://ontologies.pramantha.net/chronos/relatedMatch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "relatedMatch" .
-<http://ontologies.pramantha.net/chronos/relEvent> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontologies.pramantha.net/chronos/event> .
-<http://ontologies.pramantha.net/chronos/launch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing a space launch taken from wikipedia page" .
-<http://ontologies.pramantha.net/chronos/relEvent> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.pramantha.net/chronos/dbpediadoc> .
-<http://ontologies.pramantha.net/chronos/keyword> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "keyword" .
-<http://ontologies.pramantha.net/chronos/relatedMatch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontologies.pramantha.net/chronos/relMission> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/chronos> .
-<http://ontologies.pramantha.net/chronos/mission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontologies.pramantha.net/chronos/relKeyword> <http://www.w3.org/2000/01/rdf-schema#range> <http://ontologies.pramantha.net/chronos/keyword> .
-<http://ontologies.pramantha.net/chronos/group> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/chronos> .
-<http://ontologies.pramantha.net/chronos/relTarget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontologies.pramantha.net/chronos/relMission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontologies.pramantha.net/chronos/group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> .
-<http://ontologies.pramantha.net/chronos/concept> <http://www.w3.org/2004/02/skos/core#prefLabel> "a concept stored in taxonomy.projectchronos.eu/concepts/c" .
-<http://ontologies.pramantha.net/chronos/webresource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "the resources crawled are dumped in the triples store" .
-<http://ontologies.pramantha.net/chronos/relatedMatch> <http://www.w3.org/2004/02/skos/core#prefLabel> "is a DBpedia document with an high level of semantical relation with" .
-<http://ontologies.pramantha.net/chronos/relTarget> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.pramantha.net/chronos/mission> .
-<http://ontologies.pramantha.net/chronos/webresource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/chronos> .
-<http://ontologies.pramantha.net/chronos/payload> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "subject-document is a mission or a launch carrying the object-document" .
-<http://ontologies.pramantha.net/chronos/keyword> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/chronos> .
-<http://ontologies.pramantha.net/chronos/launch> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/chronos> .
-<http://ontologies.pramantha.net/chronos/relTarget> <http://www.w3.org/2000/01/rdf-schema#domain> <http://ontologies.pramantha.net/chronos/launch> .
-<http://ontologies.pramantha.net/chronos/launch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontologies.pramantha.net/chronos/keyword> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a keyword representing a Concept in the NASA-STI taxonomy" .
-<http://ontologies.pramantha.net/chronos/relConcept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontologies.pramantha.net/chronos/dbpediadoc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontologies.pramantha.net/chronos/relAncestor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontologies.pramantha.net/chronos/dbpediadoc> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/chronos> .
-<http://ontologies.pramantha.net/chronos/relConcept> <http://www.w3.org/2004/02/skos/core#prefLabel> "relConcept" .
-<http://ontologies.pramantha.net/chronos/relTarget> <http://www.w3.org/2004/02/skos/core#prefLabel> "is a document related to a celestial body named" .
+<https://ontologies.pramantha.net/chronos/launch> <https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "launch" .
+<https://ontologies.pramantha.net/chronos/webresource> <https://www.w3.org/2004/02/skos/core#prefLabel> "A resource crawled from the web" .
+<https://ontologies.pramantha.net/chronos> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#Ontology> .
+<https://ontologies.pramantha.net/chronos/relTarget> <https://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/chronos/Planet> .
+<https://ontologies.pramantha.net/chronos/group> <https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "group" .
+<https://ontologies.pramantha.net/chronos/relEvent> <https://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "subject-document is semantically related with an event or happening" .
+<https://ontologies.pramantha.net/chronos/event> <https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "event" .
+<https://ontologies.pramantha.net/chronos/relTarget> <https://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/chronos/Satellite> .
+<https://ontologies.pramantha.net/chronos/mission> <https://www.w3.org/2002/07/owl#sameAs> <http://dbpedia.org/ontology/SpaceMission> .
+<https://ontologies.pramantha.net/chronos/relAncestor> <https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "relAncestor" .
+<https://ontologies.pramantha.net/chronos/concept> <https://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "other classes instances and webresources are linked to a concept in the taxonomy" .
+<https://ontologies.pramantha.net/chronos/payload> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://ontologies.pramantha.net/chronos/relMission> <https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "relMission" .
+<https://ontologies.pramantha.net/chronos/payload> <https://www.w3.org/2000/01/rdf-schema#domain> <https://ontologies.pramantha.net/chronos/launch> .
+<https://ontologies.pramantha.net/chronos/relAncestor> <https://www.w3.org/2004/02/skos/core#prefLabel> "relAncestor" .
+<https://ontologies.pramantha.net/chronos/relMission> <https://www.w3.org/2000/01/rdf-schema#range> <https://ontologies.pramantha.net/chronos/mission> .
+<https://ontologies.pramantha.net/chronos/webpage> <https://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing a webpage" .
+<https://ontologies.pramantha.net/chronos/mission> <https://www.w3.org/2004/02/skos/core#prefLabel> "a space mission" .
+<https://ontologies.pramantha.net/chronos/group> <https://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a string assigning the document to a set or a Class in the datastore, useful for fast querying" .
+<https://ontologies.pramantha.net/chronos/relKeyword> <https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "relKeyword" .
+<https://ontologies.pramantha.net/chronos/mission> <https://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing a space mission from Chronos legacy" .
+<https://ontologies.pramantha.net/chronos/group> <https://www.w3.org/2004/02/skos/core#prefLabel> "can be queried as a member of this group" .
+<https://ontologies.pramantha.net/chronos/relMission> <https://www.w3.org/2000/01/rdf-schema#range> <https://ontologies.pramantha.net/chronos/launch> .
+<https://ontologies.pramantha.net/chronos/event> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#Class> .
+<https://ontologies.pramantha.net/chronos/relMission> <https://www.w3.org/2004/02/skos/core#prefLabel> "is related to a space mission or a space launch" .
+<https://ontologies.pramantha.net/chronos/relKeyword> <https://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ontologies.pramantha.net/chronos> .
+<https://ontologies.pramantha.net/chronos> <https://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "Generic classes and semantic properties" .
+<https://ontologies.pramantha.net/chronos/relConcept> <https://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a property that relate a web resource to its related concepts in the taxonomy. Preferred domains are celestial objects and web resources" .
+<https://ontologies.pramantha.net/chronos/webresource> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#Class> .
+<https://ontologies.pramantha.net/chronos/relConcept> <https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "relConcept" .
+<https://ontologies.pramantha.net/chronos/relTarget> <https://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ontologies.pramantha.net/chronos> .
+<https://ontologies.pramantha.net/chronos/webpage> <https://www.w3.org/2004/02/skos/core#prefLabel> "a crawled webpage" .
+<https://ontologies.pramantha.net/chronos/mission> <https://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ontologies.pramantha.net/chronos> .
+<https://ontologies.pramantha.net/chronos/relEvent> <https://www.w3.org/2004/02/skos/core#prefLabel> "is a document related to an event" .
+<https://ontologies.pramantha.net/chronos/event> <https://www.w3.org/2004/02/skos/core#prefLabel> "an event or happening related with a space mission" .
+<https://ontologies.pramantha.net/chronos/relKeyword> <https://www.w3.org/2004/02/skos/core#prefLabel> "is related to a keyword Concept" .
+<https://ontologies.pramantha.net/chronos/keyword> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2004/02/skos/core#Concept> .
+<https://ontologies.pramantha.net/chronos/concept> <https://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ontologies.pramantha.net/chronos> .
+<https://ontologies.pramantha.net/chronos/concept> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#Class> .
+<https://ontologies.pramantha.net/chronos/relatedMatch> <https://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a DBpedia document highly semantically related to another of the same kind" .
+<https://ontologies.pramantha.net/chronos/dbpediadoc> <https://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing a wikipedia page information" .
+<https://ontologies.pramantha.net/chronos/relatedMatch> <https://www.w3.org/2000/01/rdf-schema#range> <https://ontologies.pramantha.net/chronos/dbpediadoc> .
+<https://ontologies.pramantha.net/chronos/webpage> <https://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ontologies.pramantha.net/chronos> .
+<https://ontologies.pramantha.net/chronos/relEvent> <https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "relEvent" .
+<https://ontologies.pramantha.net/chronos/relEvent> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://ontologies.pramantha.net/chronos/event> <https://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/Event.n3> .
+<https://ontologies.pramantha.net/chronos/relKeyword> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://ontologies.pramantha.net/chronos/webpage> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/CreativeWork> .
+<https://ontologies.pramantha.net/chronos/relMission> <https://www.w3.org/2000/01/rdf-schema#domain> <https://ontologies.pramantha.net/chronos/dbpediadoc> .
+<https://ontologies.pramantha.net/chronos/relAncestor> <https://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a property that relate a chronos:concept to its ancestor in the taxonomy." .
+<https://ontologies.pramantha.net/chronos/webpage> <https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "webpage" .
+<https://ontologies.pramantha.net/chronos/launch> <https://www.w3.org/2002/07/owl#sameAs> <http://umbel.org/umbel/rc/GroundToOrbitVehicle.n3> .
+<https://ontologies.pramantha.net/chronos/dbpediadoc> <https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "dbpediadoc" .
+<https://ontologies.pramantha.net/chronos/relTarget> <https://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "subject-document is semantically related to a celestial body" .
+<https://ontologies.pramantha.net/chronos/relatedMatch> <https://www.w3.org/2000/01/rdf-schema#domain> <https://ontologies.pramantha.net/chronos/dbpediadoc> .
+<https://ontologies.pramantha.net/chronos/relTarget> <https://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/chronos/Asteroid> .
+<https://ontologies.pramantha.net/chronos/relKeyword> <https://www.w3.org/2000/01/rdf-schema#domain> <https://ontologies.pramantha.net/chronos/dbpediadoc> .
+<https://ontologies.pramantha.net/chronos/event> <https://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ontologies.pramantha.net/chronos> .
+<https://ontologies.pramantha.net/chronos/mission> <https://www.w3.org/2002/07/owl#sameAs> <http://sw.opencyc.org/concept/Mx4rvt6oU5wpEbGdrcN5Y29ycA> .
+<https://ontologies.pramantha.net/chronos/launch> <https://www.w3.org/2004/02/skos/core#prefLabel> "a space launch that took place in the past" .
+<https://ontologies.pramantha.net/chronos/relTarget> <https://www.w3.org/2000/01/rdf-schema#domain> <https://ontologies.pramantha.net/chronos/dbpediadoc> .
+<https://ontologies.pramantha.net/chronos/concept> <https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "concept" .
+<https://ontologies.pramantha.net/chronos/event> <https://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing an event or happening from Chronos legacy" .
+<https://ontologies.pramantha.net/chronos/payload> <https://www.w3.org/2004/02/skos/core#prefLabel> "is a mission that carries the payload named" .
+<https://ontologies.pramantha.net/chronos/relConcept> <https://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ontologies.pramantha.net/chronos> .
+<https://ontologies.pramantha.net/chronos/relTarget> <https://www.w3.org/2000/01/rdf-schema#domain> <https://ontologies.pramantha.net/chronos/webpage> .
+<https://ontologies.pramantha.net/chronos/webresource> <https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "webresource" .
+<https://ontologies.pramantha.net/chronos/keyword> <https://www.w3.org/2004/02/skos/core#prefLabel> "NASA-STI keyword" .
+<https://ontologies.pramantha.net/chronos/payload> <https://www.w3.org/2000/01/rdf-schema#domain> <https://ontologies.pramantha.net/chronos/mission> .
+<https://ontologies.pramantha.net/chronos/relAncestor> <https://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ontologies.pramantha.net/chronos> .
+<https://ontologies.pramantha.net/chronos/relMission> <https://www.w3.org/2000/01/rdf-schema#domain> <https://ontologies.pramantha.net/chronos/event> .
+<https://ontologies.pramantha.net/chronos/relKeyword> <https://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "subject-document is in a semantic relation with the object-keyword" .
+<https://ontologies.pramantha.net/chronos/relTarget> <https://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/chronos/CelestialBody> .
+<https://ontologies.pramantha.net/chronos/payload> <https://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ontologies.pramantha.net/chronos> .
+<https://ontologies.pramantha.net/chronos/relMission> <https://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "subject-document is historically or technically related to a space mission" .
+<https://ontologies.pramantha.net/chronos/mission> <https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "mission" .
+<https://ontologies.pramantha.net/chronos/payload> <https://www.w3.org/2000/01/rdf-schema#range> <https://ontologies.pramantha.net/sensors/Detector> .
+<https://ontologies.pramantha.net/chronos/payload> <https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "payload" .
+<https://ontologies.pramantha.net/chronos/relMission> <https://www.w3.org/2000/01/rdf-schema#domain> <https://ontologies.pramantha.net/chronos/webpage> .
+<https://ontologies.pramantha.net/chronos/relTarget> <https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "relTarget" .
+<https://ontologies.pramantha.net/chronos> <https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Classes and properties to describe space activities in Chronos Knowledge Base" .
+<https://ontologies.pramantha.net/chronos/dbpediadoc> <https://www.w3.org/2004/02/skos/core#prefLabel> "data taken from a DBpedia page" .
+<https://ontologies.pramantha.net/chronos/relEvent> <https://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ontologies.pramantha.net/chronos> .
+<https://ontologies.pramantha.net/chronos/relatedMatch> <https://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ontologies.pramantha.net/chronos> .
+<https://ontologies.pramantha.net/chronos/relatedMatch> <https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "relatedMatch" .
+<https://ontologies.pramantha.net/chronos/relEvent> <https://www.w3.org/2000/01/rdf-schema#range> <https://ontologies.pramantha.net/chronos/event> .
+<https://ontologies.pramantha.net/chronos/launch> <https://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a document representing a space launch taken from wikipedia page" .
+<https://ontologies.pramantha.net/chronos/relEvent> <https://www.w3.org/2000/01/rdf-schema#domain> <https://ontologies.pramantha.net/chronos/dbpediadoc> .
+<https://ontologies.pramantha.net/chronos/keyword> <https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "keyword" .
+<https://ontologies.pramantha.net/chronos/relatedMatch> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://ontologies.pramantha.net/chronos/relMission> <https://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ontologies.pramantha.net/chronos> .
+<https://ontologies.pramantha.net/chronos/mission> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#Class> .
+<https://ontologies.pramantha.net/chronos/relKeyword> <https://www.w3.org/2000/01/rdf-schema#range> <https://ontologies.pramantha.net/chronos/keyword> .
+<https://ontologies.pramantha.net/chronos/group> <https://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ontologies.pramantha.net/chronos> .
+<https://ontologies.pramantha.net/chronos/relTarget> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://ontologies.pramantha.net/chronos/relMission> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://ontologies.pramantha.net/chronos/group> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> .
+<https://ontologies.pramantha.net/chronos/concept> <https://www.w3.org/2004/02/skos/core#prefLabel> "a concept stored in taxonomy.projectchronos.eu/concepts/c" .
+<https://ontologies.pramantha.net/chronos/webresource> <https://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "the resources crawled are dumped in the triples store" .
+<https://ontologies.pramantha.net/chronos/relatedMatch> <https://www.w3.org/2004/02/skos/core#prefLabel> "is a DBpedia document with an high level of semantical relation with" .
+<https://ontologies.pramantha.net/chronos/relTarget> <https://www.w3.org/2000/01/rdf-schema#domain> <https://ontologies.pramantha.net/chronos/mission> .
+<https://ontologies.pramantha.net/chronos/webresource> <https://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ontologies.pramantha.net/chronos> .
+<https://ontologies.pramantha.net/chronos/payload> <https://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "subject-document is a mission or a launch carrying the object-document" .
+<https://ontologies.pramantha.net/chronos/keyword> <https://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ontologies.pramantha.net/chronos> .
+<https://ontologies.pramantha.net/chronos/launch> <https://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ontologies.pramantha.net/chronos> .
+<https://ontologies.pramantha.net/chronos/relTarget> <https://www.w3.org/2000/01/rdf-schema#domain> <https://ontologies.pramantha.net/chronos/launch> .
+<https://ontologies.pramantha.net/chronos/launch> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#Class> .
+<https://ontologies.pramantha.net/chronos/keyword> <https://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "a keyword representing a Concept in the NASA-STI taxonomy" .
+<https://ontologies.pramantha.net/chronos/relConcept> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://ontologies.pramantha.net/chronos/dbpediadoc> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#Class> .
+<https://ontologies.pramantha.net/chronos/relAncestor> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://ontologies.pramantha.net/chronos/dbpediadoc> <https://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ontologies.pramantha.net/chronos> .
+<https://ontologies.pramantha.net/chronos/relConcept> <https://www.w3.org/2004/02/skos/core#prefLabel> "relConcept" .
+<https://ontologies.pramantha.net/chronos/relTarget> <https://www.w3.org/2004/02/skos/core#prefLabel> "is a document related to a celestial body named" .
 

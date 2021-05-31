@@ -1,78 +1,78 @@
-<http://ontologies.pramantha.net/spacecraft/Subsystem_Spacecraft> <http://www.w3.org/2004/02/skos/core#prefLabel> "A device that is deployed into a spacecraft and works outside Earth lower atmosphere" .
-<http://ontologies.pramantha.net/subsystems/embedSensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "embedSensor" .
-_:N62ee1107a91946a68acf4a96e0a5cd3b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontologies.pramantha.net/spacecraft/Payload_Spacecraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://ontologies.pramantha.net/spacecraft/Spacecraft> <http://ontologies.pramantha.net/chronos/relConcept> <http://hypermedia.projectchronos.eu/data/dbpediadocs/spacecraft> .
-<http://ontologies.pramantha.net/spacecraft/Spacecraft> <http://www.w3.org/2004/02/skos/core#prefLabel> "Each instance of spacecraft is a transportation device either deployed entirely in outer space, or one whose trajectories leave the atmosphere of the planet it's launched from, in order to orbit the planet or to travel beyond the planet's gravitational field." .
-<http://ontologies.pramantha.net/spacecraft/isComponentOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontologies.pramantha.net/subsystems/embedSensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <http://ontologies.pramantha.net/spacecraft/Subsystem_Spacecraft> .
-_:N65cbba63559d4d779dd5e48833963542 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://ontologies.pramantha.net/spacecraft/hasSubSystem> <http://www.w3.org/2002/07/owl#inverseOf> <http://ontologies.pramantha.net/spacecraft/isSubsystemOf> .
-<http://ontologies.pramantha.net/subsystems/embedSensor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/spacecraft> .
-<http://ontologies.pramantha.net/spacecraft/Payload_Spacecraft> <http://ontologies.pramantha.net/spacecraft/isComponent> <http://ontologies.pramantha.net/spacecraft/Spacecraft> .
-<http://ontologies.pramantha.net/subsystems/embedSensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontologies.pramantha.net/spacecraft/Subsystem_Spacecraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://live.dbpedia.org/ontology/Device.ntriples> .
-<http://ontologies.pramantha.net/spacecraft/hasSubSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontologies.pramantha.net/spacecraft/isComponentOf> <http://www.w3.org/2004/02/skos/core#prefLabel> "the subject is a member of a wider artifact, that is a set of artifacts" .
-<http://ontologies.pramantha.net/spacecraft/Subsystem_Spacecraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N545823dc75a7472892a99f8b04d9e791 .
-<http://ontologies.pramantha.net/spacecraft/isSubsystemOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/spacecraft> .
-<http://ontologies.pramantha.net/spacecraft/Subsystem_Spacecraft> <http://ontologies.pramantha.net/spacecraft/isComponent> <http://ontologies.pramantha.net/spacecraft/Spacecraft> .
-<http://ontologies.pramantha.net/subsystems/embedSensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#range> <http://ontologies.pramantha.net/sensors/Detector> .
-_:N545823dc75a7472892a99f8b04d9e791 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontologies.pramantha.net/spacecraft/Payload_Spacecraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Payload_Spacecraft" .
-<http://ontologies.pramantha.net/spacecraft/Spacecraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://umbel.org/umbel/rc/SystemOfDevices> .
-<http://ontologies.pramantha.net/spacecraft/Subsystem_Spacecraft> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/spacecraft> .
-<http://ontologies.pramantha.net/spacecraft/Payload_Spacecraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://umbel.org/umbel/rc/SystemOfDevices> .
-_:N1cd8335a24764109b9c945aa98835bab <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-_:N545823dc75a7472892a99f8b04d9e791 <http://www.w3.org/2002/07/owl#onProperty> <http://ontologies.pramantha.net/subsystems/hasVolume> .
-<http://ontologies.pramantha.net/spacecraft/Subsystem_Spacecraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nd13dd4be00084b909af1bb0d51be0db1 .
-<http://ontologies.pramantha.net/subsystems/embedSensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#IrreflexiveProperty> .
-<http://ontologies.pramantha.net/spacecraft/Spacecraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:N0779b041243048dfbda00210c952fd3a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontologies.pramantha.net/subsystems/embedSensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
-_:N1cd8335a24764109b9c945aa98835bab <http://www.w3.org/2002/07/owl#onProperty> <http://ontologies.pramantha.net/subsystems/hasMass> .
-<http://ontologies.pramantha.net/spacecraft/Payload_Spacecraft> <http://www.w3.org/2004/02/skos/core#prefLabel> "Payload_Spacecraft" .
-<http://ontologies.pramantha.net/spacecraft/Payload_Spacecraft> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/spacecraft> .
-<http://ontologies.pramantha.net/spacecraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "A space vessel is described as made of two components: a set of devices called BUS and a set of one or more DETECTORS (see /sensors/Detector)" .
-<http://ontologies.pramantha.net/spacecraft/Subsystem_Spacecraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "A Device is an artifact with a relatively rigid, set shape, designed for a specific use or to perform a specific function" .
-<http://ontologies.pramantha.net/spacecraft/hasSubSystem> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/spacecraft> .
-<http://ontologies.pramantha.net/spacecraft/Payload_Spacecraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "The set of devices that the spacecraft carries for scientific purposes, with their supporting (readout) devices." .
-<http://ontologies.pramantha.net/subsystems/embedSensor> <http://www.w3.org/2004/02/skos/core#prefLabel> "a subsystem that holds a sensor" .
-_:N62ee1107a91946a68acf4a96e0a5cd3b <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://ontologies.pramantha.net/spacecraft/Spacecraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N0779b041243048dfbda00210c952fd3a .
-<http://ontologies.pramantha.net/spacecraft/hasSubSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "hasSubSystem" .
-<http://ontologies.pramantha.net/spacecraft/Spacecraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Spacecraft" .
-<http://ontologies.pramantha.net/spacecraft/Subsystem_Spacecraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N1cd8335a24764109b9c945aa98835bab .
-<http://ontologies.pramantha.net/spacecraft/Spacecraft> <http://www.w3.org/2002/07/owl#sameAs> "http://umbel.org/umbel/rc/Spacecraft" .
-<http://ontologies.pramantha.net/spacecraft/isDeployedIn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/spacecraft> .
-<http://ontologies.pramantha.net/spacecraft/Subsystem_Spacecraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:N545823dc75a7472892a99f8b04d9e791 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
-<http://ontologies.pramantha.net/spacecraft/isSubsystemOf> <http://www.w3.org/2002/07/owl#inverseOf> <http://ontologies.pramantha.net/spacecraft/hasSubSystem> .
-_:N62ee1107a91946a68acf4a96e0a5cd3b <http://www.w3.org/2002/07/owl#onProperty> <http://ontologies.pramantha.net/subsytems/embedSensor> .
-_:Nd13dd4be00084b909af1bb0d51be0db1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontologies.pramantha.net/spacecraft/isComponentOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "isComponentOf" .
-<http://ontologies.pramantha.net/spacecraft/isSubsystemOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "isSubsystemOf" .
-_:Nd13dd4be00084b909af1bb0d51be0db1 <http://www.w3.org/2002/07/owl#onProperty> <http://ontologies.pramantha.net/spacecraft/isSubsystemOf> .
-_:N65cbba63559d4d779dd5e48833963542 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:N65cbba63559d4d779dd5e48833963542 <http://www.w3.org/2002/07/owl#onProperty> <http://ontologies.pramantha.net/subsystems/hasPower> .
-_:N1cd8335a24764109b9c945aa98835bab <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://ontologies.pramantha.net/spacecraft/isComponentOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/spacecraft> .
-<http://ontologies.pramantha.net/spacecraft/isDeployedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AsymmetricProperty> .
-<http://ontologies.pramantha.net/spacecraft/isDeployedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "isDeployedIn" .
-<http://ontologies.pramantha.net/subsystems/embedSensor> <http://www.w3.org/2004/02/skos/core#altLabel> "holds a sensor" .
-<http://ontologies.pramantha.net/spacecraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-_:N0779b041243048dfbda00210c952fd3a <http://www.w3.org/2002/07/owl#hasValue> <http://live.dbpedia.org/ontology/Outer_space.ntriples> .
-<http://ontologies.pramantha.net/spacecraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Objects and properties to describe systems and subsystems of devices and structures needed to fly a spacecraft, including structure and platform. Words separated by _ has to be read as separated concepts, camelCase in they are the same concepts (see umbel.org for this norm)" .
-<http://ontologies.pramantha.net/subsystems/embedSensor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "It is a payload" .
-<http://ontologies.pramantha.net/spacecraft/Subsystem_Spacecraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Subsystem_Spacecraft" .
-<http://ontologies.pramantha.net/spacecraft/Payload_Spacecraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N62ee1107a91946a68acf4a96e0a5cd3b .
-_:Nd13dd4be00084b909af1bb0d51be0db1 <http://www.w3.org/2002/07/owl#hasValue> <http://ontologies.pramantha.net/spacecraft/Spacecraft> .
-<http://ontologies.pramantha.net/spacecraft/Spacecraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "In this set of ontologies a spacecraft is described as a system of devices, a vessel made by different subsystems." .
-<http://ontologies.pramantha.net/spacecraft/isSubsystemOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://ontologies.pramantha.net/spacecraft/Spacecraft> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://ontologies.pramantha.net/spacecraft> .
-<http://ontologies.pramantha.net/spacecraft/isSubsystemOf> <http://www.w3.org/2004/02/skos/core#prefLabel> "subject is a device or a system of devices that is subsystem of a wider system or device" .
-<http://ontologies.pramantha.net/spacecraft/isDeployedIn> <http://www.w3.org/2004/02/skos/core#prefLabel> "the environment in which a device or a system of devices is designed to work" .
-<http://ontologies.pramantha.net/spacecraft/Subsystem_Spacecraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N65cbba63559d4d779dd5e48833963542 .
-<http://ontologies.pramantha.net/spacecraft/isDeployedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:N0779b041243048dfbda00210c952fd3a <http://www.w3.org/2002/07/owl#onProperty> <http://ontologies.pramantha.net/spacecraft/isDeployedIn> .
+<https://ontologies.pramantha.net/spacecraft/Subsystem_Spacecraft> <https://www.w3.org/2004/02/skos/core#prefLabel> "A device that is deployed into a spacecraft and works outside Earth lower atmosphere" .
+<https://ontologies.pramantha.net/subsystems/embedSensor> <https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "embedSensor" .
+_:N62ee1107a91946a68acf4a96e0a5cd3b <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#Restriction> .
+<https://ontologies.pramantha.net/spacecraft/Payload_Spacecraft> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#Class> .
+<https://ontologies.pramantha.net/spacecraft/Spacecraft> <https://ontologies.pramantha.net/chronos/relConcept> <http://hypermedia.projectchronos.eu/data/dbpediadocs/spacecraft> .
+<https://ontologies.pramantha.net/spacecraft/Spacecraft> <https://www.w3.org/2004/02/skos/core#prefLabel> "Each instance of spacecraft is a transportation device either deployed entirely in outer space, or one whose trajectories leave the atmosphere of the planet it's launched from, in order to orbit the planet or to travel beyond the planet's gravitational field." .
+<https://ontologies.pramantha.net/spacecraft/isComponentOf> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://ontologies.pramantha.net/subsystems/embedSensor> <https://www.w3.org/1999/02/22-rdf-syntax-ns#domain> <https://ontologies.pramantha.net/spacecraft/Subsystem_Spacecraft> .
+_:N65cbba63559d4d779dd5e48833963542 <https://www.w3.org/2002/07/owl#minCardinality> "1"^^<https://www.w3.org/2001/XMLSchema#integer> .
+<https://ontologies.pramantha.net/spacecraft/hasSubSystem> <https://www.w3.org/2002/07/owl#inverseOf> <https://ontologies.pramantha.net/spacecraft/isSubsystemOf> .
+<https://ontologies.pramantha.net/subsystems/embedSensor> <https://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ontologies.pramantha.net/spacecraft> .
+<https://ontologies.pramantha.net/spacecraft/Payload_Spacecraft> <https://ontologies.pramantha.net/spacecraft/isComponent> <https://ontologies.pramantha.net/spacecraft/Spacecraft> .
+<https://ontologies.pramantha.net/subsystems/embedSensor> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://ontologies.pramantha.net/spacecraft/Subsystem_Spacecraft> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <http://live.dbpedia.org/ontology/Device.ntriples> .
+<https://ontologies.pramantha.net/spacecraft/hasSubSystem> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://ontologies.pramantha.net/spacecraft/isComponentOf> <https://www.w3.org/2004/02/skos/core#prefLabel> "the subject is a member of a wider artifact, that is a set of artifacts" .
+<https://ontologies.pramantha.net/spacecraft/Subsystem_Spacecraft> <https://www.w3.org/2000/01/rdf-schema#subClassOf> _:N545823dc75a7472892a99f8b04d9e791 .
+<https://ontologies.pramantha.net/spacecraft/isSubsystemOf> <https://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ontologies.pramantha.net/spacecraft> .
+<https://ontologies.pramantha.net/spacecraft/Subsystem_Spacecraft> <https://ontologies.pramantha.net/spacecraft/isComponent> <https://ontologies.pramantha.net/spacecraft/Spacecraft> .
+<https://ontologies.pramantha.net/subsystems/embedSensor> <https://www.w3.org/1999/02/22-rdf-syntax-ns#range> <https://ontologies.pramantha.net/sensors/Detector> .
+_:N545823dc75a7472892a99f8b04d9e791 <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#Restriction> .
+<https://ontologies.pramantha.net/spacecraft/Payload_Spacecraft> <https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Payload_Spacecraft" .
+<https://ontologies.pramantha.net/spacecraft/Spacecraft> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <http://umbel.org/umbel/rc/SystemOfDevices> .
+<https://ontologies.pramantha.net/spacecraft/Subsystem_Spacecraft> <https://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ontologies.pramantha.net/spacecraft> .
+<https://ontologies.pramantha.net/spacecraft/Payload_Spacecraft> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <http://umbel.org/umbel/rc/SystemOfDevices> .
+_:N1cd8335a24764109b9c945aa98835bab <https://www.w3.org/2002/07/owl#minCardinality> "1"^^<https://www.w3.org/2001/XMLSchema#integer> .
+_:N545823dc75a7472892a99f8b04d9e791 <https://www.w3.org/2002/07/owl#onProperty> <https://ontologies.pramantha.net/subsystems/hasVolume> .
+<https://ontologies.pramantha.net/spacecraft/Subsystem_Spacecraft> <https://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nd13dd4be00084b909af1bb0d51be0db1 .
+<https://ontologies.pramantha.net/subsystems/embedSensor> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#IrreflexiveProperty> .
+<https://ontologies.pramantha.net/spacecraft/Spacecraft> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#Class> .
+_:N0779b041243048dfbda00210c952fd3a <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#Restriction> .
+<https://ontologies.pramantha.net/subsystems/embedSensor> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#AsymmetricProperty> .
+_:N1cd8335a24764109b9c945aa98835bab <https://www.w3.org/2002/07/owl#onProperty> <https://ontologies.pramantha.net/subsystems/hasMass> .
+<https://ontologies.pramantha.net/spacecraft/Payload_Spacecraft> <https://www.w3.org/2004/02/skos/core#prefLabel> "Payload_Spacecraft" .
+<https://ontologies.pramantha.net/spacecraft/Payload_Spacecraft> <https://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ontologies.pramantha.net/spacecraft> .
+<https://ontologies.pramantha.net/spacecraft> <https://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "A space vessel is described as made of two components: a set of devices called BUS and a set of one or more DETECTORS (see /sensors/Detector)" .
+<https://ontologies.pramantha.net/spacecraft/Subsystem_Spacecraft> <https://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "A Device is an artifact with a relatively rigid, set shape, designed for a specific use or to perform a specific function" .
+<https://ontologies.pramantha.net/spacecraft/hasSubSystem> <https://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ontologies.pramantha.net/spacecraft> .
+<https://ontologies.pramantha.net/spacecraft/Payload_Spacecraft> <https://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "The set of devices that the spacecraft carries for scientific purposes, with their supporting (readout) devices." .
+<https://ontologies.pramantha.net/subsystems/embedSensor> <https://www.w3.org/2004/02/skos/core#prefLabel> "a subsystem that holds a sensor" .
+_:N62ee1107a91946a68acf4a96e0a5cd3b <https://www.w3.org/2002/07/owl#minCardinality> "1"^^<https://www.w3.org/2001/XMLSchema#integer> .
+<https://ontologies.pramantha.net/spacecraft/Spacecraft> <https://www.w3.org/2000/01/rdf-schema#subClassOf> _:N0779b041243048dfbda00210c952fd3a .
+<https://ontologies.pramantha.net/spacecraft/hasSubSystem> <https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "hasSubSystem" .
+<https://ontologies.pramantha.net/spacecraft/Spacecraft> <https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Spacecraft" .
+<https://ontologies.pramantha.net/spacecraft/Subsystem_Spacecraft> <https://www.w3.org/2000/01/rdf-schema#subClassOf> _:N1cd8335a24764109b9c945aa98835bab .
+<https://ontologies.pramantha.net/spacecraft/Spacecraft> <https://www.w3.org/2002/07/owl#sameAs> "http://umbel.org/umbel/rc/Spacecraft" .
+<https://ontologies.pramantha.net/spacecraft/isDeployedIn> <https://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ontologies.pramantha.net/spacecraft> .
+<https://ontologies.pramantha.net/spacecraft/Subsystem_Spacecraft> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#Class> .
+_:N545823dc75a7472892a99f8b04d9e791 <https://www.w3.org/2002/07/owl#minCardinality> "1"^^<https://www.w3.org/2001/XMLSchema#integer> .
+<https://ontologies.pramantha.net/spacecraft/isSubsystemOf> <https://www.w3.org/2002/07/owl#inverseOf> <https://ontologies.pramantha.net/spacecraft/hasSubSystem> .
+_:N62ee1107a91946a68acf4a96e0a5cd3b <https://www.w3.org/2002/07/owl#onProperty> <https://ontologies.pramantha.net/subsytems/embedSensor> .
+_:Nd13dd4be00084b909af1bb0d51be0db1 <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#Restriction> .
+<https://ontologies.pramantha.net/spacecraft/isComponentOf> <https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "isComponentOf" .
+<https://ontologies.pramantha.net/spacecraft/isSubsystemOf> <https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "isSubsystemOf" .
+_:Nd13dd4be00084b909af1bb0d51be0db1 <https://www.w3.org/2002/07/owl#onProperty> <https://ontologies.pramantha.net/spacecraft/isSubsystemOf> .
+_:N65cbba63559d4d779dd5e48833963542 <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#Restriction> .
+_:N65cbba63559d4d779dd5e48833963542 <https://www.w3.org/2002/07/owl#onProperty> <https://ontologies.pramantha.net/subsystems/hasPower> .
+_:N1cd8335a24764109b9c945aa98835bab <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#Restriction> .
+<https://ontologies.pramantha.net/spacecraft/isComponentOf> <https://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ontologies.pramantha.net/spacecraft> .
+<https://ontologies.pramantha.net/spacecraft/isDeployedIn> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#AsymmetricProperty> .
+<https://ontologies.pramantha.net/spacecraft/isDeployedIn> <https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "isDeployedIn" .
+<https://ontologies.pramantha.net/subsystems/embedSensor> <https://www.w3.org/2004/02/skos/core#altLabel> "holds a sensor" .
+<https://ontologies.pramantha.net/spacecraft> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#Ontology> .
+_:N0779b041243048dfbda00210c952fd3a <https://www.w3.org/2002/07/owl#hasValue> <http://live.dbpedia.org/ontology/Outer_space.ntriples> .
+<https://ontologies.pramantha.net/spacecraft> <https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Objects and properties to describe systems and subsystems of devices and structures needed to fly a spacecraft, including structure and platform. Words separated by _ has to be read as separated concepts, camelCase in they are the same concepts (see umbel.org for this norm)" .
+<https://ontologies.pramantha.net/subsystems/embedSensor> <https://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "It is a payload" .
+<https://ontologies.pramantha.net/spacecraft/Subsystem_Spacecraft> <https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Subsystem_Spacecraft" .
+<https://ontologies.pramantha.net/spacecraft/Payload_Spacecraft> <https://www.w3.org/2000/01/rdf-schema#subClassOf> _:N62ee1107a91946a68acf4a96e0a5cd3b .
+_:Nd13dd4be00084b909af1bb0d51be0db1 <https://www.w3.org/2002/07/owl#hasValue> <https://ontologies.pramantha.net/spacecraft/Spacecraft> .
+<https://ontologies.pramantha.net/spacecraft/Spacecraft> <https://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "In this set of ontologies a spacecraft is described as a system of devices, a vessel made by different subsystems." .
+<https://ontologies.pramantha.net/spacecraft/isSubsystemOf> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://ontologies.pramantha.net/spacecraft/Spacecraft> <https://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://ontologies.pramantha.net/spacecraft> .
+<https://ontologies.pramantha.net/spacecraft/isSubsystemOf> <https://www.w3.org/2004/02/skos/core#prefLabel> "subject is a device or a system of devices that is subsystem of a wider system or device" .
+<https://ontologies.pramantha.net/spacecraft/isDeployedIn> <https://www.w3.org/2004/02/skos/core#prefLabel> "the environment in which a device or a system of devices is designed to work" .
+<https://ontologies.pramantha.net/spacecraft/Subsystem_Spacecraft> <https://www.w3.org/2000/01/rdf-schema#subClassOf> _:N65cbba63559d4d779dd5e48833963542 .
+<https://ontologies.pramantha.net/spacecraft/isDeployedIn> <https://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/2002/07/owl#ObjectProperty> .
+_:N0779b041243048dfbda00210c952fd3a <https://www.w3.org/2002/07/owl#onProperty> <https://ontologies.pramantha.net/spacecraft/isDeployedIn> .
 

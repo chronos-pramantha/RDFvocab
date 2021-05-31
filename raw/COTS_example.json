@@ -1,32 +1,32 @@
 {
-        "http://ontologies.pramantha.net/subsystems/name": "14W primary power", 
-        "http://ontologies.pramantha.net/subsystems/minWorkingTemp": {
+        "https://ontologies.pramantha.net/subsystems/name": "14W primary power", 
+        "https://ontologies.pramantha.net/subsystems/minWorkingTemp": {
             "@type": "http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius", 
             "@value": -53
         }, 
-        "http://ontologies.pramantha.net/subsystems/hasMonetaryValue": {
+        "https://ontologies.pramantha.net/subsystems/hasMonetaryValue": {
             "@type": "http://sw.opencyc.org/2012/05/10/concept/en/Euro", 
             "@value": 6220
         }, 
-        "http://ontologies.pramantha.net/subsystems/function": "primary power", 
-        "http://www.w3.org/1999/02/22-rdf-syntax-ns#label": "e3349c8fe32d4174a405aeee1e441fad", 
-        "http://ontologies.pramantha.net/subsystems/hasVolume": {
-            "@type": "http://ontologies.pramantha.net/subsystems/cubicMillimeters", 
+        "https://ontologies.pramantha.net/subsystems/function": "primary power", 
+        "https://www.w3.org/1999/02/22-rdf-syntax-ns#label": "e3349c8fe32d4174a405aeee1e441fad", 
+        "https://ontologies.pramantha.net/subsystems/hasVolume": {
+            "@type": "https://ontologies.pramantha.net/subsystems/cubicMillimeters", 
             "@value": 44
         }, 
-        "http://ontologies.pramantha.net/subsystems/hasMass": {
+        "https://ontologies.pramantha.net/subsystems/hasMass": {
             "@type": "http://sw.opencyc.org/2012/05/10/concept/en/Gram", 
             "@value": 66
         }, 
-        "http://ontologies.pramantha.net/subsystems/maxWorkingTemp": {
+        "https://ontologies.pramantha.net/subsystems/maxWorkingTemp": {
             "@type": "http://sw.opencyc.org/2012/05/10/concept/en/DegreeCelsius", 
             "@value": 61
         }, 
-        "http://ontologies.pramantha.net/subsystems/isStandard": "Cubesat", 
-        "http://ontologies.pramantha.net/subsystems/manufacturer": "Chronos", 
-        "@id": "http://ontologies.pramantha.net/COTS/5802a7c51c514552ad2a93d9292d3835", 
-        "@type": "http://ontologies.pramantha.net/subsystems/Spacecraft_PrimaryPower", 
-        "http://ontologies.pramantha.net/subsystems/hasPower": {
+        "https://ontologies.pramantha.net/subsystems/isStandard": "Cubesat", 
+        "https://ontologies.pramantha.net/subsystems/manufacturer": "Chronos", 
+        "@id": "https://ontologies.pramantha.net/COTS/5802a7c51c514552ad2a93d9292d3835", 
+        "@type": "https://ontologies.pramantha.net/subsystems/Spacecraft_PrimaryPower", 
+        "https://ontologies.pramantha.net/subsystems/hasPower": {
             "@type": "http://dbpedia.org/data/Watt.ntriples", 
             "@value": 1244
         }

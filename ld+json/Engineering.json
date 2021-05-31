@@ -1,30 +1,30 @@
 {
     "@context": {
-        "@base": "http://ontologies.pramantha.net/engineering",
-        "engineering": "http://ontologies.pramantha.net/engineering/",
-        "device": "http://ontologies.pramantha.net/devices/ontology",
+        "@base": "https://ontologies.pramantha.net/engineering",
+        "engineering": "https://ontologies.pramantha.net/engineering/",
+        "device": "https://ontologies.pramantha.net/devices/ontology",
         "schema": "https://schema.org/",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
-        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-        "chronos": "http://ontologies.pramantha.net/chronos/",
-        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "owl": "http://www.w3.org/2002/07/owl#",
+        "skos": "https://www.w3.org/2004/02/skos/core#",
+        "rdf": "https://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "chronos": "https://ontologies.pramantha.net/chronos/",
+        "rdfs": "https://www.w3.org/2000/01/rdf-schema#",
+        "owl": "https://www.w3.org/2002/07/owl#",
         "dbpedia": "http://live.dbpedia.org/ontology/",
         "defines"  : {
-          "@reverse": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+          "@reverse": "https://www.w3.org/2000/01/rdf-schema#isDefinedBy"
         }
     },
 
     "@id": "",
-    "@type": "http://www.w3.org/2002/07/owl#Ontology",
+    "@type": "https://www.w3.org/2002/07/owl#Ontology",
     "rdf:label": "Generic engineering concepts ",
     "rdf:comment": "a set of concepts to be used to describe engineering objects",
 
     "defines": [
         {
-            "@id": "http://ontologies.pramantha.net/engineering/Satellite_Device",
+            "@id": "https://ontologies.pramantha.net/engineering/Satellite_Device",
             "owl:sameAs" : { "@id": "http://umbel.org/umbel/rc/Satellite_Device.n3" },
-            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "@type": "https://www.w3.org/2002/07/owl#Class",
             "skos:prefLabel": "an artificial satellite",
             "rdf:comment": "a document representing an artificial satellite",
             "rdfs:subClassOf": { "@id": "http://umbel.org/umbel/rc/Spacecraft.n3" },
@@ -34,9 +34,9 @@
             }
         },
         {
-            "@id": "http://ontologies.pramantha.net/engineering/GroundToOrbitVehicle",
+            "@id": "https://ontologies.pramantha.net/engineering/GroundToOrbitVehicle",
             "owl:sameAs" : { "@id": "http://umbel.org/umbel/rc/GroundToOrbitVehicle.n3" },
-            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "@type": "https://www.w3.org/2002/07/owl#Class",
             "skos:prefLabel": "a rocket or any transportation vehicle that can reach orbit",
             "rdf:comment": "a document representing a rocket or any transportation vehicle that can reach orbit",
             "rdfs:subClassOf": [
@@ -46,17 +46,17 @@
             "rdf:label": "GroundToOrbitVehicle"
         },
         {
-            "@id": "http://ontologies.pramantha.net/engineering/InformationGatheringDevice",
+            "@id": "https://ontologies.pramantha.net/engineering/InformationGatheringDevice",
             "owl:sameAs" : { "@id": "http://umbel.org/umbel/rc/InformationGatheringDevice.n3" },
-            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "@type": "https://www.w3.org/2002/07/owl#Class",
             "skos:prefLabel": "device typically used in instances of gathering information.",
             "rdf:comment": "a document representing a information gathering device",
             "rdf:label": "InformationGatheringDevice"
         },
         {
-            "@id": "http://ontologies.pramantha.net/engineering/AstronomicalSatellite",
+            "@id": "https://ontologies.pramantha.net/engineering/AstronomicalSatellite",
             "owl:sameAs" : { "@id": "http://umbel.org/umbel/rc/AstronomicalSatellite.n3" },
-            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "@type": "https://www.w3.org/2002/07/owl#Class",
             "skos:prefLabel": "an artificial satellite",
             "rdf:comment": "a document representing an artificial satellite",
             "rdfs:subClassOf": [
@@ -66,9 +66,9 @@
             "rdf:label": "AstronomicalSatellite"
         },
         {
-            "@id": "http://ontologies.pramantha.net/engineering/WeatherSatellite",
+            "@id": "https://ontologies.pramantha.net/engineering/WeatherSatellite",
             "owl:sameAs" : { "@id": "http://umbel.org/umbel/rc/WeatherSatellite.n3" },
-            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "@type": "https://www.w3.org/2002/07/owl#Class",
             "skos:prefLabel": "an satellite collecting data on the weather of the heavenly body which it orbits",
             "rdf:comment": "a document representing a weather satellite",
             "rdfs:subClassOf": [
@@ -78,9 +78,9 @@
             "rdf:label": "WeatherSatellite"
         },
         {
-            "@id": "http://ontologies.pramantha.net/engineering/EarthRemoteSensingSatellite",
+            "@id": "https://ontologies.pramantha.net/engineering/EarthRemoteSensingSatellite",
             "owl:sameAs" : { "@id": "http://umbel.org/umbel/rc/EarthRemoteSensingSatellite.n3" },
-            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "@type": "https://www.w3.org/2002/07/owl#Class",
             "skos:prefLabel": "an artificial satellite",
             "rdf:comment": "a document representing an artificial satellite",
             "rdfs:subClassOf": [
@@ -89,9 +89,9 @@
             "rdf:label": "EarthRemoteSensingSatellite"
         },
         {
-            "@id": "http://ontologies.pramantha.net/engineering/SpaceProbe",
+            "@id": "https://ontologies.pramantha.net/engineering/SpaceProbe",
             "owl:sameAs" : { "@id": "http://umbel.org/umbel/rc/SpaceProbe.n3" },
-            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "@type": "https://www.w3.org/2002/07/owl#Class",
             "skos:prefLabel": "These are unmanned vehicles which are sent to other bodies in the Solar system for the purpose gathering data. Sometimes a separate vehicle (probe or lander) is launched from the main vehicle, the smaller vehicle usually being referred to as a probe. In these cases, both vehicle would be SpaceProbes in the present sense.",
             "rdf:comment": "a document representing a space faring probe",
             "rdfs:subClassOf": [

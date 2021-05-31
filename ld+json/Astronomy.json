@@ -1,62 +1,62 @@
 {
     "@context": {
-        "@base"    : "http://ontologies.pramantha.net/astronomy",
-        "astronomy": "http://ontologies.pramantha.net/astronomy/",
+        "@base"    : "https://ontologies.pramantha.net/astronomy",
+        "astronomy": "https://ontologies.pramantha.net/astronomy/",
         "schema"   : "https://schema.org/",
-        "skos"     : "http://www.w3.org/2004/02/skos/core#",
-        "chronos"  : "http://ontologies.pramantha.net/chronos/",
-        "rdf"      : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-        "rdfs"     : "http://www.w3.org/2000/01/rdf-schema#",
-        "owl"      : "http://www.w3.org/2002/07/owl#",
+        "skos"     : "https://www.w3.org/2004/02/skos/core#",
+        "chronos"  : "https://ontologies.pramantha.net/chronos/",
+        "rdf"      : "https://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs"     : "https://www.w3.org/2000/01/rdf-schema#",
+        "owl"      : "https://www.w3.org/2002/07/owl#",
         "dbpedia"  : "http://live.dbpedia.org/ontology/",
         "defines"  : {
-          "@reverse": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+          "@reverse": "https://www.w3.org/2000/01/rdf-schema#isDefinedBy"
         }
     },
 
     "@id": "",
-    "@type": "http://www.w3.org/2002/07/owl#Ontology",
+    "@type": "https://www.w3.org/2002/07/owl#Ontology",
     "rdf:label": "Generic astronomical concepts ",
     "rdf:comment": "a set of concepts to be used to describe astronomical objects. Notes: 1. two different properties are applied for bodies orbiting a star (property \"orbiting\") and orbiting a planet (property \"orbitsPlanet\") - 2. PlanetaryBody entity is a wider group for any object subject permanently to the gravity of a Planet. Planet entity is for the planet itself",
     "defines": [
         {
-            "@id": "http://ontologies.pramantha.net/astronomy/AstronomicalObject",
-            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "@id": "https://ontologies.pramantha.net/astronomy/AstronomicalObject",
+            "@type": "https://www.w3.org/2002/07/owl#Class",
             "owl:sameAs": { "@id": "http://umbel.org/umbel/rc/AstronomicalObject.n3" },
             "rdf:comment": "an astronomical body (from a natural satellite size up) or a group of astronomical body",
             "rdf:label": "AstronomicalObject"
         },
         {
-            "@id": "http://ontologies.pramantha.net/astronomy/Planetary_system",
-            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "@id": "https://ontologies.pramantha.net/astronomy/Planetary_system",
+            "@type": "https://www.w3.org/2002/07/owl#Class",
             "owl:sameAs": { "@id": "http://live.dbpedia.org/data/Planetary_system.ntriples" },
-            "rdfs:subClassOf": { "@id": "http://ontologies.pramantha.net/astronomy/AstronomicalObject" },
+            "rdfs:subClassOf": { "@id": "https://ontologies.pramantha.net/astronomy/AstronomicalObject" },
             "rdf:label": "Planetary_system",
             "rdf:comment": "Solar System is a planetary system - see solarsystem vocabulary"
         },
         {       
-            "@id": "http://ontologies.pramantha.net/astronomy/Star",
+            "@id": "https://ontologies.pramantha.net/astronomy/Star",
             "owl:sameAs" : [
               { "@id": "http://umbel.org/umbel/rc/Star.n3" },
               { "@id": "http://sw.opencyc.org/concept/Mx4rvVi80ZwpEbGdrcN5Y29ycA"},
               { "@id": "http://live.dbpedia.org/data/Star.n3"}
               ],
-            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "@type": "https://www.w3.org/2002/07/owl#Class",
             "rdf:label": "Star",
             "rdf:comment": "a star",
-            "rdfs:subClassOf": { "@id": "http://ontologies.pramantha.net/astronomy/AstronomicalObject" }
+            "rdfs:subClassOf": { "@id": "https://ontologies.pramantha.net/astronomy/AstronomicalObject" }
         },
         {
-            "@id": "http://ontologies.pramantha.net/astronomy/PlanetaryBody",
-            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "@id": "https://ontologies.pramantha.net/astronomy/PlanetaryBody",
+            "@type": "https://www.w3.org/2002/07/owl#Class",
             "skos:altLabel": "a general astronomical object with the characteristics of a planet or any natural object under gravitational influence of a planet",
             "rdf:comment": "a document representing a general planet-shaped body or natural satellite or dust or rock or macroscopic particle of matter",
             "rdf:label": "PlanetaryBody"
         },
         {
-            "@id": "http://ontologies.pramantha.net/astronomy/Planet",
-            "rdfs:subClassOf": { "@id": "http://ontologies.pramantha.net/astronomy/PlanetaryBody" },
-            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "@id": "https://ontologies.pramantha.net/astronomy/Planet",
+            "rdfs:subClassOf": { "@id": "https://ontologies.pramantha.net/astronomy/PlanetaryBody" },
+            "@type": "https://www.w3.org/2002/07/owl#Class",
             "skos:altLabel": "a general astronomical object with the characteristics of a planet",
             "rdf:comment": "a document representing a general planet-shaped astronomical body",
             "rdf:label": "Planet",
@@ -66,10 +66,10 @@
             ]
         },
         {
-            "@id": "http://ontologies.pramantha.net/astronomy/orbiting",
-            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty", 
-            "rdf:domain": { "@id": "http://ontologies.pramantha.net/astronomy/AstronomicalObject" },
-            "rdf:range": { "@id": "http://ontologies.pramantha.net/astronomy/Star" },
+            "@id": "https://ontologies.pramantha.net/astronomy/orbiting",
+            "@type": "https://www.w3.org/2002/07/owl#ObjectProperty", 
+            "rdf:domain": { "@id": "https://ontologies.pramantha.net/astronomy/AstronomicalObject" },
+            "rdf:range": { "@id": "https://ontologies.pramantha.net/astronomy/Star" },
             "rdf:comment": "this property describe the generic astronomical object-object gravitational interaction",
             "rdf:label": "orbiting",
             "owl:sameAs": {
@@ -77,24 +77,24 @@
             }
         },
         {
-            "@id": "http://ontologies.pramantha.net/astronomy/orbitsPlanet",
+            "@id": "https://ontologies.pramantha.net/astronomy/orbitsPlanet",
             "rdfs:subClassOf": {"@id": ""},
-            "@type": "http://www.w3.org/2002/07/owl#ObjectProperty", 
+            "@type": "https://www.w3.org/2002/07/owl#ObjectProperty", 
             "rdf:domain": [
-              { "@id": "http://ontologies.pramantha.net/astronomy/Natural_satellite" },
-              { "@id": "http://ontologies.pramantha.net/astronomy/PlanetaryBody" }
+              { "@id": "https://ontologies.pramantha.net/astronomy/Natural_satellite" },
+              { "@id": "https://ontologies.pramantha.net/astronomy/PlanetaryBody" }
               ],
             "rdf:range": [
-                { "@id": "http://ontologies.pramantha.net/astronomy/PlanetaryBody" },
-                { "@id": "http://ontologies.pramantha.net/astronomy/DwarfPlanet" }
+                { "@id": "https://ontologies.pramantha.net/astronomy/PlanetaryBody" },
+                { "@id": "https://ontologies.pramantha.net/astronomy/DwarfPlanet" }
             ],
             "rdf:comment": "this property describe the Moon-Planet gravitational interaction",
             "rdf:label": "orbitsPlanet"
         },
         {
-            "@id": "http://ontologies.pramantha.net/astronomy/Asteroid",
+            "@id": "https://ontologies.pramantha.net/astronomy/Asteroid",
             "owl:sameAs": { "@id": "http://live.dbpedia.org/data/Asteroid.ntriples" },
-            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "@type": "https://www.w3.org/2002/07/owl#Class",
             "rdf:label": "Asteroid",
             "rdf:comment": "a document representing an asteroid",
             "rdfs:sameAs": [
@@ -103,9 +103,9 @@
             ]
         },
         {
-            "@id": "http://ontologies.pramantha.net/astronomy/Meteoroid",
+            "@id": "https://ontologies.pramantha.net/astronomy/Meteoroid",
             "owl:sameAs": { "@id": "http://umbel.org/umbel/rc/Meteoroid.n3" },
-            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "@type": "https://www.w3.org/2002/07/owl#Class",
             "rdf:label": "Meteoroid",
             "rdf:comment": "a document representing a meteoroid",
             "rdfs:sameAs": [
@@ -114,9 +114,9 @@
             ]
         },
         {
-            "@id": "http://ontologies.pramantha.net/astronomy/Comet",
+            "@id": "https://ontologies.pramantha.net/astronomy/Comet",
             "owl:sameAs": { "@id": "http://umbel.org/umbel/rc/Comet.n3" },
-            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "@type": "https://www.w3.org/2002/07/owl#Class",
             "rdf:label": "Comet",
             "rdf:comment": "a document representing a comet",
             "rdfs:sameAs": [
@@ -125,127 +125,127 @@
             ]
         },
         {
-            "@id": "http://ontologies.pramantha.net/astronomy/Natural_satellite",
+            "@id": "https://ontologies.pramantha.net/astronomy/Natural_satellite",
             "owl:sameAs": [
                 { "@id": "http://umbel.org/umbel/rc/MoonOfAPlanet.n3" },
                 { "@id": "http://live.dbpedia.org/data/Natural_satellite.ntriples" },
                 { "@id": "http://sw.opencyc.org/concept/Mx4rvfn7-pwpEbGdrcN5Y29ycA"}
             ],
-            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "@type": "https://www.w3.org/2002/07/owl#Class",
             "rdf:label": "Natural_satellite",
             "rdf:comment": "a document representing a natural satellite or moon"
         },
         {
-            "@id": "http://ontologies.pramantha.net/astronomy/TerrestrialPlanet",
+            "@id": "https://ontologies.pramantha.net/astronomy/TerrestrialPlanet",
             "owl:sameAs": { "@id": "http://umbel.org/umbel/rc/TerrestrialPlanet.n3" },
-            "rdfs:subClassOf": {"@id": "http://ontologies.pramantha.net/astronomy/PlanetaryBody"},
-            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "rdfs:subClassOf": {"@id": "https://ontologies.pramantha.net/astronomy/PlanetaryBody"},
+            "@type": "https://www.w3.org/2002/07/owl#Class",
             "rdf:label": "TerrestrialPlanet",
             "rdf:comment": "a document representing a solid/rocky planet"
         },
         {
-            "@id": "http://ontologies.pramantha.net/astronomy/SolidPlanetaryBody",
+            "@id": "https://ontologies.pramantha.net/astronomy/SolidPlanetaryBody",
             "owl:sameAs": { "@id": "http://umbel.org/umbel/rc/SolidPlanetaryBody.n3" },
-            "@type": "http://www.w3.org/2002/07/owl#Class",
-            "rdfs:subClassOf": {"@id": "http://ontologies.pramantha.net/astronomy/PlanetaryBody"},
+            "@type": "https://www.w3.org/2002/07/owl#Class",
+            "rdfs:subClassOf": {"@id": "https://ontologies.pramantha.net/astronomy/PlanetaryBody"},
             "rdf:comment": "planet  composed primarily of solid substances",
             "rdf:label": "SolidPlanetaryBody"
         },
         {
-            "@id": "http://ontologies.pramantha.net/astronomy/IcyPlanetaryBody",
+            "@id": "https://ontologies.pramantha.net/astronomy/IcyPlanetaryBody",
             "owl:sameAs": { "@id": "http://umbel.org/umbel/rc/IcyPlanetaryBody.n3" },
-            "rdfs:subClassOf": {"@id": "http://ontologies.pramantha.net/astronomy/PlanetaryBody"},
-            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "rdfs:subClassOf": {"@id": "https://ontologies.pramantha.net/astronomy/PlanetaryBody"},
+            "@type": "https://www.w3.org/2002/07/owl#Class",
             "rdf:label": "IcyPlanetaryBody",
             "rdf:comment": "a document representing an icy body"
         },
         {
-            "@id": "http://ontologies.pramantha.net/astronomy/Ice_giant",
+            "@id": "https://ontologies.pramantha.net/astronomy/Ice_giant",
             "owl:sameAs": { "@id": "http://live.dbpedia.org/data/Ice_giant.ntriples" },
-            "@type": "http://www.w3.org/2002/07/owl#Class",
-            "rdfs:subClassOf": { "@id": "http://ontologies.pramantha.net/astronomy/GasGiant" },
+            "@type": "https://www.w3.org/2002/07/owl#Class",
+            "rdfs:subClassOf": { "@id": "https://ontologies.pramantha.net/astronomy/GasGiant" },
             "rdf:label": "Ice_giant",
             "rdf:comment": "a gas giant with less helium/hydrogen and more 'ices', Uranus and Neputne subclass"
         },
         {
-            "@id": "http://ontologies.pramantha.net/astronomy/GasGiant",
+            "@id": "https://ontologies.pramantha.net/astronomy/GasGiant",
             "@owl:sameAs": { "@id": "http://umbel.org/umbel/rc/GasGiant.n3" },
-            "@type": "http://www.w3.org/2002/07/owl#Class",
-            "rdfs:subClassOf": {"@id": "http://ontologies.pramantha.net/astronomy/PlanetaryBody"},
+            "@type": "https://www.w3.org/2002/07/owl#Class",
+            "rdfs:subClassOf": {"@id": "https://ontologies.pramantha.net/astronomy/PlanetaryBody"},
             "rdf:label": "GasGiant",
             "rdf:comment": "a Jovian planet, a document representing a Jovian planet"
         },
         {
-            "@id": "http://ontologies.pramantha.net/astronomy/DwarfPlanet",
+            "@id": "https://ontologies.pramantha.net/astronomy/DwarfPlanet",
             "@owl:sameAs": { "@id": "http://live.dbpedia.org/data/Dwarf_planet.ntriples" },
-            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "@type": "https://www.w3.org/2002/07/owl#Class",
             "rdf:label": "DwarfPlanet",
             "rdf:comment": "a trans-neptunian object with planet-like size",
             "rdfs:subClassOf" : { "@id": "http://umbel.org/umbel/rc/SubplanetaryStellarOrbiter.n3" },
-            "astronomy:orbiting": { "@id": "http://ontologies.pramantha.net/astronomy/Sun" }
+            "astronomy:orbiting": { "@id": "https://ontologies.pramantha.net/astronomy/Sun" }
         },
         {
-            "@id": "http://ontologies.pramantha.net/astronomy/RockyPlanetaryBody",
+            "@id": "https://ontologies.pramantha.net/astronomy/RockyPlanetaryBody",
             "owl:sameAs": { "@id": "http://umbel.org/umbel/rc/RockyPlanetaryBody.n3" },
-            "@type": "http://www.w3.org/2002/07/owl#Class",
-            "rdfs:subClassOf": {"@id": "http://ontologies.pramantha.net/astronomy/PlanetaryBody"},
+            "@type": "https://www.w3.org/2002/07/owl#Class",
+            "rdfs:subClassOf": {"@id": "https://ontologies.pramantha.net/astronomy/PlanetaryBody"},
             "rdf:label": "RockyPlanetaryBody",
             "rdf:comment": "a document representing a rocky body"
         },
         {
-            "@id": "http://ontologies.pramantha.net/astronomy/SubplanetaryStellarOrbiter",
-            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "@id": "https://ontologies.pramantha.net/astronomy/SubplanetaryStellarOrbiter",
+            "@type": "https://www.w3.org/2002/07/owl#Class",
             "owl:sameAs": { "@id": "http://umbel.org/umbel/rc/SubplanetaryStellarOrbiter.n3" },
             "rdf:label": "SubplanetaryStellarOrbiter",
             "rdf:comment": "a smaller body orbiting around stars or planets, a document representing smaller body orbiting around stars or planets"
         },
         {
-            "@id": "http://ontologies.pramantha.net/astronomy/FluidPlanetaryBody",
+            "@id": "https://ontologies.pramantha.net/astronomy/FluidPlanetaryBody",
             "owl:sameAs" : { "@id": "http://umbel.org/umbel/rc/FluidPlanetaryBody.n3" },
-            "rdfs:subClassOf": {"@id": "http://ontologies.pramantha.net/astronomy/PlanetaryBody"},
-            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "rdfs:subClassOf": {"@id": "https://ontologies.pramantha.net/astronomy/PlanetaryBody"},
+            "@type": "https://www.w3.org/2002/07/owl#Class",
             "rdf:label": "FluidPlanetaryBody",
             "rdf:comment": "a document representing a non-solid planet"
         },
         {
-            "@id": "http://ontologies.pramantha.net/astronomy/AstronomicalObservatory",
+            "@id": "https://ontologies.pramantha.net/astronomy/AstronomicalObservatory",
             "owl:sameAs" : { "@id": "http://umbel.org/umbel/rc/AstronomicalObservatory.n3" },
-            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "@type": "https://www.w3.org/2002/07/owl#Class",
             "rdf:label": "AstronomicalObservatory",
             "rdf:comment": "a document representing an astronomical observatory"
         },
         {
-            "@id": "http://ontologies.pramantha.net/astronomy/CelestialBody",
+            "@id": "https://ontologies.pramantha.net/astronomy/CelestialBody",
             "owl:sameAs": { "@id": "http://live.dbpedia.org/ontology/CelestialBody.ntriples" },
-            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "@type": "https://www.w3.org/2002/07/owl#Class",
             "rdf:label": "CelestialBody",
             "rdf:comment": "a document representing a generic celestial body"
         },
         {
-            "@id": "http://ontologies.pramantha.net/astronomy/Outer_space",
+            "@id": "https://ontologies.pramantha.net/astronomy/Outer_space",
             "owl:sameAs": { "@id": "http://live.dbpedia.org/ontology/Outer_space.ntriples" },
-            "@type": "http://www.w3.org/2002/07/owl#Class",
+            "@type": "https://www.w3.org/2002/07/owl#Class",
             "rdf:label": "Outer_space",
             "rdf:comment": "a document representing the open space outside atmosphere, from Low Earth Orbit to Extra Galactic Space"
         },
         {   
-            "@id"             : "http://ontologies.pramantha.net/astronomy/PlanetaryScience",
-            "@type"           : "http://www.w3.org/2002/07/owl#Class",
-            "rdfs:subClassOf" : { "@id": "http://ontologies.pramantha.net/sensors/FieldOfResearch" },
+            "@id"             : "https://ontologies.pramantha.net/astronomy/PlanetaryScience",
+            "@type"           : "https://www.w3.org/2002/07/owl#Class",
+            "rdfs:subClassOf" : { "@id": "https://ontologies.pramantha.net/sensors/FieldOfResearch" },
             "rdf:label"      : "PlanetaryScience",
             "owl:sameAs"      : { "@id": "http://live.dbpedia.org/data/Planetary_science.ntriples" }
         },  
         {   
-            "@id"             : "http://ontologies.pramantha.net/astronomy/AtmosphericScience",
-            "@type"           : "http://www.w3.org/2002/07/owl#Class",
-            "rdfs:subClassOf" : { "@id": "http://ontologies.pramantha.net/sensors/PlanetaryScience" },
+            "@id"             : "https://ontologies.pramantha.net/astronomy/AtmosphericScience",
+            "@type"           : "https://www.w3.org/2002/07/owl#Class",
+            "rdfs:subClassOf" : { "@id": "https://ontologies.pramantha.net/sensors/PlanetaryScience" },
             "rdf:label"      : "AtmosphericScience",
             "owl:sameAs"      : { "@id": "http://umbel.org/umbel/rc/AtmosphericScience.n3" }
         },
         {   
-            "@id"             : "http://ontologies.pramantha.net/astronomy/Cosmology",
-            "@type"           : "http://www.w3.org/2002/07/owl#Class",
-            "rdfs:subClassOf" : { "@id": "http://ontologies.pramantha.net/sensors/FieldOfResearch" },
+            "@id"             : "https://ontologies.pramantha.net/astronomy/Cosmology",
+            "@type"           : "https://www.w3.org/2002/07/owl#Class",
+            "rdfs:subClassOf" : { "@id": "https://ontologies.pramantha.net/sensors/FieldOfResearch" },
             "rdf:label"      : "Cosmology",
             "owl:sameAs"      : [
                                     { "@id": "http://umbel.org/umbel/rc/Cosmology.n3" },
@@ -253,41 +253,41 @@
                                 ]
         },
         {
-            "@id"             : "http://ontologies.pramantha.net/astronomy/ExtragalacticAstronomy",
-            "@type"           : "http://www.w3.org/2002/07/owl#Class",
-            "rdfs:subClassOf" : { "@id": "http://ontologies.pramantha.net/sensors/FieldOfResearch" },
+            "@id"             : "https://ontologies.pramantha.net/astronomy/ExtragalacticAstronomy",
+            "@type"           : "https://www.w3.org/2002/07/owl#Class",
+            "rdfs:subClassOf" : { "@id": "https://ontologies.pramantha.net/sensors/FieldOfResearch" },
             "rdf:label"      : "ExtragalacticAstronomy",
             "owl:sameAs"      : { "@id": "http://live.dbpedia.org/data/Extragalactic_astronomy.ntriples" }
         },
         {
-            "@id"             : "http://ontologies.pramantha.net/astronomy/GalacticAstronomy",
-            "@type"           : "http://www.w3.org/2002/07/owl#Class",
-            "rdfs:subClassOf" : { "@id": "http://ontologies.pramantha.net/sensors/FieldOfResearch" },
+            "@id"             : "https://ontologies.pramantha.net/astronomy/GalacticAstronomy",
+            "@type"           : "https://www.w3.org/2002/07/owl#Class",
+            "rdfs:subClassOf" : { "@id": "https://ontologies.pramantha.net/sensors/FieldOfResearch" },
             "rdf:label"      : "GalacticAstronomy",
             "owl:sameAs"      : { "@id": "http://live.dbpedia.org/data/Galactic_astronomy.ntriples" }
         },
         {
-            "@id"             : "http://ontologies.pramantha.net/sensors/PlanetaryAstronomy",
-            "@type"           : "http://www.w3.org/2002/07/owl#Class",
-            "rdfs:subClassOf" : { "@id": "http://ontologies.pramantha.net/sensors/PlanetaryScience" },
+            "@id"             : "https://ontologies.pramantha.net/sensors/PlanetaryAstronomy",
+            "@type"           : "https://www.w3.org/2002/07/owl#Class",
+            "rdfs:subClassOf" : { "@id": "https://ontologies.pramantha.net/sensors/PlanetaryScience" },
             "rdf:label"      : "PlanetaryAstronomy"
         },
         {
-            "@id"             : "http://ontologies.pramantha.net/sensors/PlanetaryGeology",
-            "@type"           : "http://www.w3.org/2002/07/owl#Class",
-            "rdfs:subClassOf" : { "@id": "http://ontologies.pramantha.net/sensors/PlanetaryScience" },
+            "@id"             : "https://ontologies.pramantha.net/sensors/PlanetaryGeology",
+            "@type"           : "https://www.w3.org/2002/07/owl#Class",
+            "rdfs:subClassOf" : { "@id": "https://ontologies.pramantha.net/sensors/PlanetaryScience" },
             "rdf:label"      : "PlanetaryGeology"
         }, 
         {
-            "@id"             : "http://ontologies.pramantha.net/sensors/SolarAstronomy",
-            "@type"           : "http://www.w3.org/2002/07/owl#Class",
-            "rdfs:subClassOf" : { "@id": "http://ontologies.pramantha.net/sensors/FieldOfResearch" },
+            "@id"             : "https://ontologies.pramantha.net/sensors/SolarAstronomy",
+            "@type"           : "https://www.w3.org/2002/07/owl#Class",
+            "rdfs:subClassOf" : { "@id": "https://ontologies.pramantha.net/sensors/FieldOfResearch" },
             "rdf:label"      : "SolarAstronomy"
         },
         {
-            "@id"            : "http://ontologies.pramantha.net/sensors/StellarAstronomy",
-            "@type"           : "http://www.w3.org/2002/07/owl#Class",
-            "rdfs:subClassOf" : { "@id": "http://ontologies.pramantha.net/sensors/FieldOfResearch" },
+            "@id"            : "https://ontologies.pramantha.net/sensors/StellarAstronomy",
+            "@type"           : "https://www.w3.org/2002/07/owl#Class",
+            "rdfs:subClassOf" : { "@id": "https://ontologies.pramantha.net/sensors/FieldOfResearch" },
             "rdf:label"      : "StellarAstronomy"
         }
     ]

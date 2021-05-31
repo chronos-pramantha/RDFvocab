@@ -1,26 +1,26 @@
 {
   "@context": {
-    "@base": "http://ontologies.pramantha.net/exploration",
-    "exploration": "http://ontologies.pramantha.net/exploration/",
+    "@base": "https://ontologies.pramantha.net/exploration",
+    "exploration": "https://ontologies.pramantha.net/exploration/",
     "schema": "https://schema.org/",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "owl": "http://www.w3.org/2002/07/owl#",
+    "skos": "https://www.w3.org/2004/02/skos/core#",
+    "rdf": "https://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "https://www.w3.org/2000/01/rdf-schema#",
+    "owl": "https://www.w3.org/2002/07/owl#",
     "dbpedia": "http://live.live.dbpedia.org/ontology/",
     "cyc": "http://sw.opencyc.org/2012/05/10/concept/en/",
     "defines": {
-      "@reverse": "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+      "@reverse": "https://www.w3.org/2000/01/rdf-schema#isDefinedBy"
     }
   },
   "@id": "",
-  "@type": "http://www.w3.org/2002/07/owl#Ontology",
+  "@type": "https://www.w3.org/2002/07/owl#Ontology",
   "rdf:label": "Classes and properties to describe space techniques and tools about space exploration",
   "rdf:comment": "Generic classes and object properties properties, inherited from OpenCyc, DBpedia and Umbel",
   "defines": [
     {
-        "@id": "http://ontologies.pramantha.net/exploration/spaceMission",
-        "@type": "http://www.w3.org/2002/07/owl#Class",
+        "@id": "https://ontologies.pramantha.net/exploration/spaceMission",
+        "@type": "https://www.w3.org/2002/07/owl#Class",
         "rdfs:subClassOf": {
           "@id": "http://sw.opencyc.org/2012/05/10/concept/en/GeneralizedTransfer",
           "rdf:comment": "a space mission is intended as a subclass of GeneralizedTransfer: 'A specialization of Event. Each instance of GeneralizedTransfer is an event in which something (tangible or intangible) is transferred from one 'place' to another. GeneralizedTransfer includes changes in physical location, in ownership or possession, transfer of information, and propagation of wave phenomena through space.' "
@@ -34,8 +34,8 @@
         "rdf:comment": "instances of this class can have multiple hasTask (see below)"
     },
     {
-        "@id": "http://ontologies.pramantha.net/exploration/missionTask",
-        "@type": "http://www.w3.org/2002/07/owl#Class",
+        "@id": "https://ontologies.pramantha.net/exploration/missionTask",
+        "@type": "https://www.w3.org/2002/07/owl#Class",
         "rdfs:subClassOf": [
           {
             "@id": "http://sw.opencyc.org/2012/05/10/concept/en/AssignedTaskType",
@@ -47,34 +47,34 @@
         "rdf:comment": "instances of this class have an hasTarget property (see below)"
     },
     {
-        "@id" : "http://ontologies.pramantha.net/exploration/hasTarget",
+        "@id" : "https://ontologies.pramantha.net/exploration/hasTarget",
         "@type" : [
-            { "@id": "http://www.w3.org/2002/07/owl#ObjectProperty" }
+            { "@id": "https://www.w3.org/2002/07/owl#ObjectProperty" }
         ],
         "rdfs:subClassOf": {
           "@id": "http://sw.opencyc.org/2012/05/10/concept/en/target",
           "rdf:comment": "it is intended as a subclass of 'Predicate: intended destination' that applies to spaceMission"
         },
-        "rdf:domain" : { "@id": "http://ontologies.pramantha.net/exploration/missionTask" },
+        "rdf:domain" : { "@id": "https://ontologies.pramantha.net/exploration/missionTask" },
         "rdf:range": [
-          { "@id": "http://ontologies.pramantha.net/astronomy/AstronomicalObject" },
-          { "@id": "http://ontologies.pramantha.net/astronomy/Planet" },
-          { "@id": "http://ontologies.pramantha.net/astronomy/PlanetaryBody" },
-          { "@id": "http://ontologies.pramantha.net/astronomy/Natural_Satellite" }
+          { "@id": "https://ontologies.pramantha.net/astronomy/AstronomicalObject" },
+          { "@id": "https://ontologies.pramantha.net/astronomy/Planet" },
+          { "@id": "https://ontologies.pramantha.net/astronomy/PlanetaryBody" },
+          { "@id": "https://ontologies.pramantha.net/astronomy/Natural_Satellite" }
           ],
         "rdf:comment" : "The target of the space mission, an astronomical bodies that can be measured, observed or visited",
         "rdf:label" : "Target of a space mission",
         "skos:altLabel" : "is going to"
     },
     {
-        "@id": "http://ontologies.pramantha.net/exploration/EarthObservation",
+        "@id": "https://ontologies.pramantha.net/exploration/EarthObservation",
         "@type": [
           {
             "@id": "http://sw.opencyc.org/2012/05/10/concept/en/RemoteSensing",
             "rdf:comment": "'A specialization of both Action and AtLeastPartiallyMentalEvent. Each instance of PurposefulAction is an action consciously, volitionally, and purposefully done by (see performedBy) at least one actor.'"
           },
           {
-            "@id": "http://ontologies.pramantha.net/exploration/missionTask"
+            "@id": "https://ontologies.pramantha.net/exploration/missionTask"
           }
         ],
         "owl:sameAs":[
@@ -82,7 +82,7 @@
         ],
         "skos:prefLabel": "The task of observing Earth from orbit (see sensors: RemoteSensingInstrument)",
         "rdf:label": "Earth Observation",
-        "exploration:hasTarget": { "@id": "http://ontologies.pramantha.net/solarsystem/Earth" },
+        "exploration:hasTarget": { "@id": "https://ontologies.pramantha.net/solarsystem/Earth" },
         "cyc:performedBy": {
           "@id": "http://umbel.org/umbel/rc/EarthRemoteSensingSatellite.n3",
           "rdfs:subClassOf": [
@@ -107,20 +107,20 @@
         ]
     },
     {
-        "@id": "http://ontologies.pramantha.net/exploration/SolarSystemBodyObservation",
+        "@id": "https://ontologies.pramantha.net/exploration/SolarSystemBodyObservation",
         "@type": [
           {
             "@id": "http://sw.opencyc.org/2012/05/10/concept/en/RemoteSensing",
             "rdf:comment": "'A specialization of both Action and AtLeastPartiallyMentalEvent. Each instance of PurposefulAction is an action consciously, volitionally, and purposefully done by (see performedBy) at least one actor.'"
           },
           {
-            "@id": "http://ontologies.pramantha.net/exploration/missionTask"
+            "@id": "https://ontologies.pramantha.net/exploration/missionTask"
           }
         ],
         "skos:prefLabel": "The task of observing Solar System Bodies from orbit (see sensors: RemoteSensingInstrument)",
         "rdf:label": "Solar System Body Observation",
         "cyc:performedBy": {
-          "@id": "http://ontologies.pramantha.net/engineering/AstronomicalSatellite",
+          "@id": "https://ontologies.pramantha.net/engineering/AstronomicalSatellite",
           "rdfs:subClassOf": [
                 { "@id": "http://umbel.org/umbel/rc/Satellite_Device.n3" },
                 { "@id": "http://umbel.org/umbel/rc/AstronomicalObservatory.n3" }
@@ -144,18 +144,18 @@
         ]
     },
     {
-        "@id": "http://ontologies.pramantha.net/exploration/DeepSpaceObservation",
+        "@id": "https://ontologies.pramantha.net/exploration/DeepSpaceObservation",
         "@type": [
           {
             "@id": "http://sw.opencyc.org/2012/05/10/concept/en/RemoteSensing",
             "rdf:comment": "'A specialization of both Action and AtLeastPartiallyMentalEvent. Each instance of PurposefulAction is an action consciously, volitionally, and purposefully done by (see performedBy) at least one actor.'"
           },
           {
-            "@id": "http://ontologies.pramantha.net/exploration/missionTask"
+            "@id": "https://ontologies.pramantha.net/exploration/missionTask"
           }
         ],
         "cyc:performedBy": {
-          "@id": "http://ontologies.pramantha.net/engineering/AstronomicalSatellite",
+          "@id": "https://ontologies.pramantha.net/engineering/AstronomicalSatellite",
           "rdfs:subClassOf": [
                 { "@id": "http://umbel.org/umbel/rc/Satellite_Device.n3" },
                 { "@id": "http://umbel.org/umbel/rc/AstronomicalObservatory.n3" }
@@ -163,7 +163,7 @@
         },
         "skos:prefLabel": "The action of observing Extra-galactic and Intra-galactic space from orbit (see sensors: RemoteSensingInstrument)",
         "rdf:label": "DeepSpaceObservation",
-        "exploration:hasTarget": { "@id": "http://ontologies.pramantha.net/astronomy/Outer_space" },
+        "exploration:hasTarget": { "@id": "https://ontologies.pramantha.net/astronomy/Outer_space" },
         "cyc:researches": [
           { "@id": "http://sw.opencyc.org/2012/05/10/concept/en/Astrophysics"},
           { "@id": "http://sw.opencyc.org/2012/05/10/concept/en/ParticlePhysics"},
@@ -178,14 +178,14 @@
         ]
     },
     {
-        "@id": "http://ontologies.pramantha.net/exploration/Sampling",
+        "@id": "https://ontologies.pramantha.net/exploration/Sampling",
         "@type": [
           {
             "@id": "http://sw.opencyc.org/2012/05/10/concept/en/TakingASample",
             "rdf:comment": "'A specialization of both Action and AtLeastPartiallyMentalEvent. Each instance of PurposefulAction is an action consciously, volitionally, and purposefully done by (see performedBy) at least one actor.'"
           },
           {
-            "@id": "http://ontologies.pramantha.net/exploration/missionTask"
+            "@id": "https://ontologies.pramantha.net/exploration/missionTask"
           }
         ],
         "owl:sameAs":[
@@ -214,13 +214,13 @@
         ]
     },
     {
-        "@id": "http://ontologies.pramantha.net/exploration/Telecommunication",
+        "@id": "https://ontologies.pramantha.net/exploration/Telecommunication",
         "@type": [
           {
             "@id": "http://sw.opencyc.org/2012/05/10/concept/en/Telecommunication"
           },
           {
-            "@id": "http://ontologies.pramantha.net/exploration/missionTask"
+            "@id": "https://ontologies.pramantha.net/exploration/missionTask"
           }
         ],
         "owl:sameAs":[
